@@ -1,0 +1,36 @@
+* Introduction
+** Emotional Intelligence
+*** Ganska nytt concept
+*** Definition
+**** Annorlunda från IQ etc.
+**** mått på social förmåga och empati
+*** Relevant inom rektrytering och andra grejor
+**** Psykoteraputer
+**** Chefer
+**** Psykoteraputer
+*** Trait vs Ablity
+*** Tränings- och mät-bart
+*** Vanliga mått och skalor
+**** EQ-I
+**** MESQUITE
+
+*** Problem
+**** Måttens validitet är ifrågasatt
+**** och brist av sätt att träna
+
+** Detektion av emotionella ansiktsutryck
+*** Central social kompetens
+*** Väldigt lätt uppgift, de allra flesta oavsett grad
+*** Ekman utvecklade METT för test av mikroemotioner
+*** Studien bygga vidare på METT paradigmet och utveckla ett test för EQ
+
+* Val av method
+
+* Fas 1: Kravspec
+** Data
+** Review research lit.
+* Fas 2: Implementation
+** Mjukvara, spelet 
+* Fas 3: Evaluation
+*** Etablera validitet (jämf tidigare skala)
+*** Testa träningsbarhet Test->Lärspel/Distractor->Test
