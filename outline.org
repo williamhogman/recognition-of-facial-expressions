@@ -133,7 +133,15 @@
     for longer displays. Moreover, \citet{Calvo2008a} found
     differences in detection between the emotions. Happy and neutral
     showed higher degrees of accuracy than the other emotions and fear
-    showed a lower accuracy. 
+    showed a lower accuracy.
+
+    Taken togeter, the results of \citet{Calvo2008a} and SomeotherGuy
+    suggest that there are differences in the accuracy of processing
+    different emotions. Most importantly, it seems that accuracy rates
+    for facial expressions of happiness and neutral expressions are
+    much higher than those of other the expressions
+    \citep{Calvo2008a}. Care must therefore be taken so as to avoid
+    ceiling effects for happiness in particular.
 
 
 * Methodology and Methods for Data collection
