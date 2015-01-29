@@ -1,5 +1,5 @@
 # -*- compile-command: "./compile.sh" -*-
-#+TITLE: Measuring EQ using Micro-expressions
+#+TITLE: Measuring EQ using micro-expressions
 #+AUTHOR: William Rudenmalm
 #+EMAIL: me@whn.se
 #+BIBLIOGRAPHY: refs plain
@@ -19,35 +19,34 @@
   \parencite{Fontaine2007}. emotions may have both internal
   and external antecedents \parencite{Scherer2005}.
   
-  One important function of emotions is in regulating social
-  interactions by facilitating group cohesion and collaboration. A key
-  factor in this is the ability to simulate or empathize with the
-  emotions of others. \parencite{Niedenthal2012}.
+  One important purpose of emotions is in regulating social
+  interactions by facilitating group cohesion and collaboration. In
+  social interactions, A key component is the ability to empathise with
+  the emotions of others. \parencite{Niedenthal2012}.
   
-  This ability referred to in the literature as Emotional
+  This ability referred to in the literature as emotional
   intelligence, has recently gained the attention of researchers. This
-  ability to can be conceptualized as differences in the extent which
-  we process the emotions and affects of others. A key component in
+  ability to can be conceptualised as differences in the extent which
+  organisms interpret the emotions and affects of others. A key component in
   emotional intelligence seems to be the ability to identify the
   emotions of oneself and others. \parencite{Mikolajczak2014}
   
   Other authors (Who?) have questioned the validity of emotional
-  intelligence. Emotional intelligence has in some cases been found to
-  be strongly correlated with personality factors. Calling into
-  question the independence of emotional intelligence.
+  intelligence. Emotional intelligence has sometimes been found to be
+  strongly correlated with personality factors. Calling into question
+  the independence of emotional intelligence.
   
-  Several different approaches have been used to measure emotional
+  Several approaches have been used to measure emotional
   intelligence. \citet{Mikolajczak2014} approached the measuring of
   emotional intelligence and developed a 50-item inventory for
   emotional intelligence. \citet{Baron-Cohen2001} approached the
   problem from a different angle asking participants to identify an
-  emotion based just on a picture of a pair of eyes. Another approach
-  is using the recognition of emotional facial expressions
+  emotion based just on a picture showing a pair of eyes. Another
+  approach is measuring emotional facial recognition
   \parencite{Schlegel2012}. Moreover, the results of
-  \citet{Schlegel2012} seem to indicate that the recognition of
-  emotional faces is a single ability as opposed to multiple separate
-  abilities, lending validity to the construct of emotional
-  intelligence.
+  \citet{Schlegel2012} seem to show that the recognition of emotional
+  faces is a single ability as opposed to multiple separate abilities,
+  lending validity to the construct of emotional intelligence.
   
   One approach that might be taken for emotional intelligence testing
   is using emotional facial expressions in a manner similar to
@@ -76,8 +75,8 @@
    This suggests that there may be a lack of understanding of what
    factors are important for developing tools for testing emotional
    intelligence. The present study sets out improve the understanding
-   of how such testing software could be designed would greatly
-   improve the accuracy and availability of such tests.
+   of how such testing software could be designed and aims to improve
+   the accuracy and availability of such tests.
 
    This could be relevant for a number of areas. Firstly, education of
    psychologists, psychotherapists and other mental health
@@ -87,7 +86,7 @@
    principles.
      
 ** Research question
-   What are the key principles for developing EQ-tests based on Microexpressions.
+   What are the key principles for developing EQ-tests based on micro-expressions.
   
 * Extended background
 
@@ -147,7 +146,7 @@
 * Methodology and Methods for Data collection
 ** Research strategies
    Briefly describe different strategies 
-** Chosen type of strategy
+** Chosen strategy
    Developing an artefact, therefore design science.
 ** Different variants of design science
    Comparing Perjons & Johannesson vs earlier descriptions and our
