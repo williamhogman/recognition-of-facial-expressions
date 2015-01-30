@@ -7,16 +7,16 @@
 #+LaTeX_HEADER: \input{preamble.tex}
 
 * Introduction
-  Emotions play a key role in modulating the behaviour and experiences
+  Emotions play a fundamental role in modulating the behaviour and experiences
   of organisms, and while the exact definition is debated, its
   importance is not \parencite{Scherer2005}. The impact that emotions
-  have on everyday life are enormous yet hard to pinpoint.
+  have on everyday life is enormous yet hard to pinpoint.
   
   \citet{Fontaine2007} defines emotions as a set of interrelated
   components, covering a wide range of behaviour. These are appraisals
   of events, psychophysiological changes, motor expressions, action
   tendencies, subjective experience, and emotion regulation
-  \parencite{Fontaine2007}. emotions may have both internal
+  \parencite{Fontaine2007}. Emotions may have both internal
   and external antecedents \parencite{Scherer2005}.
   
   One important purpose of emotions is in regulating social
@@ -26,10 +26,11 @@
   
   This ability referred to in the literature as emotional
   intelligence, has recently gained the attention of researchers. This
-  ability to can be conceptualised as differences in the extent which
-  organisms interpret the emotions and affects of others. A key component in
-  emotional intelligence seems to be the ability to identify the
-  emotions of oneself and others. \parencite{Mikolajczak2014}
+  ability to can be conceptualised as differences in the extent to
+  which organisms interpret the emotions and affects of others. An
+  essential component in emotional intelligence seems to be the
+  ability to identify the emotions of oneself and
+  others. \parencite{Mikolajczak2014}
   
   Other authors (Who?) have questioned the validity of emotional
   intelligence. Emotional intelligence has sometimes been found to be
@@ -42,7 +43,7 @@
   emotional intelligence. \citet{Baron-Cohen2001} approached the
   problem from a different angle asking participants to identify an
   emotion based just on a picture showing a pair of eyes. Another
-  approach is measuring emotional facial recognition
+  method is measuring emotional facial recognition
   \parencite{Schlegel2012}. Moreover, the results of
   \citet{Schlegel2012} seem to show that the recognition of emotional
   faces is a single ability as opposed to multiple separate abilities,
@@ -53,13 +54,13 @@
   \citet{Schlegel2012}. Indeed facial expressions, \citet{Ekman1969a}
   found, are to a large extent culturally invariant. The set of
   culturally invariant basic emotions \citet{Ekman1992} later defined
-  as: anger, fear, sadness, enjoyment, disgust and surprise.
+  as anger, fear, sadness, enjoyment, disgust and surprise.
 
   Cultural invariance is an important property for tests of emotional
   intelligence, suggesting that micro-expression recognition may be an
   appropriate measure of emotional competency. Indeed,
   \citet{Ekman2003} introduced the brief affect recognition task
-  (BART) as means by emotion recognition can be measured. One trial in
+  (BART) as a means by emotion recognition can be measured. One trial in
   the BART paradigm consists of a display of an emotional facial
   expression with forward- and backward masks of a neutral emotional
   face to avoid after-images \citep{Ekman2003}.
@@ -68,22 +69,24 @@
 ** Research problem
    Testing and training applications being a central part of
    micro-expression research \citep{Ekman1992}. However, despite
-   multiple several studies being made \citep[e. g.][]{Schlegel2012},
+   multiple several studies being made \citep[e.g.][]{Schlegel2012},
    there exists no standard for testing emotion recognition using
    micro-expressions.
 
-   This suggests that there may be a lack of understanding of what
-   factors are important for developing tools for testing emotional
-   intelligence. The present study sets out improve the understanding
-   of how such testing software could be designed and aims to improve
-   the accuracy and availability of such tests.
+   The lack of a standard for testing emotion recognition may suggest
+   a lack of understanding of what factors are important for
+   developing tools for testing emotional intelligence. The present
+   study sets out improve the understanding of how such testing
+   software could be designed and aims to improve the accuracy and
+   availability of such tests.
 
-   This could be relevant for a number of areas. Firstly, education of
-   psychologists, psychotherapists and other mental health
-   professionals might benefit from improved training tools. Second,
-   applications in recruiting situations. Finally, psychological tests
-   using the micro-expression paradigm may be improved using the
-   principles.
+   The creation of such principles could be relevant for a number of
+   areas. Firstly, education of psychologists, psychotherapists and
+   other mental health professionals might benefit from improved
+   training tools. Second, applications in recruiting situations may
+   help organisations make better recruitment decesions. Finally,
+   psychological tests using the micro-expression paradigm may be
+   improved using the principles.
      
 ** Research question
    What are the key principles for developing EQ-tests based on micro-expressions.
@@ -101,12 +104,12 @@
 
     Moreover it the emotional intelligence scales have been used for
     corporate recruiting for roles requiring social interaction.
-*** Trait vs Ability
+*** Trait v.s. Ability
 *** Measurability
 *** Construct validity
 ** Measuring emotional intelligence
 *** PEC
-    One intersting inventory for measuring emotional intelligence is
+    One interesting inventory for measuring emotional intelligence is
     the Profile of Emotional Competence (PEC), consisting of 50 items
     divided into ten subscales \citep{Brasseur2013}. The PEC shows a
     good internal consistency, making it appropriate for both clinical
@@ -114,9 +117,9 @@
 
     Recently, \citet{Mikolajczak2014} were able to reduce the earlier
     PEC scale to only 20 items while maintaining the predictive
-    properties of the orignal 50-item scale. This suggests that
-    emotional intelligence can be measured with only a small number of
-    question.
+    properties of the orignal 50-item scale. This result suggests that
+    emotional intelligence can be measured using only a small number
+    of questions.
 *** EQ-I
     A standard questionarie model
 *** MESQUITE
@@ -126,12 +129,26 @@
 ** Processing of emotional faces
    How faces are processed.
 ** Micro-expressions
+*** Stimulus sets
+    There exists a plaetora of facial expression stimulus sets. 
+
+    One common data-set of emotional facial expression is the
+    Karolinska Directed Emotional Faces
+    \citep[][KDEF]{DanielLundqvistAndersFlykt1998}. KDEF consists of
+    pictures 70 of individuals expressing seven different emotions
+    from five angles. KDEF has, since its inception, seen much use in
+    facial expression research
+    \citep[e.g.][]{Calvo2008a,Willis2006,Todorov2009}. In addition to
+    widespread use, KDEF has shown good test-retest validity and a
+    high degrees of accuracy in recognition tasks
+    \citep{Goeleven2008}.
+
 *** METT paradigm
-*** Detection of microexpression vs display time
+*** Detection of microexpressions v.s. display time
     \citet{Calvo2008a} investigated the relationship between the
     display time (25-500ms) and the accuracy of emotion recognition
-    for the KDEF stimulus-set and found a slight increase in accuracy
-    for longer displays. Moreover, \citet{Calvo2008a} found
+    for the KDEF stimulus set and found a slight increase in accuracy
+    for longer displays. In addition, \citet{Calvo2008a} found
     differences in detection between the emotions. Happy and neutral
     showed higher degrees of accuracy than the other emotions and fear
     showed a lower accuracy.
@@ -141,35 +158,35 @@
     different emotions. Most importantly, it seems that accuracy rates
     for facial expressions of happiness and neutral expressions are
     much higher than those of other the expressions
-    \citep{Calvo2008a}. Care must therefore be taken so as to avoid
-    ceiling effects for happiness in particular
+    \citep{Calvo2008a}. Care must, therefore,  be taken so as to avoid
+    ceiling effects for happiness in particular.
 
 *** Trait Judgements
     Another strand of research has gone into the split-second trait
-    judgements made upon viewing a face. \cite{Willis2006} found very
+    judgements made viewing a face. \cite{Willis2006} found very
     strong correlations between judgements of trustworthyness made
-    after \SI{100}{\milli\second} or \SI{100}{\milli\second} versus
-    those made without any time-constraint. Moreover, no significant
+    after \SI{100}{\milli\second} or \SI{500}{\milli\second} versus
+    those made without any time constraint. Moreover, no significant
     difference was found between the \SI{100}{\milli\second} and
     \SI{500}{\milli\second} conditions, suggesting that a trait
-    judgement is performed very quickly. This was further expanded by
-    \citet{Todorov2009}, finding that accuracy with display times up
-    to \SI{100}{\milli\second}, after which the growth rate is
-    dramatically slower.
+    judgement is performed very quickly. This notion was further
+    expanded by \citet{Todorov2009}, finding that accuracy with
+    display times up to \SI{100}{\milli\second}, after which the
+    growth rate is dramatically slower.
 
 
 * Methodology and Methods for Data collection
 ** Research strategies
    Briefly describe different strategies 
 ** Chosen strategy
-   Developing an artefact, therefore design science.
+   Developing an artefact, therefore, design science.
 ** Different variants of design science
-   Comparing Perjons & Johannesson vs earlier descriptions and our
+   Comparing Perjons & Johannesson v.s. earlier descriptions and our
    chosen approach.
 ** Stages in design science
-   Description of the stages in design science
+   Description of the stages of design science
 *** Chosen stages
-    The following stages where chosen because they are the shortest
+    The following stages were chosen because they are the shortest
     way to reach an actual product.
 
     - Explicate requirements
@@ -182,13 +199,13 @@
   - A quantitative analysis of existing data collected from a
     microexpression test.
 ** Evaluation
-    $N=?$ participants were administered the test-software their results
+    $N=?$ participants were administered the test software their results
     were compared to a questionarie completed before the test.
 *** Ethics
     Some ethical considerations.
 
 * Results
-** Requirments Definition
+** Requirements Definition
 *** Litterature
     Discuss papers in extended background Categorize results depending
     on what parts of the design they affect.
