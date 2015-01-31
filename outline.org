@@ -130,11 +130,18 @@
    How faces are processed.
 ** Micro-expressions
 *** Stimulus sets
-    There exists a plaetora of facial expression stimulus sets. 
+    There exists a plaetora of facial expression stimulus sets.
 
-    One common data-set of emotional facial expression is the
+    One early stimulus set is the Japanese and Caucasian Facial
+    Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}
+    consisting of 56 photos of models of Japanese or Caucasian decent
+    with eight pictures for each of the emotions. The data-set, while
+    showing substantial cross-national differences also showed
+    relatively high levels of agreement \citep{Biehl1997}.
+
+    Another common data-set of emotional facial expression is the
     Karolinska Directed Emotional Faces
-    \citep[][KDEF]{DanielLundqvistAndersFlykt1998}. KDEF consists of
+    \citep[KDEF;][]{DanielLundqvistAndersFlykt1998}. KDEF consists of
     pictures 70 of individuals expressing seven different emotions
     from five angles. KDEF has, since its inception, seen much use in
     facial expression research
@@ -142,6 +149,17 @@
     widespread use, KDEF has shown good test-retest validity and a
     high degrees of accuracy in recognition tasks
     \citep{Goeleven2008}.
+
+    A more recent contribution is the Raboud Faces Database
+    \citep[][RaFD;]{Langner2010}. RaFD contains photographs of 49
+    models expressing eight emotions with three gaze directions, taken
+    from five camera angles for a total 5880 photographs
+    \citep{Langner2010}. Upon validation RaFD showed a very high
+    accuracy, higher even than the earlier KDEF data-set
+    \citep{Langner2010}. A key difference between RaFD and KDEF is the
+    expression coaching given to models by a facial expression coding
+    expert, which may explain the higher accuracy rates in RaFD
+    \citep{Langner2010}.
 
 *** METT paradigm
 *** Detection of microexpressions v.s. display time
