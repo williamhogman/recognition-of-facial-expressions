@@ -108,22 +108,38 @@
 *** Measurability
 *** Construct validity
 ** Measuring emotional intelligence
-*** PEC
-    One interesting inventory for measuring emotional intelligence is
-    the Profile of Emotional Competence (PEC), consisting of 50 items
-    divided into ten subscales \citep{Brasseur2013}. The PEC shows a
-    good internal consistency, making it appropriate for both clinical
-    and research use \citep{Brasseur2013}.
+    An early test for emotional intelligence is the
+    Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which in
+    version 2.0 consisted of 141 items across four facets of emotional
+    intelligence \citep{Mayer2003}. Participants taking MSCEIT rated
+    on their performance on a set of eight tasks with two for each
+    facet \citep{Mayer2003}. The MSCEIT tasks cover a number of
+    emotional abilities including recognition of emotional pictures
+    and faces, understanding and managing them \citep{Mayer2003}. One
+    differentiating aspect of MSCEIT is its focus on emotional problem
+    solving. In an evaluation of MSCEIT 2.0 \citet{Mayer2003} found
+    both sufficently reliable as well as consistent with its
+    theoretical foundations.
+
+    Another interesting inventory for measuring emotional intelligence
+    is the Profile of Emotional Competence (PEC), consisting of 50
+    items divided into ten subscales \citep{Brasseur2013}. The PEC
+    shows a good internal consistency, making it appropriate for both
+    clinical and research use \citep{Brasseur2013}.
 
     Recently, \citet{Mikolajczak2014} were able to reduce the earlier
     PEC scale to only 20 items while maintaining the predictive
     properties of the orignal 50-item scale. This result suggests that
     emotional intelligence can be measured using only a small number
     of questions.
+
+    
+
 *** EQ-I
     A standard questionarie model
-*** MESQUITE
-    Video-based system
+
+
+    
 ** Processing of emotional stimuli
    How emotional stimuli are processed
 ** Processing of emotional faces
@@ -175,8 +191,8 @@
     suggest that there are differences in the accuracy of processing
     different emotions. Most importantly, it seems that accuracy rates
     for facial expressions of happiness and neutral expressions are
-    much higher than those of other the expressions
-    \citep{Calvo2008a}. Care must, therefore,  be taken so as to avoid
+    much higher than those of other the expressions 
+   \citep{Calvo2008a}. Care must, therefore,  be taken so as to avoid
     ceiling effects for happiness in particular.
 
 *** Trait Judgements
