@@ -160,8 +160,17 @@
     emotional intelligence can be measured using only a small number
     of questions.
 
-*** EQ-I
-    A standard questionarie model (TK, see Bar-On)
+    Another method of measuring is Emotional Quotient-Inventory
+    (EQ-I), a standard questionarie consisting of 131-items divided
+    over 15 subscales \citep{Bar-On1997}. The EQ-I is built on the
+    theoretical framework based of emotional inteligence as a
+    competency \citep{Baron2006}. However, the EQ-I is not without its
+    problem. One large problem is that of fakeability, in one study
+    conducted by \citet{GrubbIII2007}, found that participants when
+    asked to "fake" emotional intelligence were able to do so. This is
+    quite troublesome because it would imply that it does not measure
+    a competency, which would have been difficult to fake. 
+
 
 ** Processing of emotional faces
    How faces are processed.
