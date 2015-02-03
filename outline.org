@@ -94,19 +94,46 @@
 * Extended background
 
 
-** Emotional intelligence
-*** Uses of emotional intelligence
-    
-*** Validity concerns
-    Measuring emotional intelligence has seen a number of different
-    uses. One of the things where tests of emotional intelligence have
-    been applied in testing for autism \parencite{Baron-Cohen2001}. 
+** The Theoretical Models of Emotional Intelligece
+   The definition of emotional intelligence has been the subject of
+   fierce debate \cite{McCleskey2014}. One of the key sources of
+   controversy is wheter emotional intelligence is to be considered an
+   ability (Mayer, TK), a competency that can be learned \citep{Baron2006},
+   or personality trait (Petrides TK). (TK Something about Goleman model)
 
-    Moreover it the emotional intelligence scales have been used for
-    corporate recruiting for roles requiring social interaction.
-*** Trait v.s. Ability
-*** Measurability
-*** Construct validity
+   The notion of emotional intelligence as a competency is primarily
+   advocated by \citep{Baron2006}. The Bar-On model defined more
+   precisely as a "cross-section of interrelated emtional and social
+   competencies, skills and facliators that determine how effectively
+   we understadn and epxress ourselves, understand others and relate
+   with them, and cope with daily demands" \citep{Baron2006}. The
+   model is consistent with other frameworks in including both inter-
+   and intra-personal skills. Moreover, like other models of emotional
+   intelligence, considers widely different tasks, ranging from
+   recogniton to regulating emotions.
+
+   Some limited agreement can
+   perhaps be captured as follows: emotional intelligence is a
+   continous factor determining behaviour at the crossroads of emotion
+   and cognition.
+    
+*** Uses for emotional intelligence
+   Emotional intelligence may also play a role in leadership, indeed
+   \citet{McCleskey} argues that for atleast some aspects of
+   leadership, it seems likely that emotional intelligence offers at
+   least some predictive value for leadership roles \citet{McCleskey}.
+
+   Moreover it the emotional intelligence scales have been used for
+   corporate recruiting for roles requiring social
+   interaction. [REVISE]
+
+   Measuring emotional intelligence has seen a number of different
+   uses. One of the things where tests of emotional intelligence have
+   been applied in testing for autism \parencite{Baron-Cohen2001}.
+
+*** Criticisms of emotional intelligence
+
+
 ** Measuring emotional intelligence
     An early test for emotional intelligence is the
     Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which in
@@ -133,18 +160,13 @@
     emotional intelligence can be measured using only a small number
     of questions.
 
-    
-
 *** EQ-I
-    A standard questionarie model
+    A standard questionarie model (TK, see Bar-On)
 
-
-    
-** Processing of emotional stimuli
-   How emotional stimuli are processed
 ** Processing of emotional faces
    How faces are processed.
-** Micro-expressions
+** Facial expressions
+   The ability to process is an important social skill, 
 *** Stimulus sets
     There exists a plaetora of facial expression stimulus sets.
 
@@ -167,7 +189,7 @@
     \citep{Goeleven2008}.
 
     A more recent contribution is the Raboud Faces Database
-    \citep[][RaFD;]{Langner2010}. RaFD contains photographs of 49
+    \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
     models expressing eight emotions with three gaze directions, taken
     from five camera angles for a total 5880 photographs
     \citep{Langner2010}. Upon validation RaFD showed a very high
@@ -177,8 +199,6 @@
     expert, which may explain the higher accuracy rates in RaFD
     \citep{Langner2010}.
 
-*** METT paradigm
-*** Detection of microexpressions v.s. display time
     \citet{Calvo2008a} investigated the relationship between the
     display time (25-500ms) and the accuracy of emotion recognition
     for the KDEF stimulus set and found a slight increase in accuracy
@@ -195,7 +215,6 @@
    \citep{Calvo2008a}. Care must, therefore,  be taken so as to avoid
     ceiling effects for happiness in particular.
 
-*** Trait Judgements
     Another strand of research has gone into the split-second trait
     judgements made viewing a face. \cite{Willis2006} found very
     strong correlations between judgements of trustworthyness made
