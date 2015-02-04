@@ -7,13 +7,13 @@
 #+LaTeX_HEADER: \input{preamble.tex}
 
 * Introduction
-  Emotions play a fundamental role in modulating the behaviour and experiences
+  Emotions play a fundamental role in modulating the behavior and experiences
   of organisms, and while the exact definition is debated, its
   importance is not \parencite{Scherer2005}. The impact that emotions
   have on everyday life is enormous yet hard to pinpoint.
   
   \citet{Fontaine2007} defines emotions as a set of interrelated
-  components, covering a wide range of behaviour. These are appraisals
+  components, covering a wide range of behavior. These are appraisals
   of events, psychophysiological changes, motor expressions, action
   tendencies, subjective experience, and emotion regulation
   \parencite{Fontaine2007}. Emotions may have both internal
@@ -21,12 +21,12 @@
   
   One important purpose of emotions is in regulating social
   interactions by facilitating group cohesion and collaboration. In
-  social interactions, A key component is the ability to empathise with
+  social interactions, A key component is the ability to empathize with
   the emotions of others. \parencite{Niedenthal2012}.
   
   This ability referred to in the literature as emotional
   intelligence, has recently gained the attention of researchers. This
-  ability to can be conceptualised as differences in the extent to
+  ability to can be conceptualized as differences in the extent to
   which organisms interpret the emotions and affects of others. An
   essential component in emotional intelligence seems to be the
   ability to identify the emotions of oneself and
@@ -44,10 +44,10 @@
   problem from a different angle asking participants to identify an
   emotion based just on a picture showing a pair of eyes. Another
   method is measuring emotional facial recognition
-  \parencite{Schlegel2012}. Moreover, the results of
-  \citet{Schlegel2012} seem to show that the recognition of emotional
-  faces is a single ability as opposed to multiple separate abilities,
-  lending validity to the construct of emotional intelligence.
+  \parencite{Schlegel2012}. Indeed, the results of \citet{Schlegel2012} seem
+  to indicate that the recognition of emotional faces is a single ability
+  as opposed to multiple separate abilities, lending validity to the
+  construct of emotional intelligence.
   
   One approach that might be taken for emotional intelligence testing
   is using emotional facial expressions in a manner similar to
@@ -81,95 +81,93 @@
    availability of such tests.
 
    The creation of such principles could be relevant for a number of
-   areas. Firstly, education of psychologists, psychotherapists and
+   areas. Firstly, education of psychologists, psychotherapists, and
    other mental health professionals might benefit from improved
    training tools. Second, applications in recruiting situations may
-   help organisations make better recruitment decesions. Finally,
+   help organizations make better recruitment decisions. Finally,
    psychological tests using the micro-expression paradigm may be
    improved using the principles.
      
 ** Research question
-   What are the key principles for developing EQ-tests based on micro-expressions.
+   What are the key principles for developing EQ-tests based on micro-expressions?
   
 * Extended background
 
 
-** The Theoretical Models of Emotional Intelligece
+** The Theoretical Models of Emotional Intelligence
    The definition of emotional intelligence has been the subject of
    fierce debate \cite{McCleskey2014}. One of the key sources of
-   controversy is wheter emotional intelligence is to be considered an
-   ability (Mayer, TK), a competency that can be learned \citep{Baron2006},
+   controversy is whether emotional intelligence is to be considered an
+   ability (Mayer, TK), a competency that can be learned \citep{Baron2006}
    or personality trait (Petrides TK). (TK Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
-   advocated by \citep{Baron2006}. The Bar-On model defined more
-   precisely as a "cross-section of interrelated emtional and social
-   competencies, skills and facliators that determine how effectively
-   we understadn and epxress ourselves, understand others and relate
+   advocated by \citep{Baron2006}. The Bar-On model is defined more
+   precisely as a "cross-section of interrelated emotional and social
+   competencies, skills and facilities that determine how effectively
+   we understand and express ourselves, understand others and relate
    with them, and cope with daily demands" \citep{Baron2006}. The
    model is consistent with other frameworks in including both inter-
-   and intra-personal skills. Moreover, like other models of emotional
-   intelligence, considers widely different tasks, ranging from
-   recogniton to regulating emotions.
+   and intra-personal skills. Like most other models of emotional
+   intelligence, the Bar-On model considers widely different tasks,
+   ranging from recognition to regulating emotions. (TK; REF)
+
 
    Some limited agreement can
    perhaps be captured as follows: emotional intelligence is a
-   continous factor determining behaviour at the crossroads of emotion
+   continuous factor determining behavior at the crossroads of emotion
    and cognition.
     
-*** Uses for emotional intelligence
-   Emotional intelligence may also play a role in leadership, indeed
-   \citet{McCleskey} argues that for atleast some aspects of
+** Uses for emotional intelligence
+   Emotional intelligence may also play a role in leadership. Indeed
+   \citet{McCleskey} argues that for at least some aspects of
    leadership, it seems likely that emotional intelligence offers at
    least some predictive value for leadership roles \citet{McCleskey}.
-
-   Moreover it the emotional intelligence scales have been used for
-   corporate recruiting for roles requiring social
-   interaction. [REVISE]
-
+   
+   Moreover, emotional intelligence scales have been used for corporate
+   recruiting for roles requiring social interaction. [REVISE]
+   
    Measuring emotional intelligence has seen a number of different
    uses. One of the things where tests of emotional intelligence have
-   been applied in testing for autism \parencite{Baron-Cohen2001}.
-
-*** Criticisms of emotional intelligence
-
+  been applied in testing for autism \parencite{Baron-Cohen2001}.
 
 ** Measuring emotional intelligence
-    An early test for emotional intelligence is the
-    Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which in
-    version 2.0 consisted of 141 items across four facets of emotional
-    intelligence \citep{Mayer2003}. Participants taking MSCEIT rated
-    on their performance on a set of eight tasks with two for each
-    facet \citep{Mayer2003}. The MSCEIT tasks cover a number of
-    emotional abilities including recognition of emotional pictures
-    and faces, understanding and managing them \citep{Mayer2003}. One
-    differentiating aspect of MSCEIT is its focus on emotional problem
-    solving. In an evaluation of MSCEIT 2.0 \citet{Mayer2003} found
-    both sufficently reliable as well as consistent with its
+    An early of for emotional intelligence is the Mayer-Salovey-Caruso
+    Emotional Intelligence (MSCEIT), which in version 2.0 consisted of
+    141 items across four facets of emotional intelligence
+    \citep{Mayer2003}. MSCEIT rates participants on their performance
+    on a set of eight tasks with two for each facet
+    \citep{Mayer2003}. The MSCEIT tasks cover a number of emotional
+    abilities including recognition of emotional pictures and faces,
+    understanding and managing them \citep{Mayer2003}. One
+    differentiating aspect of MSCEIT is its focus on emotional
+    problem-solving. In an evaluation of MSCEIT 2.0 \citet{Mayer2003}
+    found both sufficiently reliable as well as consistent with its
     theoretical foundations.
 
     Another interesting inventory for measuring emotional intelligence
     is the Profile of Emotional Competence (PEC), consisting of 50
-    items divided into ten subscales \citep{Brasseur2013}. The PEC
+    items divided into ten sub-scales \citep{Brasseur2013}. The PEC
     shows a good internal consistency, making it appropriate for both
     clinical and research use \citep{Brasseur2013}.
 
     Recently, \citet{Mikolajczak2014} were able to reduce the earlier
     PEC scale to only 20 items while maintaining the predictive
-    properties of the orignal 50-item scale. This result suggests that
+    properties of the original 50-item scale. This result suggests that
     emotional intelligence can be measured using only a small number
     of questions.
 
     Another method of measuring is Emotional Quotient-Inventory
-    (EQ-I), a standard questionarie consisting of 131-items divided
-    over 15 subscales \citep{Bar-On1997}. The EQ-I is built on the
-    theoretical framework based of emotional inteligence as a
+    (EQ-I), a standard questionnaire consisting of 131-items divided
+    over 15 sub-scales \citep{Bar-On1997}. The EQ-I is built on the
+    theoretical framework based on emotional intelligence as a
     competency \citep{Baron2006}. However, the EQ-I is not without its
     problem. One large problem is that of fakeability, in one study
     conducted by \citet{GrubbIII2007}, found that participants when
-    asked to "fake" emotional intelligence were able to do so. This is
-    quite troublesome because it would imply that it does not measure
-    a competency, which would have been difficult to fake. 
+    asked to "fake" emotional intelligence were able to do so. Such
+    fakeability is quite troublesome because it would imply that it
+    does not measure a competency, which would have been difficult to
+    fake.
 
 
 ** Processing of emotional faces
@@ -177,12 +175,12 @@
 ** Facial expressions
    The ability to process is an important social skill, 
 *** Stimulus sets
-    There exists a plaetora of facial expression stimulus sets.
+    There exists a plethora of facial expression stimulus sets.
 
     One early stimulus set is the Japanese and Caucasian Facial
     Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}
     consisting of 56 photos of models of Japanese or Caucasian decent
-    with eight pictures for each of the emotions. The data-set, while
+    with eight pictures for each of the emotions. The dataset, while
     showing substantial cross-national differences also showed
     relatively high levels of agreement \citep{Biehl1997}.
 
@@ -201,8 +199,8 @@
     \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
     models expressing eight emotions with three gaze directions, taken
     from five camera angles for a total 5880 photographs
-    \citep{Langner2010}. Upon validation RaFD showed a very high
-    accuracy, higher even than the earlier KDEF data-set
+    \citep{Langner2010}. Upon validation, RaFD showed a very high
+    accuracy, higher even than the earlier KDEF dataset
     \citep{Langner2010}. A key difference between RaFD and KDEF is the
     expression coaching given to models by a facial expression coding
     expert, which may explain the higher accuracy rates in RaFD
@@ -216,7 +214,7 @@
     showed higher degrees of accuracy than the other emotions and fear
     showed a lower accuracy.
 
-    Taken togeter, the results of \citet{Calvo2008a} and SomeotherGuy
+    Taken together, the results of \citet{Calvo2008a} and SomeotherGuy
     suggest that there are differences in the accuracy of processing
     different emotions. Most importantly, it seems that accuracy rates
     for facial expressions of happiness and neutral expressions are
@@ -225,23 +223,23 @@
     ceiling effects for happiness in particular.
 
     Another strand of research has gone into the split-second trait
-    judgements made viewing a face. \cite{Willis2006} found very
-    strong correlations between judgements of trustworthyness made
+    judgments made viewing a face. \cite{Willis2006} found very
+    strong correlations between judgments of trustworthiness made
     after \SI{100}{\milli\second} or \SI{500}{\milli\second} versus
     those made without any time constraint. Moreover, no significant
     difference was found between the \SI{100}{\milli\second} and
     \SI{500}{\milli\second} conditions, suggesting that a trait
-    judgement is performed very quickly. This notion was further
+    judgment is performed very quickly. This notion was further
     expanded by \citet{Todorov2009}, finding that accuracy with
     display times up to \SI{100}{\milli\second}, after which the
     growth rate is dramatically slower.
 
 
-* Methodology and Methods for Data collection
+* Methodology and Methods for Data Collection
 ** Research strategies
    Briefly describe different strategies 
 ** Chosen strategy
-   Developing an artefact, therefore, design science.
+   Developing an artifact, therefore, design science.
 ** Different variants of design science
    Comparing Perjons & Johannesson v.s. earlier descriptions and our
    chosen approach.
@@ -257,28 +255,28 @@
 ** Explicate requirements
    The requirements for the present study were created using two
    methods: 
-  - A litterature review for emotional intelligence
+  - A literature review for emotional intelligence
   - A quantitative analysis of existing data collected from a
-    microexpression test.
+    micro-expression test.
 ** Evaluation
     $N=?$ participants were administered the test software their results
-    were compared to a questionarie completed before the test.
+    were compared to a questionnaire completed before the test.
 *** Ethics
     Some ethical considerations.
 
 * Results
 ** Requirements Definition
-*** Litterature
+*** Literature
     Discuss papers in extended background Categorize results depending
     on what parts of the design they affect.
 *** Analysis of old data
     Find the optimal level of difficulty to avoid 
 
 ** Implementation
-   Using the requirements to create an artefact.
+   Using the requirements to create an artifact.
 
 ** Evaluation
-   The test-scores showed a correlation of X
+   The test scores showed a correlation of X
 
 * Discussion
   Discussion of the result of the entire study
@@ -287,3 +285,7 @@
 
 \printbibliography
 
+
+#  LocalWords:  parencite Mikolajczak citet Schlegel Ekman citep TK
+#  LocalWords:  McCleskey Petrides Goleman MSCEIT PEC Brasseur EQ
+#  LocalWords:  RaFD dataset fakeability
