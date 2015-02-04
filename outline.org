@@ -126,10 +126,43 @@
    behaviors. Conversely, people exhibiting deficits in emotional
    intelligence may sometimes show maladaptive behaviors.
 
-   Some limited agreement can
-   perhaps be captured as follows: emotional intelligence is a
-   continuous factor determining behavior at the crossroads of emotion
-   and cognition.
+   Some authors \citep[e.g.][]{Petrides2007} separate emotional
+   intelligence into trait and ability components. Indeed, a growing
+   body of evidence seems to indicate that some parts of emotional
+   intelligence is explained by personality
+   \citep[e.g.][]{Warwick2004}. Specifically, \citet{Warwick2004}
+   found correlations between personality factors and trait emotional
+   intelligence. Building on these results \citet{Petrides2007},
+   argues that while trait emotional intelligence is a personality
+   trait and uncorrelated to ability measures of emotional
+   intelligence, it is distinct from traditional personality
+   factors. The incompatibility argument is expanded further by
+   \citet{Petrides2010}, arguing that trait and ability measures of
+   emotional intelligence cannot be grouped in any meaningful
+   sense. Moreover, \citet{Petrides2010} criticizes the Bar-On
+   \citep{Baron2006} model as well as the \citet{Salovey1990} model,
+   arguing that ability measures of emotional intelligence imply the
+   existence of some universal notion of adaptive social behavior.
+
+   To resolve some of the controversy regarding the definition of the
+   term \citet{Cherniss2010} suggests separating the concepts of
+   emotional intelligence and social competence, defining emotional
+   intelligence simply as the recognizing, reasoning and regulating
+   emotions, holding that factors are simply emotional and social
+   competencies. In effect \citet{Cherniss2010}, designates the
+   \citet{Salovey1990} model as emotional intelligence, while
+   referring to the Bar-On model \citep{Baron2006} as emotional and
+   social competence. This attempt to reconcile different theories of
+   emotional intelligence was criticized by \cite{Petrides2010} for
+   severing the link between the constructs and their present
+   operational definitions.
+
+   (TK, Critique of ability eq)
+   (TK, paragraph about throwing the notion away)
+
+   Some limited agreement can perhaps be captured as follows:
+   emotional intelligence is a continuous factor determining behavior
+   at the crossroads of emotion and cognition.
     
 ** Uses for emotional intelligence
    Emotional intelligence may also play a role in leadership. Indeed
