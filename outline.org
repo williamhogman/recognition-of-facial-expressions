@@ -98,8 +98,8 @@
    The definition of emotional intelligence has been the subject of
    fierce debate \cite{McCleskey2014}. One of the key sources of
    controversy is whether emotional intelligence is to be considered an
-   ability (Mayer, TK), a competency that can be learned \citep{Baron2006}
-   or personality trait (Petrides TK). (TK Something about Goleman model)
+   ability \citep{Salovey1990}, a competency that can be learned \citep{Baron2006}
+   or personality trait \citep{Petrides2007}. (TK Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
    advocated by \citep{Baron2006}. The Bar-On model is defined more
@@ -133,9 +133,9 @@
     
 ** Uses for emotional intelligence
    Emotional intelligence may also play a role in leadership. Indeed
-   \citet{McCleskey} argues that for at least some aspects of
+   \citet{McCleskey2014} argues that for at least some aspects of
    leadership, it seems likely that emotional intelligence offers at
-   least some predictive value for leadership roles \citet{McCleskey}.
+   least some predictive value for leadership roles \citet{McCleskey2014}.
    
    Moreover, emotional intelligence scales have been used for corporate
    recruiting for roles requiring social interaction. [REVISE]
@@ -144,19 +144,20 @@
    uses. One of the things where tests of emotional intelligence have
   been applied in testing for autism \parencite{Baron-Cohen2001}.
 
-** Measuring emotional intelligence
-    An early of for emotional intelligence is the Mayer-Salovey-Caruso
-    Emotional Intelligence (MSCEIT), which in version 2.0 consisted of
-    141 items across four facets of emotional intelligence
-    \citep{Mayer2003}. MSCEIT rates participants on their performance
-    on a set of eight tasks with two for each facet
-    \citep{Mayer2003}. The MSCEIT tasks cover a number of emotional
-    abilities including recognition of emotional pictures and faces,
-    understanding and managing them \citep{Mayer2003}. One
-    differentiating aspect of MSCEIT is its focus on emotional
-    problem-solving. In an evaluation of MSCEIT 2.0 \citet{Mayer2003}
-    found both sufficiently reliable as well as consistent with its
-    theoretical foundations.
+** Measuring emotional intelligence of Ability
+    An early measure of emotional intelligence is the
+    Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which is
+    based on the theoretical framework introduced by
+    \citep{Salovey1990}. In version 2.0 it consisted of 141 items
+    across four facets of emotional intelligence
+    \citep{Mayer2003}. MSCEIT attempts measure performance based on a
+    set of eight tasks with two for each facet \citep{Mayer2003}. The
+    MSCEIT tasks cover a number of emotional abilities including
+    recognition of emotional pictures and faces, understanding and
+    managing them \citep{Mayer2003}. One differentiating aspect of
+    MSCEIT is its focus on emotional problem-solving. In an evaluation
+    of MSCEIT 2.0 \citet{Mayer2003} found both sufficiently reliable
+    as well as consistent with its theoretical foundations.
 
     Another interesting inventory for measuring emotional intelligence
     is the Profile of Emotional Competence (PEC), consisting of 50
@@ -175,7 +176,7 @@
     over 15 sub-scales \citep{Bar-On1997}. The EQ-I is built on the
     theoretical framework based on emotional intelligence as a
     competency \citep{Baron2006}. However, the EQ-I is not without its
-    problem. One large problem is that of fakeability, in one study
+    problems. One large problem is that of fakeability, in one study
     conducted by \citet{GrubbIII2007}, found that participants when
     asked to "fake" emotional intelligence were able to do so. Such
     fakeability is quite troublesome because it would imply that it
