@@ -112,6 +112,19 @@
    intelligence, the Bar-On model considers widely different tasks,
    ranging from recognition to regulating emotions. (TK; REF)
 
+   Writing only years after Baron's (TK, Doctoral dissertation)
+   \cite{Salovey1990} introduced their notion of emotional
+   intelligence, with the widely cited (TK, e.g) passage defining
+   emotional intelligence as ``the subset of social intelligence that
+   involves the ability to monitor one's own and others' feelings and
+   emotions to discriminate among them and to use the information to
+   guide one's thinking and actions''.  \citet{Salovey1990} also
+   divided emotional intelligence into three sub-categories of
+   emotional intelligence these are: appraisal and expression,
+   regulation and utilization. \citet{Salovey1990} argue that people
+   exhibiting these abilities might exhibit more adaptive
+   behaviors. Conversely, people exhibiting deficits in emotional
+   intelligence may sometimes show maladaptive behaviors.
 
    Some limited agreement can
    perhaps be captured as follows: emotional intelligence is a
