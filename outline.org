@@ -102,7 +102,7 @@
    or personality trait \citep{Petrides2007}. (TK Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
-   advocated by \citep{Baron2006}. The Bar-On model is defined more
+   advocated by \citep{Baron2006}. The Bar-On's model is defined more
    precisely as a "cross-section of interrelated emotional and social
    competencies, skills and facilities that determine how effectively
    we understand and express ourselves, understand others and relate
@@ -112,7 +112,7 @@
    intelligence, the Bar-On model considers widely different tasks,
    ranging from recognition to regulating emotions. (TK; REF)
 
-   Writing only years after Baron's (TK, Doctoral dissertation)
+   Writing only years after Bar-On (TK, Doctoral dissertation)
    \cite{Salovey1990} introduced their notion of emotional
    intelligence, with the widely cited (TK, e.g) passage defining
    emotional intelligence as ``the subset of social intelligence that
@@ -126,23 +126,25 @@
    behaviors. Conversely, people exhibiting deficits in emotional
    intelligence may sometimes show maladaptive behaviors.
 
-   Some authors \citep[e.g.][]{Petrides2007} separate emotional
-   intelligence into trait and ability components. Indeed, a growing
-   body of evidence seems to indicate that some parts of emotional
-   intelligence is explained by personality
-   \citep[e.g.][]{Warwick2004}. Specifically, \citet{Warwick2004}
-   found correlations between personality factors and trait emotional
-   intelligence. Building on these results \citet{Petrides2007},
-   argues that while trait emotional intelligence is a personality
-   trait and uncorrelated to ability measures of emotional
-   intelligence, it is distinct from traditional personality
-   factors. The incompatibility argument is expanded further by
-   \citet{Petrides2010}, arguing that trait and ability measures of
-   emotional intelligence cannot be grouped in any meaningful
-   sense. Moreover, \citet{Petrides2010} criticizes the Bar-On
-   \citep{Baron2006} model as well as the \citet{Salovey1990} model,
-   arguing that ability measures of emotional intelligence imply the
-   existence of some universal notion of adaptive social behavior.
+   Beginning with \citet{Petrides2001}, one strand of research has
+   separated emotional intelligence into trait and ability components
+   \citep[e.g.][]{Petrides2007, Petrides2010}. Indeed, a growing body
+   of evidence seems to indicate that some parts of emotional
+   intelligence is explained by personality factors
+   \citep[e.g.][]{Warwick2004, Petrides2001}. Specifically,
+   \citet{Warwick2004} found correlations between personality factors
+   and trait emotional intelligence. Building on these results
+   \citet{Petrides2007}, argues that while trait emotional
+   intelligence is a personality trait and uncorrelated to ability
+   measures of emotional intelligence, it is distinct from traditional
+   personality factors. The incompatibility argument is expanded
+   further by \citet{Petrides2010}, arguing that trait and ability
+   measures of emotional intelligence cannot be grouped in any
+   meaningful sense. Moreover, \citet{Petrides2010} criticizes the
+   Bar-On \citep{Baron2006} model as well as the \citet{Salovey1990}
+   model, arguing that ability measures of emotional intelligence
+   imply the existence of some universal notion of adaptive social
+   behavior.
 
    To resolve some of the controversy regarding the definition of the
    term \citet{Cherniss2010} suggests separating the concepts of
@@ -154,10 +156,18 @@
    referring to the Bar-On model \citep{Baron2006} as emotional and
    social competence. This attempt to reconcile different theories of
    emotional intelligence was criticized by \cite{Petrides2010} for
-   severing the link between the constructs and their present
+   severing the link between the constructs and their present 
    operational definitions.
 
-   (TK, Critique of ability eq)
+   The separation of trait and state concepts of emotional
+   intelligence is supported by most authors
+   \citep[e.g.]{Petrides2010,McCleskey2014} (TK, Askhanasy). What this
+   separation entails, however, is a matter of debate. Proponents of
+   the trait model of emotional intelligence like,
+   \citet{Petrides2010} argue that ability measures of emotional
+   intelligence are lacking. While proponents of the ability model
+   argue that trait models is simply personality.
+
    (TK, paragraph about throwing the notion away)
 
    Some limited agreement can perhaps be captured as follows:
@@ -190,7 +200,12 @@
     managing them \citep{Mayer2003}. One differentiating aspect of
     MSCEIT is its focus on emotional problem-solving. In an evaluation
     of MSCEIT 2.0 \citet{Mayer2003} found both sufficiently reliable
-    as well as consistent with its theoretical foundations.
+    as well as consistent with its theoretical foundations. The
+    validity however been disputed, \citet{Rossen2008} found results
+    running contrary to the factor structure used found by
+    \citet{Mayer2003}. The results found by \citet{Rossen2008} seem to
+    suggest that the sub-scales do not match the intended theoretical
+    concepts.
 
     Another interesting inventory for measuring emotional intelligence
     is the Profile of Emotional Competence (PEC), consisting of 50
