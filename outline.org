@@ -119,12 +119,12 @@
    involves the ability to monitor one's own and others' feelings and
    emotions to discriminate among them and to use the information to
    guide one's thinking and actions''.  \citet{Salovey1990} also
-   divided emotional intelligence into three sub-categories of
-   emotional intelligence these are: appraisal and expression,
+   divided emotional intelligence into four sub-categories of
+   emotional intelligence these are: appraisal, expression,
    regulation and utilization. \citet{Salovey1990} argue that people
    exhibiting these abilities might exhibit more adaptive
-   behaviors. Conversely, people exhibiting deficits in emotional
-   intelligence may sometimes show maladaptive behaviors.
+   behaviors \citep{Brackett2006}. Conversely, people exhibiting deficits in emotional
+   intelligence may show maladaptive behaviors \citep{Brackett2006}.
 
    Beginning with \citet{Petrides2001}, one strand of research has
    separated emotional intelligence into trait and ability components
@@ -161,31 +161,52 @@
 
    The separation of trait and state concepts of emotional
    intelligence is supported by most authors
-   \citep[e.g.]{Petrides2010,McCleskey2014} (TK, Askhanasy). What this
-   separation entails, however, is a matter of debate. Proponents of
-   the trait model of emotional intelligence like,
-   \citet{Petrides2010} argue that ability measures of emotional
-   intelligence are lacking. While proponents of the ability model
-   argue that trait models is simply personality.
-
-   (TK, paragraph about throwing the notion away)
+   \citep[e.g.][]{Petrides2010,McCleskey2014,DiFabio2014} (TK,
+   Askhanasy). What this separation entails, however, is a matter of
+   debate. Proponents of the trait model of emotional intelligence
+   such as, \citet{Petrides2010} argue that ability measures of
+   emotional intelligence are lacking. While proponents of the ability
+   model argue that trait models is simply personality. Another
+   approach was taken by \citet{Freudenthaler2007}, interpreting trait
+   and ability as typical and maximum performance respectively,
+   finding typical performance as dependent on personality and maximum
+   performance as dependent on cognitive ability.
 
    Some limited agreement can perhaps be captured as follows:
-   emotional intelligence is a continuous factor determining behavior
-   at the crossroads of emotion and cognition.
+   emotional intelligence is a continuous factor determining the depth
+   and accuracy of processing at the crossroads of emotion and
+   cognition.
     
 ** Uses for emotional intelligence
-   Emotional intelligence may also play a role in leadership. Indeed
-   \citet{McCleskey2014} argues that for at least some aspects of
-   leadership, it seems likely that emotional intelligence offers at
-   least some predictive value for leadership roles \citet{McCleskey2014}.
+
+   In a review by \citet{Mayer2008} identified seven key results of
+   emotional intelligence research, these were:
+#+BEGIN_QUOTE
+   1. Better social relations for children.
+   2. Better social relations for adults. Among
+   3. High-EI individuals are perceived more positively by others.
+   4. Better family and intimate relationships.
+   5. Better academic achievement. [not accounting for IQ]
+   6. Better social relations during work performance and in negotiations.
+   7. Better psychological well-being.
+#+END_QUOTE
+
+   It seems that within the aforementioned areas emotional
+   intelligence, at least to some degree predicts outcomes.
+
+   It is commonly held that emotional intelligence plays a role in
+   leadership
+   \citep{Brackett2006,McCleskey2014}. \citet{McCleskey2014} argues
+   that for at least some aspects of leadership, it seems likely that
+   emotional intelligence offers at least some predictive value for
+   leadership roles \citep{McCleskey2014}.
    
-   Moreover, emotional intelligence scales have been used for corporate
-   recruiting for roles requiring social interaction. [REVISE]
-   
-   Measuring emotional intelligence has seen a number of different
-   uses. One of the things where tests of emotional intelligence have
-  been applied in testing for autism \parencite{Baron-Cohen2001}.
+   Moreover, emotional intelligence scales have been used for
+   corporate recruiting for roles requiring social interaction (TK,
+   REF). One of the things where tests of emotional intelligence have
+   been applied in testing for autism \parencite{Baron-Cohen2001}. In
+   this particular case, a specific test of emotion recognition,
+   reading the mind in the eyes, was developed \citep{Baron-Cohen2001}.
 
 ** Measuring emotional intelligence of Ability
     An early measure of emotional intelligence is the
