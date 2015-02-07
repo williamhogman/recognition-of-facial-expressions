@@ -19,23 +19,31 @@
   \parencite{Fontaine2007}. Emotions may have both internal
   and external antecedents \parencite{Scherer2005}.
   
-  One important purpose of emotions is in regulating social
-  interactions by facilitating group cohesion and collaboration. In
-  social interactions, A key component is the ability to empathize with
-  the emotions of others. \parencite{Niedenthal2012}.
+  One important purpose of emotions is regulating social interactions
+  by facilitating group cohesion and collaboration. Understanding the
+  emotions of other the emotions of others is a key aspect of many
+  social situations. \parencite{Niedenthal2012}.
   
-  This ability referred to in the literature as emotional
-  intelligence, has recently gained the attention of researchers. This
+  The ability to process the emotional information contained both in
+  oneself and others, is referred to in the literature as emotional
+  intelligence. Emotional intelligence has over the last
+  two-and-a-half decades gained the attention of researchers. This
   ability to can be conceptualized as differences in the extent to
-  which organisms interpret the emotions and affects of others. An
-  essential component in emotional intelligence seems to be the
-  ability to identify the emotions of oneself and
-  others. \parencite{Mikolajczak2014}
+  which organisms interpret, process and act upon the emotions and
+  affects of themselves and others. An essential component in
+  emotional intelligence seems to be the ability to identify the
+  emotions of oneself and others. \parencite{Mikolajczak2014} 
   
-  Other authors (Who?) have questioned the validity of emotional
-  intelligence. Emotional intelligence has sometimes been found to be
-  strongly correlated with personality factors. Calling into question
-  the independence of emotional intelligence.
+  The concept of emotional intelligence is not uncontroversial, with
+  different authors suggesting widely different models of emotional
+  intelligence \citep{McCleskey2014,Mayer2008,Petrides2010}. Other
+  authors (TK, Who? Locke surely) have questioned the validity of
+  emotional intelligence. Indeed, emotional intelligence has sometimes
+  been found to correlate with personality factors
+  \citep[e.g.][]{Warwick2004, Petrides2001} and cognitive abilities
+  \citep[e.g.][]{Freudenthaler2007}, calling into question the
+  divergent validity, to that point of some authors (TK Locke and
+  someone else) doubting the concepts usefulness.
   
   Several approaches have been used to measure emotional
   intelligence. \citet{Mikolajczak2014} approached the measuring of
