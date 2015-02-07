@@ -1,5 +1,5 @@
 # -*- compile-command: "./compile.sh" -*-
-#+TITLE: Measuring EQ using micro-expressions
+#+TITLE: A novel, multi-model, multi-task, method for computerized testing of emotional intelligence
 #+AUTHOR: William Rudenmalm
 #+EMAIL: me@whn.se
 #+BIBLIOGRAPHY: refs plain
