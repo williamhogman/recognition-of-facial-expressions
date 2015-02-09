@@ -268,10 +268,27 @@
     fake.
 
 
-** Processing of emotional faces
-   How faces are processed.
-** Facial expressions
-   The ability to process is an important social skill, 
+** Recognition of emotional faces
+   A separate but related field to traditional emotional intelligence
+   testing is the recognition of emotional facial expressions. This
+   strand of research builds on the work of \cite{Ekman1969a}. The
+   model of emotions advanced by Ekman identifies a set of basic
+   emotions which are culturally independent \citep{Ekman1987}, occur
+   automatically \citep{Ekman1992,Ekman1997} and are automatically
+   processed \cite{Ekman1992}.
+
+   Another feature of Ekman's is emotional leakage which occurs when
+   consciously trying to suppress the expression of some emotion
+   \citep{Ekman1969,Ekman2003}. This emotional leakage, referred to as
+   micro expressions can be identified by others
+   \citep{Ekman1974}. Both individual and group differences in the
+   ability to detect deceit have been found. For example,
+   \cite{Ekman1991} found that some professional groups (e.g. the
+   U.S. Secret Service) are better at detecting deceit, using both
+   verbal and non-verbal cues \cite{Ekman1991}. Another result is that
+   of \citet{Frank1997}, which seems to suggest that the ability to
+   detect deceit is generalized to a large number of situations.
+
 *** Stimulus sets
     There exists a plethora of facial expression stimulus sets.
 
