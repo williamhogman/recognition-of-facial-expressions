@@ -289,6 +289,23 @@
    of \citet{Frank1997}, which seems to suggest that the ability to
    detect deceit is generalized to a large number of situations.
 
+   Based on this theoretical framework \cite{Ekman1974a} introduced
+   the Brief Affection Recognition Test (BART), consisting of very
+   brief displays of emotional facial expressions (under
+   200ms). Paradigms based on the BART been used widely
+   \cite[e.g.][]{Matsumoto2000}. By only showing the facial expression
+   for a short time, accuracy is reduced. Ensuring that the
+   chance-adjusted is as close to 50% is important to avoid floor and
+   ceiling effects, which could distort the data. Another key feature
+   of BART is its use masking images of neutral faces both before and
+   after a trial \citep{Ekman1974a}. This serves to provide a fixation
+   point before the trial and ensure that the participants does not
+   have the benefit of after-images.
+
+   Another method of ensuring low enough accuracy is the subtle
+   expression training tool (SETT).unlike the BART, expressions are
+   restricted to one part of the face, as if the person were
+   consciously suppressing a facial expression.
 *** Stimulus sets
     There exists a plethora of facial expression stimulus sets.
 
