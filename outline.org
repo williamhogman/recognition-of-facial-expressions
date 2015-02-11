@@ -303,11 +303,19 @@
    have the benefit of after-images.
 
    Another method of ensuring low enough accuracy is the subtle
-   expression training tool (SETT).unlike the BART, expressions are
+   expression training tool (SETT). Unlike the BART, expressions are
    restricted to one part of the face, as if the person were
    consciously suppressing a facial expression.
+
 *** Stimulus sets
-    There exists a plethora of facial expression stimulus sets.
+
+    To use any of the paradigms discussed it is necessary to use a set
+    of photographs. Because recognition of facial expressions is a
+    common task there exists a plethora of facial expression stimulus
+    sets. These stimulus sets have been created for a number of
+    different purposes and are suitable for different kinds of
+    research. For the present study we will review a number of
+    different stimulus sets and the research validating them.
 
     One early stimulus set is the Japanese and Caucasian Facial
     Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}
@@ -365,6 +373,11 @@
     expanded by \citet{Todorov2009}, finding that accuracy with
     display times up to \SI{100}{\milli\second}, after which the
     growth rate is dramatically slower.
+
+    Based on the research discussed in this review it seems that
+    measuring the recognition facial expressions is successful in
+    finding individual differences in emotional processing. This
+    difference seems particularly pronounced at low display times.
 
 
 * Methodology and Methods for Data Collection
