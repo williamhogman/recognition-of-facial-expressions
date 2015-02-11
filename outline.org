@@ -327,7 +327,7 @@
     high degrees of accuracy in recognition tasks
     \citep{Goeleven2008}.
 
-    A more recent contribution is the Raboud Faces Database
+    A more recent contribution is the Radboud Faces Database
     \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
     models expressing eight emotions with three gaze directions, taken
     from five camera angles for a total 5880 photographs
