@@ -76,7 +76,6 @@
   expression with forward- and backward masks of a neutral emotional
   face to avoid after-images \citep{Ekman2003}.
 
-   
 ** Research problem
    Testing and training applications being a central part of
    micro-expression research \citep{Ekman1992}. However, despite
@@ -267,6 +266,11 @@
     does not measure a competency, which would have been difficult to
     fake.
 
+** Measures related to emotional intelligence
+
+   Some research has also gone into examining other aspects of
+   emotional intelligence. Indeed, a wide variety of tasks have been
+   used in assessing emotion.
 
 ** Recognition of emotional faces
    A separate but related field to traditional emotional intelligence
