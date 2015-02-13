@@ -415,9 +415,12 @@
 
 * Results
 ** Requirements Definition
-*** Literature
-    Discuss papers in extended background Categorize results depending
-    on what parts of the design they affect.
+*** Literature Review
+    From reviewing the literature a number of methods for measuring
+    emotional intelligence were found.
+
+\input{paradigms.tex}
+
 *** Analysis of old data
     Find the optimal level of difficulty to avoid 
 
