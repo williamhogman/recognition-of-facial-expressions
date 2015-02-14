@@ -55,8 +55,8 @@
   an emotion based just on a picture showing a pair of eyes. Another
   strand of research is focused on measuring emotional facial
   recognition \parencite{Schlegel2012}. The results of
-  \citet{Schlegel2012} seem to indicate that the recognition of
-  emotional faces is a single ability as opposed to multiple separate
+  \citet{Schlegel2012} seem to indicate that the recognition of 
+b emotional faces is a single ability as opposed to multiple separate
   abilities, affirming to some degree the convergent validity to the
   construct of emotional intelligence.
   
@@ -256,9 +256,10 @@
 
     Another method of measuring is Emotional Quotient-Inventory
     (EQ-I), a standard questionnaire consisting of 131-items divided
-    over 15 sub-scales \citep{Bar-On1997}. The EQ-I is built on the
-    theoretical framework based on emotional intelligence as a
-    competency \citep{Baron2006}. However, the EQ-I is not without its
+    five sub-scales with three facets each for a total of 15 ratings
+    \citep{Bar-On1997}. The EQ-I is built on the theoretical framework
+    based on emotional intelligence as a competency
+    \citep{Baron2006}. However, the EQ-I is not without its
     problems. One large problem is that of fakeability, in one study
     conducted by \citet{GrubbIII2007}, found that participants when
     asked to "fake" emotional intelligence were able to do so. Such
@@ -407,6 +408,9 @@
   - A literature review for emotional intelligence
   - A quantitative analysis of existing data collected from a
     micro-expression test.
+
+
+
 ** Evaluation
     $N=?$ participants were administered the test software their results
     were compared to a questionnaire completed before the test.
