@@ -274,14 +274,26 @@ b emotional faces is a single ability as opposed to multiple separate
    used in assessing emotion.
 
    One measure that might be considered emotional intelligence is the
-   reading the mind in the eyes (RTMITE) task \citet{Baron-Cohen2001}, which
-   has been successful in distinguishing people with Asperger Syndrome
-   and high-functioning autism controls.
+   reading the mind in the eyes (RTMITE) task \citet{Baron-Cohen2001},
+   which has been successful in distinguishing people with Asperger
+   Syndrome and high-functioning autism controls. The instrument has
+   shown good test-retest reliability \citep{Hallerback2009} and has
+   been applied in a number of cultures
+   \citep{Yildirim2011,Hallerback2009}.
 
    Another measure related to emotions is the Toronto Alexithymia
    Scale (TAS), a 20-item scale for detecting alexithymia. The TAS
    consists of of two subscales difficulty identifying feelings and
-   difficulty describing feelings \cite{Bagby1994}. (TK, discuss merits of TAS)
+   difficulty describing feelings \cite{Bagby1994}. The measure has
+   shown good validity \citep{Bagby1994}. Further evidence for its
+   validity were found by \citet{Bressi1996} showing that good
+   validity could also be obtained for Italian populations, suggesting
+   at least some degree of cultural invariance. Finally, in a
+   functional magnetic resonance imagning (fMRI) study,
+   \citet{Berthoz2002} found differences in the activation of the
+   anterior cingulate cortex and the mediofrontal cortex between high
+   people with high TAS-scores and controls, suggesting an underlying
+   neural basis for the TAS.
 
 ** Recognition of emotional faces
    A separate but related field to traditional emotional intelligence
