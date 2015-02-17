@@ -21,11 +21,11 @@
   
   One important purpose of emotions is regulating social interactions
   by facilitating group cohesion and collaboration. Understanding the
-  emotions of other the emotions of others is a key aspect of many
-  social situations. \parencite{Niedenthal2012}.
+  emotions of others is an essential aspect of many social
+  situations. \parencite{Niedenthal2012}.
   
   The ability to process the emotional information contained both in
-  oneself and others, is referred to in the literature as emotional
+  oneself and others is referred to in the literature as emotional
   intelligence. Emotional intelligence has over the last
   two-and-a-half decades gained the attention of researchers. This
   ability to can be conceptualized as differences in the extent to
@@ -41,24 +41,24 @@
   emotional intelligence. Indeed, emotional intelligence has been
   found to correlate with personality factors
   \citep[e.g.][]{Warwick2004, Petrides2001} and cognitive abilities
-  \citep[e.g.][]{Freudenthaler2007}, calling into question the
-  divergent validity, to that point of some authors (TK Locke and
-  someone else) doubting the concepts usefulness.
+  \citep[e.g.][]{Freudenthaler2007}. These correlations call into
+  question the divergent validity, to that point of some authors (TK
+  Locke and someone else) doubting the concepts usefulness.
   
   Several approaches have been used to measure emotional intelligence,
   both ability tests \citep{Mayer2003}, self-reported ability
-  \citep{Bar-On1997}, and trait measures (TK, ref),
+  \citep{Bar-On1997}, and trait measures (TK, ref).
   \citet{Mikolajczak2014} approached the measuring of emotional
   intelligence and developed a 50-item inventory for emotional
   intelligence. More specialized \citet{Baron-Cohen2001} approached
   the problem from a different angle asking participants to identify
   an emotion based just on a picture showing a pair of eyes. Another
-  strand of research is focused on measuring emotional facial
-  recognition \parencite{Schlegel2012}. The results of
-  \citet{Schlegel2012} seem to indicate that the recognition of 
-b emotional faces is a single ability as opposed to multiple separate
-  abilities, affirming to some degree the convergent validity to the
-  construct of emotional intelligence.
+  strand of research focuses on measuring emotional facial recognition
+  \parencite{Schlegel2012}. The results of \citet{Schlegel2012} seem
+  to indicate that the recognition of b emotional faces is a single
+  ability as opposed to multiple separate abilities, affirming to some
+  degree the convergent validity to the construct of emotional
+  intelligence.
   
   One approach that might be taken for emotional intelligence testing
   is using emotional facial expressions in a manner similar to
@@ -112,7 +112,7 @@ b emotional faces is a single ability as opposed to multiple separate
    or personality trait \citep{Petrides2007}. (TK Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
-   advocated by \citep{Baron2006}. The Bar-On's model is defined more
+   advocated by \citep{Baron2006}. The Bar-On model is defined more
    precisely as a "cross-section of interrelated emotional and social
    competencies, skills and facilities that determine how effectively
    we understand and express ourselves, understand others and relate
@@ -130,22 +130,23 @@ b emotional faces is a single ability as opposed to multiple separate
    emotions to discriminate among them and to use the information to
    guide one's thinking and actions''.  \citet{Salovey1990} also
    divided emotional intelligence into four sub-categories of
-   emotional intelligence these are: appraisal, expression,
-   regulation and utilization. \citet{Salovey1990} argue that people
-   exhibiting these abilities might exhibit more adaptive
-   behaviors \citep{Brackett2006}. Conversely, people exhibiting deficits in emotional
-   intelligence may show maladaptive behaviors \citep{Brackett2006}.
+   emotional intelligence these are: appraisal, expression, regulation
+   and, utilization. \citet{Salovey1990} argue that people exhibiting
+   these abilities may show more adaptive behaviors
+   \citep{Brackett2006}. Conversely, people exhibiting deficits in
+   emotional intelligence may show maladaptive behaviors
+   \citep{Brackett2006}.
 
    Beginning with \citet{Petrides2001}, one strand of research has
    separated emotional intelligence into trait and ability components
    \citep[e.g.][]{Petrides2007, Petrides2010}. Indeed, a growing body
-   of evidence seems to indicate that some parts of emotional
-   intelligence is explained by personality factors
-   \citep[e.g.][]{Warwick2004, Petrides2001}. Specifically,
+   of evidence seems to indicate that personality factors explain some
+   parts of emotional intelligence
+   \citep[e.g.][]{Warwick2004,Petrides2001}. Specifically,
    \citet{Warwick2004} found correlations between personality factors
    and trait emotional intelligence. Building on these results
    \citet{Petrides2007}, argues that while trait emotional
-   intelligence is a personality trait and uncorrelated to ability
+   intelligence is a personality trait and uncorrelated with ability
    measures of emotional intelligence, it is distinct from traditional
    personality factors. The incompatibility argument is expanded
    further by \citet{Petrides2010}, arguing that trait and ability
@@ -156,17 +157,17 @@ b emotional faces is a single ability as opposed to multiple separate
    imply the existence of some universal notion of adaptive social
    behavior.
 
-   To resolve some of the controversy regarding the definition of the
-   term \citet{Cherniss2010} suggests separating the concepts of
-   emotional intelligence and social competence, defining emotional
-   intelligence simply as the recognizing, reasoning and regulating
-   emotions, holding that factors are simply emotional and social
-   competencies. In effect \citet{Cherniss2010}, designates the
-   \citet{Salovey1990} model as emotional intelligence, while
-   referring to the Bar-On model \citep{Baron2006} as emotional and
-   social competence. This attempt to reconcile different theories of
-   emotional intelligence was criticized by \cite{Petrides2010} for
-   severing the link between the constructs and their present 
+   To resolve some of the controversies surrounding the definition of
+   the term \citet{Cherniss2010} suggests separating the concepts of
+   emotional intelligence and social competence. Thereby defining
+   emotional intelligence simply as the recognizing, reasoning and
+   regulating emotions, holding that other factors are simply
+   emotional and social competencies. In effect \citet{Cherniss2010},
+   designates the \citet{Salovey1990} model as emotional intelligence,
+   while referring to the Bar-On model \citep{Baron2006} as emotional
+   and social competence. This attempt to reconcile different theories
+   of emotional intelligence was criticized by \cite{Petrides2010} for
+   severing the link between the constructs and their present
    operational definitions.
 
    The separation of trait and state concepts of emotional
@@ -174,13 +175,14 @@ b emotional faces is a single ability as opposed to multiple separate
    \citep[e.g.][]{Petrides2010,McCleskey2014,DiFabio2014} (TK,
    Askhanasy). What this separation entails, however, is a matter of
    debate. Proponents of the trait model of emotional intelligence
-   such as, \citet{Petrides2010} argue that ability measures of
+   such as \citet{Petrides2010} argue that ability measures of
    emotional intelligence are lacking. While proponents of the ability
-   model argue that trait models is simply personality. Another
-   approach was taken by \citet{Freudenthaler2007}, interpreting trait
-   and ability as typical and maximum performance respectively,
-   finding typical performance as dependent on personality and maximum
-   performance as dependent on cognitive ability.
+   model argue that trait models just measure various aspects of
+   personality. Another approach was taken by
+   \citet{Freudenthaler2007}, interpreting trait and ability as
+   typical and maximum performance respectively, finding typical
+   performance as dependent on personality and maximum performance as
+   dependent on cognitive ability.
 
    Some limited agreement can perhaps be captured as follows:
    emotional intelligence is a continuous factor determining the depth
@@ -189,8 +191,8 @@ b emotional faces is a single ability as opposed to multiple separate
     
 ** Uses for emotional intelligence
 
-   In a review by \citet{Mayer2008} identified seven key results of
-   emotional intelligence research, these were:
+   In a review by \citet{Mayer2008} identified seven central results
+   of emotional intelligence research, these were:
 #+BEGIN_QUOTE
    1. Better social relations for children.
    2. Better social relations for adults. Among
@@ -236,11 +238,12 @@ b emotional faces is a single ability as opposed to multiple separate
     running contrary to the factor structure used found by
     \citet{Mayer2003}. The results found by \citet{Rossen2008} seem to
     suggest that the sub-scales do not match the intended theoretical
-    concepts. For measuring trait emotional intelligence
+    concepts. For measuring trait emotional intelligence,
     \cite{Salovey1995} introduced Trait meta-mood scale (TTMS) which
-    aims to measure the tendency to attend to ones moods and emotions,
-    this scale has been found not to correlate with MSCEIT
-    \citep{Warwick2004}.
+    aims to measure the tendency to attend to one's moods and
+    emotions. The TTMS scale has been found not to correlate with
+    MSCEIT, indicating that it is a separate construct from ability
+    measured by MSCEIT \citep{Warwick2004}.
 
     Another interesting inventory for measuring emotional intelligence
     is the Profile of Emotional Competence (PEC), consisting of 50
@@ -283,31 +286,31 @@ b emotional faces is a single ability as opposed to multiple separate
 
    Another measure related to emotions is the Toronto Alexithymia
    Scale (TAS), a 20-item scale for detecting alexithymia. The TAS
-   consists of of two subscales difficulty identifying feelings and
+   consists of two subscales difficulty identifying feelings and
    difficulty describing feelings \cite{Bagby1994}. The measure has
    shown good validity \citep{Bagby1994}. Further evidence for its
    validity were found by \citet{Bressi1996} showing that good
    validity could also be obtained for Italian populations, suggesting
    at least some degree of cultural invariance. Finally, in a
-   functional magnetic resonance imagning (fMRI) study,
+   functional magnetic resonance imaging (fMRI) study,
    \citet{Berthoz2002} found differences in the activation of the
    anterior cingulate cortex and the mediofrontal cortex between high
-   people with high TAS-scores and controls, suggesting an underlying
-   neural basis for the TAS.
+   people with high TAS-scores and controls. These results suggest an
+   underlying neural basis for the TAS and alexithymia, in general.
 
 ** Recognition of emotional faces
    A separate but related field to traditional emotional intelligence
    testing is the recognition of emotional facial expressions. This
    strand of research builds on the work of \cite{Ekman1969a}. The
    model of emotions advanced by Ekman identifies a set of basic
-   emotions which are culturally independent \citep{Ekman1987}, occur
+   emotions that are culturally independent \citep{Ekman1987}, occur
    automatically \citep{Ekman1992,Ekman1997} and are automatically
    processed \cite{Ekman1992}.
 
-   Another feature of Ekman's is emotional leakage which occurs when
+   Another feature of Ekman's is emotional leakage that occurs when
    consciously trying to suppress the expression of some emotion
-   \citep{Ekman1969,Ekman2003}. This emotional leakage, referred to as
-   micro expressions can be identified by others
+   \citep{Ekman1969,Ekman2003}. This emotional leakage, what Ekman
+   refers to as micro expressions can be identified by others
    \citep{Ekman1974}. Both individual and group differences in the
    ability to detect deceit have been found. For example,
    \cite{Ekman1991} found that some professional groups (e.g. the
@@ -323,31 +326,33 @@ b emotional faces is a single ability as opposed to multiple separate
    \cite[e.g.][]{Matsumoto2000}. By only showing the facial expression
    for a short time, accuracy is reduced. Ensuring that the
    chance-adjusted is as close to 50% is important to avoid floor and
-   ceiling effects, which could distort the data. Another key feature
-   of BART is its use masking images of neutral faces both before and
-   after a trial \citep{Ekman1974a}. This serves to provide a fixation
-   point before the trial and ensure that the participants does not
-   have the benefit of after-images.
+   ceiling effects, which could distort the data. Another important
+   feature of BART is its use masking images of neutral faces both
+   before and after a trial \citep{Ekman1974a}. This masking serves
+   both to provide a fixation point before the trial, and ensure that
+   the participants do not have the benefit of after-images.
 
    Another method of ensuring low enough accuracy is the subtle
    expression training tool (SETT). Unlike the BART, expressions are
-   restricted to one part of the face, as if the person were
-   consciously suppressing a facial expression.
+   restricted to one part of the face. This restriction is meant to
+   simulate a situation where the person is consciously suppressing a
+   facial expression. \citep{Ekman2003}
 
 *** Stimulus sets
 
-    To use any of the paradigms discussed it is necessary to use a set
-    of photographs. Because recognition of facial expressions is a
-    common task there exists a plethora of facial expression stimulus
+    To use the paradigms discussed it is necessary to use a set of
+    photographs. Because recognition of facial expressions is a common
+    task there exists a plethora of facial expression stimulus
     sets. These stimulus sets have been created for a number of
-    different purposes and are suitable for different kinds of
-    research. For the present study we will review a number of
+    different purposes and are suitable for many different kinds of
+    research. For the present study, we will review a number of
     different stimulus sets and the research validating them.
 
     One early stimulus set is the Japanese and Caucasian Facial
-    Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}
-    consisting of 56 photos of models of Japanese or Caucasian decent
-    with eight pictures for each of the emotions. The dataset, while
+    Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}.
+    JACFEE consists of 56 photos of models of Japanese or Caucasian
+    decent with eight pictures, one for each basic emotions, and one
+    neutral picture \citep{matsumoto1988japanese}. The dataset, while
     showing substantial cross-national differences also showed
     relatively high levels of agreement \citep{Biehl1997}.
 
@@ -385,9 +390,9 @@ b emotional faces is a single ability as opposed to multiple separate
     suggest that there are differences in the accuracy of processing
     different emotions. Most importantly, it seems that accuracy rates
     for facial expressions of happiness and neutral expressions are
-    much higher than those of other the expressions 
-   \citep{Calvo2008a}. Care must, therefore,  be taken so as to avoid
-    ceiling effects for happiness in particular.
+    much higher than those of other the expressions
+    \citep{Calvo2008a}. Care must, therefore, be taken so as to avoid
+    ceiling effects in general and happiness in particular.
 
     Another strand of research has gone into the split-second trait
     judgments made viewing a face. \cite{Willis2006} found very
@@ -401,29 +406,56 @@ b emotional faces is a single ability as opposed to multiple separate
     display times up to \SI{100}{\milli\second}, after which the
     growth rate is dramatically slower.
 
-    Based on the research discussed in this review it seems that
-    measuring the recognition facial expressions is successful in
-    finding individual differences in emotional processing. This
-    difference seems particularly pronounced at low display times.
+    Based on the research discussed in this review, it could be argued
+    that measuring the recognition facial expressions may be
+    successful in finding individual differences in emotional
+    processing. This difference seems particularly pronounced at low
+    display times.
 
 
 * Methodology and Methods for Data Collection
-** Research strategies
-   Briefly describe different strategies 
-** Chosen strategy
-   Developing an artifact, therefore, design science.
-** Different variants of design science
-   Comparing Perjons & Johannesson v.s. earlier descriptions and our
-   chosen approach.
+   The goal of the present study is not merely empirical, it aims
+   instead to design a set of principles for computerized tests of
+   emotional intelligence. This distinction is discussed further by
+   \citet[chapter 1]{Johannesson2014}, who hold that practical
+   problems ought to be addressed with design research approaches.
+
+   
+
 ** Stages in design science
-   Description of the stages of design science
+   \citet[chapter 4]{Johannesson2014} put forward a model of design
+   science based on five activities.
+
+   The first activity, Explicate problem, aims to find the practical
+   problems that needs solving. The second activity Define
+   requirements, finds what requirements should be included in the
+   artefact. The third stage, design and develop artefact concerns the
+   creation of the actual artefact. The fourth stage, Demonstrate
+   artefact aims to demonstrate that the artefact solves the actual
+   problem. Evaluate artefact where the extent to which the 
+
+   By using these stages, \citet{Johannesson2014} argue that the
+   successful application helps researchers decide on a what to
+   develop, develop an artefact and evaluate it.
+
+
 *** Chosen stages
-    The following stages were chosen because they are the shortest
+    The following stages were selected because they are the shortest
     way to reach an actual product.
 
     - Explicate requirements
     - Implementation
     - Evaluation
+
+** Different variants of design science
+   Comparing Perjons & Johannesson v.s. earlier descriptions and our
+   chosen approach.
+
+** Research strategies
+   For the purposes of the present study a number of approaches were
+   considered.
+
+** Chosen strategy
 ** Explicate requirements
    The requirements for the present study were created using two
    methods: 
@@ -442,7 +474,7 @@ b emotional faces is a single ability as opposed to multiple separate
 * Results
 ** Requirements Definition
 *** Literature Review
-    From reviewing the literature a number of methods for measuring
+    From reviewing the literature, a number of methods for measuring
     emotional intelligence were found.
 
 \input{paradigms.tex}
@@ -459,7 +491,7 @@ b emotional faces is a single ability as opposed to multiple separate
 * Discussion
   Discussion of the result of the entire study
 ** Conclusion
-  What conclusions may be drawn.
+  What conclusions may be drawn?
 
 \printbibliography
 
