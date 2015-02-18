@@ -419,9 +419,8 @@
    emotional intelligence. This distinction is discussed further by
    \citet[chapter 1]{Johannesson2014}, who hold that practical
    problems ought to be addressed with design research approaches.
-
+    
    
-
 ** Stages in design science
    \citet[chapter 4]{Johannesson2014} put forward a model of design
    science based on five activities.
@@ -432,38 +431,65 @@
    artefact. The third stage, design and develop artefact concerns the
    creation of the actual artefact. The fourth stage, Demonstrate
    artefact aims to demonstrate that the artefact solves the actual
-   problem. Evaluate artefact where the extent to which the 
+   problem. Evaluate artefact where the extent to which the artefact solves the intended problem.
 
    By using these stages, \citet{Johannesson2014} argue that the
    successful application helps researchers decide on a what to
    develop, develop an artefact and evaluate it.
 
 
-*** Chosen stages
-    The following stages were selected because they are the shortest
-    way to reach an actual product.
+*** Different variants of design science
+    Comparing Perjons & Johannesson v.s. earlier descriptions and our
+    chosen approach.
 
+
+*** Chosen stages
+    Because of limitations in scope only a subset of design science
+    activities were performed in the present study. To ensure that a
+    viable product was developed, even without considering some of the
+    design science stages, a selection of stages had to be made.  The
+    following stages were selected because they are the fastest way to
+    reach an actual artefact given the limitation in scope:
     - Explicate requirements
     - Implementation
     - Evaluation
 
-** Different variants of design science
-   Comparing Perjons & Johannesson v.s. earlier descriptions and our
-   chosen approach.
-
 ** Research strategies
    For the purposes of the present study a number of approaches were
-   considered.
+   considered. \citet{Denscombe2010} covers a number of research
+   strategies.
 
 ** Chosen strategy
-** Explicate requirements
-   The requirements for the present study were created using two
-   methods: 
-  - A literature review for emotional intelligence
-  - A quantitative analysis of existing data collected from a
-    micro-expression test.
-
-
+*** Explicate requirements
+    The requirements for the present study were created using two
+    methods:
+   - A literature review for emotional intelligence
+   - A quantitative analysis of existing data collected from a
+     micro-expression test.
+     
+   The literature review was chosen to ensure a sufficient degree of
+   qualitative coverage of the area of research, this is particularly
+   important because of the controversial nature of the concept of
+   emotional intelligence.
+   
+   The quantitative analysis of earlier data constitutes experimental
+   method, because the data was collected in a experimental
+   settings. The existance of prior data, motivates the choice of
+   experimental methods.
+*** Implementation
+    For implementation an unstructured iterative process was used,
+    this choice was made because the scope of the project was
+    small. The development process continued continously until the
+    developed artefact fullfilled the requirements identified.
+*** Evaluation
+    The evaluation of developed artefact was done using experimental
+    methods. Experimental methods are often used for the verification
+    of developed psychometric instruments. The goal with the
+    instrument developed is generalization. By controlling controlling
+    irrelevant factors to the greatest extent possible we are better
+    able to establish generalizability. This could of course hurt the
+    ecological validity of the instrument, but this is a problem
+    shared by many psychometric instruments.
 
 ** Evaluation
     $N=?$ participants were administered the test software their results
@@ -487,7 +513,7 @@
 
 ** Evaluation
    The test scores showed a correlation of X
-
+   
 * Discussion
   Discussion of the result of the entire study
 ** Conclusion
