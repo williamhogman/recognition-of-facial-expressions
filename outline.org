@@ -420,47 +420,48 @@
    \citet[chapter 1]{Johannesson2014}, who hold that practical
    problems ought to be addressed with design research approaches.
     
-   
-** Stages in design science
    \citet[chapter 4]{Johannesson2014} put forward a model of design
-   science based on five activities.
-
-   The first activity, Explicate problem, aims to find the practical
-   problems that needs solving. The second activity Define
-   requirements, finds what requirements should be included in the
-   artefact. The third stage, design and develop artefact concerns the
-   creation of the actual artefact. The fourth stage, Demonstrate
-   artefact aims to demonstrate that the artefact solves the actual
-   problem. Evaluate artefact where the extent to which the artefact solves the intended problem.
+   science based on five activities. The first activity, Explicate
+   problem, aims to find the practical problems that needs
+   solving. The second activity Define requirements, finds what
+   requirements should be included in the artefact. The third stage,
+   design and develop artefact concerns the creation of the actual
+   artefact. The fourth stage, Demonstrate artefact aims to
+   demonstrate that the artefact solves the actual problem. Evaluate
+   artefact where the extent to which the artefact solves the intended
+   problem.
 
    By using these stages, \citet{Johannesson2014} argue that the
    successful application helps researchers decide on a what to
    develop, develop an artefact and evaluate it.
 
 
-*** Different variants of design science
-    Comparing Perjons & Johannesson v.s. earlier descriptions and our
-    chosen approach.
+** Different variants of design science
+   Comparing Perjons & Johannesson v.s. earlier descriptions and our
+   chosen approach.
 
 
-*** Chosen stages
-    Because of limitations in scope only a subset of design science
-    activities were performed in the present study. To ensure that a
-    viable product was developed, even without considering some of the
-    design science stages, a selection of stages had to be made.  The
-    following stages were selected because they are the fastest way to
-    reach an actual artefact given the limitation in scope:
-    - Explicate requirements
-    - Implementation
-    - Evaluation
+** Chosen stages
+   Because of limitations in scope only a subset of design science
+   activities were performed in the present study. To ensure that a
+   viable product was developed, even without considering some of the
+   design science stages, a selection of stages had to be made.  The
+   following stages were selected because they are the fastest way to
+   reach an actual artefact given the limitation in scope:
+   - Requirements definition
+   - Implementation
+   - Evaluation
 
 ** Research strategies
    For the purposes of the present study a number of approaches were
    considered. \citet{Denscombe2010} covers a number of research
    strategies.
 
-** Chosen strategy
-*** Explicate requirements
+** Choice of Method
+   For each chosen stage in the design science process, different
+   methodological considerations were made. These are discussed
+   separately below.
+*** Requirements definition
     The requirements for the present study were created using two
     methods:
    - A literature review for emotional intelligence
@@ -491,11 +492,31 @@
     ecological validity of the instrument, but this is a problem
     shared by many psychometric instruments.
 
+** Requirements defintions
+   A number of publications related to emotional intelligence were
+   reviewed. Based on these qualitative coding based performed,
+   coding different psychometric measures of emotional intelligence
+   in based on models, sub-scales and measures. Based on these a
+   number of criteria were identified.
+
+   For the quntitative analysis data from earlier research was
+   combined into one large dataset. After combining the data a number
+   of hypothesis were tested.
+
+** Implementation
+   An application was developed using the PsychoPy library (TK,
+   ref). The PsychoPy library was used because it offers excellent
+   accuracy in the presentation of stimuli. Moreover, PsychoPy has
+   excellent data-output components allowing ease of data collection.
+   
 ** Evaluation
-    $N=?$ participants were administered the test software their results
-    were compared to a questionnaire completed before the test.
-*** Ethics
-    Some ethical considerations.
+   $N=?$ participants were administered the test
+   software. Participants were positioned at a distance of 1m from the
+   computer screen.
+
+** Ethics
+   Some ethical considerations.
+
 
 * Results
 ** Requirements Definition
@@ -506,7 +527,7 @@
 \input{paradigms.tex}
 
 *** Analysis of old data
-    Find the optimal level of difficulty to avoid 
+    For earlier data a quantitative analysis of
 
 ** Implementation
    Using the requirements to create an artifact.
