@@ -502,9 +502,13 @@
    number of criteria were identified.
 
    For the quantitative data analysis a data from a number of studies
-   was used, which were analyzed separately.
+   was used, which were analyzed separately. All the studies whose
+   data was analyzed used the METT paradigm.
 
 \input{summaryearlier.tex}
+
+
+   
 
 ** Implementation
    An application was developed using the PsychoPy library (TK,
@@ -530,8 +534,11 @@
 \input{paradigms.tex}
 
 *** Analysis of old data
-    For earlier data a quantitative analysis of
-
+    Analysis of 
+**** Data-source one
+     The first data-set contains 2149 correct responses and 1351
+     incorrect responses for a total of hit-rate of 61%.
+     
 ** Implementation
    Using the requirements to create an artifact.
 
