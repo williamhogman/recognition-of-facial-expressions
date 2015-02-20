@@ -3,8 +3,10 @@
 #+AUTHOR: William Rudenmalm
 #+EMAIL: me@whn.se
 #+BIBLIOGRAPHY: refs plain
-#+OPTIONS: num:3 toc:2
+#+OPTIONS: num:3 toc:nil
 #+LaTeX_HEADER: \input{preamble.tex}
+
+\input{toc.tex}
 
 * Introduction
   Emotions play a fundamental role in modulating the behavior and experiences
