@@ -499,9 +499,10 @@
    in based on models, sub-scales and measures. Based on these a
    number of criteria were identified.
 
-   For the quntitative analysis data from earlier research was
-   combined into one large dataset. After combining the data a number
-   of hypothesis were tested.
+   For the quantitative data analysis a data from a number of studies
+   was used, which were analyzed separately.
+
+\input{summaryearlier.tex}
 
 ** Implementation
    An application was developed using the PsychoPy library (TK,
