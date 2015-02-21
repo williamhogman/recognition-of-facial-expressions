@@ -3,7 +3,7 @@
 #+AUTHOR: William Rudenmalm
 #+EMAIL: me@whn.se
 #+BIBLIOGRAPHY: refs plain
-#+OPTIONS: num:3 toc:nil
+#+OPTIONS: num:4 toc:nil
 #+LaTeX_HEADER: \input{preamble.tex}
 
 \input{toc.tex}
@@ -537,8 +537,13 @@
     Analysis of 
 **** Data-source one
      The first data-set contains 2149 correct responses and 1351
-     incorrect responses for a total of hit-rate of 61%.
-     
+     incorrect responses for a total of hit-rate of 61%. A confusion
+     matrix was computed as shown in table \ref{study1confusion}. In
+     table \ref{study1classtable} characteristics for each emotion are
+     shown.  
+
+     \input{study-one-hitrates-emotion.tex}
+
 ** Implementation
    Using the requirements to create an artifact.
 
