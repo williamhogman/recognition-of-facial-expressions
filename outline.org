@@ -540,7 +540,7 @@
    \ref{e_npv}.
 
    \begin{equation} \label{e_balanced_accuracy}
-   PPV = \frac{HR + CRR}{2}
+   BalancedAccuracy = \frac{HR + CRR}{2}
    \end{equation}
 
    Equation \ref{e_balanced_accuracy} defines the balanced accuracy.
@@ -573,9 +573,12 @@
 ** Requirements Definition
 *** Literature Review
     From reviewing the literature, a number of methods for measuring
-    emotional intelligence were found.
+    emotional intelligence were found, these are shown in table
+    \ref{table:paradigms}.
+
 
 \input{paradigms.tex}
+
 
 *** Analysis of old data
     Analysis of 
@@ -587,6 +590,24 @@
      shown.  
 
      \input{study-one-hitrates-emotion.tex}
+*** Requirements
+    By inspecting the earlier research we found a number of suitable
+    scales. The least controversial measure is perhaps that of the
+    METT. In particular the implementation of METT of the earlier
+    studies seems to have excellent characteristics.
+
+    However, some variance may be captured using other methods. Using
+    too many inventories may results. It is important to keep any such
+    tests as short as possible. MSCEIT, EQ-I, PEC contain a large
+    number of activities making them unsuitable for combination. This
+    leaves TAS, RMITE and SPEC. RMITE, is very similar to the METT and
+    may for this reason be unsuitable is to capture complementary
+    sources of variance. TAS, while a good scale, has limited number
+    of subfactors, and one of these, identifying feelings have some
+    degree of overlap with METT. If the aim is to capture
+    qualitatively different factors SPEC may be the most appropriate
+    scale.
+
 
 ** Implementation
    Using the requirements to create an artifact.
