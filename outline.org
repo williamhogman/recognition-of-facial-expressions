@@ -590,6 +590,20 @@
      shown.  
 
      \input{study-one-hitrates-emotion.tex}
+**** Data-source two
+     The second data-set consists of 72 subjects, the average accuracy
+     was $72.99%$ ($S=12.14$).
+
+     #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
+     | Emotions  |  $HR$ |   $S$ |
+     |-----------+-------+-------|
+     | Disgust   |    64 | 25.98 |
+     | Happiness | 90.05 | 18.98 |
+     | Surprise  | 90.85 | 14.37 |
+     | Anger     | 79.15 | 20.87 |
+     | Contempt  | 57.25 | 33.88 |
+     | Fear      | 68.75 | 23.75 |
+     | Sadness   |  60.9 | 26.26 |     
 *** Requirements
 
     By inspecting the earlier research we found a number of suitable
