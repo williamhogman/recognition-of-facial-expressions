@@ -513,34 +513,34 @@
    positives), and misses $M$ (false negativges),.
 
    \begin{equation} \label{e_hr}
-   HR = \frac{H}{H + M}
+   \mathit{HR} = \frac{H}{H + M}
    \end{equation}
 
    Equation \ref{e_hr} defines the Hit-rate, also called the
    True-postive rate or recall.
 
    \begin{equation} \label{e_crr}
-   CRR = \frac{CR}{CR + FA}
+   \mathit{CRR} = \frac{CR}{CR + FA}
    \end{equation}
 
    Equation \ref{e_crr} defines the Correct rejection rate, sometimes
    referred to as specificity.
 
    \begin{equation} \label{e_ppv}
-   PPV = \frac{H}{H + FA}
+   \mathit{PPV} = \frac{H}{H + FA}
    \end{equation}
    
    Equation \ref{e_ppv} defines the positive predictive value.
 
    \begin{equation} \label{e_npv}
-   NPV = \frac{CR}{CR + M}
+   \mathit{NPV} = \frac{CR}{CR + M}
    \end{equation}
    
    Negative predictve value is defined according to Equation
    \ref{e_npv}.
 
    \begin{equation} \label{e_balanced_accuracy}
-   BalancedAccuracy = \frac{HR + CRR}{2}
+   \mathit{BalancedAccuracy} = \frac{HR + CRR}{2}
    \end{equation}
 
    Equation \ref{e_balanced_accuracy} defines the balanced accuracy.
