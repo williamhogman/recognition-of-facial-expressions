@@ -68,3 +68,25 @@ latex.study1.outcomes <- function(cm) {
                rotate.colnames=T
                )
 }
+
+
+preprocess.study2 <- function(df) {
+
+  cols <- c(
+            "Age_years", "Gender", "Grupp", "contempt_perc",
+            "disgust_perc", "fear_perc", "joy_perc", "surprise_perc",
+            "TOTALTRÄFF", "PANASPOSITIV", "PANASNEGATIV", "joy_perc",
+            "POSIGENKÄNNING"
+            )
+  
+  new.df <- df[,cols]
+  
+}
+
+psycho.tab <- function(dt) {
+  tab <- table(dt$trial, dt$correct)
+  rows <- row.names(tab[,0])
+  data.frame(row.names=rows, trial=rows, incorrect=tab[,1], correct=tab[,2])
+}
+
+

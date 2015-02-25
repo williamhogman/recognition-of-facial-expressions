@@ -592,9 +592,10 @@
      \input{study-one-hitrates-emotion.tex}
 **** Data-source two
      The second data-set consists of 72 subjects, the average accuracy
-     was $72.99%$ ($S=12.14$).
+     was $72.99\%$ ($S=12.14$).
 
      #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
+     #+ATTR_LATEX: :environment tabulary :align lll
      | Emotions  |  $HR$ |   $S$ |
      |-----------+-------+-------|
      | Disgust   |    64 | 25.98 |
@@ -603,7 +604,14 @@
      | Anger     | 79.15 | 20.87 |
      | Contempt  | 57.25 | 33.88 |
      | Fear      | 68.75 | 23.75 |
-     | Sadness   |  60.9 | 26.26 |     
+     | Sadness   |  60.9 | 26.26 | 
+
+     To investigate the effects of training, a linear model was
+     constructed for the constructed with the number of trials as the
+     independent variable and the hit-rate as the dependent
+     variable. A significant effect of trial number was found
+     ($t=4.56$, $p<0.001$, $df=68$).
+     
 *** Requirements
 
     By inspecting the earlier research we found a number of suitable
