@@ -510,7 +510,7 @@
    of signal detection variables computed. These variables can be
    derived from $H$, the number of hits (true positives), $CR$, the
    correct rejections (true negatives), false alarms $FA$ (false
-   positives), and misses $M$ (false negativges),.
+   positives), and misses $M$ (false negatives).
 
    \begin{equation} \label{e_hr}
    \mathit{HR} = \frac{H}{H + M}
@@ -545,6 +545,10 @@
 
    Equation \ref{e_balanced_accuracy} defines the balanced accuracy.
 
+   For the second study per-trial data, for the psychotherapist group
+   was extracted. A cross tabulation of hits and misses for each trial
+   was constructed such that the number of hits and misses by trial
+   number could be investigated. This data was entered into a linear model.
 
 
 
