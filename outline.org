@@ -634,7 +634,7 @@
     degree of overlap with METT. If the aim is to capture
     qualitatively different factors SPEC may be the most appropriate
     scale. The test therefore should provide both a METT component and
-    a digital questionarie.
+    a digital questionnaire.
 
     As discussed earlier \citep[recall][]{Calvo2008a} the duration
     even a small difference in the display time of a METT trial, it is
@@ -652,6 +652,14 @@
     stemming from the occlusion of the stimulus by the mouse
     cursor. Finally, are keyboards is commodity hardware and avoids
     the need for specialized input hardware.
+
+    Another issue is the effects of training, as the results showed a
+    there was a strong effect of training. In the earlier data a clear
+    linear training trend was found. In data-sets investigated no end
+    to this trend was found, suggesting that training effects are
+    still relevant after 70 trials. For results to be comparable
+    between individuals, the number of trials need to be the same for
+    all subjects.
     
     From these earlier conclusions a number of requirements were
     derived.
@@ -662,6 +670,7 @@
        3. Functional: The system shall display a target-imaged
        4. Functional: The system shall display times shall be precise within  \SI{1/60}{\second}
        5. Functional: The system shall collect selected emotion input via the keyboard.
+       6. Functional: The system shall perform the same number of trials for each participant.
     2. SPEC-test
        1. Functional: The system shall show the questions
        2. Functional: The system shall collect numeric responses via keyboard input.
