@@ -321,6 +321,15 @@
    of \citet{Frank1997}, which seems to suggest that the ability to
    detect deceit is generalized to a large number of situations.
 
+   #+BEGIN_LATEX
+   \begin{figure}[htpb]
+   \centering
+   \label{fig:mett}
+   \includegraphics[width=0.5\textwidth]{diamett}
+   \caption[Visual representation of the METT paradigm]{One complete trial in the METT paradigm, consisting of a forward mask, a stimulus and a backward mask. The pictures used in this example are taken from the KDEF data-set.}
+   \end{figure}
+   #+END_LATEX
+
    Based on this theoretical framework \cite{Ekman1974a} introduced
    the Brief Affection Recognition Test (BART), consisting of very
    brief displays of emotional facial expressions (under
@@ -332,7 +341,8 @@
    feature of BART is its use masking images of neutral faces both
    before and after a trial \citep{Ekman1974a}. This masking serves
    both to provide a fixation point before the trial, and ensure that
-   the participants do not have the benefit of after-images.
+   the participants do not have the benefit of after-images. This
+   paradigm is illustrated in \ref{fig:mett}
 
    Another method of ensuring low enough accuracy is the subtle
    expression training tool (SETT). Unlike the BART, expressions are
