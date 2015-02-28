@@ -609,7 +609,7 @@
      was $72.99\%$ ($S=12.14$).
 
      #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
-     #+ATTR_LATEX: :environment tabulary :align lll
+     #+ATTR_LATEX: :environment tabulary :align lll :width \textwidth
      | Emotions  |  $HR$ |   $S$ |
      |-----------+-------+-------|
      | Disgust   |    64 | 25.98 |
