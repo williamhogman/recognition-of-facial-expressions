@@ -464,21 +464,51 @@
    - Implementation
    - Evaluation
 
-** Research strategies
-   For the purposes of the present study a number of approaches were
-   considered. \citet{Denscombe2010} covers a number of research
-   strategies.
-
 ** Choice of Method
    For each chosen stage in the design science process, different
    methodological considerations were made. These are discussed
-   separately below.
+   separately below.  For the purposes of the present study a number
+   of approaches were considered. \citet{Denscombe2010} covers a
+   number of research strategies.
+
 *** Requirements definition
-    The requirements for the present study were created using two
-    methods:
+    An extensive number of researh methods can be used for defining
+    requirements. Many popular approaches directly involve potential
+    stakeholders directly \citet[chapter 6]{Johannesson2014}. One
+    oft-used method is surveys allowing for coverage of potential
+    requirements \citep[chapter 6]{Johannesson2014}. Using surveys
+    runs the risk of being able to find innovative requirement that
+    the stakeholders were unable to identify.
+    \citet[chapter~6]{Johannesson2014} suggest using other methods
+    such as case studies and action research to find requirements that
+    the stakeholders were unable to identify. These methods however
+    have the drawback of applying the researchers personal views on
+    the requirements \citep[chapter 6]{Johannesson2014}.
+
+    The domain of the present study is complex, test-takers are
+    unlikely to understand the intricate nature of the subject area,
+    and their interests do not align with the people administering the
+    test. Practitioners in the area often have little understanding of
+    the tests they administer and it is difficult to find a
+    significantly large population of researchers on the area. This
+    would in the view of \citep[chapter~6]{Johannesson2014} restrict
+    the studies to documents.
+
+    It could be argued that using only documents would be sub-optimal
+    for many IS studies. In the case of the present study, however the
+    situation is very different.
+
+    To successfully capture the requirements for the present study
+    two methods were chosen:
    - A literature review for emotional intelligence
    - A quantitative analysis of existing data collected from a
      micro-expression test.
+
+   These methods were chosen to successfully capture variance from
+   both the scientific literature as well as empirical data. The
+   combination of different kinds of methods allow for better
+   capturing the relevant aspects of emotional intelligence and
+   reaching qualitative saturation.
      
    The literature review was chosen to ensure a sufficient degree of
    qualitative coverage of the area of research, this is particularly
@@ -569,10 +599,13 @@
    
 
 ** Implementation
-   An application was developed using the PsychoPy library (TK,
-   ref). The PsychoPy library was used because it offers excellent
-   accuracy in the presentation of stimuli. Moreover, PsychoPy has
-   excellent data-output components allowing ease of data collection.
+   An application was developed using the PsychoPy library
+   \cite{Peirce2007}. The PsychoPy library was used because it offers
+   excellent accuracy in the presentation of stimuli. Moreover,
+   PsychoPy has excellent data-output components allowing ease of data
+   collection. The software artefact designed for the present study
+   was developed incrementally in iterations aiming to fullfill a
+   growing subset of the requirements.
    
 ** Evaluation
    $N=?$ participants were administered the test
@@ -580,7 +613,10 @@
    computer screen.
 
 ** Ethics
-   Some ethical considerations.
+   Participation in the study was entirely voluntary, and participants
+   signed informed concent forms prior to participating in the
+   study. No identifying information was collected during the course
+   of the study.
 
 
 * Results
@@ -588,43 +624,45 @@
 *** Literature Review
     From reviewing the literature, a number of methods for measuring
     emotional intelligence were found, these are shown in table
-    \ref{table:paradigms}.
-
+    \ref{table:paradigms}. The paradigms discussed earlier cover many
+    different aspects of emotional intelligence, and considers more
+    instruments than can realistically be done in one study.
 
 \input{paradigms.tex}
 
 
 *** Analysis of old data
-    Analysis of 
-**** Data-source one
-     The first data-set contains 2149 correct responses and 1351
-     incorrect responses for a total of hit-rate of 61%. A confusion
-     matrix was computed as shown in table \ref{study1confusion}. In
-     table \ref{study1classtable} characteristics for each emotion are
-     shown.  
-
-     \input{study-one-hitrates-emotion.tex}
-**** Data-source two
-     The second data-set consists of 72 subjects, the average accuracy
-     was $72.99\%$ ($S=12.14$).
-
-     #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
-     #+ATTR_LATEX: :environment tabulary :align lll :width \textwidth
-     | Emotions  |  $HR$ |   $S$ |
-     |-----------+-------+-------|
-     | Disgust   |    64 | 25.98 |
-     | Happiness | 90.05 | 18.98 |
-     | Surprise  | 90.85 | 14.37 |
-     | Anger     | 79.15 | 20.87 |
-     | Contempt  | 57.25 | 33.88 |
-     | Fear      | 68.75 | 23.75 |
-     | Sadness   |  60.9 | 26.26 | 
-
-     To investigate the effects of training, a linear model was
-     constructed for the constructed with the number of trials as the
-     independent variable and the hit-rate as the dependent
-     variable. A significant effect of trial number was found
-     ($t=4.56$, $p<0.001$, $df=68$).
+    The data-sets used in the study were analyzed separately with the
+    goal of generating requirements for the system
+    
+    The first data-set contains 2149 correct responses and 1351
+    incorrect responses for a total of hit-rate of 61%. A confusion
+    matrix was computed as shown in table \ref{study1confusion}. In
+    table \ref{study1classtable} characteristics for each emotion are
+    shown.  
+    
+    \input{study-one-hitrates-emotion.tex}
+    
+    The second data-set consists of 72 subjects, the average accuracy
+    was $72.99\%$ ($S=12.14$).
+    
+    #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
+    #+ATTR_LATEX: :environment tabulary :align lll :width \textwidth
+    | Emotions  |  $HR$ |   $S$ |
+    |-----------+-------+-------|
+    | Disgust   |    64 | 25.98 |
+    | Happiness | 90.05 | 18.98 |
+    | Surprise  | 90.85 | 14.37 |
+    | Anger     | 79.15 | 20.87 |
+    | Contempt  | 57.25 | 33.88 |
+    | Fear      | 68.75 | 23.75 |
+    | Sadness   |  60.9 | 26.26 | 
+    
+    To investigate the effects of training, a linear model was
+    constructed for the constructed with the number of trials as the
+    independent variable and the hit-rate as the dependent
+    variable. A significant effect of trial number was found
+    ($t=4.56$, $p<0.001$, $df=68$).
      
 *** Requirements
 
@@ -677,7 +715,7 @@
     1. METT test
        1. Functional: The system shall display a forward-mask
        2. Functional: The system shall display a backward-mask
-       3. Functional: The system shall display a target-imaged
+       3. Functional: The system shall display a target-image
        4. Functional: The system shall display times shall be precise within  \SI{1/60}{\second}
        5. Functional: The system shall collect selected emotion input via the keyboard.
        6. Functional: The system shall perform the same number of trials for each participant.
@@ -686,6 +724,7 @@
        2. Functional: The system shall collect numeric responses via keyboard input.
     3. Persistance
        1. Functional: The system shall persist results to disk in the CSV format.
+https:77www.rescuetime.com7blocked7url7https:77www.youtube.com
        2. Non-functional: The system shall be stable to avoid data-loss
 
 
