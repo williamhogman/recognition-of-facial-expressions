@@ -599,13 +599,7 @@
    was constructed such that the number of hits and misses by trial
    number could be investigated. This data was entered into a linear model.
 
-
-
 \input{summaryearlier.tex}
-
-
-
-   
 
 ** Implementation
    An application was developed using the PsychoPy library
