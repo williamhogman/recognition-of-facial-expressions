@@ -350,80 +350,96 @@
    simulate a situation where the person is consciously suppressing a
    facial expression. \citep{Ekman2003}
 
-*** Stimulus sets
+** Facial expression stimulus sets
 
-    To use the paradigms discussed it is necessary to use a set of
-    photographs. Because recognition of facial expressions is a common
-    task there exists a plethora of facial expression stimulus
-    sets. These stimulus sets have been created for a number of
-    different purposes and are suitable for many different kinds of
-    research. For the present study, we will review a number of
-    different stimulus sets and the research validating them.
+   To use the paradigms discussed it is necessary to use a set of
+   photographs. Because recognition of facial expressions is a common
+   task there exists a plethora of facial expression stimulus
+   sets. These stimulus sets have been created for a number of
+   different purposes and are suitable for many different kinds of
+   research. For the present study, we will review a number of
+   different stimulus sets and the research validating them.
 
-    One early stimulus set is the Japanese and Caucasian Facial
-    Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}.
-    JACFEE consists of 56 photos of models of Japanese or Caucasian
-    decent with eight pictures, one for each basic emotions, and one
-    neutral picture \citep{matsumoto1988japanese}. The dataset, while
-    showing substantial cross-national differences also showed
-    relatively high levels of agreement \citep{Biehl1997}.
+   One early stimulus set is the Japanese and Caucasian Facial
+   Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}.
+   JACFEE consists of 56 photos of models of Japanese or Caucasian
+   decent with eight pictures, one for each basic emotions, and one
+   neutral picture \citep{matsumoto1988japanese}. The dataset, while
+   showing substantial cross-national differences also showed
+   relatively high levels of agreement \citep{Biehl1997}.
 
-    Another common data-set of emotional facial expression is the
-    Karolinska Directed Emotional Faces
-    \citep[KDEF;][]{DanielLundqvistAndersFlykt1998}. KDEF consists of
-    pictures 70 of individuals expressing seven different emotions
-    from five angles. KDEF has, since its inception, seen much use in
-    facial expression research
-    \citep[e.g.][]{Calvo2008a,Willis2006,Todorov2009}. In addition to
-    widespread use, KDEF has shown good test-retest validity and a
-    high degrees of accuracy in recognition tasks
-    \citep{Goeleven2008}.
+   Another common data-set of emotional facial expression is the
+   Karolinska Directed Emotional Faces
+   \citep[KDEF;][]{DanielLundqvistAndersFlykt1998}. KDEF consists of
+   pictures 70 of individuals expressing seven different emotions
+   from five angles. KDEF has, since its inception, seen much use in
+   facial expression research
+   \citep[e.g.][]{Calvo2008a,Willis2006,Todorov2009}. In addition to
+   widespread use, KDEF has shown good test-retest validity and a
+   high degrees of accuracy in recognition tasks
+   \citep{Goeleven2008}.
 
-    A more recent contribution is the Radboud Faces Database
-    \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
-    models expressing eight emotions with three gaze directions, taken
-    from five camera angles for a total 5880 photographs
-    \citep{Langner2010}. Upon validation, RaFD showed a very high
-    accuracy, higher even than the earlier KDEF dataset
-    \citep{Langner2010}. A key difference between RaFD and KDEF is the
-    expression coaching given to models by a facial expression coding
-    expert, which may explain the higher accuracy rates in RaFD
-    \citep{Langner2010}.
+   \citet{Beaupre2000} approached the issue of finding a good stimulus
+   set from the perspective of cultural difference in the ability to
+   recognize emotions. The Montreal Set of Facial Displays of Emotion
+   \citep[MSFDE][]{Beaupre2000} consists of facial expressions
+   instructed to follow the FACS codes. The full stimulus set consists
+   of 144 images, with six types of facial expressions and three
+   ethnic groups: French Canadians, Chinese, and sub-Saharan Africans.
+   The MSFDE was validated in \citet{Beaupre2005} as a large degree of
+   cultural invariance.
 
-    \citet{Calvo2008a} investigated the relationship between the
-    display time (25-500ms) and the accuracy of emotion recognition
-    for the KDEF stimulus set and found a slight increase in accuracy
-    for longer displays. In addition, \citet{Calvo2008a} found
-    differences in detection between the emotions. Happy and neutral
-    showed higher degrees of accuracy than the other emotions and fear
-    showed a lower accuracy.
+   Yet anoter set is NimStim \citep{Tottenham2009}, consisting of 672
+   images of 43 professional actors instructed to pose eight different
+   emotions, in both open and closed mouthed expressions. In their
+   evaluation \citet{Tottenham2009}, found that the reliability of the
+   set was good. They also selected a recommended subset of the images
+   for which reliability is good, for use in future studies.
 
-    Taken together, the results of \citet{Calvo2008a} and SomeotherGuy
-    suggest that there are differences in the accuracy of processing
-    different emotions. Most importantly, it seems that accuracy rates
-    for facial expressions of happiness and neutral expressions are
-    much higher than those of other the expressions
-    \citep{Calvo2008a}. Care must, therefore, be taken so as to avoid
-    ceiling effects in general and happiness in particular.
+   A more recent contribution is the Radboud Faces Database
+   \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
+   models expressing eight emotions with three gaze directions, taken
+   from five camera angles for a total 5880 photographs
+   \citep{Langner2010}. Upon validation, RaFD showed a very high
+   accuracy, higher even than the earlier KDEF dataset
+   \citep{Langner2010}. A key difference between RaFD and KDEF is the
+   expression coaching given to models by a facial expression coding
+   expert, which may explain the higher accuracy rates in RaFD
+   \citep{Langner2010}.
 
-    Another strand of research has gone into the split-second trait
-    judgments made viewing a face. \cite{Willis2006} found very
-    strong correlations between judgments of trustworthiness made
-    after \SI{100}{\milli\second} or \SI{500}{\milli\second} versus
-    those made without any time constraint. Moreover, no significant
-    difference was found between the \SI{100}{\milli\second} and
-    \SI{500}{\milli\second} conditions, suggesting that a trait
-    judgment is performed very quickly. This notion was further
-    expanded by \citet{Todorov2009}, finding that accuracy with
-    display times up to \SI{100}{\milli\second}, after which the
-    growth rate is dramatically slower.
+   \citet{Calvo2008a} investigated the relationship between the
+   display time (25-500ms) and the accuracy of emotion recognition
+   for the KDEF stimulus set and found a slight increase in accuracy
+   for longer displays. In addition, \citet{Calvo2008a} found
+   differences in detection between the emotions. Happy and neutral
+   showed higher degrees of accuracy than the other emotions and fear
+   showed a lower accuracy.
 
-    Based on the research discussed in this review, it could be argued
-    that measuring the recognition facial expressions may be
-    successful in finding individual differences in emotional
-    processing. This difference seems particularly pronounced at low
-    display times.
+   Taken together, the results of \citet{Calvo2008a} and SomeotherGuy
+   suggest that there are differences in the accuracy of processing
+   different emotions. Most importantly, it seems that accuracy rates
+   for facial expressions of happiness and neutral expressions are
+   much higher than those of other the expressions
+   \citep{Calvo2008a}. Care must, therefore, be taken so as to avoid
+   ceiling effects in general and happiness in particular.
 
+   Another strand of research has gone into the split-second trait
+   judgments made viewing a face. \cite{Willis2006} found very
+   strong correlations between judgments of trustworthiness made
+   after \SI{100}{\milli\second} or \SI{500}{\milli\second} versus
+   those made without any time constraint. Moreover, no significant
+   difference was found between the \SI{100}{\milli\second} and
+   \SI{500}{\milli\second} conditions, suggesting that a trait
+   judgment is performed very quickly. This notion was further
+   expanded by \citet{Todorov2009}, finding that accuracy with
+   display times up to \SI{100}{\milli\second}, after which the
+   growth rate is dramatically slower.
+
+   Based on the research discussed in this review, it could be argued
+   that measuring the recognition facial expressions may be
+   successful in finding individual differences in emotional
+   processing. This difference seems particularly pronounced at low
+   display times.
 
 * Methodology and Methods for Data Collection
    The goal of the present study is not merely empirical, it aims
@@ -631,7 +647,13 @@
     different aspects of emotional intelligence, and considers more
     instruments than can realistically be done in one study.
 
-\input{paradigms.tex}
+    \input{paradigms.tex}
+
+    In addition to general test the different stimulus sets were
+    considered. These stimulus sets are present in a tabular form in
+    table \ref{table:stimsets}.
+
+    \input{stimsets}
 
 
 *** Analysis of old data
