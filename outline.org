@@ -711,6 +711,14 @@
     still relevant after 70 trials. For results to be comparable
     between individuals, the number of trials need to be the same for
     all subjects.
+
+    Finally, the issue of stimulus set should be addressed, in the
+    data from earlier the earlier studies we found that performance
+    was inline with what is typical for the paradigm, it therefore
+    reasonable to assume that there are no additional issues with the
+    RaFD data-set used in these. It is therefore reasonable to use
+    RaFD for evaluation studies while leaving data-set as a
+    configurable variable.
     
     From these earlier conclusions a number of requirements were
     derived.
@@ -722,12 +730,12 @@
        4. Functional: The system shall display times shall be precise within  \SI{1/60}{\second}
        5. Functional: The system shall collect selected emotion input via the keyboard.
        6. Functional: The system shall perform the same number of trials for each participant.
+       7. Functional: The system shall allow for the configuration of stimulus sets.
     2. SPEC-test
        1. Functional: The system shall show the questions
        2. Functional: The system shall collect numeric responses via keyboard input.
     3. Persistance
        1. Functional: The system shall persist results to disk in the CSV format.
-https:77www.rescuetime.com7blocked7url7https:77www.youtube.com
        2. Non-functional: The system shall be stable to avoid data-loss
 
 
