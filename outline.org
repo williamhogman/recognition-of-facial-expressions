@@ -513,12 +513,21 @@
    The literature review was chosen to ensure a sufficient degree of
    qualitative coverage of the area of research, this is particularly
    important because of the controversial nature of the concept of
-   emotional intelligence.
+   emotional intelligence. Thus allowing for capturing a reasonably
+   agreed upon definition of emotional intelligence.
    
    The quantitative analysis of earlier data constitutes experimental
    method, because the data was collected in a experimental
-   settings. The existance of prior data, motivates the choice of
-   experimental methods.
+   settings. The existence of prior data, motivates the choice of
+   quantitative analysis of data gathered by experimental
+   methods. Analysis of such data would allow for empirical answers to
+   questions which may be relevant for the study.
+
+   By combining an exploitative literature study, giving insights into
+   various different areas of emotional intelligence, with an
+   empirical analysis of earlier data, the present study can define
+   requirements both on precise facts about the domain as well as
+   being able to use insights spread out across the literature.
 *** Implementation
     For implementation an unstructured iterative process was used,
     this choice was made because the scope of the project was
