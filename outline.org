@@ -107,11 +107,15 @@
 
 
 ** The Theoretical Models of Emotional Intelligence
-   The definition of emotional intelligence has been the subject of
-   fierce debate \cite{McCleskey2014}. One of the key sources of
-   controversy is whether emotional intelligence is to be considered an
-   ability \citep{Salovey1990}, a competency that can be learned \citep{Baron2006}
-   or personality trait \citep{Petrides2007}. (TK Something about Goleman model)
+   The definition of emotional intelligence has since its inception
+   been the subject of fierce debate \citep{McCleskey2014}. One of the
+   key sources of controversy is whether emotional intelligence is to
+   be considered an ability \citep{Salovey1990}, a competency that can
+   be learned \citep{Baron2006} or personality trait
+   \citep{Petrides2007}. This disagreement on the definition of the
+   concept might at first seem superifical but lies at the core in the
+   issue of measuring and understanding emotional intelligence. (TK
+   Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
    advocated by \citep{Baron2006}. The Bar-On model is defined more
@@ -189,12 +193,17 @@
    Some limited agreement can perhaps be captured as follows:
    emotional intelligence is a continuous factor determining the depth
    and accuracy of processing at the crossroads of emotion and
-   cognition.
+   cognition. Even if earlier intergrative approaches have been
+   critized \citep[e.g ][]{Cherniss2010}, multifaceted approaches may
+   still be valuable, however this would require combining the
+   theoretical multiple theoretical frameworks.
     
 ** Uses for emotional intelligence
-
-   In a review by \citet{Mayer2008} identified seven central results
-   of emotional intelligence research, these were:
+   
+   Desipte the difficulty of accurately defining the term, proponents
+   of emotional intelligence argue its usefulness.  In a review by
+   \citet{Mayer2008} identified seven central results of emotional
+   intelligence research, these were:
 #+BEGIN_QUOTE
    1. Better social relations for children.
    2. Better social relations for adults. Among
@@ -205,24 +214,38 @@
    7. Better psychological well-being.
 #+END_QUOTE
 
-   It seems that within the aforementioned areas emotional
-   intelligence, at least to some degree predicts outcomes.
+   Within the areas mentioned by \citet{Mayer2008}, it seems that
+   measures emotional intelligence, at least degree predicts
+   outcomes. The results within these areas suggest that instruments
+   measuring emotional intelligence may be useful
 
-   It is commonly held that emotional intelligence plays a role in
-   leadership
+   Another area discussed is the relationship of emotional
+   intelligence and leadership. Indeed, it is commonly held that
+   emotional intelligence plays a role in leadership
    \citep{Brackett2006,McCleskey2014}. \citet{McCleskey2014} argues
    that for at least some aspects of leadership, it seems likely that
    emotional intelligence offers at least some predictive value for
    leadership roles \citep{McCleskey2014}.
    
    Moreover, emotional intelligence scales have been used for
-   corporate recruiting for roles requiring social interaction (TK,
-   REF). One of the things where tests of emotional intelligence have
-   been applied in testing for autism \parencite{Baron-Cohen2001}. In
-   this particular case, a specific test of emotion recognition,
-   reading the mind in the eyes, was developed \citep{Baron-Cohen2001}.
+   corporate recruiting for roles requiring social
+   interaction. Indeed, these results seem to suggest that emotional
+   intelligence may be useful in guiding hiring decisions (TK, REF)
+
+   Finally, the concept of emotional intelligence is useful in the
+   diagnosis and testing for autism spectrum disorders
+   \parencite{Baron-Cohen2001}. In this particular case, a specific
+   test of emotion recognition, reading the mind in the eyes, was
+   developed \citep{Baron-Cohen2001}.
 
 ** Measuring emotional intelligence of Ability
+
+   Like with its definition, how emotional intelligence is measured is
+   also debated. There exists no universally accepted standard for
+   measuring emotional intelligence. The different scales of emotional
+   intelligence usually fall into one of only one of the theoretical
+   models of emotional intelligence.
+   
     An early measure of emotional intelligence is the
     Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which is
     based on the theoretical framework introduced by
@@ -264,19 +287,29 @@
     five sub-scales with three facets each for a total of 15 ratings
     \citep{Bar-On1997}. The EQ-I is built on the theoretical framework
     based on emotional intelligence as a competency
-    \citep{Baron2006}. However, the EQ-I is not without its
-    problems. One large problem is that of fakeability, in one study
-    conducted by \citet{GrubbIII2007}, found that participants when
-    asked to "fake" emotional intelligence were able to do so. Such
-    fakeability is quite troublesome because it would imply that it
-    does not measure a competency, which would have been difficult to
-    fake.
+    \citep{Baron2006}. EQ-I is often used both on an individual and a
+    peer-level, where peers are asked to rate the individual's
+    emotional intelligence. The approach of using peer ratings has
+    recently found support in \citet{Elfenbein2015}, showing that such
+    peer ratings are both accurate and reliable.
+
+    The EQ-I is not without its problems. One large problem is that of
+    fakeability, in one study conducted by \citet{GrubbIII2007}, found
+    that participants when asked to "fake" emotional intelligence were
+    able to do so. Such fakeability is quite troublesome because it
+    would imply that it does not measure a competency, which would
+    have been difficult to fake.
 
 ** Measures related to emotional intelligence
 
-   Some research has also gone into examining other aspects of
-   emotional intelligence. Indeed, a wide variety of tasks have been
-   used in assessing emotion.
+   Outside the development of psychometric scales of emotional
+   intelligence, some research has also gone into examining other
+   aspects and ways of measuring emotional intelligence and related
+   areas. Over time, a wide variety of tasks have been developed for
+   assessing emotion intelligence. These scales are often developed
+   outside the area of emotional intelligence, and are to some degree
+   unaffected by the controversy surrounding other measures of
+   emotional intelligence.
 
    One measure that might be considered emotional intelligence is the
    reading the mind in the eyes (RTMITE) task \citet{Baron-Cohen2001},
