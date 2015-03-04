@@ -792,12 +792,14 @@
     3. Persistance
        1. Functional: The system shall persist results to disk in the CSV format.
        2. Non-functional: The system shall be stable to avoid data-loss
+    4. Usability
+       1. Non-functional: The system shall be simple to initialize
 
 
 
 
 ** Implementation
-   Using the requirements to create an artifact.
+   #+INCLUDE: "result_implementation.org"
 
 ** Evaluation
    The test scores showed a correlation of X

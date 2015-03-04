@@ -1,0 +1,22 @@
+The resulting artifacts in comprised of a number of parts. These
+are, the METT module, the questionnaire module, run-time
+configuration, deployment scripts and text assets. These components
+are replaceable with other components on an as-needed basis.
+
+* Configuration
+  The Python modules expects configuration in the JavaScript Object
+  Notation (JSON). These configuration artifacts consists of three
+  separate files. One with overall configuration global applicable to
+  each trial and question of the experiment. The second file
+  specifies paths to image files for masks and stimuli as well as
+  correct responses for each individual trial of the METT
+  paradigm. Finally, a third JSON file specifies the questions for
+  SPEC.
+
+* Deployment scripts
+  To simplify the configuration and use of the system a number of
+  utility scripts were developed, including scripts for generating
+  subsets of the RaFD, starting the system in a given configuration
+  state, and running a demonstration mode of the software.
+
+* Text assets
