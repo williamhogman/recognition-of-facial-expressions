@@ -20,3 +20,11 @@ are replaceable with other components on an as-needed basis.
   state, and running a demonstration mode of the software.
 
 * Text assets
+  For the purposes of making the application locablizable to different
+  languages, a system for text assets was created. Text assets for two
+  languages, Swedish and English were created. These assets are used
+  to progrmatically translate the application.
+
+* Questionarie module
+
+* METT module
