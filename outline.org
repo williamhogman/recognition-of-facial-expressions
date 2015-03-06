@@ -383,7 +383,7 @@
    simulate a situation where the person is consciously suppressing a
    facial expression. \citep{Ekman2003}
 
-** Facial expression stimulus sets
+** Stimulus sets of emotional expression
 
    To use the paradigms discussed it is necessary to use a set of
    photographs. Because recognition of facial expressions is a common
@@ -422,7 +422,7 @@
    The MSFDE was validated in \citet{Beaupre2005} as a large degree of
    cultural invariance.
 
-   Yet anoter set is NimStim \citep{Tottenham2009}, consisting of 672
+   Yet another set is NimStim \citep{Tottenham2009}, consisting of 672
    images of 43 professional actors instructed to pose eight different
    emotions, in both open and closed mouthed expressions. In their
    evaluation \citet{Tottenham2009}, found that the reliability of the
