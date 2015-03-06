@@ -468,6 +468,20 @@
    display times up to \SI{100}{\milli\second}, after which the
    growth rate is dramatically slower.
 
+   One problem with all stimulus sets discussed in that they consist
+   of still images of facial expression. It could be argued that the
+   dynamics of facial expressions play an important role in the
+   recognition of facial expressions. To has lead to the development
+   of a number of video-based stimulus-sets for facial expression. The
+   Geneva Multimodal Emotion Portrayals
+   \citep[GEMEP;~][]{Banziger2012} is one of these. The GEMEP utilizes
+   contains audio and video for each expressions providing three
+   options for stimulus displays, audio-only, video-only,
+   audio-video. The GMEP stimulus-set is extensive, with a total set
+   of 1260 expressions, spread out over eighteen emotions, ten actors,
+   three angles and a varying number of repetitions and different
+   verbal content \citep{Banziger2012}.
+
    Based on the research discussed in this review, it could be argued
    that measuring the recognition facial expressions may be
    successful in finding individual differences in emotional
