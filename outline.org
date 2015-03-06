@@ -448,13 +448,13 @@
    showed higher degrees of accuracy than the other emotions and fear
    showed a lower accuracy.
 
-   Taken together, the results of \citet{Calvo2008a} and SomeotherGuy
-   suggest that there are differences in the accuracy of processing
-   different emotions. Most importantly, it seems that accuracy rates
-   for facial expressions of happiness and neutral expressions are
-   much higher than those of other the expressions
-   \citep{Calvo2008a}. Care must, therefore, be taken so as to avoid
-   ceiling effects in general and happiness in particular.
+   The results of \citet{Calvo2008a} suggest that there are
+   differences in the accuracy of processing different emotions. Most
+   importantly, it seems that accuracy rates for facial expressions of
+   happiness and neutral expressions are much higher than those of
+   other the expressions \citep{Calvo2008a}. Care must, therefore, be
+   taken so as to avoid ceiling effects in general and happiness in
+   particular.
 
    Another strand of research has gone into the split-second trait
    judgments made viewing a face. \cite{Willis2006} found very
