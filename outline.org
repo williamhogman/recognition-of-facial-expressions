@@ -738,23 +738,47 @@
      
 *** Requirements
 
-    By inspecting the earlier research we found a number of suitable
-    scales. The least controversial measure is perhaps that of the
-    METT. In particular the implementation of METT of the earlier
-    studies seems to have excellent characteristics.
+    In reviewing earlier research we found a number of suitable
+    scales. Many of the standard measures of emotional intelligence
+    are highly controversial. The least controversial measure is
+    perhaps the METT, falling outside the traditional distinction of
+    trait and state emotional intelligence. Another benefit is that
+    the implementations of METT in our earlier data seems to possess
+    many beneficial characteristics for such a test.
 
-    However, some variance may be captured using other methods. Using
-    too many inventories may results. It is important to keep any such
-    tests as short as possible. MSCEIT, EQ-I, PEC contain a large
-    number of activities making them unsuitable for combination. This
-    leaves TAS, RMITE and SPEC. RMITE, is very similar to the METT and
-    may for this reason be unsuitable is to capture complementary
-    sources of variance. TAS, while a good scale, has limited number
-    of subfactors, and one of these, identifying feelings have some
-    degree of overlap with METT. If the aim is to capture
-    qualitatively different factors SPEC may be the most appropriate
-    scale. The test therefore should provide both a METT component and
-    a digital questionnaire.
+    However, it is unlikely that emotion recognition tasks can capture
+    every aspect of emotional intelligence, some variance may be
+    captured using other methods. On the other hand, using too many
+    inventories may lead to a measure that takes too long to complete,
+    reducing the reliability of the measure and increasing
+    time-related costs. Therefore, it is important to keep any such
+    tests as short as possible.
+
+    MSCEIT, EQ-I, PEC contain a large number of items making them
+    unsuitable, making them suitable for standalone use, but not using
+    them in conjunction with other tests. This leaves TAS, RMITE and
+    SPEC suitable as suitable candidates. RMITE, being a facial
+    expression recognition task, is very similar to the METT and may
+    for this reason be unsuitable to capture complementary sources of
+    variance.
+
+    TAS, while showing robustness, maturity and validity, is limited
+    in that it only includes sub-factors related to
+    alexithymia. Moreover, one of the factors, identifying feelings
+    may overlap to some degree of overlap with METT. This makes it
+    unsuitable as a supplementary scale to METT.
+
+    Considering the aim of capturing qualitatively different factors
+    from METT, SPEC may be the most appropriate scale. SPEC provides a
+    the same number as factors as the longer PEC, while retaining much
+    of the reliability. Given requirements of wide coverage of
+    emotional intelligence factors as well as the time-constraints,
+    SPEC seems to be the most suitable scale.
+
+    Having considered the scales discussed in the literature review,
+    the two scales need to be implemented, METT and SPEC. Specifically
+    the test should implement a facial-expression tasks and a digital
+    questionnaire, configured for METT and SPEC respectively.
 
     As discussed earlier \citep[recall][]{Calvo2008a} the duration
     even a small difference in the display time of a METT trial, it is
