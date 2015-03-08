@@ -790,28 +790,31 @@
     is stable and avoids data loss. To ensure that analysis of data is
     replicable.
 
-    The keyboard is the most suitable input device because it allows
-    for faster responses once the user has learned the
-    options. Moreover, not showing a mouse-cursor would avoid problems
-    stemming from the occlusion of the stimulus by the mouse
-    cursor. Finally, are keyboards is commodity hardware and avoids
-    the need for specialized input hardware.
+
+    Using the keyboard is the most suitable input device for the test
+    being developed, for several reasons. Firstly, it allows for
+    faster responses once the user has learned the options. Second,
+    not showing a mouse-cursor would avoid problems stemming from the
+    occlusion of the stimulus by the mouse cursor. Finally, keyboards
+    are commodity hardware and removes the need for purchasing
+    specialized input hardware.
 
     Another issue is the effects of training, as the results showed a
     there was a strong effect of training. In the earlier data a clear
-    linear training trend was found. In data-sets investigated no end
-    to this trend was found, suggesting that training effects are
-    still relevant after 70 trials. For results to be comparable
+    linear training trend was found. In the data-sets investigated no
+    end to this trend was found. The lack of an end suggests that
+    training effects are still relevant after a substantial number of
+    trials. To ensure that data gathered using the scale is comparable
     between individuals, the number of trials need to be the same for
-    all subjects.
+    all individuals.
 
     Finally, the issue of stimulus set should be addressed, in the
     data from earlier the earlier studies we found that performance
     was inline with what is typical for the paradigm, it therefore
     reasonable to assume that there are no additional issues with the
-    RaFD data-set used in these. It is therefore reasonable to use
-    RaFD for evaluation studies while leaving data-set as a
-    configurable variable.
+    RaFD data-set used in these. It seems appropriate then to use RaFD
+    for evaluation studies while leaving data-set as a configurable
+    variable.
     
     From these earlier conclusions a number of requirements were
     derived.
