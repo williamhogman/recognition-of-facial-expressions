@@ -548,14 +548,15 @@
     have the drawback of applying the researchers personal views on
     the requirements \citep[chapter 6]{Johannesson2014}.
 
-    The domain of the present study is complex, test-takers are
+    The domain of the present study is complex. Test-takers are
     unlikely to understand the intricate nature of the subject area,
     and their interests do not align with the people administering the
-    test. Practitioners in the area often have little understanding of
-    the tests they administer and it is difficult to find a
-    significantly large population of researchers on the area. This
-    would in the view of \citep[chapter~6]{Johannesson2014} restrict
-    the studies to documents.
+    test. Similarly, practitioners in the area often have little
+    understanding of the tests they administer. Finally, it is
+    difficult to find a significantly large population of researchers
+    on the area to establish qualitative saturation. This would in
+    the view of \citep[chapter~6]{Johannesson2014} restrict the
+    studies to documents.
 
     It could be argued that using only documents would be sub-optimal
     for many IS studies. In the case of the present study, however the
@@ -571,7 +572,7 @@
    both the scientific literature as well as empirical data. The
    combination of different kinds of methods allow for better
    capturing the relevant aspects of emotional intelligence and
-   reaching qualitative saturation.
+   reaching sufficient coverage of the domain.
      
    The literature review was chosen to ensure a sufficient degree of
    qualitative coverage of the area of research, this is particularly
@@ -580,17 +581,20 @@
    agreed upon definition of emotional intelligence.
    
    The quantitative analysis of earlier data constitutes experimental
-   method, because the data was collected in a experimental
-   settings. The existence of prior data, motivates the choice of
-   quantitative analysis of data gathered by experimental
-   methods. Analysis of such data would allow for empirical answers to
-   questions which may be relevant for the study.
+   method \citet{Denscombe2010}, because the data was collected in a
+   experimental settings. The existence of prior data, motivates the
+   choice of quantitative analysis of data gathered by experimental
+   methods, because this data is already collected using it has very
+   low costs. Analysis of such data would allow for empirical answers
+   to questions which may be relevant for the study.
 
-   By combining an exploitative literature study, giving insights into
+   By combining an explorative literature study, giving insights into
    various different areas of emotional intelligence, with an
    empirical analysis of earlier data, the present study can define
-   requirements both on precise facts about the domain as well as
-   being able to use insights spread out across the literature.
+   requirements based both on precise facts about the domain as well
+   as being able to use insights spread out across the
+   literature. This combined strategy is likely to give a both broad
+   and deep coverage of the domain.
 *** Implementation
     For implementation an unstructured iterative process was used,
     this choice was made because the scope of the project was
@@ -600,18 +604,22 @@
     The evaluation of developed artefact was done using experimental
     methods. Experimental methods are often used for the verification
     of developed psychometric instruments. The goal with the
-    instrument developed is generalization. By controlling controlling
-    irrelevant factors to the greatest extent possible we are better
-    able to establish generalizability. This could of course hurt the
-    ecological validity of the instrument, but this is a problem
-    shared by many psychometric instruments.
+    instrument developed is generalization. By controlling irrelevant
+    factors to the greatest extent possible researchers are better
+    able to establish generalizability. This could, of course, reduce
+    the ecological validity of the instrument. This reduction in
+    ecological validity is a problem shared by many psychometric
+    instruments.
 
 ** Requirements defintions
-   A number of publications related to emotional intelligence were
-   reviewed. Based on these qualitative coding based performed,
-   coding different psychometric measures of emotional intelligence
-   in based on models, sub-scales and measures. Based on these a
-   number of criteria were identified.
+   For the literature review, a number of research publications
+   related to emotional intelligence were reviewed. Based on these
+   qualitative coding based analysis was performed. Different
+   psychometric measures of emotional intelligence where coded based
+   on theoretical models, scales and sub-scales. Similarly,
+   stimulus-sets were coded based on the number of models, the number
+   of models, emotions used, ethnicities represented etc. Based on
+   these a number of criteria were identified.
 
    For the quantitative data analysis a data from a number of studies
    was used (see Table \ref{listofstudies}), which were analyzed separately. All the studies whose
@@ -661,6 +669,10 @@
    was extracted. A cross tabulation of hits and misses for each trial
    was constructed such that the number of hits and misses by trial
    number could be investigated. This data was entered into a linear model.
+
+   Finally, the results of the literature review and the quantitative
+   analysis of earlier data were integrated to create requirements for
+   for the artefact.
 
 \input{summaryearlier.tex}
 
