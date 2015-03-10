@@ -792,16 +792,19 @@
     the test should implement a facial-expression tasks and a digital
     questionnaire, configured for METT and SPEC respectively.
 
-    As discussed earlier \citep[recall][]{Calvo2008a} the duration
-    even a small difference in the display time of a METT trial, it is
-    therefore important that display times are controlled to a
-    resonable degree.
+    As discussed earlier \citep[recall][]{Calvo2008a} even a small
+    difference in the duration of the display time of a METT trial, it
+    is therefore important that display times are controlled to a
+    resonable degree, to ensure this, among other, things display
+    times need to be specified in numbers of frames so as to ensure
+    precision.
 
     Because the experiment process is time-consuming, both for the
-    participant and the experimenter it is important that the system
-    is stable and avoids data loss. To ensure that analysis of data is
-    replicable.
-
+    participant and the experimenter, crashes in the software running
+    experiments is waste valuable a lot of resources and can be
+    frustrating for experimenters and participants alike.  It is
+    therefore, important that the system is stable and avoids data
+    loss to a as large extent possible given the resources.
 
     Using the keyboard is the most suitable input device for the test
     being developed, for several reasons. Firstly, it allows for
@@ -811,14 +814,15 @@
     are commodity hardware and removes the need for purchasing
     specialized input hardware.
 
-    Another issue is the effects of training, as the results showed a
-    there was a strong effect of training. In the earlier data a clear
-    linear training trend was found. In the data-sets investigated no
-    end to this trend was found. The lack of an end suggests that
-    training effects are still relevant after a substantial number of
-    trials. To ensure that data gathered using the scale is comparable
-    between individuals, the number of trials need to be the same for
-    all individuals.
+    Another issue is the effects of training, as the results showed,
+    there was a strong effect of training. Specifically the earlier
+    data showed a clear linear training trend. In the data-sets
+    considered in the present study no end to this trend was
+    found. The lack of an end suggests that training effects are still
+    relevant after a substantial number of trials. For this reason, to
+    ensure that data gathered using the scale is comparable between
+    individuals, the number of trials need to be the same for all
+    individuals.
 
     Finally, the issue of stimulus set should be addressed, in the
     data from earlier the earlier studies we found that performance
