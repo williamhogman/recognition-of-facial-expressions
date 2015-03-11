@@ -716,16 +716,21 @@
 
 
 *** Analysis of old data
-    The data-sets used in the study were analyzed separately with the
-    goal of generating requirements for the system
+    Each of the data-sets used in the study were analyzed separately
+    with the goal of generating requirements for the system
     
     The first data-set contains 2149 correct responses and 1351
     incorrect responses for a total of hit-rate of 61%. A confusion
     matrix was computed as shown in table \ref{study1confusion}. In
     table \ref{study1classtable} characteristics for each emotion are
-    shown.  
+    shown. Expressions of disgust have, by far, the lowest balanced
+    accuracy, participants were unlikely to answer disgust. Anger was
+    the most accurately detected emotion, owning to a high degree of
+    overall detection.
     
     \input{study-one-hitrates-emotion.tex}
+
+    
     
     The second data-set consists of 72 subjects, the average accuracy
     was $72.99\%$ ($S=12.14$).
@@ -797,7 +802,10 @@
     is therefore important that display times are controlled to a
     resonable degree, to ensure this, among other, things display
     times need to be specified in numbers of frames so as to ensure
-    precision.
+    precision. While, there are clear differences in accuracy between
+    different emotions, no respect should be taken to emotion types in
+    deciding display times because doing so would render the scales
+    incomparable.
 
     Because the experiment process is time-consuming, both for the
     participant and the experimenter, crashes in the software running
