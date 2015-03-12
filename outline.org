@@ -468,19 +468,20 @@
    display times up to \SI{100}{\milli\second}, after which the
    growth rate is dramatically slower.
 
-   One problem with all stimulus sets discussed in that they consist
-   of still images of facial expression. It could be argued that the
-   dynamics of facial expressions play an important role in the
-   recognition of facial expressions. To has lead to the development
-   of a number of video-based stimulus-sets for facial expression. The
-   Geneva Multimodal Emotion Portrayals
-   \citep[GEMEP;~][]{Banziger2012} is one of these. The GEMEP utilizes
-   contains audio and video for each expressions providing three
-   options for stimulus displays, audio-only, video-only,
-   audio-video. The GMEP stimulus-set is extensive, with a total set
-   of 1260 expressions, spread out over eighteen emotions, ten actors,
-   three angles and a varying number of repetitions and different
-   verbal content \citep{Banziger2012}.
+   One problem shared by all stimulus sets discussed here is that they
+   consist only of still images of facial expression. It could be
+   argued that the dynamics of facial expressions play an important
+   role in the recognition of facial expressions. Indeed, this is the
+   way in which emotional facial expressions play out in nature. This
+   problem has lead to the development of a number of video-based
+   stimulus-sets for facial expression. The Geneva Multimodal Emotion
+   Portrayals \citep[GEMEP;~][]{Banziger2012} is one of these. The
+   GEMEP utilizes contains audio and video for each expressions
+   providing three options for stimulus displays, audio-only,
+   video-only, audio-video. The GMEP stimulus-set is extensive, with a
+   total set of 1260 expressions, spread out over eighteen emotions,
+   ten actors, three angles and a varying number of repetitions and
+   different verbal content \citep{Banziger2012}.
 
    Based on the research discussed in this review, it could be argued
    that measuring the recognition facial expressions may be
@@ -601,15 +602,16 @@
     small. The development process continued continously until the
     developed artefact fullfilled the requirements identified.
 *** Evaluation
-    The evaluation of developed artefact was done using experimental
-    methods. Experimental methods are often used for the verification
-    of developed psychometric instruments. The goal with the
+    The evaluation of developed artefact was performed using
+    experimental methods. Experimental methods are often used for the
+    verification of psychometric instruments, this makes experimental
+    methods a good fit for the present study.. The goal with the
     instrument developed is generalization. By controlling irrelevant
     factors to the greatest extent possible researchers are better
     able to establish generalizability. This could, of course, reduce
-    the ecological validity of the instrument. This reduction in
+    the ecological validity of the instrument. The reduction on
     ecological validity is a problem shared by many psychometric
-    instruments.
+    instruments, and therefore not a problem particular to the present study.
 
 ** Requirements defintions
    For the literature review, a number of research publications
