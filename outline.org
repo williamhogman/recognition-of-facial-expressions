@@ -113,9 +113,9 @@
    be considered an ability \citep{Salovey1990}, a competency that can
    be learned \citep{Baron2006} or personality trait
    \citep{Petrides2007}. This disagreement on the definition of the
-   concept might at first seem superifical but lies at the core in the
-   issue of measuring and understanding emotional intelligence. (TK
-   Something about Goleman model)
+   concept may at first seem superifical but lies at the core in the
+   issue of measuring, understanding and applying theories of
+   emotional intelligence.(TK Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
    advocated by \citep{Baron2006}. The Bar-On model is defined more
@@ -165,16 +165,18 @@
 
    To resolve some of the controversies surrounding the definition of
    the term \citet{Cherniss2010} suggests separating the concepts of
-   emotional intelligence and social competence. Thereby defining
-   emotional intelligence simply as the recognizing, reasoning and
+   emotional intelligence and social competence. \citet{Cherniss2010}
+   defines emotional intelligence simply as recognizing, reasoning and
    regulating emotions, holding that other factors are simply
    emotional and social competencies. In effect \citet{Cherniss2010},
    designates the \citet{Salovey1990} model as emotional intelligence,
    while referring to the Bar-On model \citep{Baron2006} as emotional
-   and social competence. This attempt to reconcile different theories
-   of emotional intelligence was criticized by \cite{Petrides2010} for
-   severing the link between the constructs and their present
-   operational definitions.
+   and social competence. This attempt to reconcile the two major
+   theories of emotional intelligence was criticized by
+   \citet{Petrides2010} for severing the link between the constructs
+   and their present operational definitions. Doing so,
+   \citet{Petrides2010}, argues would cause a disconnect between what
+   is actually studied and what the definition used is.
 
    The separation of trait and state concepts of emotional
    intelligence is supported by most authors
@@ -190,13 +192,14 @@
    performance as dependent on personality and maximum performance as
    dependent on cognitive ability.
 
-   Some limited agreement can perhaps be captured as follows:
-   emotional intelligence is a continuous factor determining the depth
-   and accuracy of processing at the crossroads of emotion and
-   cognition. Even if earlier intergrative approaches have been
-   critized \citep[e.g ][]{Cherniss2010}, multifaceted approaches may
-   still be valuable, however this would require combining the
-   theoretical multiple theoretical frameworks.
+   Having seen multiple different emotions what little agreement
+   exists could perhaps be captured as follows: emotional intelligence
+   is a continuous factor determining the depth and accuracy of
+   processing at the crossroads of emotion and cognition. Even if
+   earlier intergrative approaches have been critized \citep[e.g
+   ][]{Cherniss2010}, multifaceted approaches may still be valuable,
+   however this would require combining the theoretical multiple
+   theoretical frameworks.
     
 ** Uses for emotional intelligence
    
