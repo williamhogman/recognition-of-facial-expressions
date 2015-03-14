@@ -45,24 +45,25 @@
   \citep[e.g.][]{Warwick2004, Petrides2001} and cognitive abilities
   \citep[e.g.][]{Freudenthaler2007}. These correlations call into
   question the divergent validity, to that point of some authors (TK
-  Locke and someone else) doubting the concepts usefulness.
+  Locke and someone else) doubting overall usefulness of the concept.
   
   Several approaches have been used to measure emotional intelligence,
   both ability tests \citep{Mayer2003}, self-reported ability
-  \citep{Bar-On1997}, and trait measures (TK, ref).
-  \citet{Mikolajczak2014} approached the measuring of emotional
-  intelligence and developed a 50-item inventory for emotional
-  intelligence. More specialized \citet{Baron-Cohen2001} approached
-  the problem from a different angle asking participants to identify
-  an emotion based just on a picture showing a pair of eyes. Another
-  strand of research focuses on measuring emotional facial recognition
-  \parencite{Schlegel2012}. The results of \citet{Schlegel2012} seem
-  to indicate that the recognition of b emotional faces is a single
-  ability as opposed to multiple separate abilities, affirming to some
-  degree the convergent validity to the construct of emotional
-  intelligence.
+  \citep{Bar-On1997}, and trait measures (TK, ref).  Various different
+  methods have also been developed for measuring emotional
+  intelligence. \citet{Mikolajczak2014} approached the measuring of
+  emotional intelligence and developed a 50-item inventory for
+  emotional intelligence. More specialized \citet{Baron-Cohen2001}
+  approached the problem from a different angle asking participants to
+  identify an emotion based just on a picture showing a pair of
+  eyes. Another strand of research focuses on measuring emotional
+  facial recognition \citep{Schlegel2012}. The results of
+  \citet{Schlegel2012} seem to indicate that the recognition of
+  emotional faces is a single ability as opposed to multiple separate
+  abilities, affirming to some degree the convergent validity to the
+  construct of emotional intelligence.
   
-  One approach that might be taken for emotional intelligence testing
+  Another approach that might be taken for emotional intelligence testing
   is using emotional facial expressions in a manner similar to
   \citet{Schlegel2012}. Indeed facial expressions, \citet{Ekman1969a}
   found, are to a large extent culturally invariant. The set of
@@ -89,10 +90,10 @@
    a lack of understanding of what factors are important for
    developing tools for testing emotional intelligence. The present
    study sets out improve the understanding of how such testing
-   software could be designed and aims to improve the accuracy and
-   availability of such tests.
+   software could be designed and developed, aiming to improve the
+   accuracy and availability of such tests.
 
-   The creation of such principles could be relevant for a number of
+   The creation of such a test could be relevant for a number of
    areas. Firstly, education of psychologists, psychotherapists, and
    other mental health professionals might benefit from improved
    training tools. Second, applications in recruiting situations may
@@ -102,7 +103,7 @@
      
 ** Research question
    What are the key principles for developing EQ-tests based on micro-expressions?
-  
+   
 * Extended background
 
 
@@ -150,11 +151,14 @@
    parts of emotional intelligence
    \citep[e.g.][]{Warwick2004,Petrides2001}. Specifically,
    \citet{Warwick2004} found correlations between personality factors
-   and trait emotional intelligence. Building on these results
-   \citet{Petrides2007}, argues that while trait emotional
-   intelligence is a personality trait and uncorrelated with ability
-   measures of emotional intelligence, it is distinct from traditional
-   personality factors. The incompatibility argument is expanded
+   and trait emotional intelligence. 
+
+   Building on these results \citet{Petrides2007}, argues that while
+   trait emotional intelligence is a personality trait and
+   uncorrelated with ability measures of emotional intelligence, it is
+   distinct from traditional personality factors.
+   
+   The incompatibility argument is expanded
    further by \citet{Petrides2010}, arguing that trait and ability
    measures of emotional intelligence cannot be grouped in any
    meaningful sense. Moreover, \citet{Petrides2010} criticizes the
@@ -184,9 +188,11 @@
    Askhanasy). What this separation entails, however, is a matter of
    debate. Proponents of the trait model of emotional intelligence
    such as \citet{Petrides2010} argue that ability measures of
-   emotional intelligence are lacking. While proponents of the ability
-   model argue that trait models just measure various aspects of
-   personality. Another approach was taken by
+   emotional intelligence are lacking.  On the other hand proponents
+   of the ability model argue that trait models just measure various
+   aspects of personality. 
+
+   Another interesting approach was taken by
    \citet{Freudenthaler2007}, interpreting trait and ability as
    typical and maximum performance respectively, finding typical
    performance as dependent on personality and maximum performance as
@@ -209,7 +215,7 @@
    intelligence research, these were:
 #+BEGIN_QUOTE
    1. Better social relations for children.
-   2. Better social relations for adults. Among
+   2. Better social relations for adults.
    3. High-EI individuals are perceived more positively by others.
    4. Better family and intimate relationships.
    5. Better academic achievement. [not accounting for IQ]
@@ -218,16 +224,17 @@
 #+END_QUOTE
 
    Within the areas mentioned by \citet{Mayer2008}, it seems that
-   measures emotional intelligence, at least degree predicts
-   outcomes. The results within these areas suggest that instruments
-   measuring emotional intelligence may be useful
+   measures of emotional intelligence, at least degree predicts
+   outcomes. Indeed, the results within the aforementioned areas
+   suggest that instruments measuring emotional intelligence may be
+   practically applicable
 
    Another area discussed is the relationship of emotional
    intelligence and leadership. Indeed, it is commonly held that
    emotional intelligence plays a role in leadership
    \citep{Brackett2006,McCleskey2014}. \citet{McCleskey2014} argues
    that for at least some aspects of leadership, it seems likely that
-   emotional intelligence offers at least some predictive value for
+   emotional intelligence offers some predictive value for performance
    leadership roles \citep{McCleskey2014}.
    
    Moreover, emotional intelligence scales have been used for
@@ -349,13 +356,18 @@
    consciously trying to suppress the expression of some emotion
    \citep{Ekman1969,Ekman2003}. This emotional leakage, what Ekman
    refers to as micro expressions can be identified by others
-   \citep{Ekman1974}. Both individual and group differences in the
-   ability to detect deceit have been found. For example,
-   \cite{Ekman1991} found that some professional groups (e.g. the
-   U.S. Secret Service) are better at detecting deceit, using both
-   verbal and non-verbal cues \cite{Ekman1991}. Another result is that
-   of \citet{Frank1997}, which seems to suggest that the ability to
-   detect deceit is generalized to a large number of situations.
+   \citep{Ekman1974}. 
+
+   Both individual and group differences in the ability to detect
+   deceit have been found. For example, \cite{Ekman1991} found that
+   some professional groups (e.g. the U.S. Secret Service) are better
+   at detecting deceit, using both verbal and non-verbal cues
+   \cite{Ekman1991}. 
+
+   Another important result is that of \citet{Frank1997}, which seems
+   to suggest that the ability to detect deceit is generalized to a
+   large number of situations. This lends validity a central concept
+   as the cues used to detects deceit.
 
    #+BEGIN_LATEX
    \begin{figure}[htpb]
@@ -493,10 +505,10 @@
    display times.
 
 * Methodology and Methods for Data Collection
-   The goal of the present study is not merely empirical, it aims
-   instead to design a set of principles for computerized tests of
-   emotional intelligence. This distinction is discussed further by
-   \citet[chapter 1]{Johannesson2014}, who hold that practical
+   The goal of the present study is not merely empirical, it aims also
+   to design a computerized test of emotional intelligence. This
+   distinction is discussed further by
+   \citet[chapter~1]{Johannesson2014}, who hold that practical
    problems ought to be addressed with design research approaches.
     
    \citet[chapter 4]{Johannesson2014} put forward a model of design
