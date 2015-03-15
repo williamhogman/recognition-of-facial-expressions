@@ -28,3 +28,16 @@ are replaceable with other components on an as-needed basis.
 * Questionarie module
 
 * METT module
+  Before the experiment is started, the module shuffles the order of
+  trials used in the experiment. This results in each participant
+  getting a psuedo-random and non-systematic order of trials. The
+  trials are then invoked in order. Upon invocation the trial handler
+  loads the relevant from disk, showing a blank screen meanwhile. Once
+  the images have been loaded the picture of the neutral expression is
+  showed a fixed, configurable number of frames. Once the configured
+  number of frames has been rendered, the emotional picture also for a
+  configurable but different number of frames. Then, finally the
+  neutral image is shown for the configured number of frames. The
+  screen is then cleared and the trial yields control back to the
+  experiment.
+
