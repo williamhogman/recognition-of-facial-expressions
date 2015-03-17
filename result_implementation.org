@@ -25,8 +25,6 @@ are replaceable with other components on an as-needed basis.
   languages, Swedish and English were created. These assets are used
   to progrmatically translate the application.
 
-* Questionarie module
-
 * METT module
   Before the experiment is started, the module shuffles the order of
   trials used in the experiment. This results in each participant
@@ -48,5 +46,14 @@ are replaceable with other components on an as-needed basis.
   trial data and combines it with the response data. This results in a
   one-row per trial data-set, which is then serialize and saved to
   disk as a csv-file.
+
+* Questionarie module
+  After the METT module has completed its work the questionarie module
+  is initialized. Each question present in configuration is then
+  presented in order. The presentation of a question is performed as
+  follows, first, the question text and the response options are
+  rendered to the screen as text, then, keyboard input is read. This
+  data is then stored in memory. After the questinarie task is
+  completed the results are saved to disk in the csv format.
 
 
