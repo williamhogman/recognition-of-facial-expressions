@@ -52,8 +52,10 @@ are replaceable with other components on an as-needed basis.
   is initialized. Each question present in configuration is then
   presented in order. The presentation of a question is performed as
   follows, first, the question text and the response options are
-  rendered to the screen as text, then, keyboard input is read. This
-  data is then stored in memory. After the questinarie task is
-  completed the results are saved to disk in the csv format.
+  rendered to the screen as text. Keyboard input is read. If the input
+  read matches a response alternative, the data is then stored in
+  memory. This process is repeated each question of the configuration
+  has been processed. After the questinarie task is completed the
+  results are saved to disk in the csv format.
 
 
