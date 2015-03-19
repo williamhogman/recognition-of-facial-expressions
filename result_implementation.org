@@ -4,7 +4,7 @@ configuration, deployment scripts and text assets. These components
 are replaceable with other components on an as-needed basis.
 
 * Configuration
-  The Python modules expects configuration in the JavaScript Object
+  The Pyton modules expects configuration in the JavaScript Object
   Notation (JSON). These configuration artifacts consists of three
   separate files. One with overall configuration global applicable to
   each trial and question of the experiment. The second file
@@ -17,7 +17,10 @@ are replaceable with other components on an as-needed basis.
   To simplify the configuration and use of the system a number of
   utility scripts were developed, including scripts for generating
   subsets of the RaFD, starting the system in a given configuration
-  state, and running a demonstration mode of the software.
+  state, and running a demonstration mode of the software. These
+  scripts are not run in the normal operations of the script, however,
+  they are useful in setting up an environment that can then be
+  reused.
 
 * Text assets
   For the purposes of making the application locablizable to different
