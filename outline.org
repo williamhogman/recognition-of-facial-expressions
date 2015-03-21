@@ -135,11 +135,13 @@
    emotional intelligence as ``the subset of social intelligence that
    involves the ability to monitor one's own and others' feelings and
    emotions to discriminate among them and to use the information to
-   guide one's thinking and actions''.  \citet{Salovey1990} also
-   divided emotional intelligence into four sub-categories of
-   emotional intelligence these are: appraisal, expression, regulation
-   and, utilization. \citet{Salovey1990} argue that people exhibiting
-   these abilities may show more adaptive behaviors
+   guide one's thinking and actions''.  Additionally,
+   \citet{Salovey1990} divided emotional intelligence into four
+   sub-categories of emotional intelligence: appraisal,
+   expression, regulation and, utilization.
+
+   Furthermore, \citet{Salovey1990} argue that people exhibiting these
+   abilities may show more adaptive behaviors
    \citep{Brackett2006}. Conversely, people exhibiting deficits in
    emotional intelligence may show maladaptive behaviors
    \citep{Brackett2006}.
@@ -151,7 +153,7 @@
    parts of emotional intelligence
    \citep[e.g.][]{Warwick2004,Petrides2001}. Specifically,
    \citet{Warwick2004} found correlations between personality factors
-   and trait emotional intelligence. 
+   and trait emotional intelligence.
 
    Building on these results \citet{Petrides2007}, argues that while
    trait emotional intelligence is a personality trait and
@@ -202,10 +204,10 @@
    exists could perhaps be captured as follows: emotional intelligence
    is a continuous factor determining the depth and accuracy of
    processing at the crossroads of emotion and cognition. Even if
-   earlier intergrative approaches have been critized \citep[e.g
-   ][]{Cherniss2010}, multifaceted approaches may still be valuable,
-   however this would require combining the theoretical multiple
-   theoretical frameworks.
+   earlier intergrative approaches have been critized
+   \citep[e.g~][]{Cherniss2010}, multifaceted approaches may still be
+   valuable, however this would require combining the theoretical
+   multiple theoretical frameworks.
     
 ** Uses for emotional intelligence
    
@@ -227,7 +229,7 @@
    measures of emotional intelligence, at least degree predicts
    outcomes. Indeed, the results within the aforementioned areas
    suggest that instruments measuring emotional intelligence may be
-   practically applicable
+   practically applicable.
 
    Another area discussed is the relationship of emotional
    intelligence and leadership. Indeed, it is commonly held that
@@ -405,8 +407,11 @@
    task there exists a plethora of facial expression stimulus
    sets. These stimulus sets have been created for a number of
    different purposes and are suitable for many different kinds of
-   research. For the present study, we will review a number of
-   different stimulus sets and the research validating them.
+   research. For the present study, a number of different stimulus
+   sets and the research surronding them was reviewed. The stimulus
+   sets reviewed in the present study by no means represent a complete
+   coverage of all stimulus sets created, however it aspires to a
+   sufficent coverage of the stimlus sets in common use.
 
    One early stimulus set is the Japanese and Caucasian Facial
    Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}.
