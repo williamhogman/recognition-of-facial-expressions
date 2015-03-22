@@ -435,19 +435,21 @@
    \citet{Beaupre2000} approached the issue of finding a good stimulus
    set from the perspective of cultural difference in the ability to
    recognize emotions. The Montreal Set of Facial Displays of Emotion
-   \citep[MSFDE][]{Beaupre2000} consists of facial expressions
-   instructed to follow the FACS codes. The full stimulus set consists
-   of 144 images, with six types of facial expressions and three
-   ethnic groups: French Canadians, Chinese, and sub-Saharan Africans.
-   The MSFDE was validated in \citet{Beaupre2005} as a large degree of
-   cultural invariance.
+   \citep[MSFDE][]{Beaupre2000} consists of facial expressions where
+   the actors were instructed to pose facial expression based on the
+   facial action coding scheme. The full stimulus set consists of 144
+   images, with six types of facial expressions and three ethnic
+   groups: French Canadians, Chinese, and sub-Saharan Africans.  The
+   MSFDE was validated in \citet{Beaupre2005} and showed to exihibit a
+   large degree of cultural invariance.
 
    Yet another set is NimStim \citep{Tottenham2009}, consisting of 672
    images of 43 professional actors instructed to pose eight different
-   emotions, in both open and closed mouthed expressions. In their
-   evaluation \citet{Tottenham2009}, found that the reliability of the
-   set was good. They also selected a recommended subset of the images
-   for which reliability is good, for use in future studies.
+   emotions with expressions of both open and closed mouthed
+   expressions. In their evaluation \citet{Tottenham2009}, found that
+   the reliability of the set was good. They also selected a
+   recommended subset of the images for which reliability is good, for
+   use in future studies.
 
    A more recent contribution is the Radboud Faces Database
    \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
@@ -455,9 +457,9 @@
    from five camera angles for a total 5880 photographs
    \citep{Langner2010}. Upon validation, RaFD showed a very high
    accuracy, higher even than the earlier KDEF dataset
-   \citep{Langner2010}. A key difference between RaFD and KDEF is the
-   expression coaching given to models by a facial expression coding
-   expert, which may explain the higher accuracy rates in RaFD
+   \citep{Langner2010}. A key difference between RaFD and KDEF,
+   perhaps explaining this difference in accuracy is the expression
+   coaching given to models by a facial expression coding expert
    \citep{Langner2010}.
 
    \citet{Calvo2008a} investigated the relationship between the
