@@ -569,17 +569,19 @@
     such as case studies and action research to find requirements that
     the stakeholders were unable to identify. These methods however
     have the drawback of applying the researchers personal views on
-    the requirements \citep[chapter 6]{Johannesson2014}.
+    the requirements \citep[chapter~6]{Johannesson2014}.
 
     The domain of the present study is complex. Test-takers are
     unlikely to understand the intricate nature of the subject area,
     and their interests do not align with the people administering the
     test. Similarly, practitioners in the area often have little
-    understanding of the tests they administer. Finally, it is
-    difficult to find a significantly large population of researchers
-    on the area to establish qualitative saturation. This would in
-    the view of \citep[chapter~6]{Johannesson2014} restrict the
-    studies to documents.
+    understanding of the tests they administer.
+    
+    Finally, it is difficult to find a significantly large population
+    of researchers on the area to establish qualitative
+    saturation. This would in the view of
+    \citep[chapter~6]{Johannesson2014} restrict the studies to
+    documents.
 
     It could be argued that using only documents would be sub-optimal
     for many IS studies. In the case of the present study, however the
@@ -591,17 +593,19 @@
    - A quantitative analysis of existing data collected from a
      micro-expression test.
 
-   These methods were chosen to successfully capture variance from
+   These two methods were chosen to successfully capture variance from
    both the scientific literature as well as empirical data. The
-   combination of different kinds of methods allow for better
+   combination of different kinds of methods may allow for better
    capturing the relevant aspects of emotional intelligence and
    reaching sufficient coverage of the domain.
      
    The literature review was chosen to ensure a sufficient degree of
-   qualitative coverage of the area of research, this is particularly
-   important because of the controversial nature of the concept of
-   emotional intelligence. Thus allowing for capturing a reasonably
-   agreed upon definition of emotional intelligence.
+   qualitative coverage of the area of research. A wide qualitative
+   coverage is particularly important because of the controversial
+   nature of the concept of emotional intelligence. This wide coverage
+   allows for finding a reasonably agreed upon definition of emotional
+   intelligence, which is neccessary for the developed artefact to be
+   useful.
    
    The quantitative analysis of earlier data constitutes experimental
    method \citet{Denscombe2010}, because the data was collected in a
@@ -619,10 +623,11 @@
    literature. This combined strategy is likely to give a both broad
    and deep coverage of the domain.
 *** Implementation
-    For implementation an unstructured iterative process was used,
-    this choice was made because the scope of the project was
-    small. The development process continued continously until the
-    developed artefact fullfilled the requirements identified.
+    For the implementation of test an unstructured iterative process
+    was used. The process choice was made because the scope of the
+    project was small, applying more complex processes may well result
+    in problems. The development process continued continously until
+    the developed artefact fullfilled the requirements identified.
 *** Evaluation
     The evaluation of developed artefact was performed using
     experimental methods. Experimental methods are often used for the
@@ -646,8 +651,9 @@
    these a number of criteria were identified.
 
    For the quantitative data analysis a data from a number of studies
-   was used (see Table \ref{listofstudies}), which were analyzed separately. All the studies whose
-   data was analyzed used the METT paradigm. 
+   was used (see Table \ref{listofstudies}), which were analyzed
+   separately. All the studies whose data was analyzed used the METT
+   paradigm.
 
    For the first study, overall hit-rates and descriptives were
    computed. A confusion matrix was then created created and a number
