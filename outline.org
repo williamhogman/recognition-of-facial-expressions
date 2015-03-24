@@ -651,16 +651,18 @@
    these a number of criteria were identified.
 
    For the quantitative data analysis a data from a number of studies
-   was used (see Table \ref{listofstudies}), which were analyzed
-   separately. All the studies whose data was analyzed used the METT
-   paradigm.
+   was used (see Table \ref{listofstudies}). Each data-set was then
+   analyzed separately. All the studies whose data was analyzed used
+   the METT paradigm, and followed a similar protocol, making them
+   reasonably comparable.
 
    For the first study, overall hit-rates and descriptives were
-   computed. A confusion matrix was then created created and a number
-   of signal detection variables computed. These variables can be
-   derived from $H$, the number of hits (true positives), $CR$, the
-   correct rejections (true negatives), false alarms $FA$ (false
-   positives), and misses $M$ (false negatives).
+   computed. After computing overall statistics, a confusion matrix
+   was then created and a set of variables related to the signal
+   detection theory were computed. These variables are all derivable
+   four variables: $H$, the number of hits (true positives),
+   $CR$, the correct rejections (true negatives), false alarms $FA$
+   (false positives), and misses $M$ (false negatives).
 
    \begin{equation} \label{e_hr}
    \mathit{HR} = \frac{H}{H + M}
