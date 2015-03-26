@@ -119,15 +119,16 @@
    emotional intelligence.(TK Something about Goleman model)
 
    The notion of emotional intelligence as a competency is primarily
-   advocated by \citep{Baron2006}. The Bar-On model is defined more
+   advocated by \citep{Baron2006}. The Bar-On model, defined more
    precisely as a "cross-section of interrelated emotional and social
    competencies, skills and facilities that determine how effectively
    we understand and express ourselves, understand others and relate
    with them, and cope with daily demands" \citep{Baron2006}. The
    model is consistent with other frameworks in including both inter-
    and intra-personal skills. Like most other models of emotional
-   intelligence, the Bar-On model considers widely different tasks,
-   ranging from recognition to regulating emotions. (TK; REF)
+   intelligence, the Bar-On model considers a set of widely different
+   situations and criteria, ranging from the recognition of emotions
+   to the regulating emotions. \citep{Baron2006}
 
    Writing only years after Bar-On (TK, Doctoral dissertation)
    \cite{Salovey1990} introduced their notion of emotional
@@ -140,10 +141,10 @@
    sub-categories of emotional intelligence: appraisal,
    expression, regulation and, utilization.
 
-   Furthermore, \citet{Salovey1990} argue that people exhibiting these
-   abilities may show more adaptive behaviors
-   \citep{Brackett2006}. Conversely, people exhibiting deficits in
-   emotional intelligence may show maladaptive behaviors
+   Furthermore, \citet{Salovey1990} argue that people exhibiting the
+   four abilities may show more adaptive behaviors in social
+   situations \citep{Brackett2006}. Conversely, people exhibiting
+   deficits in emotional intelligence may show maladaptive behaviors
    \citep{Brackett2006}.
 
    Beginning with \citet{Petrides2001}, one strand of research has
@@ -198,7 +199,9 @@
    \citet{Freudenthaler2007}, interpreting trait and ability as
    typical and maximum performance respectively, finding typical
    performance as dependent on personality and maximum performance as
-   dependent on cognitive ability.
+   dependent on cognitive ability. This has approach has may have the
+   advantage of being better aligned with the approach taken for other
+   cognitive abilities.
 
    Having seen multiple different emotions what little agreement
    exists could perhaps be captured as follows: emotional intelligence
