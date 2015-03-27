@@ -203,14 +203,14 @@
    advantage of being better aligned with the approach taken for other
    cognitive abilities.
 
-   Having seen multiple different emotions what little agreement
-   exists could perhaps be captured as follows: emotional intelligence
-   is a continuous factor determining the depth and accuracy of
-   processing at the crossroads of emotion and cognition. Even if
-   earlier intergrative approaches have been critized
-   \citep[e.g~][]{Cherniss2010}, multifaceted approaches may still be
-   valuable, however this would require combining the theoretical
-   multiple theoretical frameworks.
+   Having seen multiple different definitions of emotional
+   intelligence, what little agreement exists could perhaps be
+   captured as follows: emotional intelligence is a continuous factor
+   determining the depth and accuracy of processing at the crossroads
+   of emotion and cognition. Even if earlier intergrative approaches
+   have been critized \citep[e.g~][]{Cherniss2010}, multifaceted
+   approaches may still be valuable, however this would require
+   combining the theoretical multiple theoretical frameworks.
     
 ** Uses for emotional intelligence
    
