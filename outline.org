@@ -548,7 +548,7 @@
    Comparing Perjons & Johannesson v.s. earlier descriptions and our
    chosen approach.
 
-
+   
 ** Chosen stages
    Because of limitations in scope only a subset of design science
    activities were performed in the present study. To ensure that a
@@ -637,7 +637,11 @@
     was used. The process choice was made because the scope of the
     project was small, applying more complex processes may well result
     in problems. The development process continued continously until
-    the developed artefact fullfilled the requirements identified.
+    the developed artefact fullfilled the requirements
+    identified. Automated unit-tests were devloped in an ad-hoc manner
+    as part of the overall development process and aimed primarily as
+    an aid during development.
+
 *** Evaluation
     The evaluation of developed artefact was performed using
     experimental methods. Experimental methods are often used for the
