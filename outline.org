@@ -551,11 +551,12 @@
    
 ** Chosen stages
    Because of limitations in scope only a subset of design science
-   activities were performed in the present study. To ensure that a
-   viable product was developed, even without considering some of the
-   design science stages, a selection of stages had to be made.  The
-   following stages were selected because they are the fastest way to
-   reach an actual artefact given the limitation in scope:
+   activities were performed in the present study. The choide of
+   stages was made to ensure that a viable product was developed. Even
+   without considering, at least some of the design science stages,
+   were performed. The following stages were selected because they
+   are the fastest way to reach an actual artefact given the
+   limitation in scope:
    - Requirements definition
    - Implementation
    - Evaluation

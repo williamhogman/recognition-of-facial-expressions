@@ -39,7 +39,8 @@ are replaceable with other components on an as-needed basis.
 * METT module
   Before the experiment is started, the module shuffles the order of
   trials used in the experiment. This results in each participant
-  getting a psuedo-random and non-systematic order of trials. 
+  experiencing the trials in a psuedo-random, non-systematic order
+  of trials.
 
   The trials are then invoked in order. Upon invocation the trial
   handler loads the relevant from disk, showing a blank screen
@@ -56,7 +57,7 @@ are replaceable with other components on an as-needed basis.
   Once the set of trials has been completed, the system, takes the
   trial data and combines it with the response data. This results in a
   one-row per trial data-set, which is then serialize and saved to
-  disk as a csv-file.
+  disk as a comma separated values file.
 
 * Questionarie module
   After the METT module has completed its work the questionarie module
