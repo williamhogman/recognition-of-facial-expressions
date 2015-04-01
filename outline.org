@@ -569,8 +569,8 @@
    number of research strategies.
 
 *** Requirements definition
-    An extensive number of researh methods can be used for defining
-    requirements. Many popular approaches directly involve potential
+    For defining requirements an extensive number of research methods
+    can be used. Many popular approaches directly involve potential
     stakeholders directly \citet[chapter 6]{Johannesson2014}. One
     oft-used method is surveys allowing for coverage of potential
     requirements \citep[chapter 6]{Johannesson2014}. Using surveys
