@@ -263,6 +263,11 @@
    test of emotion recognition, reading the mind in the eyes, was
    developed \citep{Baron-Cohen2001}.
 
+   Overall, the evidence seems to suggest that the concept of
+   emotional intelligence is applicable to a number of practical
+   situations. This would imply a soecietal benefit in the application
+   of emotional intelligence.
+
 ** Measuring emotional intelligence of Ability
 
    Like with its definition, how emotional intelligence is measured is
@@ -302,17 +307,18 @@
     separate construct from ability measured by MSCEIT
     \citep{Warwick2004}.
 
-    Another interesting inventory for measuring emotional intelligence
-    is the Profile of Emotional Competence (PEC), consisting of 50
-    items divided into ten sub-scales \citep{Brasseur2013}. The PEC
-    shows a good internal consistency, making it appropriate for both
-    clinical and research use \citep{Brasseur2013}.
+    Self-reported measures have also been for measuring ability
+    emotional intelligence, one of these is the Profile of Emotional
+    Competence (PEC), which consists of 50 items divided into ten
+    sub-scales \citep{Brasseur2013}. The PEC shows a good internal
+    consistency, making it appropriate for both clinical and research
+    use \citep{Brasseur2013}.
 
     Recently, \citet{Mikolajczak2014} were able to reduce the earlier
-    PEC scale to only 20 items while maintaining the predictive
-    properties of the original 50-item scale. This result suggests that
-    emotional intelligence can be measured using only a small number
-    of questions.
+    PEC scale to only 20 items while maintaining the to a large degree
+    the accuracy of the original 50-item scale. This result suggests
+    that emotional intelligence can be measured using only a small
+    number of questions.
 
     Another method of measuring is Emotional Quotient-Inventory
     (EQ-I), a standard questionnaire consisting of 131-items divided
@@ -325,7 +331,7 @@
     recently found support in \citet{Elfenbein2015}, showing that such
     peer ratings are both accurate and reliable.
 
-    The EQ-I is not without its problems. One large problem is that of
+    The EQ-I is not without its problems. A big problem is that of
     fakeability, in one study conducted by \citet{GrubbIII2007}, found
     that participants when asked to "fake" emotional intelligence were
     able to do so. Such fakeability is quite troublesome because it
