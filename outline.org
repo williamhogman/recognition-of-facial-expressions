@@ -371,7 +371,7 @@
    people with high TAS-scores and controls. These results suggest an
    underlying neural basis for the TAS and alexithymia, in general.
 
-** Recognition of emotional faces
+** Emotional Facial Expressions
    A separate but related field to traditional emotional intelligence
    testing is the recognition of emotional facial expressions. This
    strand of research builds on the work of \cite{Ekman1969a}. The
@@ -411,21 +411,22 @@
    brief displays of emotional facial expressions (under
    200ms). Paradigms based on the BART been used widely
    \cite[e.g.][]{Matsumoto2000}. By only showing the facial expression
-   for a short time, accuracy is reduced. Ensuring that the
-   chance-adjusted is as close to 50% is important to avoid floor and
-   ceiling effects, which could distort the data. Another important
-   feature of BART is its use masking images of neutral faces both
-   before and after a trial \citep{Ekman1974a}. This masking serves
-   both to provide a fixation point before the trial, and ensure that
-   the participants do not have the benefit of after-images. This
-   paradigm is illustrated in \ref{fig:mett}
+   for a short time, accuracy of identification is reduced as compared
+   to longer exposure times. Ensuring that the chance-adjusted is as
+   close to 50% is important to avoid floor and ceiling effects, which
+   could distort the data. Another important feature of BART is its
+   use masking images of neutral faces both before and after a trial
+   \citep{Ekman1974a}. This masking serves both to provide a fixation
+   point before the trial, and ensure that the participants do not
+   have the benefit of after-images. This paradigm is illustrated in
+   \ref{fig:mett}
 
    Another method of ensuring low enough accuracy is the subtle
    expression training tool (SETT). Unlike the BART, expressions are
    restricted to one part of the face. This restriction is meant to
    simulate a situation where the person is consciously suppressing a
    facial expression. \citep{Ekman2003}
-
+   
 ** Stimulus sets of emotional expression
 
    To use the paradigms discussed it is necessary to use a set of
@@ -444,10 +445,10 @@
    JACFEE consists of 56 photos of models of Japanese or Caucasian
    decent with eight pictures, one for each basic emotions, and one
    neutral picture \citep{matsumoto1988japanese}. The dataset, while
-   showing substantial cross-national differences also showed
-   relatively high levels of agreement \citep{Biehl1997}.
+   showing some cross-national differences also showed relatively high
+   levels of agreement \citep{Biehl1997}.
 
-   Another common data-set of emotional facial expression is the
+   Another commonly used data-set of emotional facial expression is the
    Karolinska Directed Emotional Faces
    \citep[KDEF;][]{DanielLundqvistAndersFlykt1998}. KDEF consists of
    pictures 70 of individuals expressing seven different emotions
@@ -532,10 +533,10 @@
    different verbal content \citep{Banziger2012}.
 
    Based on the research discussed in this review, it could be argued
-   that measuring the recognition facial expressions may be
-   successful in finding individual differences in emotional
-   processing. This difference seems particularly pronounced at low
-   display times.
+   that measuring the recognition facial expressions may be successful
+   in finding individual differences in emotional processing. This
+   difference seems particularly pronounced at presentation times
+   shorter than one second.
 
 * Methodology and Methods for Data Collection
    The goal of the present study is not merely empirical, it aims also
@@ -839,13 +840,13 @@
     time-related costs. Therefore, it is important to keep any such
     tests as short as possible.
 
-    MSCEIT, EQ-I, PEC contain a large number of items making them
-    unsuitable, making them suitable for standalone use, but not using
-    them in conjunction with other tests. This leaves TAS, RMITE and
-    SPEC suitable as suitable candidates. RMITE, being a facial
-    expression recognition task, is very similar to the METT and may
-    for this reason be unsuitable to capture complementary sources of
-    variance.
+    MSCEIT, EQ-I, PEC contain a large number of items, which is
+    acceptable for standalone use, however using them in conjunction
+    with other tests may be unsuitable as it may become overly
+    time-consuming. This leaves TAS, RMITE and SPEC suitable as
+    suitable candidates. RMITE, being a facial expression recognition
+    task, is very similar to the METT and may for this reason be
+    unsuitable to capture complementary sources of variance.
 
     TAS, while showing robustness, maturity and validity, is limited
     in that it only includes sub-factors related to
