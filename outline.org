@@ -845,12 +845,13 @@
     with other tests may be unsuitable as it may become overly
     time-consuming. This leaves TAS, RMITE and SPEC suitable as
     suitable candidates. RMITE, being a facial expression recognition
-    task, is very similar to the METT and may for this reason be
+    task, is very similar to the METT and is for this reason be
     unsuitable to capture complementary sources of variance.
 
     TAS, while showing robustness, maturity and validity, is limited
-    in that it only includes sub-factors related to
-    alexithymia. Moreover, one of the factors, identifying feelings
+    in that it only includes sub-factors related to alexithymia, and
+    may for this reason be more appropriate for assessing
+    disfunctions. Moreover, one of the factors, identifying feelings
     may overlap to some degree of overlap with METT. This makes it
     unsuitable as a supplementary scale to METT.
 
