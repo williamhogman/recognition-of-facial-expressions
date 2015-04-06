@@ -889,8 +889,9 @@
     faster responses once the user has learned the options. Second,
     not showing a mouse-cursor would avoid problems stemming from the
     occlusion of the stimulus by the mouse cursor. Finally, keyboards
-    are commodity hardware and removes the need for purchasing
-    specialized input hardware.
+    are commodity hardware and using themremoves the need for
+    purchasing specialized input hardware, making the test accessible
+    to a wider range of researchers and practitioners.
 
     Another issue is the effects of training, as the results showed,
     there was a strong effect of training. Specifically the earlier
