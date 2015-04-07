@@ -61,13 +61,19 @@ are replaceable with other components on an as-needed basis.
 
 * Questionarie module
   After the METT module has completed its work the questionarie module
-  is initialized. Each question present in configuration is then
-  presented in order. The presentation of a question is performed as
-  follows, first, the question text and the response options are
-  rendered to the screen as text. Keyboard input is read. If the input
-  read matches a response alternative, the data is then stored in
-  memory. This process is repeated each question of the configuration
-  has been processed. After the questinarie task is completed the
-  results are saved to disk in the csv format.
+  is initialized, each question consists of three components, a
+  question-id which is simply logged to the output, a text description
+  for prompting the user, and finally a mapping between keyboard key
+  names and a text-string containing the question text.
+
+  Each question present in configuration is then presented in
+  order. The presentation of a question is performed as follows,
+  first, the question text and the response options are rendered to
+  the screen as text. Keyboard input is read. If the input read
+  matches a response alternative, the data is then stored in
+  memory. This process is repeated untill each configured question has
+  been performed.  has been processed. After the questinarie task is
+  completed the results are saved to disk in the comma separated value
+  format.
 
 
