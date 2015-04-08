@@ -45,14 +45,17 @@ are replaceable with other components on an as-needed basis.
   The trials are then invoked in order. Upon invocation the trial
   handler loads the relevant from disk, showing a blank screen
   meanwhile. Once the images have been loaded the picture of the
-  neutral expression is showed a fixed, configurable number of
-  frames. Once the configured number of frames has been rendered, the
-  emotional picture also for a configurable but different number of
-  frames. Then, finally the neutral image is shown for the configured
-  number of frames. After this, the system displays an input prompt
-  and starts accepting keyboard input from the users. Once an answer
-  has been collected , the screen is then cleared and the trial yields
-  control back to experiment.
+  neutral expression is showed for a fixed, but configurable number of
+  frames. Once the configured number of frames have rendered, the
+  emotional picture is displayed, for a configurable but different
+  number of frames. Then, finally the neutral image is shown for the
+  another configured number of frames.
+
+  Once the pictures have been displayed, the system displays an input
+  prompt and starts accepting keyboard input from the user. Once an
+  answer has been collected , the screen is then cleared. The flow of
+  execution then halts for a configurable number of seconds before the
+  trial yields control back to experiment.
 
   Once the set of trials has been completed, the system, takes the
   trial data and combines it with the response data. This results in a
