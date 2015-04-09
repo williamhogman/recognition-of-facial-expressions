@@ -12,29 +12,35 @@ are replaceable with other components on an as-needed basis.
   correct responses for each individual trial of the METT
   paradigm. Finally, a third JSON file specifies the questions for
   SPEC.
-
+ 
 * Deployment scripts
   To simplify the configuration and use of the system a number of
   utility scripts were developed, including scripts for generating
   subsets of the RaFD, starting the system in a given configuration
   state, and running a demonstration mode of the software. These
-  scripts are not run in the normal operations of the script, however,
-  they are useful in setting up an environment that can then be
-  reused.
+  scripts are not run in the normal operations of the appliation,
+  however, they are useful in setting up an environment that can then
+  be reused.
 
 * Text assets
   For the purposes of making the application locablizable to different
   languages, a system for text assets was created. Text assets for two
   languages, Swedish and English were created. These assets are used
   to progrmatically translate the application.
-
+ 
 * Initialization module
   The initialization module of the system manages initializing the
   system on load. The first task of the is to collect the subject
   identifier and experimenter initials from the experimenter. Once
   this is performed, the current-time and hostname are also collected
-  to help with diagnostics. The system then proceeds to deserialize
-  configuration files and load these into memory.
+  to help with diagnostics. The module then delegates to the
+  configuration modules which then proceeds to deserialize
+  configuration files and load the configuration files into
+  memory. After loading files passes-on the trials to the METT module
+  which displays performs the trials. When the METT module has
+  performed as its trials, the initialization module invokes the
+  question module, passing on the questions. When both METT and
+  questions have completed, collected responses are written to CSV.
 
 * METT module
   Before the experiment is started, the module shuffles the order of
@@ -42,9 +48,9 @@ are replaceable with other components on an as-needed basis.
   experiencing the trials in a psuedo-random, non-systematic order
   of trials.
 
-  The trials are then invoked in order. Upon invocation the trial
-  handler loads the relevant from disk, showing a blank screen
-  meanwhile. Once the images have been loaded the picture of the
+  The trials are then invoked in order, upon invocation the trial
+  handler loads the relevant images from disk, showing a blank screen
+  while loading. Once the images have been loaded the picture of the
   neutral expression is showed for a fixed, but configurable number of
   frames. Once the configured number of frames have rendered, the
   emotional picture is displayed, for a configurable but different
@@ -73,10 +79,10 @@ are replaceable with other components on an as-needed basis.
   order. The presentation of a question is performed as follows,
   first, the question text and the response options are rendered to
   the screen as text. Keyboard input is read. If the input read
-  matches a response alternative, the data is then stored in
-  memory. This process is repeated untill each configured question has
-  been performed.  has been processed. After the questinarie task is
-  completed the results are saved to disk in the comma separated value
-  format.
+  matches a response alternative, the key and response time are then
+  stored in memory. This process is repeated untill each configured
+  question has been performed.  has been processed. After the
+  questinarie task is completed the results are saved to disk in the
+  comma separated value format.
 
 
