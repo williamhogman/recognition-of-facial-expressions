@@ -490,12 +490,13 @@
    \citep{Langner2010}.
 
    \citet{Calvo2008a} investigated the relationship between the
-   display time (25-500ms) and the accuracy of emotion recognition
-   for the KDEF stimulus set and found a slight increase in accuracy
-   for longer displays. In addition, \citet{Calvo2008a} found
-   differences in detection between the emotions. Happy and neutral
-   showed higher degrees of accuracy than the other emotions and fear
-   showed a lower accuracy.
+   presentation time (25-500ms) and the accuracy of emotion
+   recognition in a non-masked emotion recognition paradigm, with the
+   KDEF stimulus set, and found a slight increase in accuracy for
+   longer displays. In addition, \citet{Calvo2008a} found differences
+   in detection between the emotions. Happy and neutral showed higher
+   degrees of accuracy than the other emotions and fear showed a lower
+   accuracy.
 
    The results of \citet{Calvo2008a} suggest that there are
    differences in the accuracy of processing different emotions. Most
