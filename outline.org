@@ -671,6 +671,7 @@
     ecological validity is a problem shared by many psychometric
     instruments, and therefore not a problem particular to the present study.
 
+* Application of Method
 ** Requirements defintion
    For the literature review, a number of research publications
    related to emotional intelligence were reviewed. Based on these
