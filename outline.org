@@ -9,32 +9,39 @@
 \input{toc.tex}
 
 * Introduction
-  Emotions play a fundamental role in modulating the behavior and experiences
-  of organisms, and while the exact definition is debated, its
-  importance is not \parencite{Scherer2005}. The impact that emotions
-  have on everyday life is enormous yet hard to pinpoint.
+  Emotions play a fundamental role in modulating the behavior and
+  experiences of organisms. While the exact definition of the concept
+  is debated, its importance is not \citep{Scherer2005}. The
+  impact that emotions have on everyday life is enormous yet hard to
+  pinpoint.
   
-  \citet{Fontaine2007} defines emotions as a set of interrelated
-  components, covering a wide range of behavior. These are appraisals
-  of events, psychophysiological changes, motor expressions, action
-  tendencies, subjective experience, and emotion regulation
-  \parencite{Fontaine2007}. Emotions may have both internal
-  and external antecedents \parencite{Scherer2005}.
+  \citet{Fontaine2007} define emotions as a set of interrelated
+  components, covering a wide range of behavior. These components are
+  \citet{Fontaine2007} argue, appraisals of events,
+  psychophysiological changes, motor expressions, action tendencies,
+  subjective experience, and emotion regulation
+  \citep{Fontaine2007}. The antecedents of emotions are equally
+  varied as the consequents and may be both internal as well as
+  external \citep{Scherer2005}.
   
-  One important adaptive function of emotions is regulating social interactions
-  by facilitating group cohesion and collaboration. Understanding the
-  emotions of others is an essential aspect of many social
-  situations. \parencite{Niedenthal2012}.
+  One important adaptive function of emotions is regulating social
+  interactions by facilitating group cohesion and
+  collaboration. Understanding the emotions of others is an essential
+  aspect of many social situations. \parencite{Niedenthal2012}.
   
   The ability to process the emotional information contained both in
-  oneself and others is referred to in the literature as emotional
-  intelligence. Emotional intelligence has over the last
-  two-and-a-half decades gained the attention of researchers. This
-  ability to can be conceptualized as differences in the extent to
+  the self and in others has been referred to in the literature as
+  emotional intelligence
+  \citep[see~][for~an~early~example]{Salovey1990}. Emotional
+  intelligence has over the last quarter of a century gained the
+  attention of researchers and has become, as we shall see, a somewhat
+  controversial matter. The ability encapsulated in emotional
+  intelligence can be conceptualized as differences in the extent to
   which organisms interpret, process and act upon the emotions and
   affects of themselves and others. An essential component in
   emotional intelligence seems to be the ability to identify the
-  emotions of oneself and others. \parencite{Mikolajczak2014} 
+  emotions of oneself and others, with other cognitive-social
+  abilities depedending on this base. \citep{Mikolajczak2014}
   
   The concept of emotional intelligence is not uncontroversial, with
   different authors suggesting widely different models of emotional
