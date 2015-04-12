@@ -43,32 +43,35 @@
   emotions of oneself and others, with other cognitive-social
   abilities depedending on this base. \citep{Mikolajczak2014}
   
-  The concept of emotional intelligence is not uncontroversial, with
-  different authors suggesting widely different models of emotional
-  intelligence \citep{McCleskey2014,Mayer2008,Petrides2010}. Other
-  authors (TK, Who? Locke surely) have questioned the validity of
-  emotional intelligence. Indeed, emotional intelligence has been
-  found to correlate with personality factors
-  \citep[e.g.][]{Warwick2004, Petrides2001} and cognitive abilities
-  \citep[e.g.][]{Freudenthaler2007}. These correlations call into
+  The concept of emotional intelligence, however, is not
+  uncontroversial. Various different authors with different approaches
+  suggest widely different models of emotional intelligence
+  \citep[][e.g.~]{McCleskey2014,Mayer2008,Petrides2010}. Other authors
+  (TK, Who? Locke surely) have questioned the validity of emotional
+  intelligence. Supporting a more limited notion emotional
+  intelligence, some studies have found emotional intelligences to
+  correlate with personality factors \citep[e.g.][]{Warwick2004,
+  Petrides2001} and cognitive abilities
+  \citep[e.g.][]{Freudenthaler2007}. These results call into
   question the divergent validity, to that point of some authors (TK
   Locke and someone else) doubting overall usefulness of the concept.
   
-  Several approaches have been used to measure emotional intelligence,
-  both ability tests \citep{Mayer2003}, self-reported ability
-  \citep{Bar-On1997}, and trait measures (TK, ref).  Various different
-  methods have also been developed for measuring emotional
-  intelligence. \citet{Mikolajczak2014} approached the measuring of
-  emotional intelligence and developed a 50-item inventory for
-  emotional intelligence. More specialized \citet{Baron-Cohen2001}
-  approached the problem from a different angle asking participants to
-  identify an emotion based just on a picture showing a pair of
-  eyes. Another strand of research focuses on measuring emotional
-  facial recognition \citep{Schlegel2012}. The results of
-  \citet{Schlegel2012} seem to indicate that the recognition of
-  emotional faces is a single ability as opposed to multiple separate
-  abilities, affirming to some degree the convergent validity to the
-  construct of emotional intelligence.
+  Despite the controversy related to the concept itself, several
+  approaches have been used to measure emotional intelligence, both
+  ability tests \citep{Mayer2003}, self-reported ability
+  \citep{Bar-On1997}, and personality trait measures
+  \citep{Petrides2007}.  Various different methods have also been
+  developed for measuring emotional intelligence. For example,
+  \citet{Mikolajczak2014} approached the measuring of emotional
+  intelligence and developed a 50-item inventory for emotional
+  intelligence. \citet{Baron-Cohen2001} approached the problem from a
+  different vantage point, asking participants to identify an emotion
+  based just on a picture showing a pair of eyes. Another strand of
+  research focuses on measuring emotional facial recognition
+  \citep{Schlegel2012}. The results of \citet{Schlegel2012} seem to
+  indicate that the recognition of emotional faces is a single ability
+  as opposed to multiple separate abilities, affirming to some degree
+  the convergent validity to the construct of emotional intelligence.
   
   Another approach that might be taken for emotional intelligence
   testing is using emotional facial expressions in a manner similar to
