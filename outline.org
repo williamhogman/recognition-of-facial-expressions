@@ -101,18 +101,22 @@
   face to provide a fixation and avoid after-images respectively \citep{Ekman1974a}.
   
 ** Research problem
-   Testing and training applications being a central part of
+   Testing and training applications are a central part of
    micro-expression research \citep{Ekman1992}. However, despite
    multiple several studies being made \citep[e.g.][]{Schlegel2012},
-   there exists no standard for testing emotion recognition using
-   micro-expressions.
+   there exists no standard for emotional intelligence focused on
+   emotion recognition. Likewise, earlier approaches have focused
+   solely on emotion recognition.
 
-   The lack of a standard for testing emotion recognition may suggest
-   a lack of understanding of what factors are important for
-   developing tools for testing emotional intelligence. The present
-   study sets out improve the understanding of how such testing
-   software could be designed and developed, aiming to improve the
-   accuracy and availability of such tests.
+   The lack of a standard test of emotion recognition and emotional
+   intelligence, may be indicate a lack of understanding of what
+   factors are important for developing tools for testing emotional
+   intelligence.
+
+   The present study sets out improve the understanding of how such
+   testing software could be designed and developed, aiming to improve
+   the accuracy and availability of such tests by developing such an
+   artefact.
 
    The creation of such a test could be relevant for a number of
    areas. Firstly, education of psychologists, psychotherapists, and
