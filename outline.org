@@ -132,6 +132,10 @@
    What are the key principles for developing EQ-tests based on micro-expressions?
    
 * Extended background
+  In the extended background a number of theoretical models,
+  applications, earlier tests and stimulus sets are reviewed an are
+  discussed. These lie at the foundation of the artefact developed in
+  the present study.
 ** The Theoretical Models of Emotional Intelligence
    The definition of emotional intelligence has since its inception
    been the subject of fierce debate \citep{McCleskey2014}. One of the
@@ -158,19 +162,21 @@
 
    Writing only years after Bar-On (TK, Doctoral dissertation)
    \cite{Salovey1990} introduced their notion of emotional
-   intelligence, with the widely cited (TK, e.g) passage defining
-   emotional intelligence as ``the subset of social intelligence that
-   involves the ability to monitor one's own and others' feelings and
-   emotions to discriminate among them and to use the information to
-   guide one's thinking and actions''.  Additionally,
-   \citet{Salovey1990} divided emotional intelligence into four
-   sub-categories of emotional intelligence: appraisal,
-   expression, regulation and, utilization.
+   intelligence, with the widely cited \citep[][e.g]{McCleskey2014}
+   passage defining emotional intelligence as ``the subset of social
+   intelligence that involves the ability to monitor one's own and
+   others' feelings and emotions to discriminate among them and to use
+   the information to guide one's thinking and actions''.
+   Additionally, \citet{Salovey1990} divided emotional intelligence
+   into four sub-categories of emotional intelligence: appraisal,
+   expression, regulation and, utilization. Thereby defining the
+   boundaries of the subject.
 
    Furthermore, \citet{Salovey1990} argue that people exhibiting the
    four abilities may show more adaptive behaviors in social
-   situations \citep{Brackett2006}. Conversely, people exhibiting
-   deficits in emotional intelligence may show maladaptive behaviors
+   situations. This was later expanded in
+   \citet{Brackett2006}. Conversely, people exhibiting deficits in
+   emotional intelligence may show maladaptive behaviors
    \citep{Brackett2006}.
 
    Beginning with \citet{Petrides2001}, one strand of research has
