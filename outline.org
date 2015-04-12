@@ -111,8 +111,6 @@
    What are the key principles for developing EQ-tests based on micro-expressions?
    
 * Extended background
-
-
 ** The Theoretical Models of Emotional Intelligence
    The definition of emotional intelligence has since its inception
    been the subject of fierce debate \citep{McCleskey2014}. One of the
@@ -222,7 +220,7 @@
    developing tests based on the insection of theoretical frameworks
    may therefore make a test independent of which framework prevails.
     
-** Uses for emotional intelligence
+** Practical Applications for Emotional Intelligence
    
    Desipte the difficulty of accurately defining the term, proponents
    of emotional intelligence argue its usefulness.  In a review by
@@ -338,7 +336,7 @@
     would imply that it does not measure a competency, which would
     have been difficult to fake.
 
-** Measures related to emotional intelligence
+** Measures related to Emotional Intelligence
 
    Outside the development of psychometric scales of emotional
    intelligence, some research has also gone into examining other
@@ -427,7 +425,7 @@
    simulate a situation where the person is consciously suppressing a
    facial expression. \citep{Ekman2003}
    
-** Stimulus sets of emotional expression
+** Stimulus sets of emotional facial expressions
 
    To use the paradigms discussed it is necessary to use a set of
    photographs. Because recognition of facial expressions is a common
@@ -673,7 +671,7 @@
     ecological validity is a problem shared by many psychometric
     instruments, and therefore not a problem particular to the present study.
 
-** Requirements defintions
+** Requirements defintion
    For the literature review, a number of research publications
    related to emotional intelligence were reviewed. Based on these
    qualitative coding based analysis was performed. Different
