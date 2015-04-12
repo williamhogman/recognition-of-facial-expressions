@@ -230,26 +230,29 @@
    of the ability model argue that trait models just measure various
    aspects of personality. 
 
-   Another interesting approach was taken by
-   \citet{Freudenthaler2007}, interpreting trait and ability as
-   typical and maximum performance respectively, finding typical
-   performance as dependent on personality and maximum performance as
-   dependent on cognitive ability. This has approach has may have the
-   advantage of being better aligned with the approach taken for other
-   cognitive abilities.
+   Another approach was taken by \citet{Freudenthaler2007},
+   interpreting trait and ability as typical and maximum performance
+   respectively. \citet{Freudenthaler2007} finding that typical
+   performance is dependent on personality and that maximum
+   performance is dependent on some cognitive ability. This model has
+   the advantage of being better aligned with the approach taken for
+   other cognitive abilities, and not being specific to emotional
+   intelligence.
 
    Having seen multiple different definitions of emotional
    intelligence, what little agreement exists could perhaps be
    captured as follows: emotional intelligence is a continuous factor
    determining the depth and accuracy of processing at the crossroads
-   of emotion and cognition. Even if earlier intergrative approaches
-   have been critized \citep[e.g.~][]{Cherniss2010}, multifaceted
-   approaches may still be valuable, however this would require
-   combining the theoretical multiple theoretical frameworks. For any
-   psychometric test to be useful, it needs to be loosely coupled to
-   its theoretical concepts, while retaining internal cohessiveness,
-   developing tests based on the insection of theoretical frameworks
-   may therefore make a test independent of which framework prevails.
+   of emotion and cognition.
+
+   Even if earlier intergrative approaches have been critized
+   \citep[e.g.~][]{Cherniss2010}, multifaceted approaches may still be
+   valuable, however this would require combining the theoretical
+   multiple theoretical frameworks. For any psychometric test to be
+   useful, it needs to be loosely coupled to its theoretical concepts,
+   while retaining internal cohessiveness, developing tests based on
+   the insection of theoretical frameworks may therefore make a test
+   independent of which framework prevails.
     
 ** Practical Applications for Emotional Intelligence
    
