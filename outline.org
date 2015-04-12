@@ -158,7 +158,7 @@
    intelligence, the Bar-On model considers a set of widely different
    situations and criteria, ranging from the recognition of emotions
    to the regulating emotions. \citep{Baron2006} This model was
-   introduced in (TK, Doctroal dissertation).
+   introduced in (TK, doctoral dissertation).
 
    Writing only years after Bar-On (TK, Doctoral dissertation)
    \cite{Salovey1990} introduced their notion of emotional
@@ -193,29 +193,32 @@
    uncorrelated with ability measures of emotional intelligence, it is
    distinct from traditional personality factors.
    
-   The incompatibility argument is expanded
-   further by \citet{Petrides2010}, arguing that trait and ability
-   measures of emotional intelligence cannot be grouped in any
-   meaningful sense. Moreover, \citet{Petrides2010} criticizes the
-   Bar-On \citep{Baron2006} model as well as the \citet{Salovey1990}
-   model, arguing that ability measures of emotional intelligence
-   imply the existence of some universal notion of adaptive social
-   behavior.
+   The incompatibility argument is expanded further by
+   \citet{Petrides2010}, arguing that trait and ability measures of
+   emotional intelligence cannot be grouped in any meaningful
+   sense. Moreover, \citet{Petrides2010} criticizes the Bar-On
+   \citep{Baron2006} model as well as the \citet{Salovey1990} model,
+   arguing that ability measures of emotional intelligence imply the
+   existence of some universal notion of adaptive social
+   behavior. Such a notion of imply a culturally invariant concept of
+   socially appropriate, or intelligent behaviour, which is difficult
+   to establish.
 
    To resolve some of the controversies surrounding the definition of
    the term \citet{Cherniss2010} suggests separating the concepts of
    emotional intelligence and social competence. \citet{Cherniss2010}
    defines emotional intelligence simply as recognizing, reasoning and
    regulating emotions, holding that other factors are simply
-   emotional and social competencies. In effect \citet{Cherniss2010},
-   designates the \citet{Salovey1990} model as emotional intelligence,
-   while referring to the Bar-On model \citep{Baron2006} as emotional
-   and social competence. This attempt to reconcile the two major
-   theories of emotional intelligence was criticized by
-   \citet{Petrides2010} for severing the link between the constructs
-   and their present operational definitions. Doing so,
-   \citet{Petrides2010}, argues would cause a disconnect between what
-   is actually studied and what the definition used is.
+   emotional and social competencies, building on the ones emotional
+   intelligence. In effect \citet{Cherniss2010}, designates the
+   \citet{Salovey1990} model as emotional intelligence, while
+   referring to the Bar-On model \citep{Baron2006} as emotional and
+   social competence. This attempt to reconcile the two major theories
+   of emotional intelligence was criticized by \citet{Petrides2010}
+   for severing the link between the constructs and their present
+   operational definitions. Doing so, \citet{Petrides2010}, argues
+   would cause a disconnect between what is actually studied and what
+   the definition used is.
 
    The separation of trait and state concepts of emotional
    intelligence is supported by most authors
