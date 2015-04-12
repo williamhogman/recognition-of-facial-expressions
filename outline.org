@@ -149,11 +149,12 @@
    competencies, skills and facilities that determine how effectively
    we understand and express ourselves, understand others and relate
    with them, and cope with daily demands" \citep{Baron2006}. The
-   model is consistent with other frameworks in including both inter-
+   model is consistent with other frameworks and includes both inter-
    and intra-personal skills. Like most other models of emotional
    intelligence, the Bar-On model considers a set of widely different
    situations and criteria, ranging from the recognition of emotions
-   to the regulating emotions. \citep{Baron2006}
+   to the regulating emotions. \citep{Baron2006} This model was
+   introduced in (TK, Doctroal dissertation).
 
    Writing only years after Bar-On (TK, Doctoral dissertation)
    \cite{Salovey1990} introduced their notion of emotional
