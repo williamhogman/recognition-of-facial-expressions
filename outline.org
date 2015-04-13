@@ -270,30 +270,31 @@
    7. Better psychological well-being.
 #+END_QUOTE
 
-   Within the areas mentioned by \citet{Mayer2008}, it seems that
+   Within the areas discussed by \citet{Mayer2008}, it seems that
    measures of emotional intelligence, have some predictive
    validity. Indeed, the results within the aforementioned areas
    suggest that tests and instruments measuring emotional intelligence
    may be practically applicable.
 
-   Another area discussed is the relationship of emotional
-   intelligence and leadership. Indeed, it is commonly held that
-   emotional intelligence plays a role in leadership
+   Another often discussed area is the relationship of emotional
+   intelligence and leadership. It is commonly held that emotional
+   intelligence plays a role in leadership
    \citep{Brackett2006,McCleskey2014}. \citet{McCleskey2014} argues
    that for at least some aspects of leadership, it seems likely that
    emotional intelligence offers some predictive value for performance
-   leadership roles \citep{McCleskey2014}.
+   leadership roles \citep{McCleskey2014}. This could make emotional
+   intelligence an important tool for executive search.
    
    Moreover, emotional intelligence scales have been used for
    corporate recruiting for roles requiring social
-   interaction. Indeed, these results seem to suggest that emotional
+   interaction. These results seem to suggest that emotional
    intelligence may be useful in guiding hiring decisions (TK, REF)
 
-   Finally, the concept of emotional intelligence is useful in the
+   Additionally, the concept of emotional intelligence is useful in the
    diagnosis and testing for autism spectrum disorders
    \parencite{Baron-Cohen2001}. In this particular case, a specific
    test of emotion recognition, reading the mind in the eyes, was
-   developed \citep{Baron-Cohen2001}.
+   developed for this purpose \citep{Baron-Cohen2001}.
 
    Overall, the evidence seems to suggest that the concept of
    emotional intelligence is applicable to a number of practical
