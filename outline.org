@@ -324,28 +324,33 @@
     with imaginary situations in which emotional intelligence is
     required.
 
-    In an evaluation of MSCEIT 2.0 \citet{Mayer2003} found both
-    sufficiently reliability as well as consistency with its
-    theoretical foundations. The validity of MSCEIT has however been
+    In an evaluation of MSCEIT 2.0, the second version of MSCEIT,
+    \citet{Mayer2003} found both sufficiently reliability as well as
+    consistency with its theoretical foundations. This would suggest
+    that MSCEIT may be appropriate for research use.
+
+    However, The validity of the MSCEIT has however was later disputed
     disputed. \citet{Rossen2008} found results running contrary to the
     factor structure used found in the validation study by
     \citet{Mayer2003}. The results found by \citet{Rossen2008} seem to
     suggest that the sub-scales do not match the intended theoretical
-    concepts, putting the test into question. 
+    concepts, putting the test into question.
 
-    For measuring trait emotional intelligence, \cite{Salovey1995}
+    For measuring trait emotional intelligence, \citet{Salovey1995}
     introduced Trait meta-mood scale (TTMS) which aims to measure the
-    tendency to attend to one's moods and emotions. The TTMS scale has
+    tendency to attend to one's moods and emotions. The TTMS test has
     been found not to correlate with MSCEIT, indicating that it is a
     separate construct from ability measured by MSCEIT
-    \citep{Warwick2004}.
+    \citep{Warwick2004}. The TTMS is meant to capture differences in
+    the tendencies to engage in socially intelligent behaviour, which
+    are not explained by ability model \citep{Salovey1995}.
 
-    Self-reported measures have also been for measuring ability
-    emotional intelligence, one of these is the Profile of Emotional
-    Competence (PEC), which consists of 50 items divided into ten
-    sub-scales \citep{Brasseur2013}. The PEC shows a good internal
-    consistency, making it appropriate for both clinical and research
-    use \citep{Brasseur2013}.
+    Self-reported psychometric tests have also been for measuring
+    ability emotional intelligence, one of these is the Profile of
+    Emotional Competence (PEC), which consists of 50 items divided
+    into ten sub-scales \citep{Brasseur2013}. The PEC shows a good
+    internal consistency, making it appropriate for both clinical and
+    research use \citep{Brasseur2013}.
 
     Recently, \citet{Mikolajczak2014} were able to reduce the earlier
     PEC scale to only 20 items while maintaining the to a large degree
