@@ -419,11 +419,11 @@
    automatically \citep{Ekman1992,Ekman1997} and are automatically
    processed \cite{Ekman1992}.
 
-   Another feature of Ekman's is emotional leakage that occurs when
-   consciously trying to suppress the expression of some emotion
+   Another feature of Ekman's model is emotional leakage, which occurs
+   when consciously trying to suppress the expression of some emotion
    \citep{Ekman1969,Ekman2003}. This emotional leakage, what Ekman
    refers to as micro expressions can be identified by others
-   \citep{Ekman1974}. 
+   \citep{Ekman1974}.
 
    Both individual and group differences in the ability to detect
    deceit have been found. For example, \cite{Ekman1991} found that
