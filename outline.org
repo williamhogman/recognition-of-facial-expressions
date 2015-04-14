@@ -365,27 +365,28 @@
     based on emotional intelligence as a competency
     \citep{Baron2006}. EQ-I is often used both on an individual and a
     peer-level, where peers are asked to rate the individual's
-    emotional intelligence. The approach of using peer ratings has
-    recently found support in \citet{Elfenbein2015}, showing that such
-    peer ratings are both accurate and reliable.
+    emotional intelligence \citep{Bar-On1997}. The approach of using
+    peer ratings has recently found support in \citet{Elfenbein2015},
+    showing that such peer ratings can be both accurate and reliable.
 
-    The EQ-I is not without its problems. A big problem is that of
-    fakeability, in one study conducted by \citet{GrubbIII2007}, found
-    that participants when asked to "fake" emotional intelligence were
-    able to do so. Such fakeability is quite troublesome because it
-    would imply that it does not measure a competency, which would
-    have been difficult to fake.
+    The Emotional Quotient Inventory (EQ-I) is not without its
+    problems. A big problem is that of fakeability, one study
+    conducted by \citet{GrubbIII2007}, found that participants when
+    asked to "fake" emotional intelligence were easily able to do
+    so. Such fakeability is quite troublesome because it would imply
+    that the EQ-I does not measure a competency, because an ability
+    would have been difficult to fake.
 
 ** Measures related to Emotional Intelligence
 
-   Outside the development of psychometric scales of emotional
+   Outside the development of psychometric tests of emotional
    intelligence, some research has also gone into examining other
    aspects and ways of measuring emotional intelligence and related
-   areas. Over time, a wide variety of tasks have been developed for
-   assessing emotion intelligence. These scales are often developed
-   outside the area of emotional intelligence, and are to some degree
-   unaffected by the controversy surrounding other measures of
-   emotional intelligence.
+   areas. Over time, a wide variety of tests have been developed for
+   assessing emotion intelligence and related concepts. These tests
+   are often developed outside the area of emotional intelligence, and
+   are to some degree unaffected by the controversy surrounding other
+   measures of emotional intelligence.
 
    One measure that might be considered emotional intelligence is the
    reading the mind in the eyes (RTMITE) task \citet{Baron-Cohen2001},
