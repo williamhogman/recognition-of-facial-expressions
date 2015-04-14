@@ -389,19 +389,19 @@
    measures of emotional intelligence.
 
    One measure that might be considered emotional intelligence is the
-   reading the mind in the eyes (RTMITE) task \citet{Baron-Cohen2001},
+   reading the mind in the eyes (RTMITE) test \citep{Baron-Cohen2001},
    which has been successful in distinguishing people with Asperger
-   Syndrome and high-functioning autism controls. The instrument has
+   Syndrome and high-functioning autism from controls. The instrument has
    shown good test-retest reliability \citep{Hallerback2009} and has
    been applied in a number of cultures
    \citep{Yildirim2011,Hallerback2009}.
 
    Another measure related to emotions is the Toronto Alexithymia
-   Scale (TAS), a 20-item scale for detecting alexithymia. The TAS
-   consists of two subscales difficulty identifying feelings and
+   Scale (TAS), a 20-item test aiming to detect alexithymia. The TAS
+   consists of two subscales: difficulty identifying feelings and
    difficulty describing feelings \cite{Bagby1994}. The measure has
    shown good validity \citep{Bagby1994}. Further evidence for its
-   validity were found by \citet{Bressi1996} showing that good
+   validity were found by \citet{Bressi1996}, showing that good
    validity could also be obtained for Italian populations, suggesting
    at least some degree of cultural invariance. Finally, in a
    functional magnetic resonance imaging (fMRI) study,
