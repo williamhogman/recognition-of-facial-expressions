@@ -286,9 +286,9 @@
    intelligence an important tool for executive search.
    
    Moreover, emotional intelligence scales have been used for
-   corporate recruiting for roles requiring social
-   interaction. These results seem to suggest that emotional
-   intelligence may be useful in guiding hiring decisions (TK, REF)
+   corporate recruiting for roles requiring social interaction. These
+   results seem to suggest that emotional intelligence may be useful
+   in guiding hiring decisions \citep{McCleskey2014}.
 
    Additionally, the concept of emotional intelligence is useful in the
    diagnosis and testing for autism spectrum disorders
@@ -305,11 +305,11 @@
 
    Like with its definition, how emotional intelligence is measured is
    also debated. There exists no universally accepted standard for
-   measuring emotional intelligence. The different scales of emotional
+   measuring emotional intelligence. The different tests of emotional
    intelligence usually fall into one of only one of the theoretical
    models of emotional intelligence.
    
-    An early measure of emotional intelligence is the
+    An early psychometric test of emotional intelligence is the
     Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which is
     based on the theoretical framework introduced by
     \citep{Salovey1990}. In version 2.0 it consisted of 141 items
