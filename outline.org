@@ -448,13 +448,14 @@
    Based on this theoretical framework \cite{Ekman1974a} introduced
    the Brief Affection Recognition Test (BART), consisting of very
    brief displays of emotional facial expressions (under
-   200ms). Paradigms based on the BART been used widely
+   200ms). Paradigms based on the BART been widely used
    \cite[e.g.][]{Matsumoto2000}. By only showing the facial expression
    for a short time, accuracy of identification is reduced as compared
    to longer exposure times. Ensuring that the chance-adjusted is as
-   close to 50% is important to avoid floor and ceiling effects, which
-   could distort the data. Another important feature of BART is its
-   use masking images of neutral faces both before and after a trial
+   close to 50% as possible is important to avoid floor and ceiling
+   effects. Floor and ceiling effects should be avoided as they could
+   distort the data. An important feature of BART is its use
+   masking images of neutral faces both before and after a trial
    \citep{Ekman1974a}. This masking serves both to provide a fixation
    point before the trial, and ensure that the participants do not
    have the benefit of after-images. This paradigm is illustrated in
