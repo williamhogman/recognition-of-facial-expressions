@@ -472,7 +472,9 @@
    To use the paradigms discussed it is necessary to use a set of
    photographs. Because recognition of facial expressions is a common
    task there exists a plethora of facial expression stimulus
-   sets. These stimulus sets have been created for a number of
+   sets.
+
+   These stimulus sets have been created for a number of
    different purposes and are suitable for many different kinds of
    research. For the present study, a number of different stimulus
    sets and the research surronding them was reviewed. The stimulus
@@ -488,16 +490,17 @@
    showing some cross-national differences also showed relatively high
    levels of agreement \citep{Biehl1997}.
 
-   Another commonly used data-set of emotional facial expression is the
-   Karolinska Directed Emotional Faces
+   Another commonly used data-set of emotional facial expression is
+   the Karolinska Directed Emotional Faces
    \citep[KDEF;][]{DanielLundqvistAndersFlykt1998}. KDEF consists of
-   pictures 70 of individuals expressing seven different emotions
-   from five angles. KDEF has, since its inception, seen much use in
-   facial expression research
+   pictures 70 of individuals expressing seven different emotions from
+   five angles. KDEF has, since its inception, seen much use in facial
+   expression research
    \citep[e.g.][]{Calvo2008a,Willis2006,Todorov2009}. In addition to
-   widespread use, KDEF has shown good test-retest validity and a
+   its widespread use, KDEF has shown good test-retest validity and a
    high degrees of accuracy in recognition tasks
-   \citep{Goeleven2008}.
+   \citep{Goeleven2008}. Such results are indicate that the stimulus
+   set is appropriate for research use.
 
    \citet{Beaupre2000} approached the issue of finding a good stimulus
    set from the perspective of cultural difference in the ability to
@@ -524,8 +527,8 @@
    from five camera angles for a total 5880 photographs
    \citep{Langner2010}. Upon validation, RaFD showed a very high
    accuracy, higher even than the earlier KDEF dataset
-   \citep{Langner2010}. A key difference between RaFD and KDEF,
-   perhaps explaining this difference in accuracy is the expression
+   \citep{Langner2010}. A key difference between RaFD and KDEF, which
+   perhaps explains the difference in accuracy is the expression
    coaching given to models by a facial expression coding expert
    \citep{Langner2010}.
 
@@ -547,16 +550,18 @@
    particular.
 
    Another strand of research has gone into the split-second trait
-   judgments made viewing a face. \cite{Willis2006} found very
-   strong correlations between judgments of trustworthiness made
-   after \SI{100}{\milli\second} or \SI{500}{\milli\second} versus
-   those made without any time constraint. Moreover, no significant
+   judgments made viewing a face. \cite{Willis2006} found very strong
+   correlations between judgments of trustworthiness made after
+   \SI{100}{\milli\second} or \SI{500}{\milli\second} versus those
+   made without any time constraint. Moreover, no significant
    difference was found between the \SI{100}{\milli\second} and
    \SI{500}{\milli\second} conditions, suggesting that a trait
    judgment is performed very quickly. This notion was further
-   expanded by \citet{Todorov2009}, finding that accuracy with
-   display times up to \SI{100}{\milli\second}, after which the
-   growth rate is dramatically slower.
+   expanded by \citet{Todorov2009}, finding that grew accuracy with
+   display times up to \SI{100}{\milli\second}, after which the growth
+   rate is dramatically slower. These results are important as they
+   seem to indicate the depth of processing of faces that occurs even
+   at low presentation times.
 
    One problem shared by all stimulus sets discussed here is that they
    consist only of still images of facial expression. It could be
@@ -568,7 +573,7 @@
    Portrayals \citep[GEMEP;~][]{Banziger2012} is one of these. The
    GEMEP utilizes contains audio and video for each expressions
    providing three options for stimulus displays, audio-only,
-   video-only, audio-video. The GMEP stimulus-set is extensive, with a
+   video-only, audio-video. Moreover, The GMEP stimulus-set is extensive, with a
    total set of 1260 expressions, spread out over eighteen emotions,
    ten actors, three angles and a varying number of repetitions and
    different verbal content \citep{Banziger2012}.
@@ -581,18 +586,19 @@
 
 * Methodology and Methods for Data Collection
    The goal of the present study is not merely empirical, it aims also
-   to design a computerized test of emotional intelligence. This
-   distinction is discussed further by
-   \citet[chapter~1]{Johannesson2014}, who hold that practical
-   problems ought to be addressed with design research approaches.
+   to design a computerized test of emotional intelligence. The
+   distinction between design science and normal research isdiscussed
+   further by \citet[chapter~1]{Johannesson2014}, who hold that
+   practical problems ought to be addressed with design research
+   approaches.
     
    \citet[chapter 4]{Johannesson2014} put forward a model of design
    science based on five activities. The first activity, Explicate
-   problem, aims to find the practical problems that needs
-   solving. The second activity Define requirements, finds what
+   Problem, aims to find the practical problems that needs
+   solving. The second activity Define Requirements, finds what
    requirements should be included in the artefact. The third stage,
-   design and develop artefact concerns the creation of the actual
-   artefact. The fourth stage, Demonstrate artefact aims to
+   Design and Develop artefact concerns the creation of the actual
+   artefact. The fourth stage, Demonstrate Artefact aims to
    demonstrate that the artefact solves the actual problem. Evaluate
    artefact where the extent to which the artefact solves the intended
    problem.
@@ -604,17 +610,19 @@
 
 ** Different variants of design science
    Comparing Perjons & Johannesson v.s. earlier descriptions and our
-   chosen approach.
+   chosen approach. (TK)
 
    
 ** Chosen stages
-   Because of limitations in scope only a subset of design science
-   activities were performed in the present study. The choide of
-   stages was made to ensure that a viable product was developed. Even
-   without considering, at least some of the design science stages,
-   were performed. The following stages were selected because they
-   are the fastest way to reach an actual artefact given the
-   limitation in scope:
+   Because of limitations in scope for the present study, only a
+   subset of design science activities were performed in the present
+   study. The stages chosen for the present study were selected made
+   to ensure that a viable, meaningful artefact could be developed
+   developed. The design science stages not selected were not
+   considered for reporting or practical purposes but were instead
+   left out entirely. Because they are the fastest way to reach an
+   actual artefact given the limitation in scope, the following stages
+   were selected:
    - Requirements definition
    - Implementation
    - Evaluation
@@ -632,8 +640,9 @@
     stakeholders directly \citet[chapter 6]{Johannesson2014}. One
     oft-used method is surveys allowing for coverage of potential
     requirements \citep[chapter 6]{Johannesson2014}. Using surveys
-    runs the risk of being able to find innovative requirement that
-    the stakeholders were unable to identify.
+    runs the risk of not being able to find innovative requirements
+    because the stakeholders themselves were unable to identify
+    anything dissimilar from present solution.
     \citet[chapter~6]{Johannesson2014} suggest using other methods
     such as case studies and action research to find requirements that
     the stakeholders were unable to identify. These methods however
@@ -677,12 +686,12 @@
    useful.
    
    The quantitative analysis of earlier data constitutes experimental
-   method \citet{Denscombe2010}, because the data was collected in a
-   experimental settings. The existence of prior data, motivates the
-   choice of quantitative analysis of data gathered by experimental
-   methods, because this data is already collected using it has very
-   low costs. Analysis of such data would allow for empirical answers
-   to questions which may be relevant for the study.
+   method \citep{Denscombe2010}, for the reason that the data was
+   collected in an experimental settings. The existence of prior data,
+   motivates the choice of quantitative analysis of data gathered by
+   experimental methods, because this data is already collected using
+   it has very low costs. Analysis of such data would allow for
+   empirical answers to questions which may be relevant for the study.
 
    By combining an explorative literature study, giving insights into
    various different areas of emotional intelligence, with an
@@ -692,26 +701,27 @@
    literature. This combined strategy is likely to give a both broad
    and deep coverage of the domain.
 *** Implementation
-    For the implementation of test an unstructured iterative process
-    was used. The process choice was made because the scope of the
-    project was small, applying more complex processes may well result
-    in problems. The development process continued continously until
-    the developed artefact fullfilled the requirements
-    identified. Automated unit-tests were devloped in an ad-hoc manner
-    as part of the overall development process and aimed primarily as
-    an aid during development.
+    For the implementation of the artefact an unstructured iterative
+    development process was used. The process choice was made because
+    the scope of the project was small, applying more complex
+    processes may well result in problems. The development process
+    continued continously until the developed artefact fullfilled the
+    requirements identified. Automated unit-tests were devloped in an
+    ad-hoc manner as part of the overall development process and aimed
+    primarily as an aid during the development process.
 
 *** Evaluation
     The evaluation of developed artefact was performed using
     experimental methods. Experimental methods are often used for the
-    verification of psychometric instruments, this makes experimental
-    methods a good fit for the present study.. The goal with the
-    instrument developed is generalization. By controlling irrelevant
-    factors to the greatest extent possible researchers are better
-    able to establish generalizability. This could, of course, reduce
-    the ecological validity of the instrument. The reduction on
-    ecological validity is a problem shared by many psychometric
-    instruments, and therefore not a problem particular to the present study.
+    verification of psychometric instruments. Because experimental
+    methods are a common method this makes them a good fit for the
+    present study. The goal with the developed psychometric test is
+    generalization. By controlling irrelevant factors to the greatest
+    extent possible researchers are better able to establish
+    generalizability. This could, of course, reduce the ecological
+    validity of the instrument. The reduction on ecological validity
+    is a problem shared by many psychometric instruments, and
+    therefore not a problem particular to the present study.
 
 * Application of Method
 ** Requirements defintion
@@ -725,7 +735,7 @@
    these a number of criteria were identified.
 
    For the quantitative data analysis a data from a number of studies
-   was used (see Table \ref{listofstudies}). Each data-set was then
+   was used (presented in Table \ref{listofstudies}). Each data-set was then
    analyzed separately. All the studies whose data was analyzed used
    the METT paradigm, and followed a similar protocol, making them
    reasonably comparable.
@@ -734,7 +744,7 @@
    computed. After computing overall statistics, a confusion matrix
    was then created and a set of variables related to the signal
    detection theory were computed. These variables are all derivable
-   four variables: $H$, the number of hits (true positives),
+   by using four variables: $H$, the number of hits (true positives),
    $CR$, the correct rejections (true negatives), false alarms $FA$
    (false positives), and misses $M$ (false negatives).
 
@@ -771,7 +781,7 @@
 
    Equation \ref{e_balanced_accuracy} defines the balanced accuracy.
 
-   For the second study per-trial data, for the psychotherapist group
+   For the second study, per-trial data, for the psychotherapist group
    was extracted. A cross tabulation of hits and misses for each trial
    was constructed such that the number of hits and misses by trial
    number could be investigated. This data was entered into a linear model.
