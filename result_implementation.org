@@ -3,7 +3,7 @@ are, the METT module, the questionnaire module, run-time
 configuration, deployment scripts and text assets. These components
 are replaceable with other components on an as-needed basis.
 
-* Configuration
+* Software support for artefact configuration
   The Pyton modules expects configuration in the JavaScript Object
   Notation (JSON). These configuration artifacts consists of three
   separate files. One with overall configuration global applicable to
@@ -13,7 +13,7 @@ are replaceable with other components on an as-needed basis.
   paradigm. Finally, a third JSON file specifies the questions for
   SPEC.
  
-* Deployment scripts
+* Tools for artefact deployment
   To simplify the configuration and use of the system a number of
   utility scripts were developed, including scripts for generating
   subsets of the RaFD, starting the system in a given configuration
@@ -22,7 +22,7 @@ are replaceable with other components on an as-needed basis.
   however, they are useful in setting up an environment that can then
   be reused.
 
-* Text assets
+* Text assets and translation
   For the purposes of making the application locablizable to different
   languages, a system for text assets was created. Text assets for two
   languages, Swedish and English were created. These assets are used
@@ -71,8 +71,8 @@ are replaceable with other components on an as-needed basis.
 * Questionarie module
   After the METT module has completed its work the questionarie module
   is initialized, each question consists of three components, a
-  question-id which is simply logged to the output, a text description
-  for prompting the user, and finally a mapping between keyboard key
+  \texttt{question-id} which is simply logged to the output, a text description
+  for prompting the user, and finally a mapping, \texttt{keymap}, between keyboard key
   names and a text-string containing the question text.
 
   Each question present in configuration is then presented in

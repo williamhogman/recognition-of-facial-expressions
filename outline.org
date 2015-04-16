@@ -794,8 +794,9 @@
 
 ** Implementation
    An application was developed using the PsychoPy library
-   \cite{Peirce2007} which is a module designed for the Python 2
-   programming language. The PsychoPy library was used because it
+   \citep{Peirce2007}. PsychoPy is a module designed for the Python 2
+   programming language, aimed at providing functionality for building
+   psychological experiments. The PsychoPy library was used because it
    offers excellent accuracy in the presentation of
    stimuli. Additionally, PsychoPy has excellent data collection
    components allowing for largeer ease of data processing.
@@ -815,17 +816,20 @@
    Participation in the study was entirely voluntary, and participants
    signed informed concent forms prior to participating in the
    study. No identifying information was collected during the course
-   of the study.
+   of the study. As the study was performed persuant to a Master's
+   degree the study was not submited for external ethical review.
 
 
 * Results
 ** Requirements Definition
 *** Literature Review
     From reviewing the literature, a number of methods for measuring
-    emotional intelligence were found, these are shown in table
-    \ref{table:paradigms}. The paradigms discussed earlier cover many
+    emotional intelligence were found, th ese are presented in table
+    \ref{table:paradigms}. The methods discussed earlier cover many
     different aspects of emotional intelligence, and considers more
-    instruments than can realistically be done in one study.
+    tests than can realistically be used for single experimental
+    study, and as we shall we a subset of these will be selected for
+    the evaluation.
 
     \input{paradigms.tex}
 
@@ -853,8 +857,8 @@
 
     
     
-    The second data-set consists of 72 subjects, the average accuracy
-    was $72.99\%$ ($S=12.14$).
+    The second data-set consisted of 72 participants, each taking the
+    form of a , the average accuracy was $72.99\%$ ($S=12.14$).
     
     #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
     #+ATTR_LATEX: :environment tabulary :align lll :width \textwidth
@@ -870,23 +874,25 @@
     
     To investigate the effects of training, a linear model was
     constructed for the constructed with the number of trials as the
-    independent variable and the hit-rate as the dependent
-    variable. A significant effect of trial number was found
-    ($t=4.56$, $p<0.001$, $df=68$).
+    independent variable and the hit-rate as the dependent variable. A
+    significant effect of trial number was found ($t=4.56$, $p<0.001$,
+    $df=68$). This effect indicates that accuracy improve throughout
+    the experiment itself.
      
 *** Requirements
 
-    In reviewing earlier research we found a number of suitable
-    scales. Many of the standard measures of emotional intelligence
-    are highly controversial. The least controversial measure is
-    perhaps the METT, falling outside the traditional distinction of
-    trait and state emotional intelligence. Another benefit is that
-    the implementations of METT in our earlier data seems to possess
-    many beneficial characteristics for such a test.
+    In reviewing earlier research we found a number of suitable tests
+    for emotional intelligence. Many of the standard measures of
+    emotional intelligence are highly controversial. The least
+    controversial measure is perhaps the METT, falling outside the
+    traditional distinction of trait and state emotional
+    intelligence. Another benefit is that the implementations of METT
+    in our earlier data seems to possess many beneficial
+    characteristics for such a test.
 
-    However, it is unlikely that emotion recognition tasks can capture
-    every aspect of emotional intelligence, some variance may be
-    captured using other methods. On the other hand, using too many
+    It is, however, unlikely that emotion recognition tasks can
+    capture every aspect of emotional intelligence, some variance may
+    be captured using other methods. On the other hand, using too many
     inventories may lead to a measure that takes too long to complete,
     reducing the reliability of the measure and increasing
     time-related costs. Therefore, it is important to keep any such
@@ -896,77 +902,87 @@
     acceptable for standalone use, however using them in conjunction
     with other tests may be unsuitable as it may become overly
     time-consuming. This leaves TAS, RMITE and SPEC suitable as
-    suitable candidates. RMITE, being a facial expression recognition
-    task, is very similar to the METT and is for this reason be
-    unsuitable to capture complementary sources of variance.
+    suitable candidates. Being a facial expression recognition task,
+    RMITE, is very similar to the METT and for this reasons it is
+    unsuitable for capturing complementary sources of variance.
 
     TAS, while showing robustness, maturity and validity, is limited
     in that it only includes sub-factors related to alexithymia, and
     may for this reason be more appropriate for assessing
     disfunctions. Moreover, one of the factors, identifying feelings
     may overlap to some degree of overlap with METT. This makes it
-    unsuitable as a supplementary scale to METT.
+    unsuitable as a supplementary test to METT.
 
     Considering the aim of capturing qualitatively different factors
-    from METT, SPEC may be the most appropriate scale. SPEC provides a
+    from METT, SPEC may be the most appropriate test. SPEC provides a
     the same number as factors as the longer PEC, while retaining much
-    of the reliability. Given requirements of wide coverage of
-    emotional intelligence factors as well as the time-constraints,
-    SPEC seems to be the most suitable scale.
+    of the reliability. Given the need for wide coverage of emotional
+    intelligence factors as well as the time-constraints, given the
+    criteria a short testing time, SPEC seems to be the most suitable
+    test.
 
-    Having considered the scales discussed in the literature review,
-    the two scales need to be implemented, METT and SPEC. Specifically
+    Having considered all the tests discussed in the literature review.
+    Two tests need to be implemented, METT and SPEC. Specifically
     the test should implement a facial-expression tasks and a digital
     questionnaire, configured for METT and SPEC respectively.
 
     As discussed earlier \citep[recall][]{Calvo2008a} even a small
-    difference in the duration of the display time of a METT trial, it
-    is therefore important that display times are controlled to a
-    resonable degree, to ensure this, among other, things display
-    times need to be specified in numbers of frames so as to ensure
-    precision. While, there are clear differences in accuracy between
-    different emotions, no respect should be taken to emotion types in
-    deciding display times because doing so would render the scales
-    incomparable.
+    difference in the duration of the display time of a METT trial
+    affects affects accuracy, particularly at low exposesure times. It
+    is therefore important that exposure times are controlled to a
+    resonable degree. To ensure this display times need to be
+    specified in numbers of frames. This ensures that the intended
+    display times necessarily aligns with the refresh rate of the
+    monitor, thereby ensuring some degree of accuracy.
+
+    While, there are clear differences in accuracy between different
+    emotions, no respect should be taken to emotion types in deciding
+    display times because doing so would render the different emotions
+    uncomparable, which would limit the insights that can be gained
+    from applyning the test.
 
     Because the experiment process is time-consuming, both for the
     participant and the experimenter, crashes in the software running
-    experiments is waste valuable a lot of resources and can be
-    frustrating for experimenters and participants alike.  It is
-    therefore, important that the system is stable and avoids data
-    loss to a as large extent possible given the resources.
+    experiments is waste time, and can be frustrating for
+    experimenters and participants alike.  It is, therefore, important
+    to ensure the system is stable and avoids data loss to a as large
+    extent possible given avaliable development resources and scope of
+    the present study.
 
-    Using the keyboard is the most suitable input device for the test
-    being developed, for several reasons. Firstly, it allows for
-    faster responses once the user has learned the options. Second,
-    not showing a mouse-cursor would avoid problems stemming from the
-    occlusion of the stimulus by the mouse cursor. Finally, keyboards
-    are commodity hardware and using themremoves the need for
-    purchasing specialized input hardware, making the test accessible
-    to a wider range of researchers and practitioners.
+    Additionally, an means of input needs to be selected. Using the
+    keyboard is the most suitable input device for the test being
+    developed, for several reasons. Firstly, it allows for faster
+    responses once the user has learned the options. Second, not
+    showing a mouse-cursor would avoid problems stemming from the
+    occlusion of the stimulus being presented by the mouse
+    cursor. Finally, keyboards are commodity hardware and using them
+    removes the need for purchasing specialized input hardware, making
+    the test accessible to a wider range of researchers and
+    practitioners.
 
-    Another issue is the effects of training, as the results showed,
-    there was a strong effect of training. Specifically the earlier
-    data showed a clear linear training trend. In the data-sets
-    considered in the present study no end to this trend was
-    found. The lack of an end suggests that training effects are still
-    relevant after a substantial number of trials. For this reason, to
-    ensure that data gathered using the scale is comparable between
+    Another issue is the effects of training, as the results from the
+    analysis of earlier data showed, there was a strong effect of
+    training ($P<0.001$). Specifically the earlier data showed a clear
+    linear training trend. In the data-sets considered in the present
+    study no end to this trend was found. The lack of an end, even
+    after 70 trials, suggests that training effects are still relevant
+    after a substantial number of trials. For this reason, to ensure
+    that data gathered using the test is comparable between
     individuals, the number of trials need to be the same for all
     individuals.
 
-    Finally, the issue of stimulus set should be addressed, in the
+    Finally, the issue of stimulus set needs to be addressed. In the
     data from earlier the earlier studies we found that performance
-    was inline with what is typical for the paradigm, it therefore
-    reasonable to assume that there are no additional issues with the
-    RaFD data-set used in these. It seems appropriate then to use RaFD
-    for evaluation studies while leaving data-set as a configurable
-    variable.
+    was inline with what is typical for the METT paradigm, it
+    therefore reasonable to assume that there are no additional issues
+    with the RaFD data-set used in these. It seems appropriate then to
+    use RaFD for evaluating the artefact developed for the present
+    study, while leaving data-set as a configurable variable.
     
-    From these earlier conclusions a number of requirements were
+    From the conclusions drawn a number of requirements were
     derived.
 
-    1. METT test
+    1. Requirements pertaining to the METT test
        1. Functional: The system shall display a forward-mask
        2. Functional: The system shall display a backward-mask
        3. Functional: The system shall display a target-image
@@ -974,13 +990,13 @@
        5. Functional: The system shall collect selected emotion input via the keyboard.
        6. Functional: The system shall perform the same number of trials for each participant.
        7. Functional: The system shall allow for the configuration of stimulus sets.
-    2. SPEC-test
+    2. Requirements pertaining to the SPEC-test
        1. Functional: The system shall show the questions
        2. Functional: The system shall collect numeric responses via keyboard input.
-    3. Persistance
+    3. Requirements pertaining to data collection, endurance and persistance
        1. Functional: The system shall persist results to disk in the CSV format.
        2. Non-functional: The system shall be stable to avoid data-loss
-    4. Usability
+    4. Requirements pertaining to ease-of-use
        1. Non-functional: The system shall be simple to initialize
 
 
