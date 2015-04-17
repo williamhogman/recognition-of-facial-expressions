@@ -3,6 +3,20 @@ are, the METT module, the questionnaire module, run-time
 configuration, deployment scripts and text assets. These components
 are replaceable with other components on an as-needed basis.
 
+#+BEGIN_LATEX
+  \begin{tikzpicture}[
+    scale=1.5
+  ]
+
+    \node (experiment) [terminal] {Experiment}
+    \node (mett) [] {METT}
+    \node (questionnarie) [] {Questionnarie}
+    \node (config) [] {Config}
+    \node (util) [] {Utilities}
+    \node (ui) [] {UI}
+  \end{tikzpicture}
+#+END_LATEX
+
 * Software support for artefact configuration
   The Pyton modules expects configuration in the JavaScript Object
   Notation (JSON). These configuration artifacts consists of three
@@ -32,7 +46,7 @@ are replaceable with other components on an as-needed basis.
   The initialization module of the system manages initializing the
   system on load. The first task of the is to collect the subject
   identifier and experimenter initials from the experimenter. Once
-  this is performed, the current-time and hostname are also collected
+  this is performed, the current time and hostname are also collected
   to help with diagnostics. The module then delegates to the
   configuration modules which then proceeds to deserialize
   configuration files and load the configuration files into
