@@ -8,12 +8,22 @@ are replaceable with other components on an as-needed basis.
     scale=1.5
   ]
 
-    \node (experiment) [terminal] {Experiment}
-    \node (mett) [] {METT}
-    \node (questionnarie) [] {Questionnarie}
-    \node (config) [] {Config}
-    \node (util) [] {Utilities}
-    \node (ui) [] {UI}
+
+    \node (experiment) [] {Experiment};
+    \node (mett) [below =1cm of experiment] {METT};
+    \node (questionnarie) [] {Questionnarie};
+    \node (config) [] {Config};
+    \node (util) [] {Utilities};
+    \node (ui) [] {UI};
+
+    \path[draw,thick]
+    (experiment) edge node {} (mett)
+    (experiment) edge node {} (questionnarie)
+    (experiment) edge node {} (config)
+    (questionnarie) edge node {} (ui)
+%    (mett) edge node {} (ui)
+    (ui) edge node {} (util);
+
   \end{tikzpicture}
 #+END_LATEX
 
