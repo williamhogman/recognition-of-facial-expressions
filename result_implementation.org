@@ -30,12 +30,54 @@ are replaceable with other components on an as-needed basis.
 * Software support for artefact configuration
   The Pyton modules expects configuration in the JavaScript Object
   Notation (JSON). These configuration artifacts consists of three
-  separate files. One with overall configuration global applicable to
-  each trial and question of the experiment. The second file
-  specifies paths to image files for masks and stimuli as well as
-  correct responses for each individual trial of the METT
-  paradigm. Finally, a third JSON file specifies the questions for
+  separate files.
+
+  One with overall configuration global applicable to each trial and
+  question of the experiment. This file is stored with the filename
+  \texttt{options.json}.
+
+  \begin{lstlisting}[caption=options.json Configuration file]
+  {
+    "NameOfTheExperiment": {
+      "forward_mask_frames": 40
+      "backward_mask_frames": 40,
+      "expression_frames": 12,
+      "intertrial_interval": 2,
+   }
+  }
+  \end{lstlisting}
+
+  The second file, \texttt{trials.json} specifies paths to image files for masks
+  and stimuli as well as correct responses for each individual trial
+  of the METT paradigm.
+
+  \begin{lstlisting}[caption=\textt{trials.json} trials file]
+  {
+    "NameOfTheExperiment": [
+      {"stim": "PathToStimulus.JPG", "neu": "PathToMask.png", "correct": 5},
+      // ...
+    ]
+  }
+  \end{lstlisting}
+
+  Finally, a third JSON file specifies the questions for
   SPEC.
+
+  \begin{lstlisting}[caption=\textt{trials.json} trials file]
+  {
+    "NameOfTheExperiment": [
+       {
+         "question_id": 25,
+         "responses": {
+           "1": "Option One",
+           // ...
+         },
+         "text": "Question"
+       }
+     // ..
+    ]
+  }
+  \end{lstlisting}
  
 * Tools for artefact deployment
   To simplify the configuration and use of the system a number of
