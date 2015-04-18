@@ -1,9 +1,7 @@
 \usepackage[dvipsnames,svgnames,table]{xcolor}
 \usepackage{comment,multirow,tabulary,booktabs,threeparttable,tabularx,xcolor,lmodern,graphicx,longtable,float,wrapfig,url,underscore}
-\usepackage{parnotes,comment,multirow,amsmath,amssymb,marvosym,wasysym, tikz}
-\usetikzlibrary{graphs}
-\usetikzlibrary{graphs.standard}
-\usegdlibrary{trees}
+\usepackage{parnotes,comment,multirow,amsmath,amssymb,marvosym,wasysym,tikz,listings}
+\usetikzlibrary{graphs,graphs.standard,arrows,shapes,positioning,shadows,trees,calc}
 \usepackage[T1]{fontenc}
 \usepackage[normalem]{ulem}
 \usepackage[version=3]{mhchem}
@@ -19,7 +17,7 @@
 \DeclareLanguageMapping{american}{american-apa}
 \addbibresource{refs.bib}
 
-;; Fuck javascript
+%% Fuck javascript
 \lstdefinelanguage{JavaScript}{
   keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
   keywordstyle=\color{blue}\bfseries,

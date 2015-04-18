@@ -4,27 +4,26 @@ configuration, deployment scripts and text assets. These components
 are replaceable with other components on an as-needed basis.
 
 #+BEGIN_LATEX
+  \begin{figure}[htpb]
+  \centering
   \begin{tikzpicture}[
-    scale=1.5
+    scale=2.0,
+    align=center,node distance=2cm
+    every node/.style={draw,circle,very thick}
   ]
 
-
-    \node (experiment) [] {Experiment};
-    \node (mett) [below =1cm of experiment] {METT};
-    \node (questionnarie) [] {Questionnarie};
-    \node (config) [] {Config};
-    \node (util) [] {Utilities};
-    \node (ui) [] {UI};
-
-    \path[draw,thick]
-    (experiment) edge node {} (mett)
-    (experiment) edge node {} (questionnarie)
-    (experiment) edge node {} (config)
-    (questionnarie) edge node {} (ui)
-%    (mett) edge node {} (ui)
-    (ui) edge node {} (util);
-
+  \graph [] {
+    Experiment -> {
+      METT,
+      Questionnarie,
+      Config,
+      Questionnarie -> UI,
+      Config -> Util,
+      UI -> Util,
+    }
+  };
   \end{tikzpicture}
+  \end{figure}
 #+END_LATEX
 
 * Software support for artefact configuration
@@ -36,7 +35,7 @@ are replaceable with other components on an as-needed basis.
   question of the experiment. This file is stored with the filename
   \texttt{options.json}.
 
-  \begin{lstlisting}[caption=options.json Configuration file]
+  \begin{lstlisting}[caption=\texttt{options.json} Configuration file]
   {
     "NameOfTheExperiment": {
       "forward_mask_frames": 40
@@ -51,7 +50,7 @@ are replaceable with other components on an as-needed basis.
   and stimuli as well as correct responses for each individual trial
   of the METT paradigm.
 
-  \begin{lstlisting}[caption=\textt{trials.json} trials file]
+  \begin{lstlisting}[caption=\texttt{trials.json} trials file]
   {
     "NameOfTheExperiment": [
       {"stim": "PathToStimulus.JPG", "neu": "PathToMask.png", "correct": 5},
@@ -61,9 +60,9 @@ are replaceable with other components on an as-needed basis.
   \end{lstlisting}
 
   Finally, a third JSON file specifies the questions for
-  SPEC.
+  SPEC, and the keymaps coding keypreses to responses
 
-  \begin{lstlisting}[caption=\textt{trials.json} trials file]
+  \begin{lstlisting}[caption=\texttt{questions.json} questions file]
   {
     "NameOfTheExperiment": [
        {
