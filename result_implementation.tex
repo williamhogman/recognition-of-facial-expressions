@@ -1,0 +1,186 @@
+% Created 2015-04-18 Sat 16:27
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\date{\today}
+\title{result\_implementation}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 24.4.50.1 (Org mode 8.2.6)}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+The resulting artifacts in comprised of a number of parts. These
+are, the METT module, the questionnaire module, run-time
+configuration, deployment scripts and text assets. These components
+are replaceable with other components on an as-needed basis.
+
+\begin{figure}[htpb]
+\centering
+\begin{tikzpicture}[
+  scale=2.0,
+  align=center,node distance=2cm
+  every node/.style={draw,circle,very thick}
+]
+
+\graph [distance=0.5in, sibling distance=0.5in] {
+  Experiment -> {
+    METT,
+    Questionnarie,
+    Config,
+    Questionnarie -> UI,
+    Config -> Util,
+    UI -> Util,
+  }
+};
+\end{tikzpicture}
+\end{figure}
+
+\section{Software support for artefact configuration}
+\label{sec-1}
+The Pyton modules expects configuration in the JavaScript Object
+Notation (JSON). These configuration artifacts consists of three
+separate files.
+
+One with overall configuration global applicable to each trial and
+question of the experiment. This file is stored with the filename
+\texttt{options.json}.
+
+\begin{lstlisting}[caption=options.json Configuration file]
+{
+  "NameOfTheExperiment": {
+    "forward_mask_frames": 40
+    "backward_mask_frames": 40,
+    "expression_frames": 12,
+    "intertrial_interval": 2,
+ }
+}
+\end{lstlisting}
+
+The second file, \texttt{trials.json} specifies paths to image files for masks
+and stimuli as well as correct responses for each individual trial
+of the METT paradigm.
+
+\begin{lstlisting}[caption=\textt{trials.json} trials file]
+{
+  "NameOfTheExperiment": [
+    {"stim": "PathToStimulus.JPG", "neu": "PathToMask.png", "correct": 5},
+    // ...
+  ]
+}
+\end{lstlisting}
+
+Finally, a third JSON file specifies the questions for
+SPEC.
+
+\begin{lstlisting}[caption=\textt{trials.json} trials file]
+{
+  "NameOfTheExperiment": [
+     {
+       "question_id": 25,
+       "responses": {
+         "1": "Option One",
+         // ...
+       },
+       "text": "Question"
+     }
+   // ..
+  ]
+}
+\end{lstlisting}
+
+\section{Tools for artefact deployment}
+\label{sec-2}
+To simplify the configuration and use of the system a number of
+utility scripts were developed, including scripts for generating
+subsets of the RaFD, starting the system in a given configuration
+state, and running a demonstration mode of the software. These
+scripts are not run in the normal operations of the appliation,
+however, they are useful in setting up an environment that can then
+be reused.
+
+\section{Text assets and translation}
+\label{sec-3}
+For the purposes of making the application locablizable to different
+languages, a system for text assets was created. Text assets for two
+languages, Swedish and English were created. These assets are used
+to progrmatically translate the application.
+
+\section{Initialization module}
+\label{sec-4}
+The initialization module of the system manages initializing the
+system on load. The first task of the is to collect the subject
+identifier and experimenter initials from the experimenter. Once
+this is performed, the current time and hostname are also collected
+to help with diagnostics. The module then delegates to the
+configuration modules which then proceeds to deserialize
+configuration files and load the configuration files into
+memory. After loading files passes-on the trials to the METT module
+which displays performs the trials. When the METT module has
+performed as its trials, the initialization module invokes the
+question module, passing on the questions. When both METT and
+questions have completed, collected responses are written to CSV.
+
+\section{METT module}
+\label{sec-5}
+Before the experiment is started, the module shuffles the order of
+trials used in the experiment. This results in each participant
+experiencing the trials in a psuedo-random, non-systematic order
+of trials.
+
+The trials are then invoked in order, upon invocation the trial
+handler loads the relevant images from disk, showing a blank screen
+while loading. Once the images have been loaded the picture of the
+neutral expression is showed for a fixed, but configurable number of
+frames. Once the configured number of frames have rendered, the
+emotional picture is displayed, for a configurable but different
+number of frames. Then, finally the neutral image is shown for the
+another configured number of frames.
+
+Once the pictures have been displayed, the system displays an input
+prompt and starts accepting keyboard input from the user. Once an
+answer has been collected , the screen is then cleared. The flow of
+execution then halts for a configurable number of seconds before the
+trial yields control back to experiment.
+
+Once the set of trials has been completed, the system, takes the
+trial data and combines it with the response data. This results in a
+one-row per trial data-set, which is then serialize and saved to
+disk as a comma separated values file.
+
+\section{Questionarie module}
+\label{sec-6}
+After the METT module has completed its work the questionarie module
+is initialized, each question consists of three components, a
+\texttt{question-id} which is simply logged to the output, a text description
+for prompting the user, and finally a mapping, \texttt{keymap}, between keyboard key
+names and a text-string containing the question text.
+
+Each question present in configuration is then presented in
+order. The presentation of a question is performed as follows,
+first, the question text and the response options are rendered to
+the screen as text. Keyboard input is read. If the input read
+matches a response alternative, the key and response time are then
+stored in memory. This process is repeated untill each configured
+question has been performed.  has been processed. After the
+questinarie task is completed the results are saved to disk in the
+comma separated value format.
+% Emacs 24.4.50.1 (Org mode 8.2.6)
+\end{document}
