@@ -50,11 +50,11 @@
   (TK, Who? Locke surely) have questioned the validity of emotional
   intelligence. Supporting a more limited notion emotional
   intelligence, some studies have found emotional intelligences to
-  correlate with personality factors \citep[e.g.][]{Warwick2004,
-  Petrides2001} and cognitive abilities
-  \citep[e.g.][]{Freudenthaler2007}. These results call into
-  question the divergent validity, to that point of some authors (TK
-  Locke and someone else) doubting overall usefulness of the concept.
+  correlate with personality factors
+  \citep[e.g.][]{Warwick2004,Petrides2001} and cognitive abilities
+  \citep[e.g.][]{Freudenthaler2007}. These results call into question
+  the divergent validity, to that point of some authors (TK Locke and
+  someone else) doubting overall usefulness of the concept.
   
   Despite the controversy related to the concept itself, several
   approaches have been used to measure emotional intelligence, both
