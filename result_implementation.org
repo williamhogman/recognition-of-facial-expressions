@@ -1,28 +1,32 @@
-The resulting artifacts in comprised of a number of parts. These
-are, the METT module, the questionnaire module, run-time
-configuration, deployment scripts and text assets. These components
-are replaceable with other components on an as-needed basis.
+The resulting artifacts in comprised of a number of parts. These are,
+the METT module, the questionnaire module, run-time configuration,
+deployment scripts and text assets. These components are replaceable
+with other components on an as-needed basis. A graphical
+representation of the module dependencies is presented in figure
+\ref{fig:modules}.
 
 #+BEGIN_LATEX
   \begin{figure}[htpb]
-  \centering
-  \begin{tikzpicture}[
-    scale=2.0,
-    align=center,node distance=2cm
-    every node/.style={draw,circle,very thick}
-  ]
+    \centering
+    \label{fig:modules}
+    \begin{tikzpicture}[
+        scale=2.0,
+        align=center,node distance=5cm
+        every node/.style={draw,circle,very thick}
+      ]
 
-  \graph [] {
-    Experiment -> {
-      METT,
-      Questionnarie,
-      Config,
-      Questionnarie -> UI,
-      Config -> Util,
-      UI -> Util,
-    }
-  };
-  \end{tikzpicture}
+      \graph [] {
+        Experiment -> {
+          METT,
+          Questionnarie,
+          Config,
+          Questionnarie -> UI,
+          Config -> Util,
+          UI -> Util,
+        }
+      };
+    \end{tikzpicture}
+    \caption{Graph of dependencies in the software artefact}
   \end{figure}
 #+END_LATEX
 
@@ -33,9 +37,10 @@ are replaceable with other components on an as-needed basis.
 
   One with overall configuration global applicable to each trial and
   question of the experiment. This file is stored with the filename
-  \texttt{options.json}.
+  \texttt{options.json}, and an example of its syntax in listing
+  \ref{lst:options}.
 
-  \begin{lstlisting}[caption=\texttt{options.json} Configuration file]
+  \begin{lstlisting}[caption={\texttt{options.json} Configuration file},label={lst:options}]
   {
     "NameOfTheExperiment": {
       "forward_mask_frames": 40
@@ -46,11 +51,12 @@ are replaceable with other components on an as-needed basis.
   }
   \end{lstlisting}
 
-  The second file, \texttt{trials.json} specifies paths to image files for masks
-  and stimuli as well as correct responses for each individual trial
-  of the METT paradigm.
+  The second file, \texttt{trials.json} specifies paths to image files
+  for masks and stimuli as well as correct responses for each
+  individual trial of the METT paradigm. An example of the syntax used
+  for this file is presented in listing \label{lst:trials}.
 
-  \begin{lstlisting}[caption=\texttt{trials.json} trials file]
+  \begin{lstlisting}[caption={\texttt{trials.json} trials file},label={lst:trials}]
   {
     "NameOfTheExperiment": [
       {"stim": "PathToStimulus.JPG", "neu": "PathToMask.png", "correct": 5},
@@ -59,10 +65,11 @@ are replaceable with other components on an as-needed basis.
   }
   \end{lstlisting}
 
-  Finally, a third JSON file specifies the questions for
-  SPEC, and the keymaps coding keypreses to responses
+  Finally, a third JSON, \texttt{questions.json} file specifies the
+  questions for SPEC, and the keymaps coding keypreses to responses,
+  an example of this file is shown in listing \ref{lst:questions}.
 
-  \begin{lstlisting}[caption=\texttt{questions.json} questions file]
+  \begin{lstlisting}[caption={\texttt{questions.json} questions specification file},label={lst:questions}]
   {
     "NameOfTheExperiment": [
        {
@@ -89,9 +96,9 @@ are replaceable with other components on an as-needed basis.
 
 * Text assets and translation
   For the purposes of making the application locablizable to different
-  languages, a system for text assets was created. Text assets for two
-  languages, Swedish and English were created. These assets are used
-  to progrmatically translate the application.
+  languages, a system for text assets was created. Text assets such as
+  instructions can be created on a as needed basis. These assets are
+  used to progrmatically translate the application.
  
 * Initialization module
   The initialization module of the system manages initializing the
@@ -150,4 +157,29 @@ are replaceable with other components on an as-needed basis.
   questinarie task is completed the results are saved to disk in the
   comma separated value format.
 
+* Output
+  Both the questionnarie and METT modules write their results to disk
+  in the CSV format with filenames generated using the current time
+  and hostname of the host running the application. The output was
+  designed in order to be as simple as possible, useble in many
+  different statistical computational environments. An example of the
+  output of the METT and questionnarie modules can be found in
+  listings \ref{lst:resultmett} and \ref{lst:resultquestionnarie}
+  respectively.
+
+  #+BEGIN_LATEX
+  \begin{lstlisting}[caption={Excerpt of a METT output file: first three lines},label={lst:resultmett}]
+  stim,response,emotion,correct,rt
+  img/Rafd090_03_Caucasian_male_fearful_frontal.jpg,3,4,0,0.12610292434692383
+  img/Rafd090_03_Caucasian_male_contemptuous_frontal.jpg,3,2,0,0.0313420295715332
+  \end{lstlisting}
+  #+END_LATEX
+
+  #+BEGIN_LATEX
+  \begin{lstlisting}[caption={Excerpt of a questionnarie output file: first three lines},label={lst:resultquestionnarie}]
+  question_id,value,rt
+  0,3,1.4653780460357666
+  1,3,0.08734989166259766
+  \end{lstlisting}
+  #+END_LATEX
 
