@@ -1009,8 +1009,15 @@
    The test scores showed a correlation of X
    
 * Discussion
-  Discussion of the result of the entire study
-** Conclusion
+** Limitations
+   The evaluation of the developed artefact is limited several
+   ways. As the the study was performed with participants from a
+   single country it is difficult to acertain validity across
+   cultures. Likewise, the results of the present study are difficult
+   to apply to other stimulus sets as differences between stimulussets
+   may affect both the reliability and validity of the overall test.
+
+* Conclusion
   What conclusions may be drawn?
 
 \printbibliography
