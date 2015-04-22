@@ -701,14 +701,34 @@
    literature. This combined strategy is likely to give a both broad
    and deep coverage of the domain.
 *** Implementation
+
+    A large number of processes for the implementation of software
+    artefacts have been devised. Early research was largely focused on
+    very formalized processes, and less formal methods of software
+    development were to a point largely ignored. These methods were
+    often misaligned with how software development is done in
+    practice. Counteracting this a number of agile software
+    development processes have appeared. \citep{Abrahamsson2002}.
+
+    \citet{Abrahamsson2002} discuss a number of methods, perhaps most
+    prominent among which are XP, Crystal, RUP and Scrum. These
+    methods all recommend only implementing suggested processes if
+    they are useful to the project \citep{Abrahamsson2002}
+
+    With the turn of the millenium, research attention started to
+    shift towards agile processes \citep{Dingsoyr2012} These processes
+    have become commonly in both academic projects and in the industry
+    \citep{Dingsoyr2012}. In a pair of case studies
+    \citet{Middleton2002} established that reductions in requirements
+    and processes that did not build end-user value could reduce
+    error-rates in an artefact.
+
     For the implementation of the artefact an unstructured iterative
     development process was used. The process choice was made because
     the scope of the project was small, applying more complex
     processes may well result in problems. The development process
     continued continously until the developed artefact fullfilled the
-    requirements identified. Automated unit-tests were devloped in an
-    ad-hoc manner as part of the overall development process and aimed
-    primarily as an aid during the development process.
+    requirements identified.
 
 *** Evaluation
     The evaluation of developed artefact was performed using
@@ -793,6 +813,11 @@
 \input{summaryearlier.tex}
 
 ** Implementation
+
+   Automated unit-tests were devloped in an ad-hoc manner as part of
+   the overall development process and aimed primarily as an aid
+   during the development process.
+
    An application was developed using the PsychoPy library
    \citep{Peirce2007}. PsychoPy is a module designed for the Python 2
    programming language, aimed at providing functionality for building
