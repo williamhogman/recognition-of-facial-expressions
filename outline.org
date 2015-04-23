@@ -723,6 +723,10 @@
     and processes that did not build end-user value could reduce
     error-rates in an artefact.
 
+    With the research consensus being that processes should be enacted
+    based on as needed basis it seems resonable for a project with
+    little need for formal process to use very little formal process.
+
     For the implementation of the artefact an unstructured iterative
     development process was used. The process choice was made because
     the scope of the project was small, applying more complex
