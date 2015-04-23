@@ -607,11 +607,38 @@
    successful application helps researchers decide on a what to
    develop, develop an artefact and evaluate it.
 
+   Another approach to design science is that of \citet{Hevner2007}
+   consisting of three cycles, the Relevance cycle, where the subject
+   area an its requirements are identified, the design cycle where the
+   artefact is designed and deployed. Finally, in the rigor cycle, the
+   applies and grounds the developed artefact in existing theories,
+   perhaps resulting in meta-artefacts. \citep{Hevner2007}
 
-** Different variants of design science
-   Comparing Perjons & Johannesson v.s. earlier descriptions and our
-   chosen approach. (TK)
+   The paradigm presented by \citet{Hevner2007} is different in many
+   aspects from that of \citet{Johannesson2014}. Where as
+   \citet{Johannesson2014} emphasize a larger set of well-defined
+   activities, \citet{Hevner2007} put forward a less structured set of
+   phases which are to be performed iteratively.
 
+   Different from the methods of both \citet{Johannesson2014} and
+   \citet{Hevner2007} is the design science method introduced by
+   \citet{Peffers2008}. Design science, in the paradigm of
+   \citet{Peffers2008} has six stages, conducted iteratively. The
+   stages described in \citet{Peffers2008} are:
+
+   - Identify Problem & Motivate
+   - Define Objectives of a Solution
+   - Design & Development
+   - Demonstration
+   - Evaluation
+   - Communication
+   The model allows any stage of the design process as the entry point
+   for research process. Making the process fit better with actual
+   practice.
+
+   While the methodology of both \citet{Hevner2007} and
+   \citet{Peffers2008} show promise, the stages presented by
+   \citep{Johannesson2014} better fits domain of the present study.
 
 ** Chosen stages
    Because of limitations in scope for the present study, only a
