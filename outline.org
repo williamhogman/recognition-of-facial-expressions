@@ -844,6 +844,15 @@
 \input{summaryearlier.tex}
 
 ** Implementation
+   The software artefact designed for the present study was developed
+   incrementally in iterations aiming to fullfill a growing subset of
+   the requirements. No single development process was selected
+   instead a number of practiceses were selected to guide the
+   development process.
+
+   This sort of explorative process allows
+   developers to better adapt the software being developed as their
+   understanding of the requirements grows.
 
    Automated unit-tests were devloped in an ad-hoc manner as part of
    the overall development process and aimed primarily as an aid
@@ -855,13 +864,7 @@
    psychological experiments. The PsychoPy library was used because it
    offers excellent accuracy in the presentation of
    stimuli. Additionally, PsychoPy has excellent data collection
-   components allowing for largeer ease of data processing.
-
-   The software artefact designed for the present study was developed
-   incrementally in iterations aiming to fullfill a growing subset of
-   the requirements. This sort of explorative process allows
-   developers to better adapt the software being developed as their
-   understanding of the requirements grows.
+   components allowing for greater ease of data processing.
 
 ** Evaluation
    $N=?$ participants were administered the test
