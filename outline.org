@@ -867,9 +867,23 @@
    components allowing for greater ease of data processing.
 
 ** Evaluation
-   $N=?$ participants were administered the test
-   software. Participants were positioned at a distance of 1m from the
-   computer screen.
+
+*** Participants
+   The participants ($n=80$), all university students took part in the
+   experiment as part of fullfilling a course requirement. The mean
+   age of the participants was XXX and the standard deviation was.
+
+*** Apparatus
+    The software under evaluation was executed on laptop PC (TK model
+    number here) running the Windows 7 operating system. The
+    experiment software was run under the PsychoPy 1.82
+    environment. No noticable performance issues were identified with
+    the program.
+
+*** Procedure
+    Participants were positioned at a distance of approximatly 70 cm
+    from the screen. The designed software artefact was then run. The
+    test software was configured to run the questions.
 
 ** Ethics
    Participation in the study was entirely voluntary, and participants
