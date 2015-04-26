@@ -1,9 +1,21 @@
-The resulting artifacts in comprised of a number of parts. These are,
-the METT module, the questionnaire module, run-time configuration,
-deployment scripts and text assets. These components are replaceable
-with other components on an as-needed basis. A graphical
-representation of the module dependencies is presented in figure
-\ref{fig:modules}.
+The resulting artifact is comprised of a number of components. These
+are, the METT module, the questionnaire module, run-time
+configuration, deployment scripts and text assets. These components
+are replaceable with other components on an as-needed basis. A
+graphical representation of the module dependencies is presented in
+figure \ref{fig:modules}. In the coming sections the developed
+artefact will be discussed in detail.
+
+The artefact developed does to a large extent not use the object
+oriented paradigm of software development, instead, a design based on
+modules containing functions were used. Where possible unnessary
+modifications of state were avoided. Indeed, outside of functions
+interacting concerned with screen rendering, input management and
+input and output, state is not modified. Additionally, inputs were
+read once and not mutated after creation, outputs only written once
+and screen rendering produced no alternations of state as visible to
+the main artefact. After configuration, the only state read is user
+input from the keyboard.
 
 #+BEGIN_LATEX
   \begin{figure}[htpb]
@@ -84,7 +96,7 @@ representation of the module dependencies is presented in figure
     ]
   }
   \end{lstlisting}
- 
+
 * Tools for artefact deployment
   To simplify the configuration and use of the system a number of
   utility scripts were developed, including scripts for generating
@@ -99,7 +111,7 @@ representation of the module dependencies is presented in figure
   languages, a system for text assets was created. Text assets such as
   instructions can be created on a as needed basis. These assets are
   used to progrmatically translate the application.
- 
+
 * Initialization module
   The initialization module of the system manages initializing the
   system on load. The first task of the is to collect the subject
@@ -182,4 +194,3 @@ representation of the module dependencies is presented in figure
   1,3,0.08734989166259766
   \end{lstlisting}
   #+END_LATEX
-
