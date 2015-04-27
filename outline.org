@@ -869,9 +869,10 @@
 ** Evaluation
 
 *** Participants
-   The participants ($n=80$), all university students took part in the
+   The participants ($n=81$), all university students took part in the
    experiment as part of fullfilling a course requirement. The mean
-   age of the participants was XXX and the standard deviation was.
+   age of the participants was XXX and the standard deviation was.  Of
+   the 81 partipants, 31 took the test twice.
 
 *** Apparatus
     The software under evaluation was executed on laptop PC (TK model
@@ -884,6 +885,18 @@
     Participants were positioned at a distance of approximatly 70 cm
     from the screen. The designed software artefact was then run. The
     test software was configured to run the questions.
+
+*** Data-analysis
+    Data was analysed using the R programming langauge \citep{R2015}
+    and statistical environment. After reading data from disk,
+    hit-rates and descriptives statistics were computed.
+
+    Split-half reliability measures of correlation for the complete
+    data-set by spliting it at the 35th trial. For the 31 participants
+    who took the test twice test-retest reliability was computed.
+
+    For analyzing effects of learning a linear model with a
+    trialnumber as the predictor was constructed.
 
 ** Ethics
    Participation in the study was entirely voluntary, and participants
@@ -1079,7 +1092,9 @@
    #+INCLUDE: "result_implementation.org"
 
 ** Evaluation
-   The test scores showed a correlation of X
+   A total of $4268$ responses were collected, $2977$ of which were
+   correct and $1291$ were incorrect, for an overall hit-rate of
+   $69.75\%$
 
 * Discussion
 ** Limitations
