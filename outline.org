@@ -1101,8 +1101,10 @@
    test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).  This
    level of reliability is considered good. ($0.7 \leq r < 0.9$) This
    level may however, be deflated by a limitation of range for some
-   emotions. Indeed, happiness (which is known to cause roof effects)
-   seems to have a low correlation.
+   emotions. Indeed, happiness, which as we have seen earlier, is
+   known to cause roof effects, seems to have a show an almost
+   non-existant correlation.  Some emotions, contempt and disgusts
+   show higher correlations than the others.
 
    | Emotion   | Test-retest correlation ($r$) |
    |-----------+-------------------------------|
@@ -1113,6 +1115,7 @@
    | Happiness |                      -0.08243 |
    | Sadness   |                        0.6370 |
    | Surprise  |                        0.3599 |
+
 
 
 * Discussion
