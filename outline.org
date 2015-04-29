@@ -893,7 +893,8 @@
 
     Split-half reliability measures of correlation for the complete
     data-set by spliting it at the 35th trial. For the 31 participants
-    who took the test twice test-retest reliability was computed.
+    who took the test twice test-retest reliability was computed,
+    using Pearson's $r$.
 
     For analyzing effects of learning a linear model with a
     trialnumber as the predictor was constructed.
@@ -1095,6 +1096,24 @@
    A total of $4268$ responses were collected, $2977$ of which were
    correct and $1291$ were incorrect, for an overall hit-rate of
    $69.75\%$
+
+   For the 31 participants taking the test twice, the measured
+   test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).  This
+   level of reliability is considered good. ($0.7 \leq r < 0.9$) This
+   level may however, be deflated by a limitation of range for some
+   emotions. Indeed, happiness (which is known to cause roof effects)
+   seems to have a low correlation.
+
+   | Emotion   | Test-retest correlation ($r$) |
+   |-----------+-------------------------------|
+   | Anger     |                        0.5415 |
+   | Contempt  |                        0.8180 |
+   | Disgust   |                        0.8447 |
+   | Fear      |                        0.4243 |
+   | Happiness |                      -0.08243 |
+   | Sadness   |                        0.6370 |
+   | Surprise  |                        0.3599 |
+
 
 * Discussion
 ** Limitations
