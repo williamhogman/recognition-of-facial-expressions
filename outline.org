@@ -1119,6 +1119,13 @@
 
 
 * Discussion
+  The main finding was that the developed showed a good reliability
+  both within the test and retest-test scores. The test did however
+  not avoid the avoid the common ceiling effects for
+  happiness. Indeed, in future iterations such limitations need to be
+  avoided. The results seem to suggest that if ceiling effects for
+  happiness could have been avoided the test could have a higher
+  reliability and might be more suitable for highstakes testing
 ** Limitations
    The evaluation of the developed artefact is limited several
    ways. As the the study was performed with participants from a
