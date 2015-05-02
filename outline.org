@@ -1096,67 +1096,93 @@
    #+INCLUDE: "result_implementation.org"
 
 ** Evaluation
-   A total of $4268$ responses were collected, $2977$ of which were
-   correct and $1291$ were incorrect, for an overall hit-rate of
-   $69.1887\%$
 
-   | Emotion   | Hit-rate |
-   |-----------+----------|
-   | Anger     |    62.96 |
-   | Contempt  |    59.75 |
-   | Disgust   |    61.98 |
-   | Fear      |    57.78 |
-   | Happiness |    95.43 |
-   | Sadness   |    57.04 |
-   | Surprise  |    89.38 |
+*** Micro-expression Testing Tool
+    A total of $4268$ responses were collected, $2977$ of which were
+    correct and $1291$ were incorrect, for an overall hit-rate of
+    $69.1887\%$
 
-
-   The number of participants identifying every stimulus of each emotion correctly were
-   computed.
-
-   | Emotion   | Participants without misses |
-   |-----------+-----------------------------|
-   | Anger     |                           9 |
-   | Contempt  |                          12 |
-   | Disgust   |                           9 |
-   | Fear      |                           5 |
-   | Happiness |                          59 |
-   | Sadness   |                           2 |
-   | Surprise  |                          45 |
-   | Each      |                           0 |
+    | Emotion   | Hit-rate |
+    |-----------+----------|
+    | Anger     |    62.96 |
+    | Contempt  |    59.75 |
+    | Disgust   |    61.98 |
+    | Fear      |    57.78 |
+    | Happiness |    95.43 |
+    | Sadness   |    57.04 |
+    | Surprise  |    89.38 |
 
 
+    The number of participants identifying every stimulus of each emotion correctly were
+    computed.
 
+    | Emotion   | Participants without misses | Fractional |
+    |-----------+-----------------------------+------------|
+    | Anger     |                           9 |     11.11% |
+    | Contempt  |                          12 |     14.81% |
+    | Disgust   |                           9 |     11.11% |
+    | Fear      |                           5 |     6.172% |
+    | Happiness |                          59 |     72.83% |
+    | Sadness   |                           2 |     2.469% |
+    | Surprise  |                          45 |     55.55% |
+    | Overall   |                           0 |         0% |
 
-   For the 31 participants taking the test twice, the measured
-   test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).  This
-   level of reliability is considered good. ($0.7 \leq r < 0.9$) This
-   level may however, be deflated by a limitation of range for some
-   emotions. Indeed, happiness, which as we have seen earlier, is
-   known to cause roof effects, seems to have a show an almost
-   non-existant correlation.  Some emotions, contempt and disgusts
-   show higher correlations than the others.
+    Kernel density estimates were computed for each emotion
+    separately, these are presented in figure \ref{fig:kde}.
+    #+BEGIN_LATEX
+    \begin{figure}[htpb]
+    \centering
+    \label{fig:kde}
+    \includegraphics[width=1\textwidth]{result-analysis/kde}
+    \caption[Hit-rate Kernel Density Estimates per Emotion]{Kernel Density Estimates of Hit-rates for each emotion}
+    \end{figure}
+    #+END_LATEX
 
-   | Emotion   | Test-retest correlation ($r$) |
-   |-----------+-------------------------------|
-   | Anger     |                        0.5415 |
-   | Contempt  |                        0.8180 |
-   | Disgust   |                        0.8447 |
-   | Fear      |                        0.4243 |
-   | Happiness |                      -0.08243 |
-   | Sadness   |                        0.6370 |
-   | Surprise  |                        0.3599 |
+    For the 31 participants taking the test twice, the measured
+    test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).  This
+    level of reliability is considered good. ($0.7 \leq r < 0.9$) This
+    level may however, be deflated by a limitation of range for some
+    emotions. Indeed, happiness, which as we have seen earlier, is
+    known to cause roof effects, seems to have a show an almost
+    non-existant correlation.  Some emotions, contempt and disgusts
+    show higher correlations than the others.
+
+    | Emotion   | Test-retest correlation ($r$) |
+    |-----------+-------------------------------|
+    | Anger     |                        0.5415 |
+    | Contempt  |                        0.8180 |
+    | Disgust   |                        0.8447 |
+    | Fear      |                        0.4243 |
+    | Happiness |                      -0.08243 |
+    | Sadness   |                        0.6370 |
+    | Surprise  |                        0.3599 |
+
+** SPEC
 
 
 
 * Discussion
-  The main finding was that the developed showed a good reliability
-  both within the test and retest-test scores. The test did however
-  not avoid the avoid the common ceiling effects for
-  happiness. Indeed, in future iterations such limitations need to be
-  avoided. The results seem to suggest that if ceiling effects for
-  happiness could have been avoided the test could have a higher
-  reliability and might be more suitable for highstakes testing
+  The main finding was that the developed showed a good reliability.
+  Test-retest scores correlations indicated a good test
+  reliaiblity. Additionally split-half reliability also showed good reliability.
+
+  The test did however not avoid the avoid the common ceiling effects
+  for happiness. A majority ($72.83\%$) of participants correctly
+  identified every happy emotional face in the METT condition. Indeed,
+  as seen as seen in the kernel density estimates presented in figure
+  \ref{fig:kde}, a large portion of the distribution for happiness was
+  cut-off.
+
+  Higher accuracies for happiness have been found in earlier studies
+  \citet[recall~][]{Calvo2008a}, and the present study confirms these
+  earlier results.
+
+  In future iterations such limitations need to be avoided. The
+  results seem to suggest that if ceiling effects for happiness could
+  have been avoided the test could have a higher reliability and might
+  be more suitable for high-stakes testing.
+
+
 ** Limitations
    The evaluation of the developed artefact is limited several
    ways. As the the study was performed with participants from a
