@@ -888,19 +888,28 @@
 
 *** Data-analysis
     Data was analysed using the R programming langauge \citep{R2015}
-    and statistical environment. After reading data from disk,
-    hit-rates and descriptives statistics were computed.
+    and statistical environment.
 
-    Split-half reliability measures of correlation for the complete
-    data-set by spliting it at the 35th trial. For the 31 participants
-    who took the test twice test-retest reliability was computed,
-    using Pearson's $r$.
+**** METT-related analysis
+     After reading data from disk and combining them, hit-rates and
+     descriptives statistics were computed.
 
-    The fraction of participants who correctly identified each stimlus
-    was computed.
+     Split-half reliability measures of correlation for the complete
+     data-set by spliting it at the 35th trial. For the 31
+     participants who took the test twice test-retest reliability was
+     computed, using Pearson's $r$. The fraction and number of
+     participants who correctly identified each stimlus was
+     computed. Kernel density estimates per emotion were also created.
 
-    For analyzing effects of learning a linear model with a
-    trialnumber as the predictor was constructed.
+     For analyzing effects of learning a linear model with a
+     trialnumber as the predictor was constructed.
+
+**** SPEC-related analysis
+     First, inversions of items and subscales were computed,
+     afterwards descriptive statistics were computed for the overall
+     scale as well as the subscales. Correlation between each subscale
+     were computed, and finally between the METT results and the the
+     SPEC.
 
 ** Ethics
    Participation in the study was entirely voluntary, and participants
@@ -1158,8 +1167,33 @@
     | Surprise  |                        0.3599 |
 
 ** SPEC
+   The descriptive statistics for the SPEC subscales are presented in table \ref{table:specdesc}
+   #+BEGIN_LATEX:
+   \input{specdesc}
+   #+END_LATEX
 
+   A correlation matrix was constructed between each of the subscales
+   of the SPEC, which is presented in table \ref{table:speccorrmtx}.
+   #+BEGIN_LATEX:
+   \input{speccorrmtx}
+   #+END_LATEX
 
+   Correlations between each of the subscales and the METT results are
+   presented in table TK.
+
+   | (Sub-)scale          |     $r$ |
+   |----------------------+---------|
+   | IdentificationSelf   |  0.0831 |
+   | UnderstandingSelf    |  0.2260 |
+   | ExpressionSelf       |  0.1861 |
+   | RegulationSelf       | -0.0633 |
+   | UseSelf              | -0.0672 |
+   | IdentificationOthers |  0.0948 |
+   | UnderstandingOthers  |  0.1709 |
+   | ExpressionOthers     |  0.2091 |
+   | RegulationOthers     |  0.1050 |
+   | UseOthers            | -0.2848 |
+   | TotalTraitEmotion    |  0.1178 |
 
 * Discussion
   The main finding was that the developed showed a good reliability.
