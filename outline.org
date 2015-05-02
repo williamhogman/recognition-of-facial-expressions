@@ -1174,26 +1174,11 @@
 
    A correlation matrix was constructed between each of the subscales
    of the SPEC, which is presented in table \ref{table:speccorrmtx}.
+   Correlations between each of the subscales and the METT results are
+   presented in table \ref{table:specmettcorr}
    #+BEGIN_LATEX:
    \input{speccorrmtx}
    #+END_LATEX
-
-   Correlations between each of the subscales and the METT results are
-   presented in table TK.
-
-   | (Sub-)scale          |     $r$ |
-   |----------------------+---------|
-   | IdentificationSelf   |  0.0831 |
-   | UnderstandingSelf    |  0.2260 |
-   | ExpressionSelf       |  0.1861 |
-   | RegulationSelf       | -0.0633 |
-   | UseSelf              | -0.0672 |
-   | IdentificationOthers |  0.0948 |
-   | UnderstandingOthers  |  0.1709 |
-   | ExpressionOthers     |  0.2091 |
-   | RegulationOthers     |  0.1050 |
-   | UseOthers            | -0.2848 |
-   | TotalTraitEmotion    |  0.1178 |
 
 * Discussion
   The main finding was that the developed showed a good reliability.
@@ -1216,6 +1201,22 @@
   have been avoided the test could have a higher reliability and might
   be more suitable for high-stakes testing.
 
+  Another finding was the relatively low correlations between the
+  subscales of the SPEC. This conforms with the earlier results of
+  \citet{Brasseur2013} and lends divergent validity of the structure
+  of the SPEC and PEC.
+
+  Additionally, the results of the present study, showing low
+  correlations between the SPEC and METT seems to indicated that the
+  scales, measure different facets of emotional intelligence. Indeed,
+  as discussed in the litterature review SPEC and METT belong to
+  different theoretical frameworks of emotional intelligence. It seems
+  that the SPEC, measuring a trait, gives very different results as
+  compared to the ability based METT.
+
+  Exactly what is measured by trait scales of emotional intelligence
+  is debated, at the very least it gives an indication of an
+  individuals appraisal of his or her own emotional intelligece.
 
 ** Limitations
    The evaluation of the developed artefact is limited several
