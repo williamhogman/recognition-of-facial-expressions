@@ -1212,17 +1212,28 @@
   emotions. While using different presentation times might improve the
   overall quality of the test it makes the emotions uncomparable.
 
+  A possible focus for future research is to investigate methods for
+  minimizing the range-limitation risk. A number of methods could be
+  implemented to avoid these.
+
   One possible solution for this would be to have varying display
   times within each emotion, such that the test would include a number
   of different conditions with different presentation times. Such an
   approach would, if calibrated properly, would avoid both floor and
-  ceiling effects.
+  ceiling effects. Adopting a more adaptive testing procedure could
+  improve the test, but is not entirely without related development
+  costs.
 
+  Other possible solutions, such as stair-case and threshold methods,
+  could be used. In such methods the minimal presentation time to
+  achieve a certain level of accuracy for a given indivdual is
+  established.
 
   Another finding was the relatively low correlations between the
   subscales of the SPEC. This conforms with the earlier results of
   \citet{Brasseur2013} and lends divergent validity of the structure
-  of the SPEC and PEC.
+  of the SPEC and PEC. Moreover, the test-retest correlation
+  obtained in the present study indicates a good test-retest reliability.
 
   Additionally, the results of the present study, showing low
   correlations between the SPEC and METT seems to indicated that the
@@ -1235,6 +1246,13 @@
   Exactly what is measured by trait scales of emotional intelligence
   is debated, at the very least it gives an indication of an
   individuals appraisal of his or her own emotional intelligece.
+
+  Despite the limitations related to expressions of hapiness and
+  surprise the artefact developed in the present study offers some
+  good properties. The test, being mostly ability-based is robust to
+  faking and social desirabilty. It captures both personality traits
+  related to emotional intelligence as well as our ability to read
+  emotional cues in the facial expressions of other's.
 
 ** Limitations
    The evaluation of the developed artefact is limited several
