@@ -1137,7 +1137,9 @@
     | Overall   |                           0 |         0% |
 
     Kernel density estimates were computed for each emotion
-    separately, these are presented in figure \ref{fig:kde}.
+    separately, these are presented in figure \ref{fig:kde}. Happiness
+    and surprise, assuming a normal distribution, have seen large
+    restrictions of range.
 
     #+BEGIN_LATEX
     \begin{figure}[htpb]
@@ -1149,33 +1151,35 @@
     #+END_LATEX
 
     For the 31 participants taking the test twice, the measured
-    test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).  This
-    level of reliability is considered good. ($0.7 \leq r < 0.9$) This
-    level may however, be deflated by a limitation of range for some
-    emotions. Indeed, happiness, which as we have seen earlier, is
-    known to cause roof effects, seems to have a show an almost
-    non-existant correlation.  Some emotions, contempt and disgusts
-    show higher correlations than the others.
+    test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).
+    This level of reliability is considered good. ($0.7 \leq r < 0.9$).
 
-    | Emotion   | Test-retest correlation ($r$) |
-    |-----------+-------------------------------|
-    | Anger     |                        0.5415 |
-    | Contempt  |                        0.8180 |
-    | Disgust   |                        0.8447 |
-    | Fear      |                        0.4243 |
-    | Happiness |                      -0.08243 |
-    | Sadness   |                        0.6370 |
-    | Surprise  |                        0.3599 |
+    Test-retest correlations for each emotion individually is
+    presented in table \ref{table:metttestretest}.  This level may
+    however, be deflated by a limitation of range for some
+    emotions. Indeed, happiness, which as we have discussed earlier,
+    is known to cause ceiling effects, shows a low, non-significant
+    correlation. Additionally, surprise and fear show lower
+    correlations as compared to the rest of the emotions.  Contempt
+    and disgusts, on the other hand show higher correlations than the
+    other emotions.
 
-** SPEC
-   The descriptive statistics for the SPEC subscales are presented in table \ref{table:specdesc}
-   #+LATEX: \input{specdesc}
+    The low correlation for fear is somewhat surprising given that
+    there is no obvious restriction of range visible in the kernel
+    density estimates.
 
-   A correlation matrix was constructed between each of the subscales
-   of the SPEC, which is presented in table \ref{table:speccorrmtx}.
-   Correlations between each of the subscales and the METT results are
-   presented in table \ref{table:specmettcorr}
-   #+LATEX: \input{speccorrmtx}
+
+
+    #+LATEX: \input{testretest}
+*** SPEC
+    The descriptive statistics for the SPEC subscales are presented in table \ref{table:specdesc}
+    #+LATEX: \input{specdesc}
+
+    A correlation matrix was constructed between each of the subscales
+    of the SPEC, which is presented in table \ref{table:speccorrmtx}.
+    Correlations between each of the subscales and the METT results are
+    presented in table \ref{table:specmettcorr}
+    #+LATEX: \input{speccorrmtx}
 
 * Discussion
   The main finding was that the developed showed a good reliability.
@@ -1196,7 +1200,24 @@
   In future iterations such limitations need to be avoided. The
   results seem to suggest that if ceiling effects for happiness could
   have been avoided the test could have a higher reliability and might
-  be more suitable for high-stakes testing.
+  be more suitable for high-stakes testing. Interestingly, our results
+  seem to suggest that surprise is affected be ceiling effects, and
+  reducing accuracy for expressions of surprise is also necessary to
+  increase reliability of the test.
+
+  One method for reducing accuracy is simply reducing the presentation
+  times used. However, some expressions, such as fear, where the
+  average hit-rate is lower, may cause floor effects instead. This
+  could be solved by using different presentation times for different
+  emotions. While using different presentation times might improve the
+  overall quality of the test it makes the emotions uncomparable.
+
+  One possible solution for this would be to have varying display
+  times within each emotion, such that the test would include a number
+  of different conditions with different presentation times. Such an
+  approach would, if calibrated properly, would avoid both floor and
+  ceiling effects.
+
 
   Another finding was the relatively low correlations between the
   subscales of the SPEC. This conforms with the earlier results of
