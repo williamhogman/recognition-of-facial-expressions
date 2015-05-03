@@ -1138,6 +1138,7 @@
 
     Kernel density estimates were computed for each emotion
     separately, these are presented in figure \ref{fig:kde}.
+
     #+BEGIN_LATEX
     \begin{figure}[htpb]
     \centering
@@ -1168,17 +1169,13 @@
 
 ** SPEC
    The descriptive statistics for the SPEC subscales are presented in table \ref{table:specdesc}
-   #+BEGIN_LATEX:
-   \input{specdesc}
-   #+END_LATEX
+   #+LATEX: \input{specdesc}
 
    A correlation matrix was constructed between each of the subscales
    of the SPEC, which is presented in table \ref{table:speccorrmtx}.
    Correlations between each of the subscales and the METT results are
    presented in table \ref{table:specmettcorr}
-   #+BEGIN_LATEX:
-   \input{speccorrmtx}
-   #+END_LATEX
+   #+LATEX: \input{speccorrmtx}
 
 * Discussion
   The main finding was that the developed showed a good reliability.
