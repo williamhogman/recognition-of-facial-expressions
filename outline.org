@@ -1181,6 +1181,10 @@
     presented in table \ref{table:specmettcorr}
     #+LATEX: \input{speccorrmtx}
 
+    The test-retest correlation for the SPEC was $r=0.5070$ ($p <
+    0.01$, $df = 29$). A test-retest correlation of is considered
+    poor.
+
 * Discussion
   The main finding was that the developed showed a good reliability.
   Test-retest scores correlations indicated a good test
@@ -1232,8 +1236,18 @@
   Another finding was the relatively low correlations between the
   subscales of the SPEC. This conforms with the earlier results of
   \citet{Brasseur2013} and lends divergent validity of the structure
-  of the SPEC and PEC. Moreover, the test-retest correlation
-  obtained in the present study indicates a good test-retest reliability.
+  of the SPEC and PEC.
+
+  However, the test-retest reliabilty found for SPEC in the present
+  study was poor, calling into question the overall reliability of the
+  SPEC. One possible cause for the lower test-retest reliability might
+  be the translation used in the present study. Translation
+  differences are unlikely to cause such poor test-retest reliability
+  as the same questions are used a both trials. A poor test-retest
+  reliabilty could be indicative of a number factors unrelated to the
+  question of the actual test. It may be the case that the trait
+  measured in the SPEC is not stable, and instead something that
+  varies with mood.
 
   Additionally, the results of the present study, showing low
   correlations between the SPEC and METT seems to indicated that the
