@@ -1229,10 +1229,17 @@
   improve the test, but is not entirely without related development
   costs.
 
-  Other possible solutions, such as stair-case and threshold methods,
+  Other possible solutions, such as staircase and threshold methods,
   could be used. In such methods the minimal presentation time to
   achieve a certain level of accuracy for a given indivdual is
   established.
+
+  Changing the stimulus set to be so as to be more challenging could
+  be another option. Most stimulus-sets, including the one used in the
+  present study are designed to be easily recognizable (eg KDEF,
+  \citet{Langer2010}; MSFDE, \citet{Beaupre2000}). It seems like that
+  using a stimulus set where expressions of happiness and surprise are
+  less overt could lead to a decrease in roof effects.
 
   Another finding was the relatively low correlations between the
   subscales of the SPEC. This conforms with the earlier results of
@@ -1262,7 +1269,6 @@
   Exactly what is measured by trait scales of emotional intelligence
   is debated, at the very least it gives an indication of an
   individuals appraisal of his or her own emotional intelligece.
-
   On the other hand the poor test-retest correlations found might
   indicate that another test of trait emotional inteligence should
   have been used. Indeed, future research could apply a number of
@@ -1277,6 +1283,13 @@
   faking and social desirabilty. It captures both personality traits
   related to emotional intelligence as well as our ability to read
   emotional cues in the facial expressions of other's.
+
+  The test developed in the present study has both practical and
+  academic uses. The artefact developed, is adaptable to a number of
+  different test metodlogies and can be used for both psychological
+  research and practical emotional intelligence testing. It also
+  provides a foundation on which more sophisticated tests can be
+  built.
 
 ** Limitations
    The evaluation of the developed artefact is limited several
