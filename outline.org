@@ -1182,8 +1182,9 @@
     #+LATEX: \input{speccorrmtx}
 
     The test-retest correlation for the SPEC was $r=0.5070$ ($p <
-    0.01$, $df = 29$). A test-retest correlation of is considered
-    poor.
+    0.01$, $df = 29$). A test-retest correlation of $r < 0.6$ is
+    considered poor. Test-retest correlations of the individual
+    subscales are presented in table \ref{table:specmettcorr}.
 
 * Discussion
   The main finding was that the developed showed a good reliability.
@@ -1241,13 +1242,14 @@
   However, the test-retest reliabilty found for SPEC in the present
   study was poor, calling into question the overall reliability of the
   SPEC. One possible cause for the lower test-retest reliability might
-  be the translation used in the present study. Translation
-  differences are unlikely to cause such poor test-retest reliability
-  as the same questions are used a both trials. A poor test-retest
-  reliabilty could be indicative of a number factors unrelated to the
-  question of the actual test. It may be the case that the trait
-  measured in the SPEC is not stable, and instead something that
-  varies with mood.
+  be the translation used in the present study. While there were some
+  differences, between the subscales it seems that none of the scales
+  reached good reliability. Translation differences are unlikely to
+  cause such poor test-retest reliability as the same questions are
+  used a both trials. A poor test-retest reliabilty could be
+  indicative of a number factors unrelated to the question of the
+  actual test. It may be the case that the trait measured in the SPEC
+  is not stable, and instead something that varies with mood.
 
   Additionally, the results of the present study, showing low
   correlations between the SPEC and METT seems to indicated that the
@@ -1260,6 +1262,14 @@
   Exactly what is measured by trait scales of emotional intelligence
   is debated, at the very least it gives an indication of an
   individuals appraisal of his or her own emotional intelligece.
+
+  On the other hand the poor test-retest correlations found might
+  indicate that another test of trait emotional inteligence should
+  have been used. Indeed, future research could apply a number of
+  different scales, attempting to find one having a higher
+  reliability. The artefact developed allows in the present study
+  allows for question-sets to be specified in configuration, thereby
+  making it trivial to apply the test with different tests.
 
   Despite the limitations related to expressions of hapiness and
   surprise the artefact developed in the present study offers some
@@ -1283,7 +1293,14 @@
    may affect both the reliability and validity of the overall test.
 
 * Conclusion
-  What conclusions may be drawn?
+  The results of the present study seem to indicate that computerized
+  tests for emotional intelligence based on the facial expression
+  recognition. Additionally, the present study, shows that combining
+  traditional questionnarie-based tests of emotional intelligence with
+  more complex ones. Interestingly, the questionnarie-based test used
+  in the present study showed poor test-retest reliability. Future
+  research could focus applying using the developed artefact to
+  differnt questionnaries.
 
 \printbibliography
 
