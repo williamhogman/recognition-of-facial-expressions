@@ -1109,32 +1109,15 @@
 *** Micro-expression Testing Tool
     A total of $4268$ responses were collected, $2977$ of which were
     correct and $1291$ were incorrect, for an overall hit-rate of
-    $69.1887\%$
+    $69.1887\%$ Hit-rates divided by emotion are presented in table
+    \ref{table:metthitrate}.
 
-    | Emotion   | Hit-rate |
-    |-----------+----------|
-    | Anger     |    62.96 |
-    | Contempt  |    59.75 |
-    | Disgust   |    61.98 |
-    | Fear      |    57.78 |
-    | Happiness |    95.43 |
-    | Sadness   |    57.04 |
-    | Surprise  |    89.38 |
+    #+LATEX: \input{metthitrate}
 
+    The number of participants correctly identifying every stimulus of each emotion correctly were
+    computed, these are presented in table \ref{table:mettnomiss}
 
-    The number of participants identifying every stimulus of each emotion correctly were
-    computed.
-
-    | Emotion   | Participants without misses | Fractional |
-    |-----------+-----------------------------+------------|
-    | Anger     |                           9 |     11.11% |
-    | Contempt  |                          12 |     14.81% |
-    | Disgust   |                           9 |     11.11% |
-    | Fear      |                           5 |     6.172% |
-    | Happiness |                          59 |     72.83% |
-    | Sadness   |                           2 |     2.469% |
-    | Surprise  |                          45 |     55.55% |
-    | Overall   |                           0 |         0% |
+    #+LATEX: \input{mettnomiss}
 
     Kernel density estimates were computed for each emotion
     separately, these are presented in figure \ref{fig:kde}. Happiness
@@ -1236,8 +1219,8 @@
 
   Changing the stimulus set to be so as to be more challenging could
   be another option. Most stimulus-sets, including the one used in the
-  present study are designed to be easily recognizable (eg KDEF,
-  \citet{Langer2010}; MSFDE, \citet{Beaupre2000}). It seems like that
+  present study are designed to be easily recognizable (e.g. KDEF,
+  \citet{Langner2010}; MSFDE, \citet{Beaupre2000}). It seems like that
   using a stimulus set where expressions of happiness and surprise are
   less overt could lead to a decrease in roof effects.
 
