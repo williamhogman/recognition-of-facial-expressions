@@ -887,12 +887,18 @@
     test software was configured to run the questions.
 
 *** Data-analysis
-    Data was analysed using the R programming langauge \citep{R2015}
-    and statistical environment.
+    Data was analysed using the both the R programming langauge
+    \citep{R2015} and statistical environment, as well as a
+    Python-based environment using SciPy \citep{SciPy} for statistical
+    analysis, iPython \citep{IPython} for reproducable analysis and
+    Pandas \citep{mckinney-proc-scipy-2010} for data management.
 
 **** METT-related analysis
      After reading data from disk and combining them, hit-rates and
-     descriptives statistics were computed.
+     descriptives statistics were computed. The number of participants
+     completing the test without errors for a certain emotion were
+     computed. Kernel density estimates were used for visualizing the
+     distributions.
 
      Split-half reliability measures of correlation for the complete
      data-set by spliting it at the 35th trial. For the 31
@@ -953,8 +959,6 @@
     overall detection.
 
     \input{study-one-hitrates-emotion.tex}
-
-
 
     The second data-set consisted of 72 participants, each taking the
     form of a , the average accuracy was $72.99\%$ ($S=12.14$).
@@ -1105,7 +1109,9 @@
    #+INCLUDE: "result_implementation.org"
 
 ** Evaluation
-
+   The analysis of the data gathered in the study can naturally be
+   divided into METT and SPEC-data. In the following sections results
+   related to the scales will be presented in turn.
 *** Micro-expression Testing Tool
     A total of $4268$ responses were collected, $2977$ of which were
     correct and $1291$ were incorrect, for an overall hit-rate of
