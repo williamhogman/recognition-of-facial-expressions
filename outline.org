@@ -735,7 +735,9 @@
     development were to a point largely ignored. These methods were
     often misaligned with how software development is done in
     practice. Counteracting this a number of agile software
-    development processes have appeared. \citep{Abrahamsson2002}.
+    development processes have
+    appeared. \citep{Abrahamsson2002}. Better alignment between
+    practice may yield better results
 
     \citet{Abrahamsson2002} discuss a number of methods, perhaps most
     prominent among which are XP, Crystal, RUP and Scrum. These
