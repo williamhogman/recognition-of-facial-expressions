@@ -666,21 +666,23 @@
     can be used. Many popular approaches directly involve potential
     stakeholders directly \citet[chapter 6]{Johannesson2014}. One
     oft-used method is surveys allowing for coverage of potential
-    requirements \citep[chapter 6]{Johannesson2014}. Using surveys
-    runs the risk of not being able to find innovative requirements
-    because the stakeholders themselves were unable to identify
-    anything dissimilar from present solution.
-    \citet[chapter~6]{Johannesson2014} suggest using other methods
-    such as case studies and action research to find requirements that
-    the stakeholders were unable to identify. These methods however
-    have the drawback of applying the researchers personal views on
-    the requirements \citep[chapter~6]{Johannesson2014}.
+    requirements \citep[chapter 6]{Johannesson2014}.
+
+    Using surveys runs the risk of not being able to find innovative
+    requirements because the stakeholders themselves are sometimes
+    unable to identify any requirements sufficently dissimilar from
+    the present solution.  \citet[chapter~6]{Johannesson2014} suggest
+    using other methods such as case studies and action research to
+    find requirements that the stakeholders were unable to
+    identify. These methods however have the drawback of applying the
+    researchers personal views on the requirements
+    \citep[chapter~6]{Johannesson2014}.
 
     The domain of the present study is complex. Test-takers are
     unlikely to understand the intricate nature of the subject area,
     and their interests do not align with the people administering the
-    test. Similarly, practitioners in the area often have little
-    understanding of the tests they administer.
+    test. Similarly, practitioners do not always possess a sufficent
+    understanding of the tests being administerd.
 
     Finally, it is difficult to find a significantly large population
     of researchers on the area to establish qualitative
@@ -689,14 +691,15 @@
     documents.
 
     It could be argued that using only documents would be sub-optimal
-    for many IS studies. In the case of the present study, however the
-    situation is very different.
+    for many IS studies. In the case of the present study the
+    situation is for the aformentioned reasons very different.
 
     To successfully capture the requirements for the present study
     two methods were chosen:
-   - A literature review for emotional intelligence
-   - A quantitative analysis of existing data collected from a
-     micro-expression test.
+   - A literature review of emotional intelligence and methods of
+     testing it.
+   - A quantitative analysis of existing data collected from earlier
+     applications of a micro-expression test.
 
    These two methods were chosen to successfully capture variance from
    both the scientific literature as well as empirical data. The
