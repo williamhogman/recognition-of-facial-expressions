@@ -740,7 +740,7 @@
     practice. Counteracting this a number of agile software
     development processes have
     appeared. \citep{Abrahamsson2002}. Better alignment between
-    practice may yield better results
+    practice and process may yield better results.
 
     \citet{Abrahamsson2002} discuss a number of methods, perhaps most
     prominent among which are XP, Crystal, RUP and Scrum. These
@@ -889,7 +889,9 @@
 *** Procedure
     Participants were positioned at a distance of approximatly 70 cm
     from the screen. The designed software artefact was then run. The
-    test software was configured to run the questions.
+    test software was configured to run a set of 70 trials and the
+    question module configured to gather responses for the SPEC set of
+    questions.
 
 *** Data-analysis
     Data was analysed using the both the R programming langauge
@@ -901,7 +903,7 @@
 **** METT-related analysis
      After reading data from disk and combining them, hit-rates and
      descriptives statistics were computed. The number of participants
-     completing the test without errors for a certain emotion were
+     completing the test without misses for a certain emotion were
      computed. Kernel density estimates were used for visualizing the
      distributions.
 
@@ -934,7 +936,7 @@
 ** Requirements Definition
 *** Literature Review
     From reviewing the literature, a number of methods for measuring
-    emotional intelligence were found, th ese are presented in table
+    emotional intelligence were found, these are presented in table
     \ref{table:paradigms}. The methods discussed earlier cover many
     different aspects of emotional intelligence, and considers more
     tests than can realistically be used for single experimental
