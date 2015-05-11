@@ -891,7 +891,9 @@
     from the screen. The designed software artefact was then run. The
     test software was configured to run a set of 70 trials and the
     question module configured to gather responses for the SPEC set of
-    questions.
+    questions. After completing the experiment, the group taking
+    taking the test twice were contacted and another test session
+    scheduled.
 
 *** Data-analysis
     Data was analysed using the both the R programming langauge
