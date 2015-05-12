@@ -1187,26 +1187,31 @@
 * Discussion
   The main finding was that the developed showed a good reliability.
   Test-retest scores correlations indicated a good test
-  reliaiblity. Additionally split-half reliability also showed good reliability.
+  reliaiblity. Additionally split-half reliability also showed good
+  reliability.
 
-  The test did however not avoid the avoid the common ceiling effects
-  for happiness. A majority ($72.83\%$) of participants correctly
-  identified every happy emotional face in the METT condition. Indeed,
-  as seen as seen in the kernel density estimates presented in figure
-  \ref{fig:kde}, a large portion of the distribution for happiness was
-  cut-off.
+  The test did, however, not avoid the avoid the common ceiling
+  effects for happiness. A majority ($72.83\%$) of participants
+  correctly identified every single happy emotional face in the METT
+  part of the experiment. Indeed, as seen as seen in the kernel
+  density estimates presented in figure \ref{fig:kde}, a large portion
+  of the distribution for happiness was cut-off. This is indicative
+  cieling effects.
 
-  Higher accuracies for happiness have been found in earlier studies
-  \citet[recall~][]{Calvo2008a}, and the present study confirms these
+  The higher accuracies for expressions of happiness found in the
+  present study has also been found in earlier studies
+  \citet[recall~][]{Calvo2008a}, the present study confirms these
   earlier results.
 
-  In future iterations such limitations need to be avoided. The
-  results seem to suggest that if ceiling effects for happiness could
-  have been avoided the test could have a higher reliability and might
-  be more suitable for high-stakes testing. Interestingly, our results
-  seem to suggest that surprise is affected be ceiling effects, and
-  reducing accuracy for expressions of surprise is also necessary to
-  increase reliability of the test.
+  In future iterations such limitations of range need to be
+  avoided. The results seem to suggest that if ceiling effects for
+  happiness could have been avoided the test could have a higher
+  reliability and might be more suitable for high-stakes testing,
+  which is usually reserved for tests showing reliabilities above
+  $0.85\%$ . Interestingly, our results seem to suggest that surprise
+  is affected be ceiling effects, and reducing accuracy for
+  expressions of surprise is also necessary to increase reliability of
+  the test.
 
   One method for reducing accuracy is simply reducing the presentation
   times used. However, some expressions, such as fear, where the
