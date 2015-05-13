@@ -1240,9 +1240,9 @@
   Changing the stimulus set to be so as to be more challenging could
   be another option. Most stimulus-sets, including the one used in the
   present study are designed to be easily recognizable (e.g. KDEF,
-  \citet{Langner2010}; MSFDE, \citet{Beaupre2000}). It seems like that
+  \citet{Langner2010}; MSFDE, \citet{Beaupre2000}). It seems likely that
   using a stimulus set where expressions of happiness and surprise are
-  less overt could lead to a decrease in roof effects.
+  less overt could lead to a decrease in ceiling effects.
 
   Another finding was the relatively low correlations between the
   subscales of the SPEC. This conforms with the earlier results of
@@ -1284,7 +1284,7 @@
   surprise the artefact developed in the present study offers some
   good properties. The test, being mostly ability-based is robust to
   faking and social desirabilty. It captures both personality traits
-  related to emotional intelligence as well as our ability to read
+  related to emotional intelligence as well as the actual ability to read
   emotional cues in the facial expressions of other's.
 
   The test developed in the present study has both practical and
