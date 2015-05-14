@@ -1314,9 +1314,9 @@
   recognition. Additionally, the present study, shows that combining
   traditional questionnarie-based tests of emotional intelligence with
   more complex ones. Interestingly, the questionnarie-based test used
-  in the present study showed poor test-retest reliability. Future
-  research could focus applying using the developed artefact to
-  differnt questionnaries.
+  in the present study showed poor test-retest reliability. However,
+  other tests may be more accurate. Future research could focus
+  applying using the developed artefact to differnt questionnaries.
 
 \printbibliography
 
