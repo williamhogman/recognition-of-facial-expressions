@@ -1190,7 +1190,7 @@
   reliaiblity. Additionally split-half reliability also showed good
   reliability.
 
-  The test did, however, not avoid the avoid the common ceiling
+  The test however, did not avoid the avoid the common ceiling
   effects for happiness. A majority ($72.83\%$) of participants
   correctly identified every single happy emotional face in the METT
   part of the experiment. Indeed, as seen as seen in the kernel
@@ -1233,9 +1233,10 @@
   costs.
 
   Other possible solutions, such as staircase and threshold methods,
-  could be used. In such methods the minimal presentation time to
-  achieve a certain level of accuracy for a given indivdual is
-  established.
+  could also be used. In such methods the minimal presentation time to
+  achieve a certain level of accuracy for a given indivdual can be
+  established. There exists numerous psychophysical methods that can
+  be used to establish these.
 
   Changing the stimulus set to be so as to be more challenging could
   be another option. Most stimulus-sets, including the one used in the
