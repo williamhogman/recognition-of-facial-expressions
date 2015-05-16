@@ -1185,8 +1185,8 @@
     subscales are presented in table \ref{table:specmettcorr}.
 
 * Discussion
-  The main finding was that the developed showed a good reliability.
-  Test-retest scores correlations indicated a good test
+  The main finding was that developed METT-test showed good
+  reliability.  Test-retest scores correlations indicated a good test
   reliaiblity. Additionally split-half reliability also showed good
   reliability.
 
@@ -1258,7 +1258,7 @@
   reached good reliability. Translation differences are unlikely to
   cause such poor test-retest reliability as the same questions are
   used a both trials. A poor test-retest reliabilty could be
-  indicative of a number factors unrelated to the question of the
+  indicative of a number factors unrelated to the translations the
   actual test. It may be the case that the trait measured in the SPEC
   is not stable, and instead something that varies with mood.
 
