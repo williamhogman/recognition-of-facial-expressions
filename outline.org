@@ -1205,32 +1205,33 @@
 
   In future iterations such limitations of range need to be
   avoided. The results seem to suggest that if ceiling effects for
-  happiness could have been avoided the test could have a higher
-  reliability and might be more suitable for high-stakes testing,
-  which is usually reserved for tests showing reliabilities above
-  $0.85\%$ . Interestingly, our results seem to suggest that surprise
-  is affected be ceiling effects, and reducing accuracy for
-  expressions of surprise is also necessary to increase reliability of
-  the test.
+  happiness could have been avoided, the test would have had a higher
+  reliability. This could perhaps make it more suitable for
+  high-stakes testing, which is usually reserved for tests showing
+  reliabilities above $0.85\%$ . Interestingly, our results seem to
+  suggest that surprise is affected be ceiling effects, and reducing
+  accuracy for expressions of surprise is also necessary to increase
+  reliability of the test.
 
-  One method for reducing accuracy is simply reducing the presentation
-  times used. However, some expressions, such as fear, where the
-  average hit-rate is lower, may cause floor effects instead. This
-  could be solved by using different presentation times for different
-  emotions. While using different presentation times might improve the
-  overall quality of the test it makes the emotions uncomparable.
+  One method for reducing participant accuracy is simply reducing the
+  time for which the stimulus is presented. However, some expressions,
+  such as fear, where the average hit-rate is lower, may cause floor
+  effects instead. This could be solved by using different
+  presentation times for different emotions. While using different
+  presentation times might improve the overall quality of the test it
+  makes the emotions uncomparable.
 
   A possible focus for future research is to investigate methods for
-  minimizing the range-limitation risk. A number of methods could be
-  implemented to avoid these.
+  minimizing the effects and occurance of range-limitation. A number of
+  methods could be implemented to avoid these.
 
   One possible solution for this would be to have varying display
   times within each emotion, such that the test would include a number
   of different conditions with different presentation times. Such an
   approach would, if calibrated properly, would avoid both floor and
-  ceiling effects. Adopting a more adaptive testing procedure could
-  improve the test, but is not entirely without related development
-  costs.
+  ceiling effects. Using an adaptive testing procedure such as this
+  could improve the test, but is not entirely without related
+  development costs.
 
   Other possible solutions, such as staircase and threshold methods,
   could also be used. In such methods the minimal presentation time to
