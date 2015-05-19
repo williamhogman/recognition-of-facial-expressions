@@ -1162,11 +1162,9 @@
     and disgusts, on the other hand show higher correlations than the
     other emotions.
 
-    The low correlation for fear is somewhat surprising given that
-    there is no obvious restriction of range visible in the kernel
-    density estimates.
-
-
+    The low correlation for fear is somewhat surprising, given the
+    fact that there is no obvious restriction of range discernable
+    from visual inspection of the kernel density estimates.
 
     #+LATEX: \input{testretest}
 *** SPEC
