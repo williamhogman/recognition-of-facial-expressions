@@ -1158,8 +1158,8 @@
     emotions. Indeed, happiness, which as we have discussed earlier,
     is known to cause ceiling effects, shows a low, non-significant
     correlation. Additionally, surprise and fear show lower
-    correlations as compared to the rest of the emotions.  Contempt
-    and disgusts, on the other hand show higher correlations than the
+    correlations compared to the other emotions.  Contempt and
+    disgusts, on the other hand show higher correlations than the
     other emotions.
 
     The low correlation for fear is somewhat surprising, given the
