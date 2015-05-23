@@ -947,9 +947,9 @@
 
     \input{paradigms.tex}
 
-    In addition to general test the different stimulus sets were
-    considered. These stimulus sets are present in a tabular form in
-    table \ref{table:stimsets}.
+    In addition to general test paradigms, the stimulus sets from the
+    reviewed literature were considered. These stimulus sets are
+    present in a tabular form in table \ref{table:stimsets}.
 
     \input{stimsets}
 
