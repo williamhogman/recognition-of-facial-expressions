@@ -1029,9 +1029,8 @@
     from METT, SPEC may be the most appropriate test. SPEC provides a
     the same number as factors as the longer PEC, while retaining much
     of the reliability. Given the need for wide coverage of emotional
-    intelligence factors as well as the time-constraints, given the
-    criteria a short testing time, SPEC seems to be the most suitable
-    test.
+    intelligence related factors, as well as the time-constraints,
+    SPEC seems to be the most suitable test.
 
     Having considered all the tests discussed in the literature review.
     Two tests need to be implemented, METT and SPEC. Specifically
