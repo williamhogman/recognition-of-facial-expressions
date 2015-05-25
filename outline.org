@@ -1071,16 +1071,16 @@
     the test accessible to a wider range of researchers and
     practitioners.
 
-    Another issue is the effects of training, as the results from the
+    Another issue is the effects of training. As the results from the
     analysis of earlier data showed, there was a strong effect of
     training ($P<0.001$). Specifically the earlier data showed a clear
-    linear training trend. In the data-sets considered in the present
-    study no end to this trend was found. The lack of an end, even
-    after 70 trials, suggests that training effects are still relevant
-    after a substantial number of trials. For this reason, to ensure
-    that data gathered using the test is comparable between
-    individuals, the number of trials need to be the same for all
-    individuals.
+    linear training trend of increasing accuracy through out the
+    experiment. In the data-sets considered in the present study no
+    end to this trend was found. The lack of an end, even after 70
+    trials, suggests that training effects are still relevant after a
+    substantial number of trials. For this reason, to ensure that data
+    gathered using the test is comparable between individuals, the
+    number of trials need to be the same for all individuals.
 
     Finally, the issue of stimulus set needs to be addressed. In the
     data from earlier the earlier studies we found that performance
