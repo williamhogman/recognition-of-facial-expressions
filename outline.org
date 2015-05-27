@@ -1060,16 +1060,16 @@
     extent possible given avaliable development resources and scope of
     the present study.
 
-    Additionally, an means of input needs to be selected. Using the
-    keyboard is the most suitable input device for the test being
-    developed, for several reasons. Firstly, it allows for faster
-    responses once the user has learned the options. Second, not
-    showing a mouse-cursor would avoid problems stemming from the
-    occlusion of the stimulus being presented by the mouse
-    cursor. Finally, keyboards are commodity hardware and using them
-    removes the need for purchasing specialized input hardware, making
-    the test accessible to a wider range of researchers and
-    practitioners.
+    Additionally, an means of input needs to be selected. For the
+    purpoess of the present study, using a standard keyboard is the
+    most suitable input device for the test being developed, for
+    several reasons. Firstly, it allows for faster responses once the
+    user has learned the options. Second, not showing a mouse-cursor
+    would avoid problems stemming from the occlusion of the stimulus
+    being presented by the mouse cursor. Finally, keyboards are
+    commodity hardware and using them removes the need for purchasing
+    specialized input hardware, making the test accessible to a wider
+    range of researchers and practitioners.
 
     Another issue is the effects of training. As the results from the
     analysis of earlier data showed, there was a strong effect of
