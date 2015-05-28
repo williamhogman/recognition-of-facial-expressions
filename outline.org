@@ -1091,8 +1091,8 @@
     use RaFD for evaluating the artefact developed for the present
     study, while leaving data-set as a configurable variable.
 
-    From the conclusions drawn a number of requirements were
-    derived.
+    Using the conclusions drawn a number of requirements were
+    derived. These are presented below:
 
     1. Requirements pertaining to the METT test
        1. Functional: The system shall display a forward-mask
