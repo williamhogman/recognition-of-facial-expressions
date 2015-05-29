@@ -1032,10 +1032,11 @@
     intelligence related factors, as well as the time-constraints,
     SPEC seems to be the most suitable test.
 
-    Having considered all the tests discussed in the literature review.
-    Two tests need to be implemented, METT and SPEC. Specifically
-    the test should implement a facial-expression tasks and a digital
-    questionnaire, configured for METT and SPEC respectively.
+    Having considered all the tests discussed in the literature
+    review.  Two tests should be implemented, METT and
+    SPEC. Specifically the test should implement a facial-expression
+    tasks and a digital questionnaire, configured for METT and SPEC
+    respectively.
 
     As discussed earlier \citep[recall][]{Calvo2008a} even a small
     difference in the duration of the display time of a METT trial
