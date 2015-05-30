@@ -1047,11 +1047,11 @@
     display times necessarily aligns with the refresh rate of the
     monitor, thereby ensuring some degree of accuracy.
 
-    While, there are clear differences in accuracy between different
-    emotions, no respect should be taken to emotion types in deciding
-    display times because doing so would render the different emotions
-    uncomparable, which would limit the insights that can be gained
-    from applyning the test.
+    While there are clear differences in accuracy between different
+    emotions, no respect should be taken to the types emotion types
+    when deciding on  presentation times because doing so would render the
+    different emotions uncomparable, which would limit the insights
+    that can be gained from applying the test.
 
     Because the experiment process is time-consuming, both for the
     participant and the experimenter, crashes in the software running
