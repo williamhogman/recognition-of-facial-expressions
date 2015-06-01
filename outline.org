@@ -1061,7 +1061,7 @@
     extent possible given avaliable development resources and scope of
     the present study.
 
-    Additionally, an means of input needs to be selected. For the
+    Additionally, a means of input needs to be selected. For the
     purpoess of the present study, using a standard keyboard is the
     most suitable input device for the test being developed, for
     several reasons. Firstly, it allows for faster responses once the
@@ -1074,7 +1074,7 @@
 
     Another issue is the effects of training. As the results from the
     analysis of earlier data showed, there was a strong effect of
-    training ($P<0.001$). Specifically the earlier data showed a clear
+    training ($P<0.001$). Specifically, the earlier data showed a clear
     linear training trend of increasing accuracy through out the
     experiment. In the data-sets considered in the present study no
     clear ending to this trend was found. The lack of an end, even
