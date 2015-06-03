@@ -1099,7 +1099,7 @@
        1. Functional: The system shall display a forward-mask
        2. Functional: The system shall display a backward-mask
        3. Functional: The system shall display a target-image
-       4. Functional: The system shall display times shall be precise within  \SI{1/60}{\second}
+       4. Functional: The system shall ensure that presentation times shall be precise within  \SI{1/60}{\second}
        5. Functional: The system shall collect input indicating the selected emotion via the keyboard.
        6. Functional: The system shall perform the same number of trials for each participant.
        7. Functional: The system shall allow for the configuration of stimulus sets.
