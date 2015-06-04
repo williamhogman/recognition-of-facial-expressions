@@ -954,9 +954,10 @@
     \input{stimsets}
 
 *** Analysis of old data
-    Each of the data-sets used in the study were analyzed separately
-    with the goal the goal of identifying characteristics of the data,
-    which was used to identify possible requirements for the system.
+    Each of the data-sets used in the study were analyzed separately,
+    with the goal the goal of identifying characteristics of the data.
+    These characteristics were then used to identify possible
+    requirements for the system.
 
     The first data-set contains 2149 correct responses and 1351
     incorrect responses for a total of hit-rate of 61%. A confusion
