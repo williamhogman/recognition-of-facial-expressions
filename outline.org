@@ -990,15 +990,15 @@
     independent variable and the hit-rate as the dependent variable. A
     significant effect of trial number was found ($t=4.56$, $p<0.001$,
     $df=68$). This effect indicates that accuracy improve throughout
-    the experiment itself.
+    the experimennt.
 
 *** Requirements
 
     In reviewing earlier research we found a number of suitable tests
     for emotional intelligence. Many of the standard measures of
-    emotional intelligence are highly controversial. The least
-    controversial measure is perhaps the METT, falling outside the
-    traditional distinction of trait and state emotional
+    emotional intelligence are highly controversial. Of these, The
+    least controversial measure is perhaps the METT, falling outside
+    the traditional distinction of trait and state emotional
     intelligence. Another benefit is that the implementations of METT
     in our earlier data seems to possess many beneficial
     characteristics for such a test.
