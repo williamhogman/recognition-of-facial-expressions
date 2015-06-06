@@ -998,7 +998,7 @@
     for emotional intelligence. Many of the standard measures of
     emotional intelligence are highly controversial. Of these, The
     least controversial measure is perhaps the METT, falling outside
-    the traditional distinction of trait and state emotional
+    the traditional distinction between trait and state emotional
     intelligence. Another benefit is that the implementations of METT
     in our earlier data seems to possess many beneficial
     characteristics for such a test.
