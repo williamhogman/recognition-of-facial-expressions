@@ -959,7 +959,7 @@
     These characteristics were then used to identify possible
     requirements for the system.
 
-    The first data-set contains 2149 correct responses and 1351
+    The first data-set consists of 2149 correct responses and 1351
     incorrect responses for a total of hit-rate of 61%. A confusion
     matrix was computed as shown in table \ref{study1confusion}. In
     table \ref{study1classtable} characteristics for each emotion are
