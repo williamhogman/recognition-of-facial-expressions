@@ -995,13 +995,14 @@
 *** Requirements
 
     In reviewing earlier research we found a number of suitable tests
-    for emotional intelligence. Many of the standard measures of
-    emotional intelligence are highly controversial. Of these, The
-    least controversial measure is perhaps the METT, falling outside
+    for emotional intelligence. However, Many of the standard measures
+    of emotional intelligence are highly controversial. Of these, the
+    least controversial measure is perhaps the METT. Falling outside
     the traditional distinction between trait and state emotional
-    intelligence. Another benefit is that the implementations of METT
-    in our earlier data seems to possess many beneficial
-    characteristics for such a test.
+    intelligence, the METT avoids some of this controversy by instead
+    focusing only the recognition of micro-expressions. Another
+    benefit is that the implementations of METT in our earlier data
+    seems to possess many beneficial characteristics for such a test.
 
     It is, however, unlikely that emotion recognition tasks can
     capture every aspect of emotional intelligence, some variance may
