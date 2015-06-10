@@ -1035,7 +1035,7 @@
     SPEC seems to be the most suitable test.
 
     Having considered all the tests discussed in the literature
-    review.  Two tests should be implemented, METT and
+    review. Two tests were chosen to be implemented, METT and
     SPEC. Specifically the test should implement a facial-expression
     tasks and a digital questionnaire, configured for METT and SPEC
     respectively.
