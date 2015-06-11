@@ -1041,8 +1041,8 @@
     respectively.
 
     As discussed earlier \citep[recall][]{Calvo2008a} even a small
-    difference in the duration of the display time of a METT trial
-    affects affects accuracy, particularly at low exposesure times. It
+    difference in the duration in the display time of a METT trial
+    greatly affects accuracy, particularly at low exposesure times. It
     is therefore important that exposure times are controlled to a
     resonable degree. To ensure this display times need to be
     specified in numbers of frames. This ensures that the intended
