@@ -40,8 +40,8 @@
   which organisms interpret, process and act upon the emotions and
   affects of themselves and others. An essential component in
   emotional intelligence seems to be the ability to identify the
-  emotions of oneself and others, with other cognitive-social
-  abilities depedending on this base. \citep{Mikolajczak2014}
+  emotions of oneself and others \citep{Mikolajczak2014}. Other cognitive-social
+  abilities can be seen as dependent on this base. \citep{Mikolajczak2014}
 
   The concept of emotional intelligence, however, is not
   uncontroversial. Various different authors with different approaches
