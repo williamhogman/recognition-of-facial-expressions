@@ -133,9 +133,9 @@
 
 * Extended background
   In the extended background a number of theoretical models,
-  applications, earlier tests and stimulus sets are reviewed an are
-  discussed. These lie at the foundation of the artefact developed in
-  the present study.
+  applications, earlier tests and stimulus sets are reviewed and
+  discussed. These form the base on which the artefact developed in
+  the present study was built.
 ** The Theoretical Models of Emotional Intelligence
    The definition of emotional intelligence has since its inception
    been the subject of fierce debate \citep{McCleskey2014}. One of the
