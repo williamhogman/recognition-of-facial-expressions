@@ -304,7 +304,7 @@
 ** Measuring emotional intelligence of Ability
 
    Like with its definition, how emotional intelligence is measured is
-   also debated. There exists no universally accepted standard for
+   also debated. There exists, at present, no universally accepted standard for
    measuring emotional intelligence. The different tests of emotional
    intelligence usually fall into one of only one of the theoretical
    models of emotional intelligence.
