@@ -321,8 +321,7 @@
     pictures and faces as well as understanding and managing emotions
     \citep{Mayer2003}. One differentiating aspect of MSCEIT is its
     focus on emotional problem-solving, where test-takers are posed
-    with imaginary situations in which emotional intelligence is
-    required.
+    with imaginary situations requiring emotional intelligence to solve.
 
     In an evaluation of MSCEIT 2.0, the second version of MSCEIT,
     \citet{Mayer2003} found both sufficiently reliability as well as
