@@ -594,11 +594,11 @@
    \citet[chapter 4]{Johannesson2014} put forward a model of design
    science based on five activities. The first activity, Explicate
    Problem, aims to find the practical problems that needs
-   solving. The second activity Define Requirements, finds what
+   solving. The second activity, Define Requirements, finds what
    requirements should be included in the artefact. The third stage,
    Design and Develop artefact concerns the creation of the actual
    artefact. The fourth stage, Demonstrate Artefact aims to
-   demonstrate that the artefact solves the actual problem. Evaluate
+   demonstrate that the artefact solves the actual problem. Finally, in the fifth stage, Evaluate
    artefact where the extent to which the artefact solves the intended
    problem.
 
