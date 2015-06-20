@@ -609,9 +609,9 @@
    Another approach to design science is that of \citet{Hevner2007}
    consisting of three cycles, the Relevance cycle, where the subject
    area an its requirements are identified, the design cycle where the
-   artefact is designed and deployed. Finally, in the rigor cycle, the
+   artefact is designed and deployed. Finally, in the rigor cycle, the researcher
    applies and grounds the developed artefact in existing theories,
-   perhaps resulting in meta-artefacts. \citep{Hevner2007}
+   perhaps resulting in meta-artefacts, suitable for research or practical use. \citep{Hevner2007}
 
    The paradigm presented by \citet{Hevner2007} is different in many
    aspects from that of \citet{Johannesson2014}. Where as
