@@ -200,8 +200,8 @@
    \citep{Baron2006} model as well as the \citet{Salovey1990} model,
    arguing that ability measures of emotional intelligence imply the
    existence of some universal notion of adaptive social
-   behavior. Such a notion of imply a culturally invariant concept of
-   socially appropriate, or intelligent behaviour, which is difficult
+   behavior. Such a notion would imply a culturally invariant concept of
+   what is socially appropriate, or intelligent behaviour, which would be difficult
    to establish.
 
    To resolve some of the controversies surrounding the definition of
