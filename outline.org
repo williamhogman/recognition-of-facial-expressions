@@ -247,7 +247,7 @@
 
    Even if earlier intergrative approaches have been critized
    \citep[e.g.~][]{Cherniss2010}, multifaceted approaches may still be
-   valuable, however this would require combining the theoretical
+   valuable. Such approaches however this would require combining the theoretical
    multiple theoretical frameworks. For any psychometric test to be
    useful, it needs to be loosely coupled to its theoretical concepts,
    while retaining internal cohessiveness, developing tests based on
