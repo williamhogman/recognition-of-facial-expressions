@@ -328,7 +328,7 @@
     consistency with its theoretical foundations. This would suggest
     that MSCEIT may be appropriate for research use.
 
-    However, The validity of the MSCEIT has however was later disputed
+    However, The validity of the MSCEIT was later disputed
     disputed. \citet{Rossen2008} found results running contrary to the
     factor structure used found in the validation study by
     \citet{Mayer2003}. The results found by \citet{Rossen2008} seem to
