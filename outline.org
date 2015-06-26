@@ -351,8 +351,8 @@
     internal consistency, making it appropriate for both clinical and
     research use \citep{Brasseur2013}.
 
-    Recently, \citet{Mikolajczak2014} were able to reduce the earlier
-    PEC scale to only 20 items while maintaining the to a large degree
+    Recently, \citet{Mikolajczak2014} were able to reduce the number of items used in the earlier
+    PEC scale to only 20 items while, to a large degree, maintaining
     the accuracy of the original 50-item scale. This result suggests
     that emotional intelligence can be measured using only a small
     number of questions.
