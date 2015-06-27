@@ -362,8 +362,8 @@
     five sub-scales with three facets each for a total of 15 ratings
     \citep{Bar-On1997}. The EQ-I is built on the theoretical framework
     based on emotional intelligence as a competency
-    \citep{Baron2006}. EQ-I is often used both on an individual and a
-    peer-level, where peers are asked to rate the individual's
+    \citep{Baron2006}. EQ-I is often used both on the individual and
+    peer-level. On the peer level, the test-taker's peers are asked to rate the individual's
     emotional intelligence \citep{Bar-On1997}. The approach of using
     peer ratings has recently found support in \citet{Elfenbein2015},
     showing that such peer ratings can be both accurate and reliable.
