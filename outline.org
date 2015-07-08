@@ -1203,15 +1203,15 @@
   \citet[recall~][]{Calvo2008a}, the present study confirms these
   earlier results.
 
-  In future iterations such limitations of range need to be
-  avoided. The results seem to suggest that if ceiling effects for
-  happiness could have been avoided, the test would have had a higher
-  reliability. This could perhaps make it more suitable for
-  high-stakes testing, which is usually reserved for tests showing
-  reliabilities above $0.85\%$ . Interestingly, our results seem to
-  suggest that surprise is affected be ceiling effects, and reducing
-  accuracy for expressions of surprise is also necessary to increase
-  reliability of the test.
+  In future iterations limitations of range, of the kind found in the
+  present study need to be avoided. The results seem to suggest that
+  if ceiling effects for happiness could have been avoided, the test
+  would have had a higher reliability. This could perhaps make it more
+  suitable for high-stakes testing, which is usually reserved for
+  tests showing reliabilities above $0.85\%$ . Interestingly, our
+  results seem to suggest that surprise is affected be ceiling
+  effects, and reducing accuracy for expressions of surprise is also
+  necessary to increase reliability of the test.
 
   One method for reducing participant accuracy is simply reducing the
   time for which the stimulus is presented. However, some expressions,
