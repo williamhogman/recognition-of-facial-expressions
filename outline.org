@@ -1221,9 +1221,9 @@
   presentation times might improve the overall quality of the test it
   makes the emotions uncomparable.
 
-  A possible focus for future research is to investigate methods for
-  minimizing the effects and occurance of range-limitation. A number of
-  methods could be implemented to avoid these.
+  A possible focus for future research could be to investigate methods
+  for minimizing the effects and occurance of range-limitation. A
+  number of methods could be implemented to avoid these.
 
   One possible solution for this would be to have varying display
   times within each emotion, such that the test would include a number
