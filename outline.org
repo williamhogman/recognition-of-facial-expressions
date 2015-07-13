@@ -793,7 +793,7 @@
    was used (presented in Table \ref{listofstudies}). Each data-set was then
    analyzed separately. All the studies whose data was analyzed used
    the METT paradigm, and followed a similar protocol, making them
-   reasonably comparable.
+   essentially comparable.
 
    For the first study, overall hit-rates and descriptives were
    computed. After computing overall statistics, a confusion matrix
@@ -919,11 +919,11 @@
      trialnumber as the predictor was constructed.
 
 **** SPEC-related analysis
-     First, inversions of items and subscales were computed,
-     afterwards descriptive statistics were computed for the overall
-     scale as well as the subscales. Correlation between each subscale
-     were computed, and finally between the METT results and the the
-     SPEC.
+     First, inversions of items and subscales were computed, then
+     descriptive statistics were computed for the overall scale as
+     well as the subscales. Correlations between each subscale were
+     computed. Finally correlations between the METT results and the
+     the SPEC were computed.
 
 ** Ethics
    Participation in the study was entirely voluntary, and participants
