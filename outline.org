@@ -941,8 +941,8 @@
     \ref{table:paradigms}. The methods discussed earlier cover many
     different aspects of emotional intelligence, and considers more
     tests than can realistically be used for single experimental
-    study, and as we shall we a subset of these will be selected for
-    the evaluation.
+    study. Therefore, as we shall we a subset of these will be
+    selected for the evaluation.
 
     \input{paradigms.tex}
 
