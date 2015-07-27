@@ -908,11 +908,9 @@
      computed. Kernel density estimates were used for visualizing the
      distributions.
 
-     Split-half reliability measures of correlation for the complete
-     data-set by spliting it at the 35th trial. For the 31
-     participants who took the test twice test-retest reliability was
-     computed, using Pearson's $r$. The fraction and number of
-     participants who correctly identified each stimlus was
+     For the 31 participants who took the test twice test-retest
+     reliability was computed, using Pearson's $r$. The fraction and
+     number of participants who correctly identified each stimlus was
      computed. Kernel density estimates per emotion were also created.
 
      For analyzing effects of learning a linear model with a
