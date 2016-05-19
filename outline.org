@@ -34,27 +34,28 @@
   emotional intelligence
   \citep[see~][for~an~early~example]{Salovey1990}. Emotional
   intelligence has over the last quarter of a century gained the
-  attention of researchers and has become, as we shall see, a somewhat
-  controversial matter. The ability encapsulated in emotional
-  intelligence can be conceptualized as differences in the extent to
-  which organisms interpret, process and act upon the emotions and
-  affects of themselves and others. An essential component in
-  emotional intelligence seems to be the ability to identify the
-  emotions of oneself and others \citep{Mikolajczak2014}. Other cognitive-social
-  abilities can be seen as dependent on this base. \citep{Mikolajczak2014}
+  attention of researchers and has become a somewhat controversial
+  matter. The ability encapsulated in emotional intelligence can be
+  conceptualized as differences in the extent to which organisms
+  interpret, process and act upon the emotions and affects of
+  themselves and others. An essential component in emotional
+  intelligence seems to be the ability to identify the emotions of
+  oneself and others \citep{Mikolajczak2014}. Other cognitive-social
+  abilities can be seen as dependent on this
+  base. \citep{Mikolajczak2014}
 
   The concept of emotional intelligence, however, is not
   uncontroversial. Various different authors with different approaches
   suggest widely different models of emotional intelligence
-  \citep[][e.g.~]{McCleskey2014,Mayer2008,Petrides2010}. Other authors
-  (TK, Who? Locke surely) have questioned the validity of emotional
-  intelligence. Supporting a more limited notion emotional
-  intelligence, some studies have found emotional intelligences to
+  \citep[][e.g.~]{McCleskey2014,Mayer2008,Petrides2010}. That said,
+  others have questioned the validity of emotional
+  intelligence. Supporting a more limited notion of emotional
+  intelligence. Some studies have found emotional intelligence to
   correlate with personality factors
   \citep[e.g.][]{Warwick2004,Petrides2001} and cognitive abilities
   \citep[e.g.][]{Freudenthaler2007}. These results call into question
-  the divergent validity, to that point of some authors (TK Locke and
-  someone else) doubting overall usefulness of the concept.
+  the divergent shedding doubt on the overall usefulness of the
+  concept.
 
   Despite the controversy related to the concept itself, several
   approaches have been used to measure emotional intelligence, both
@@ -94,29 +95,18 @@
   recognition may be an appropriate measure of emotional
   intelligence.
 
-  \citet{Ekman1974a} introduced the brief affect recognition task
+  \citet{Ekman1974a} introduced the Brief Affect Recognition Task
   (BART) as a means by emotion recognition can be measured. One trial
   in the BART paradigm consists of a display of an emotional facial
   expression with forward- and backward masks of a neutral emotional
   face to provide a fixation and avoid after-images respectively \citep{Ekman1974a}.
 
-** Research problem
+** Rationale
    Testing and training applications are a central part of
    micro-expression research \citep{Ekman1992}. However, despite
    multiple several studies being made \citep[e.g.][]{Schlegel2012},
-   there exists no standard for emotional intelligence focused on
-   emotion recognition. Likewise, earlier approaches have focused
-   solely on emotion recognition.
-
-   The lack of a standard test of emotion recognition and emotional
-   intelligence, may be indicate a lack of understanding of what
-   factors are important for developing tools for testing emotional
-   intelligence.
-
-   The present study sets out improve the understanding of how such
-   testing software could be designed and developed, aiming to improve
-   the accuracy and availability of such tests by developing such an
-   artefact.
+   there exists no standard for emotional intelligence consisting of
+   both emotion recognition and other EQ models.
 
    The creation of such a test could be relevant for a number of
    areas. Firstly, education of psychologists, psychotherapists, and
@@ -128,8 +118,19 @@
    the micro-expression paradigm may be improved based on the
    development of new tests.
 
+** Research problem
+   The lack of a standard test of emotion recognition and emotional
+   intelligence, may be indicative of a lack of understanding of what
+   factors are important in developing tools for testing emotional
+   intelligence.
+
+   This thesis sets out sets out the improve the understanding of how such
+   testing software could be designed and developed, aiming to improve
+   the accuracy and availability of such tests by developing such an
+   artefact.
+
 ** Research question
-   What are the key principles for developing EQ-tests based on micro-expressions?
+   Could EQ-testing accuracy improved by using a software-based multi-task test?
 
 * Extended background
   In the extended background a number of theoretical models,
@@ -145,10 +146,10 @@
    \citep{Petrides2007}. This disagreement on the definition of the
    concept may at first seem superifical but lies at the core in the
    issue of measuring, understanding and applying theories of
-   emotional intelligence.(TK Something about Goleman model)
+   emotional intelligence.
 
    The notion of emotional intelligence as a competency is primarily
-   advocated by \citep{Baron2006}. The Bar-On model, defined more
+   advocated by \citet{Baron2006}. The Bar-On model, defined more
    precisely as a "cross-section of interrelated emotional and social
    competencies, skills and facilities that determine how effectively
    we understand and express ourselves, understand others and relate
@@ -157,24 +158,24 @@
    and intra-personal skills. Like most other models of emotional
    intelligence, the Bar-On model considers a set of widely different
    situations and criteria, ranging from the recognition of emotions
-   to the regulating emotions. \citep{Baron2006} This model was
-   introduced in (TK, doctoral dissertation).
+   to the regulating emotions. \citep{Baron2006}.
 
-   Writing only years after Bar-On (TK, Doctoral dissertation)
-   \cite{Salovey1990} introduced their notion of emotional
-   intelligence, with the widely cited \citep[][e.g]{McCleskey2014}
-   passage defining emotional intelligence as ``the subset of social
-   intelligence that involves the ability to monitor one's own and
-   others' feelings and emotions to discriminate among them and to use
-   the information to guide one's thinking and actions''.
-   Additionally, \citet{Salovey1990} divided emotional intelligence
-   into four sub-categories of emotional intelligence: appraisal,
-   expression, regulation and, utilization. Thereby defining the
-   boundaries of the subject.
+   \cite{Salovey1990} introduced a different notion of emotional
+   intelligence. Which perhaps is best defined in the widely cited
+   \citep{McCleskey2014} passage defining emotional intelligence as
+   ``the subset of social intelligence that involves the ability to
+   monitor one's own and others' feelings and emotions to discriminate
+   among them and to use the information to guide one's thinking and
+   actions''.
+
+   Additionally, \citet{Salovey1990} divided emotional
+   intelligence into four sub-categories of emotional intelligence:
+   appraisal, expression, regulation and, utilization. Thereby
+   defining the boundaries of the subject.
 
    Furthermore, \citet{Salovey1990} argue that people possessing the
    four abilities may show more adaptive behaviors in social
-   situations. This was later expanded in
+   situations. This was later confirmed in
    \citet{Brackett2006}. Conversely, people exhibiting deficits in
    emotional intelligence may show maladaptive behaviors
    \citep{Brackett2006}.
@@ -216,19 +217,19 @@
    social competence. This attempt to reconcile the two major theories
    of emotional intelligence was criticized by \citet{Petrides2010}
    for severing the link between the constructs and their present
-   operational definitions. Doing so, \citet{Petrides2010}, argues
-   would cause a disconnect between what is actually studied and what
-   the definition used is.
+   operational definitions. \citet{Petrides2010} argues that this
+   causes a disconnect between what is actually studied and its
+   definition.
 
    The separation of trait and state concepts of emotional
    intelligence is supported by most authors
-   \citep[e.g.][]{Petrides2010,McCleskey2014,DiFabio2014} (TK,
-   Askhanasy). What this separation entails, however, is a matter of
-   debate. Proponents of the trait model of emotional intelligence
-   such as \citet{Petrides2010} argue that ability measures of
-   emotional intelligence are lacking.  On the other hand proponents
-   of the ability model argue that trait models just measure various
-   aspects of personality.
+   \citep{Petrides2010,McCleskey2014,DiFabio2014}. What this
+   separation entails, however, is a matter of debate. Proponents of
+   the trait model of emotional intelligence such as
+   \citet{Petrides2010} argue that ability measures of emotional
+   intelligence are lacking.  On the other hand proponents of the
+   ability model argue that trait models just measure various aspects
+   of personality.
 
    Another approach was taken by \citet{Freudenthaler2007},
    interpreting trait and ability as typical and maximum performance
@@ -245,19 +246,19 @@
    determining the depth and accuracy of processing at the crossroads
    of emotion and cognition.
 
-   Even if earlier intergrative approaches have been critized
+   Even if earlier intergrative approaches have been criticized
    \citep[e.g.~][]{Cherniss2010}, multifaceted approaches may still be
-   valuable. Such approaches however this would require combining the theoretical
-   multiple theoretical frameworks. For any psychometric test to be
-   useful, it needs to be loosely coupled to its theoretical concepts,
-   while retaining internal cohessiveness, developing tests based on
-   the insection of theoretical frameworks may therefore make a test
+   valuable. Such approaches however this would require combining
+   theoretical frameworks. For any psychometric test to be useful, it
+   needs to be loosely coupled to its theoretical concepts, while
+   retaining internal cohesiveness, developing tests based on the
+   insection of theoretical frameworks may therefore make a test
    independent of which framework prevails.
 
 ** Practical Applications for Emotional Intelligence
 
    Desipte the difficulty of accurately defining the term, proponents
-   of emotional intelligence argue its usefulness.  In a review by
+   of emotional intelligence argue its usefulness.  In a review
    \citet{Mayer2008} identified seven central results of emotional
    intelligence research, these were:
 #+BEGIN_QUOTE
@@ -293,7 +294,7 @@
    Additionally, the concept of emotional intelligence is useful in the
    diagnosis and testing for autism spectrum disorders
    \parencite{Baron-Cohen2001}. In this particular case, a specific
-   test of emotion recognition, reading the mind in the eyes, was
+   test of emotion recognition, Reading the Mind in the Eyes (RTMITE), was
    developed for this purpose \citep{Baron-Cohen2001}.
 
    Overall, the evidence seems to suggest that the concept of
@@ -328,12 +329,12 @@
     consistency with its theoretical foundations. This would suggest
     that MSCEIT may be appropriate for research use.
 
-    However, The validity of the MSCEIT was later disputed
-    disputed. \citet{Rossen2008} found results running contrary to the
-    factor structure used found in the validation study by
-    \citet{Mayer2003}. The results found by \citet{Rossen2008} seem to
-    suggest that the sub-scales do not match the intended theoretical
-    concepts, putting the test into question.
+    The validity of MSCEIT was later disputed. \citet{Rossen2008}
+    found results running contrary to the factor structure used found
+    in the validation study by \citet{Mayer2003}. The results found by
+    \citet{Rossen2008} seem to suggest that the sub-scales do not
+    match the intended theoretical concepts, putting the test into
+    question.
 
     For measuring trait emotional intelligence, \citet{Salovey1995}
     introduced Trait meta-mood scale (TTMS) which aims to measure the
@@ -351,11 +352,11 @@
     internal consistency, making it appropriate for both clinical and
     research use \citep{Brasseur2013}.
 
-    Recently, \citet{Mikolajczak2014} were able to reduce the number of items used in the earlier
-    PEC scale to only 20 items while, to a large degree, maintaining
-    the accuracy of the original 50-item scale. This result suggests
-    that emotional intelligence can be measured using only a small
-    number of questions.
+    Recently, \citet{Mikolajczak2014} were able to reduce the number
+    of items used in the earlier PEC scale to only 20 items while, to
+    a large degree, maintaining the accuracy of the original 50-item
+    scale. This result suggests that emotional intelligence can be
+    measured using only a small number of questions.
 
     Another method of measuring is Emotional Quotient-Inventory
     (EQ-I), a standard questionnaire consisting of 131-items divided
@@ -388,7 +389,7 @@
    measures of emotional intelligence.
 
    One measure that might be considered emotional intelligence is the
-   reading the mind in the eyes (RTMITE) test \citep{Baron-Cohen2001},
+   Reading the Mind in the Eyes test \citep{Baron-Cohen2001},
    which has been successful in distinguishing people with Asperger
    Syndrome and high-functioning autism from controls. The instrument has
    shown good test-retest reliability \citep{Hallerback2009} and has
@@ -396,18 +397,19 @@
    \citep{Yildirim2011,Hallerback2009}.
 
    Another measure related to emotions is the Toronto Alexithymia
-   Scale (TAS), a 20-item test aiming to detect alexithymia. The TAS
-   consists of two subscales: difficulty identifying feelings and
-   difficulty describing feelings \cite{Bagby1994}. The measure has
-   shown good validity \citep{Bagby1994}. Further evidence for its
-   validity were found by \citet{Bressi1996}, showing that good
-   validity could also be obtained for Italian populations, suggesting
-   at least some degree of cultural invariance. Finally, in a
-   functional magnetic resonance imaging (fMRI) study,
-   \citet{Berthoz2002} found differences in the activation of the
-   anterior cingulate cortex and the mediofrontal cortex between high
-   people with high TAS-scores and controls. These results suggest an
-   underlying neural basis for the TAS and alexithymia, in general.
+   Scale (TAS), a 20-item test aiming to detect alexithymia, defined
+   as the inability to describe one's emotions. The TAS consists of
+   two subscales: difficulty identifying feelings and difficulty
+   describing feelings \cite{Bagby1994}. The measure has shown good
+   validity \citep{Bagby1994}. Further evidence for its validity were
+   found by \citet{Bressi1996}, showing that good validity could also
+   be obtained for Italian populations, suggesting at least some
+   degree of cultural invariance. Finally, in a functional magnetic
+   resonance imaging (fMRI) study, \citet{Berthoz2002} found
+   differences in the activation of the anterior cingulate cortex and
+   the mediofrontal cortex between people with high TAS-scores and
+   controls. These results suggest an underlying neural basis for the
+   TAS and alexithymia, in general.
 
 ** Emotional Facial Expressions
    A separate but related field to traditional emotional intelligence
@@ -444,8 +446,10 @@
    \end{figure}
    #+END_LATEX
 
+*** Brief Affection Recognition Test
+
    Based on this theoretical framework \cite{Ekman1974a} introduced
-   the Brief Affection Recognition Test (BART), consisting of very
+   the Brief Affection Recognition Test, consisting of very
    brief displays of emotional facial expressions (under
    200ms). Paradigms based on the BART been widely used
    \cite[e.g.][]{Matsumoto2000}. By only showing the facial expression
@@ -460,18 +464,19 @@
    have the benefit of after-images. This paradigm is illustrated in
    \ref{fig:mett}
 
-   Another method of ensuring low enough accuracy is the subtle
-   expression training tool (SETT). Unlike the BART, expressions are
+*** Subtle Expression Training Tool
+
+   Another method of ensuring low enough accuracy is the Subtle
+   Expression Training tool (SETT). Unlike the BART, expressions are
    restricted to one part of the face. This restriction is meant to
    simulate a situation where the person is consciously suppressing a
    facial expression. \citep{Ekman2003}
 
 ** Stimulus sets of emotional facial expressions
 
-   To use the paradigms discussed it is necessary to use a set of
+   To use the methodologies discussed it is necessary to use a set of
    photographs. Because recognition of facial expressions is a common
-   task there exists a plethora of facial expression stimulus
-   sets.
+   task there exists a plethora of facial expression stimulus sets.
 
    These stimulus sets have been created for a number of
    different purposes and are suitable for many different kinds of
@@ -498,8 +503,8 @@
    \citep[e.g.][]{Calvo2008a,Willis2006,Todorov2009}. In addition to
    its widespread use, KDEF has shown good test-retest validity and a
    high degrees of accuracy in recognition tasks
-   \citep{Goeleven2008}. Such results are indicate that the stimulus
-   set is appropriate for research use.
+   \citep{Goeleven2008}. This type of results indicate that the
+   stimulus set is appropriate for research use.
 
    \citet{Beaupre2000} approached the issue of finding a good stimulus
    set from the perspective of cultural difference in the ability to
@@ -544,7 +549,7 @@
    differences in the accuracy of processing different emotions. Most
    importantly, it seems that accuracy rates for facial expressions of
    happiness and neutral expressions are much higher than those of
-   other the expressions \citep{Calvo2008a}. Care must, therefore, be
+   other expressions \citep{Calvo2008a}. Care must, therefore, be
    taken so as to avoid ceiling effects in general and happiness in
    particular.
 
@@ -586,7 +591,7 @@
 * Methodology and Methods for Data Collection
    The goal of the present study is not merely empirical, it aims also
    to design a computerized test of emotional intelligence. The
-   distinction between design science and normal research isdiscussed
+   distinction between design science and normal research is discussed
    further by \citet[chapter~1]{Johannesson2014}, who hold that
    practical problems ought to be addressed with design research
    approaches.
@@ -664,7 +669,7 @@
     For defining requirements an extensive number of research methods
     can be used. Many popular approaches directly involve potential
     stakeholders directly \citet[chapter 6]{Johannesson2014}. One
-    oft-used method is surveys allowing for coverage of potential
+    often used method is surveys allowing for coverage of potential
     requirements \citep[chapter 6]{Johannesson2014}.
 
     Using surveys runs the risk of not being able to find innovative
@@ -763,10 +768,10 @@
     the scope of the project was small, applying more complex
     processes may well result in problems. The development process
     continued continously until the developed artefact fullfilled the
-    requirements identified.
+    identified requirements.
 
 *** Evaluation
-    The evaluation of developed artefact was performed using
+    The evaluation of the developed artefact was performed using
     experimental methods. Experimental methods are often used for the
     verification of psychometric instruments. Because experimental
     methods are a common method this makes them a good fit for the
@@ -782,18 +787,19 @@
 ** Requirements defintion
    For the literature review, a number of research publications
    related to emotional intelligence were reviewed. Based on these
-   qualitative coding based analysis was performed. Different
+   a qualitative coding based analysis was performed. Different
    psychometric measures of emotional intelligence where coded based
-   on theoretical models, scales and sub-scales. Similarly,
-   stimulus-sets were coded based on the number of models, the number
-   of models, emotions used, ethnicities represented etc. Based on
-   these a number of criteria were identified.
+   on theoretical models, scales and sub-scales.
+
+   The stimulus-sets were coded in a similar fashion. Taking into
+   account the number of models participating, the emotions expressed,
+   the ethnicities.
 
    For the quantitative data analysis a data from a number of studies
-   was used (presented in Table \ref{listofstudies}). Each data-set was then
-   analyzed separately. All the studies whose data was analyzed used
-   the METT paradigm, and followed a similar protocol, making them
-   essentially comparable.
+   was used (presented in Table \ref{listofstudies}). Each of these
+   data-sets were analyzed separately. All the studies whose data was
+   analyzed used the METT methodology, and followed similar protocols,
+   thereby making them essentially comparable.
 
    For the first study, overall hit-rates and descriptives were
    computed. After computing overall statistics, a confusion matrix
@@ -874,16 +880,14 @@
 
 *** Participants
    The participants ($n=81$), all university students took part in the
-   experiment as part of fullfilling a course requirement. The mean
-   age of the participants was XXX and the standard deviation was.  Of
-   the 81 partipants, 31 took the test twice.
+   experiment as part of fullfilling a course requirement. Of the 81
+   partipants, 31 took the test twice.
 
 *** Apparatus
-    The software under evaluation was executed on laptop PC (TK model
-    number here) running the Windows 7 operating system. The
-    experiment software was run under the PsychoPy 1.82
-    environment. No noticable performance issues were identified with
-    the program.
+    The software under evaluation was executed on laptop PC running
+    the Windows 7 operating system. The experiment software was run
+    under the PsychoPy 1.82 environment. No noticable performance
+    issues were identified with the program.
 
 *** Procedure
     Participants were positioned at a distance of approximatly 70 cm
@@ -927,9 +931,11 @@
    Participation in the study was entirely voluntary, and participants
    were informed of this fact, signing informed concent forms prior to
    participating in the study. No identifying information was
-   collected during the course of the study. Additionally, as the
+   collected during the course of the study. No ethical concerns
+   particular to this study could be identified and the conduct of the
+   study followed standard research practice. Additionally, as the
    study was performed persuant to a Master's degree the study was not
-   required to be nor was submited for external ethical review.
+   required to be, nor was, submitted for external ethical review.
 
 
 * Results
@@ -1183,7 +1189,7 @@
     considered poor. Test-retest correlations of the individual
     subscales are presented in table \ref{table:specmettcorr}.
 
-* Discussion
+* Discussion & Conclusion
   The main finding was that developed METT-test showed good
   reliability.  Test-retest scores correlations indicated a good test
   reliaiblity. Additionally the split-half reliability found were
@@ -1235,8 +1241,7 @@
   Other possible solutions, such as staircase and threshold methods,
   could also be used. In such methods the minimal presentation time to
   achieve a certain level of accuracy for a given indivdual can be
-  established. There exists numerous psychophysical methods that can
-  be used to establish these.
+  established.
 
   Changing the stimulus set to be so as to be more challenging could
   be another option. Most stimulus-sets, including the one used in the
@@ -1257,10 +1262,12 @@
   differences, between the subscales it seems that none of the scales
   reached good reliability. Translation differences are unlikely to
   cause such poor test-retest reliability as the same questions are
-  used a both trials. A poor test-retest reliabilty could be
+  used for both trials. A poor test-retest reliabilty could be
   indicative of a number factors unrelated to the translations the
   actual test. It may be the case that the trait measured in the SPEC
-  is not stable, and instead something that varies with mood.
+  is not stable, and instead something that varies with
+  mood. Improvements to the method presented in this thesis could be
+  made through the use of another instrument.
 
   Additionally, the results of the present study, showing low
   correlations between the SPEC and METT seems to indicated that the
@@ -1281,19 +1288,13 @@
   allows for question-sets to be specified in configuration, thereby
   making it trivial to apply the test with different tests.
 
-  Despite the limitations related to expressions of hapiness and
-  surprise the artefact developed in the present study offers some
-  good properties. The test, being mostly ability-based is robust to
-  faking and social desirabilty. It captures both personality traits
-  related to emotional intelligence as well as the actual ability to read
-  emotional cues in the facial expressions of other's.
-
   The test developed in the present study has both practical and
   academic uses. The artefact developed, is adaptable to a number of
   different test metodlogies and can be used for both psychological
   research and practical emotional intelligence testing. It also
   provides a foundation on which more sophisticated tests can be
-  built.
+  built, in what could perhaps be a fruitful avenue for future
+  research.
 
 ** Limitations
    The evaluation of the developed artefact is limited several
@@ -1310,14 +1311,17 @@
    may affect both the reliability and validity of the overall test.
 
 * Conclusion
+  Despite the limitations related to expressions of happiness and
+  surprise the artefact developed in the present study offers some
+  good properties. The test, being mostly ability-based is robust to
+  faking and social desirability. It captures both personality traits
+  related to emotional intelligence as well as the actual ability to
+  read emotional cues in the facial expressions of others.
+
   The results of the present study seem to indicate that computerized
-  tests for emotional intelligence based on the facial expression
-  recognition. Additionally, the present study, shows that combining
-  traditional questionnarie-based tests of emotional intelligence with
-  more complex ones. Interestingly, the questionnarie-based test used
-  in the present study showed poor test-retest reliability. However,
-  other tests may be more accurate. Future research could focus
-  applying using the developed artefact to differnt questionnaries.
+  testing of is a worthwhile field and while the re-retest reliability
+  of the survey portion leave room for improvement, such improvement
+  is left for future researchers.
 
 \printbibliography
 

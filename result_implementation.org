@@ -68,6 +68,7 @@ input from the keyboard.
   individual trial of the METT paradigm. An example of the syntax used
   for this file is presented in listing \label{lst:trials}.
 
+
   \begin{lstlisting}[caption={\texttt{trials.json} trials file},label={lst:trials}]
   {
     "NameOfTheExperiment": [
