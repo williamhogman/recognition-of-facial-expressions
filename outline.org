@@ -1,10 +1,21 @@
 # -*- compile-command: "./compile.sh" -*-
-#+TITLE: A novel, multi-model, multi-task, method for computerized testing of emotional intelligence
-#+AUTHOR: William Rudenmalm
-#+EMAIL: me@whn.se
+#+begin_src emacs-lisp :results silent :exports none
+;; YOU ABSOLUTELY HAVE TO RUN THIS CODE BEFORE DOING ANYTHING
+(unless (find "per-file-class" org-latex-classes :key 'car
+          :test 'equal)
+  (add-to-list 'org-latex-classes
+           '("per-file-class"
+              "\\documentclass{book}"
+              ("\\chapter{%s}" . "\\chapter*{%s}")
+              ("\\section{%s}" . "\\section*{%s}")
+              ("\\subsection{%s}" . "\\subsection*{%s}")
+              ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+              ("\\paragraph{%s}" . "\\paragraph*{%s}")
+              ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+#+end_src
 #+BIBLIOGRAPHY: refs plain
-#+OPTIONS: num:4 toc:nil
-#+LaTeX_CLASS: book
+#+OPTIONS: num:4 toc:nil title:nil
+#+LaTeX_CLASS: per-file-class
 #+LaTeX_CLASS_OPTIONS: [12pt,times, twoside, openright]
 #+LaTeX_HEADER: \input{preamble.tex}
 #+LaTeX_HEADER: \input{meta.tex}
