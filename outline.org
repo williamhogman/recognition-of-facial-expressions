@@ -4,9 +4,12 @@
 #+EMAIL: me@whn.se
 #+BIBLIOGRAPHY: refs plain
 #+OPTIONS: num:4 toc:nil
+#+LaTeX_CLASS: book
+#+LaTeX_CLASS_OPTIONS: [12pt,times, twoside, openright]
 #+LaTeX_HEADER: \input{preamble.tex}
+#+LaTeX_HEADER: \input{meta.tex}
 
-\input{toc.tex}
+\frontmatterDSV
 
 * Introduction
   Emotions play a fundamental role in modulating the behavior and
@@ -1324,7 +1327,7 @@
   is left for future researchers.
 
 \printbibliography
-
+\finalpageDSV
 
 #  LocalWords:  parencite Mikolajczak citet Schlegel Ekman citep TK
 #  LocalWords:  McCleskey Petrides Goleman MSCEIT PEC Brasseur EQ

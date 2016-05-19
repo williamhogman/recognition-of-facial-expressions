@@ -1,0 +1,537 @@
+% Aligning floats at top on a floats page
+\@fptop 0pt
+\@fpsep 13pt
+
+% Removing page numbers on empty pages
+\let\origdoublepage\cleardoublepage
+\newcommand{\clearemptydoublepage}{%
+  \clearpage
+  {\pagestyle{empty}\origdoublepage}%
+}
+\let\cleardoublepage\clearemptydoublepage
+
+% Removing footnote indentation
+\renewcommand\@makefntext[1]{%
+    \parindent 1em%
+    \noindent
+    \hb@xt@0.4em{\hss\@makefnmark}#1}
+
+% Font declarations
+
+\DeclareFixedFont{\Title}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{28,09\p@}
+\DeclareFixedFont{\SubTitle}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{15,09\p@}
+\DeclareFixedFont{\HeadingOne}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{26,09\p@}
+\DeclareFixedFont{\HeadingTwo}{\encodingdefault}{\sfdefault}{b}{\shapedefault}{16,09\p@}
+\DeclareFixedFont{\HeadingThree}{\encodingdefault}{\sfdefault}{\seriesdefault}{\bfdefault}{11,09\p@}
+
+ \DeclareFixedFont{\timesTwentyFour}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{24,09\p@}
+ \DeclareFixedFont{\timesEightteen}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{17\p@}
+ \DeclareFixedFont{\timesFifteen}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{14\p@}
+ \DeclareFixedFont{\timesFourteenItalic}{\encodingdefault}{\sfdefault}{\seriesdefault}{\itdefault}{14,05\p@}
+ \DeclareFixedFont{\timesThirteen}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{12\p@}
+ \DeclareFixedFont{\timesThirteenCAPS}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{13\p@}
+ \DeclareFixedFont{\timesTwelve}{\encodingdefault}{\familydefault}{\seriesdefault}{\shapedefault}{12,04\p@}
+ \DeclareFixedFont{\timesEleven}{\encodingdefault}{\familydefault}{\seriesdefault}{\shapedefault}{11,04\p@}
+ \DeclareFixedFont{\timesElevenBold}{\encodingdefault}{\familydefault}{b}{\shapedefault}{11,04\p@}
+ \DeclareFixedFont{\timesTenBold}{\encodingdefault}{\familydefault}{b}{\shapedefault}{10,04\p@}
+ \DeclareFixedFont{\timesTen}{\encodingdefault}{\familydefault}{\seriesdefault}{\shapedefault}{10,04\p@}
+ \DeclareFixedFont{\timesEight}{\encodingdefault}{\familydefault}{\seriesdefault}{\shapedefault}{8\p@}
+  \DeclareFixedFont{\timesNine}{\encodingdefault}{\familydefault}{\seriesdefault}{\shapedefault}{9\p@}
+ \DeclareFixedFont{\helvElevenBold}{\encodingdefault}{\sfdefault}{b}{\shapedefault}{11\p@}
+ \DeclareFixedFont{\helvEleven}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{11\p@}
+
+ \DeclareFixedFont{\helvTenBold}{\encodingdefault}{\sfdefault}{b}{\shapedefault}{10\p@}
+ \DeclareFixedFont{\helvTen}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{10\p@}
+ \DeclareFixedFont{\helvNine}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{9\p@}
+ \DeclareFixedFont{\helvEight}{\encodingdefault}{\sfdefault}{\seriesdefault}{\shapedefault}{8,5\p@}
+ \DeclareFixedFont{\tabletext}{\encodingdefault}{\familydefault}{\seriesdefault}{\shapedefault}{10\p@}
+
+% Don't paginate parts.
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vskip 10\baselineskip
+  \secdef\@part\@spart}
+
+% Redefinition of part page.
+  \def\@part[#1]#2{%
+    \ifnum \c@secnumdepth >-2\relax
+      \refstepcounter{part}%
+      \addcontentsline{toc}{part}{\timesElevenBold\partname\hspace{1ex}\thepart :\hspace{1ex}#1}%
+    \else
+      \addcontentsline{toc}{part}{#1}%
+    \fi
+    \markboth{}{}%
+    {%\centering
+     \interlinepenalty \@M
+     \normalfont
+     \ifnum \c@secnumdepth >-2\relax
+       \noindent\timesEightteen \partname\nobreakspace\thepart :
+       \par
+       \vskip 9\p@
+     \fi
+     \noindent\timesEightteen #2\par}%
+    %\@endpart}
+        \vskip \baselineskip\hskip -1em}
+
+% Redifining part in the Table of contents.
+\renewcommand*\l@part[2]{%
+  \ifnum \c@tocdepth >-2\relax
+    \addpenalty{-\@highpenalty}%
+    \addvspace{1em \@plus\p@}%
+    \setlength\@tempdima{3em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      {\leavevmode
+       \helvTenBold#1\hfil \hb@xt@\@pnumwidth{\hss }}\par %#2 after \hss removed. No pagination of parts in toc.
+       \nobreak
+         \global\@nobreaktrue
+         \everypar{\global\@nobreakfalse\everypar{}}%
+    \endgroup
+  \fi}
+
+% Paginate chapter page as the rest of the pages i.e. inner and outer pagination.
+%\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+%                   %\thispagestyle{plain}
+%                   \global\@topnum\z@
+%                  \@afterindentfalse
+%                   \secdef\@chapter\@schapter}
+
+% % Removing the "Chapter n" text and replacing it by a single number.
+\def\@makechapterhead#1{%
+  \vspace{0\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      % Skipping the "Chapter n" text
+      \if@mainmatter
+        \baselineskip=20pt\rightskip 2cm plus 3cm\HeadingOne\thechapter.\hspace{0.5em}%Chapterpoint added.
+      \fi
+    \fi
+    \HeadingOne #1\par\nobreak
+    \vskip 36\p@
+  }}
+\def\@makeschapterhead#1{%
+  \vspace*{0\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \HeadingOne  #1\par\nobreak
+    \vskip 36\p@
+  }}
+
+% Redefining paragraphs
+% Syntax \@startsection{sec-name}{level}{indent}{pre-skip}{post-skip}{style}*[short-title]{title}
+% Heading 2
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                                {-16pt}%
+                                                {6pt}%
+                                                {\HeadingTwo\nohyphens\baselineskip=17pt\hangindent=0cm\hangafter=20}}% No heading should be longer than 20 lines.
+% Heading 3
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                                {-20pt}%
+                                                {4pt}%
+                                {\HeadingThree\nohyphens\baselineskip=15pt\hangindent=0cm\hangafter=20}}
+% Heading 4
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                        {-12pt}%
+                                        {6pt}%
+                        {\helvTenBold\nohyphens\hangindent=0cm\hangafter=20}}
+% Heading 5
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                                   {-11pt}%
+                                                   {2pt}%
+                                                   {\timesEleven\itshape\nohyphens\hangindent=0cm\hangafter=20}}
+% Heading 6
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\z@}%
+                                      {-11pt}%
+                                      {2pt}%
+                                      {\timesEleven\nohyphens\hangindent=0cm\hangafter=20}}
+
+% Space between dots in the Table of Contents
+\renewcommand\@dotsep{2.5}
+
+% Adding dots to first level heading in the Table of contents
+%\renewcommand*\l@chapter[2]{%
+%  \ifnum \c@tocdepth >\m@ne
+%    \addpenalty{-\@highpenalty}%
+%    \vskip 0.0em \@plus\p@
+%    \setlength\@tempdima{1.5em}%
+%    \begingroup
+%      \parindent \z@ \rightskip \@pnumwidth
+%      \parfillskip -\@pnumwidth
+%      \leavevmode
+%      \advance\leftskip\@tempdima
+%      \hskip -\leftskip
+% Adding dots to 1:st level heading
+%      \helvElevenBold#1\nobreak\
+%       \leaders\hbox{$\m@th
+%        \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
+%                mu$}\hfil\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+%      \penalty\@highpenalty
+%    \endgroup
+%  \fi}
+
+% Redefining the table of contents properties for all other entries
+\renewcommand*\l@section{\helvEleven\@dottedtocline{1}{4.5mm}{2.3em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{9mm}{3.2em}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{13.5mm}{4.1em}}
+\renewcommand*\l@paragraph{\@dottedtocline{4}{18mm}{5em}}
+\renewcommand*\l@subparagraph{\@dottedtocline{5}{21.5mm}{6em}}
+
+% Changing page numbers to outer and inner
+      \let\@oddhead\@empty\let\@evenhead\@empty
+      \def\@evenfoot{\thepage}%
+      \def\@oddfoot{\hfil\thepage}%
+
+% Changes to table environment
+\renewenvironment{table}
+               {\captionsetup{belowskip=3pt, aboveskip=6pt, labelfont=rm, textfont=it}
+                                \captionsetup{font=small}
+                                \small
+                                \@float{table}}
+               {\end@float}
+
+% Changes to figure environment
+\renewenvironment{figure}
+               {\captionsetup{belowskip=6pt, aboveskip=3pt, labelfont=it, textfont=rm}
+                                \captionsetup{font=small}
+                                \@float{figure}}
+               {\end@float}
+
+% Table of contents without pagenumber
+\renewcommand\tableofcontents{%
+        \cleardoublepage
+        \thispagestyle{empty}
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\contentsname
+        \@mkboth{%
+           \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Page layout A4
+\usepackage{geometry}
+\geometry{verbose=false,papersize={210mm,297mm},inner=3cm,top=2cm,bottom=3cm,body={150mm,44\baselineskip},marginratio={1:1, 2:3}}% marginratio={hhorizontal ratio,hverticalratio}
+\setlength{\parindent}{1em} % Default paragraph indentation.
+\setlength{\parskip}{0pt}% Sets the vertical spacing between
+                         % paragraphs. Converting the parskip
+                         % rubberlength of 0 to a non rubberlength
+                         % permitting no extra space between
+                         % paragraphs.
+\clubpenalty=10000 % Prohibits orphans
+\widowpenalty=10000 % Prohibits widows
+
+% Fonts
+\usepackage[T1]{fontenc} % Makes hyphenation work with diacritics.
+\frenchspacing % Tells LATEX NOT to insert more space after a
+               % period than after ordinary character.
+\usepackage{courier}
+
+% Setting the default font
+\AtBeginDocument{\timesTwelve}
+
+\usepackage[it,nooneline]{caption} % Used for
+                                   % captionstyling. Caption
+                                   % heading should be in italics
+                                   % and one-line captions should
+                                   % not be centered.
+
+%\usepackage[cam,a4,center,pdftex]{crop} % Print crop marks on pages.
+
+
+% Other
+\emergencystretch=0.2\hsize % (Default: 0.15\hsize) By setting
+                            % this parameter to be greater than
+                            % zero, you can make it easier for TEX
+                            % to typeset your document without
+                            % generating overfull hboxes. This is
+                            % a better alternative than setting
+                            % \tolerance=10000, since that tends
+                            % to produce really ugly lines. If TEX
+                            % cant typeset a paragraph without
+                            % exceeding \tolerance, it will try
+                            % again, adding \emergencystretch to
+                            % the stretch of each line. The effect
+                            % of the change is to scale down the
+                            % badness of each line, enabling TEX
+                            % to make spaces wider than they would
+                            % otherwise be and thus choose line
+                            % breaks that are as good as possible
+                            % under the circumstances.
+
+% Enabling pdf output as well as DVI
+\RequirePackage{ifpdf}
+
+%Environments and Commands
+% New environments
+        \newenvironment{abstract}
+                {\fontsize{9}{11}\selectfont\thispagestyle{empty}}{}
+        \newenvironment{titlePage}
+                {\thispagestyle{empty}}{}
+        \newcommand{\listofpapers}{\thispagestyle{empty}}
+        \newenvironment{enumerate-indent}
+        {\begin{list}{\arabic{enu}.}{
+            \usecounter{enu}
+            \setlength{\leftmargin}{13.5mm}% 9mm + 4,5 mm
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \newenvironment{itemize-indent}
+        {\begin{list}{\labelitemi}{
+            \setlength{\leftmargin}{13.5mm}
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \newenvironment{romanlist}
+        {\begin{list}{\Roman{enu}}{
+        \usecounter{enu}
+            \setlength{\leftmargin}{19.5mm}
+            \setlength{\labelsep}{13.5mm}% 9mm + 4,5 mm
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \newenvironment{romanlist-indent}
+        {\begin{list}{\Roman{enu}}{
+            \usecounter{enu}
+            \setlength{\leftmargin}{24.5mm}
+            \setlength{\labelsep}{13,5mm}% 9mm + 4,5 mm
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \newenvironment{simplelist}
+        {\begin{list}{}{
+            \setlength{\leftmargin}{0mm}
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \newenvironment{simplelist-indent}
+        {\begin{list}{}{
+            \setlength{\leftmargin}{13.5mm}
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \newenvironment{CSquote}
+        {\begin{list}{}{
+            \setlength{\itemsep}{0mm}
+            \setlength{\parsep}{0mm}
+            \setlength{\topsep}{0mm}
+            \setlength{\itemindent}{9mm}
+            \setlength{\leftmargin}{10mm}
+            \setlength{\rightmargin}{10mm}
+            \setlength{\listparindent}{4,5mm}
+            \setlength{\labelwidth}{0mm}
+            \setlength{\labelsep}{0mm}
+            \timesTen}
+            \item}
+        {\end{list}}
+    \newenvironment{listheading}[1]{\vspace{13pt}\noindent\emph{#1}}
+
+% Renew environments
+\newcounter{enu} % List counter
+    \renewenvironment{enumerate}
+        {\begin{list}{\arabic{enu}.}{
+        \usecounter{enu}
+        \setlength{\leftmargin}{4.5mm}
+        \setlength{\itemsep}{0mm}
+        \setlength{\parsep}{0mm}
+        \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \renewenvironment{itemize}
+        {\begin{list}{\labelitemi}{
+        \setlength{\leftmargin}{4.5mm}
+        \setlength{\itemsep}{0mm}
+        \setlength{\parsep}{0mm}
+        \setlength{\topsep}{0mm}}}
+        {\end{list}}
+    \renewenvironment{quotation}
+        {\begin{CSquote}\vspace{13pt}\noindent\fontsize{10}{12}\selectfont"\ignorespaces}
+        {\unskip"\vspace{13pt}\end{CSquote}}
+    \renewenvironment{quote}
+        {\begin{quotation}}
+        {\end{quotation}}
+
+% Renew commands
+    \renewcommand\footnoterule{\noindent\rule{26mm}{.5pt}\vspace{3pt}} % Horizontal line between page text and footnotes.
+    \renewcommand\footnotemark{\timesEight}
+    \renewcommand\footnotetext{\timesEight}
+    \renewcommand{\arraystretch}{1.22} %9/11
+    \renewcommand{\captionfont}{\timesEight}
+    \renewcommand{\captionlabelfont}{\small\itshape}
+    \renewcommand{\bibname}{References}
+% New commands
+    \newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+    \newcommand{\code}[1]{{\footnotesize\texttt{#1}}}
+
+% Sets vertical space between equations and text
+        \abovedisplayshortskip=0pt \belowdisplayshortskip=13pt
+        \abovedisplayskip=6pt \belowdisplayskip=13pt
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Frontmatter commands
+\newcommand*{\firstAuthorSurname}[1]{\def\firstAuthorSurname{#1}}
+\newcommand*{\firstAuthorFirstName}[1]{\def\firstAuthorFirstName{#1}}
+\newcommand*{\secondAuthorSurname}[1]{\def\secondAuthorSurname{#1}}
+\newcommand*{\secondAuthorFirstName}[1]{\def\secondAuthorFirstName{#1}}
+
+\newcommand*{\firstAuthorEmail}[1]{\def\firstAuthorEmail{#1}}
+\newcommand*{\secondAuthorEmail}[1]{\def\secondAuthorEmail{#1}}
+
+\newcommand*{\thesisTitle}[1]{\def\thesisTitle{#1}}
+\newcommand*{\thesisSubtitle}[1]{\def\thesisSubtitle{#1}}
+\newcommand*{\thesisSubject}[1]{\def\thesisSubject{#1}}
+
+\newcommand*{\thesisIsKind}[1]{\def\thesisIsKind{#1}}
+\newcommand*{\theYear}[1]{\def\theYear{#1}}
+\newcommand*{\thesisCred}[1]{\def\thesisCred{#1}}
+
+\newcommand*{\thesisAdvisor}[1]{\def\thesisAdvisor{#1}}
+\newcommand*{\thesisReviewer}[1]{\def\thesisReviewer{#1}}
+\newcommand*{\thesisAssistantAdvisor}[1]{\def\thesisAssistantAdvisor{#1}}
+\newcommand*{\thesisExternalAdvisor}[1]{\def\thesisExternalAdvisor{#1}}
+
+\newcommand*{\semester}[1]{\def\semester{#1}}
+\newcommand*{\swedishTitle}[1]{\def\swedishTitle{#1}}
+
+\newcommand*{\abstracttext}[1]{\def\abstracttext{#1}}
+\newcommand*{\keywords}[1]{\def\keywords{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Frontmatter texts
+\def\unimessage{Stockholm University}%
+\def\deptmessage{Department of Computer and Systems Sciences}%
+\def\subjectmessage{Degree subject:}%
+\def\swetitlemessage{Swedish title:}%
+\def\firstpagemessage{Degree project at the \thesisIsKind{} level}
+\def\semestermessage{\semester{} \theYear}%
+\def\reviewermessage{Reviewer:}%
+\def\advisormessage{Advisor:}%
+\def\assistantadvisormessage{Assistant advisor:}%
+\def\externaladvisormessage{External advisor:}%
+\def\exjobmessage{Degree project \thesisCred\ HE credits}
+
+%%%%%%%%%%%%%%%
+% Abstract page
+\newcommand{\thesisabstract}%
+{\cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{36pt}
+   \noindent {\HeadingOne \thesisTitle}\\[24pt]
+   \ifx\thesisSubtitle\@empty  \else \noindent {\SubTitle
+     \thesisSubtitle}\\[6pt] \fi
+   \noindent {\SubTitle \firstAuthorFirstName{} \firstAuthorSurname{}}\\
+   \ifx\secondAuthorSurname\@empty  \else \noindent {\HeadingThree
+     \secondAuthorFirstName{} \secondAuthorSurname{}} \fi \\[42pt]
+   \noindent {\HeadingOne Abstract}\\[24pt]
+   \noindent {\timesEleven \abstracttext}\\[18pt]
+   \noindent {\HeadingOne Keywords}\\[24pt]
+   \noindent {\timesEleven \keywords}
+}
+
+%%%%%%%%%%%
+% Titlepage
+\renewcommand{\titlepage}%
+{\begin{titlePage}
+    \thispagestyle{empty}
+        \vspace*{1,59mm}
+        \noindent {\Title \thesisTitle}\\[15pt]
+        \ifx\thesisSubtitle\@empty  \else \noindent \hspace*{3pt}{\SubTitle \thesisSubtitle}\\[28pt]\fi
+        \noindent \hspace*{3pt}{\SubTitle \firstAuthorFirstName{} \firstAuthorSurname{}}\\[6pt]
+        \ifx\secondAuthorSurname\@empty  \else \noindent \hspace*{3pt}{\SubTitle \secondAuthorFirstName{} \secondAuthorSurname{}}\\[42pt]\fi
+
+  \vfill
+  {\SubTitle \lineskip .5em \deptmessage \par}%
+  \noindent \hspace*{5pt}
+  \begin{minipage}{11.1cm}
+     \begin{tabular}{l}
+       \helvEight{\exjobmessage}  \\ [-3pt]
+       \helvEight{\subjectmessage} {\helvEight \thesisSubject}  \\ [-3pt]
+       \helvEight{\firstpagemessage}  \\ [-3pt]
+       \helvEight{\semestermessage} \\ [-3pt]
+       \helvEight{\advisormessage} {\helvEight \thesisAdvisor} \\ [-3pt]
+       \ifx\thesisAssistantAdvisor\@empty \else \helvEight{\assistantadvisormessage} {\helvEight \thesisAssistantAdvisor}  \\ [-3pt]\fi
+       \ifx\thesisExternalAdvisor\@empty \else \helvEight{\externaladvisormessage} {\helvEight \thesisExternalAdvisor}  \\ [-3pt]\fi
+       \helvEight{\reviewermessage} {\helvEight \thesisReviewer} \\[-3pt]
+       \helvEight{\swetitlemessage} {\helvEight \swedishTitle}  \\[-3pt]
+     \end{tabular}
+   \end{minipage}
+   \begin{minipage}{5cm}
+     \begin{tabular}{r}
+       \\
+       \\
+       \includegraphics[width=3.7cm]{SU-Logga}\\
+     \end{tabular}
+   \end{minipage}
+
+%% The figure above was changed to the following two lines by Jesper
+%% Carlstrom 2008-01-24 in order to comply to the new visual profile
+%        \vspace{\stretch 1}
+%        \ \kern\textwidth\kern-25mm\smash{\raisebox{-7mm}{\includegraphics[width=32mm]{SU-Logga}}}
+\end{titlePage}}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Front matter commands
+\newcommand{\frontmatterDSV}%
+{\titlepage \thesisabstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Final page commands
+\newcommand{\finalpageDSV}%
+{\backsideinformation}
+
+%%%%%%%%%%%%%%%
+% Final page
+\newcommand{\backsideinformation}%
+{\newpage
+  \thispagestyle{empty}
+  \textcolor{white}{text} % Ugly, ugly... Deal with this!!!
+  \vfill
+ \noindent \hspace*{1pt}
+   \begin{minipage}{11.1cm}
+     \begin{tabular}{l}
+       \helvEight{\unimessage}  \\ [-3pt]
+       \helvEight{\deptmessage}  \\ [-3pt]
+       \helvEight{Forum 100}  \\ [-3pt]
+       \helvEight{SE-164 40 Kista} \\ [-3pt]
+       \helvEight{Phone: +46 8 16 20 00}  \\ [-3pt]
+       \helvEight{www.dsv.su.se}  \\ [-3pt]
+     \end{tabular}
+   \end{minipage}
+   \begin{minipage}{5cm}
+     \begin{tabular}{r}
+       \\
+       \\
+       \includegraphics[width=3.7cm]{SU-Logga}\\
+     \end{tabular}
+   \end{minipage}
+}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "Thesis"
+%%% End:
