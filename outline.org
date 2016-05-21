@@ -24,59 +24,51 @@
 
 * Introduction
   Emotions play a fundamental role in modulating the behavior and
-  experiences of organisms. While the exact definition of the concept
-  is debated, its importance is not \citep{Scherer2005}. The
-  impact that emotions have on everyday life is enormous yet hard to
-  pinpoint.
+  experiences of organisms. While the concept's exact definition is
+  debated, its importance is not \citep{Scherer2005}. The impact that
+  emotions have on everyday life is enormous, yet hard to pinpoint.
 
   \citet{Fontaine2007} define emotions as a set of interrelated
-  components, covering a wide range of behavior. These components are
-  \citet{Fontaine2007} argue, appraisals of events,
-  psychophysiological changes, motor expressions, action tendencies,
-  subjective experience, and emotion regulation
-  \citep{Fontaine2007}. The antecedents of emotions are equally
-  varied as the consequents and may be both internal as well as
-  external \citep{Scherer2005}.
+  components covering a wide range of behavior. These components are
+  appraisals of events, psychophysiological changes, motor
+  expressions, action tendencies, subjective experience, and emotion
+  regulation \citep{Fontaine2007}. The antecedents of emotions vary as
+  do the responses and may be internal as well as external
+  \citep{Scherer2005}.
 
   One important adaptive function of emotions is regulating social
   interactions by facilitating group cohesion and
   collaboration. Understanding the emotions of others is an essential
   aspect of many social situations. \parencite{Niedenthal2012}.
 
-  The ability to process the emotional information contained both in
-  the self and in others has been referred to in the literature as
-  emotional intelligence
+  The literature refers to the ability to process the one's own
+  emotional state and that of others as emotional intelligence
   \citep[see~][for~an~early~example]{Salovey1990}. Emotional
-  intelligence has over the last quarter of a century gained the
-  attention of researchers and has become a somewhat controversial
-  matter. The ability encapsulated in emotional intelligence can be
-  conceptualized as differences in the extent to which organisms
-  interpret, process and act upon the emotions and affects of
-  themselves and others. An essential component in emotional
-  intelligence seems to be the ability to identify the emotions of
-  oneself and others \citep{Mikolajczak2014}. Other cognitive-social
-  abilities can be seen as dependent on this
-  base. \citep{Mikolajczak2014}
+  intelligence has, in the last quarter century, gained the attention
+  of researchers and has become somewhat controversial. The ability
+  encapsulated in emotional intelligence can be conceptualized as
+  differences in the extent to which organisms interpret, process, and
+  act upon their emotions and affects as well as those of others. An
+  essential component of emotional intelligence seems to be the
+  ability to identify one's own emotions as well as the emotions of
+  others \citep{Mikolajczak2014}. Other cognitive-social abilities can
+  be seen as dependent on this base. \citep{Mikolajczak2014}
 
-  The concept of emotional intelligence, however, is not
-  uncontroversial. Various different authors with different approaches
-  suggest widely different models of emotional intelligence
-  \citep[][e.g.~]{McCleskey2014,Mayer2008,Petrides2010}. That said,
-  others have questioned the validity of emotional
-  intelligence. Supporting a more limited notion of emotional
-  intelligence. Some studies have found emotional intelligence to
-  correlate with personality factors
-  \citep[e.g.][]{Warwick2004,Petrides2001} and cognitive abilities
-  \citep[e.g.][]{Freudenthaler2007}. These results call into question
-  the divergent shedding doubt on the overall usefulness of the
-  concept.
+  The concept of emotional intelligence, however,
+  controversial. Various authors with different approaches suggest
+  widely different models of emotional intelligence
+  \citep[][]{McCleskey2014,Mayer2008,Petrides2010}. Others have
+  questioned the validity of emotional intelligence, supporting a more
+  limited notion of emotional intelligence. Some studies have found
+  emotional intelligence to correlate with personality factors
+  \citep[][]{Warwick2004,Petrides2001} and cognitive abilities
+  \citep[][]{Freudenthaler2007}. These result call into question
+  divergent validity and shed doubt on the concept's overall usefulness.
 
-  Despite the controversy related to the concept itself, several
-  approaches have been used to measure emotional intelligence, both
-  ability tests \citep{Mayer2003}, self-reported ability
-  \citep{Bar-On1997}, and personality trait measures
-  \citep{Petrides2007}.  Various different methods have also been
-  developed for measuring emotional intelligence. For example,
+  Despite the controversy related to the concept, several approaches
+  have been used to measure emotional intelligence ability tests
+  \citep{Mayer2003}, self-reported ability \citep{Bar-On1997}, and
+  personality trait measures \citep{Petrides2007}. For example,
   \citet{Mikolajczak2014} approached the measuring of emotional
   intelligence and developed a 50-item inventory for emotional
   intelligence. \citet{Baron-Cohen2001} approached the problem from a
@@ -141,7 +133,7 @@
    This thesis sets out sets out the improve the understanding of how such
    testing software could be designed and developed, aiming to improve
    the accuracy and availability of such tests by developing such an
-   artefact.
+   artifact.
 
 ** Research question
    Could EQ-testing accuracy improved by using a software-based multi-task test?
@@ -149,9 +141,9 @@
 * Extended background
   In the extended background a number of theoretical models,
   applications, earlier tests and stimulus sets are reviewed and
-  discussed. These form the base on which the artefact developed in
+  discussed. These form the base on which the artifact developed in
   the present study was built.
-** The Theoretical Models of Emotional Intelligence
+** Theoretical Models of Emotional Intelligence
    The definition of emotional intelligence has since its inception
    been the subject of fierce debate \citep{McCleskey2014}. One of the
    key sources of controversy is whether emotional intelligence is to
@@ -346,7 +338,7 @@
     The validity of MSCEIT was later disputed. \citet{Rossen2008}
     found results running contrary to the factor structure used found
     in the validation study by \citet{Mayer2003}. The results found by
-    \citet{Rossen2008} seem to suggest that the sub-scales do not
+    \citet{Rossen2008} seem to suggest that the subscales do not
     match the intended theoretical concepts, putting the test into
     question.
 
@@ -362,7 +354,7 @@
     Self-reported psychometric tests have also been for measuring
     ability emotional intelligence, one of these is the Profile of
     Emotional Competence (PEC), which consists of 50 items divided
-    into ten sub-scales \citep{Brasseur2013}. The PEC shows a good
+    into ten subscales \citep{Brasseur2013}. The PEC shows a good
     internal consistency, making it appropriate for both clinical and
     research use \citep{Brasseur2013}.
 
@@ -374,7 +366,7 @@
 
     Another method of measuring is Emotional Quotient-Inventory
     (EQ-I), a standard questionnaire consisting of 131-items divided
-    five sub-scales with three facets each for a total of 15 ratings
+    five subscales with three facets each for a total of 15 ratings
     \citep{Bar-On1997}. The EQ-I is built on the theoretical framework
     based on emotional intelligence as a competency
     \citep{Baron2006}. EQ-I is often used both on the individual and
@@ -614,23 +606,23 @@
    science based on five activities. The first activity, Explicate
    Problem, aims to find the practical problems that needs
    solving. The second activity, Define Requirements, finds what
-   requirements should be included in the artefact. The third stage,
-   Design and Develop artefact concerns the creation of the actual
-   artefact. The fourth stage, Demonstrate Artefact aims to
-   demonstrate that the artefact solves the actual problem. Finally, in the fifth stage, Evaluate
-   artefact where the extent to which the artefact solves the intended
+   requirements should be included in the artifact. The third stage,
+   Design and Develop artifact concerns the creation of the actual
+   artifact. The fourth stage, Demonstrate Artifact aims to
+   demonstrate that the artifact solves the actual problem. Finally, in the fifth stage, Evaluate
+   artifact where the extent to which the artifact solves the intended
    problem.
 
    By using these stages, \citet{Johannesson2014} argue that the
    successful application helps researchers decide on a what to
-   develop, develop an artefact and evaluate it.
+   develop, develop an artifact and evaluate it.
 
    Another approach to design science is that of \citet{Hevner2007}
    consisting of three cycles, the Relevance cycle, where the subject
    area an its requirements are identified, the design cycle where the
-   artefact is designed and deployed. Finally, in the rigor cycle, the researcher
-   applies and grounds the developed artefact in existing theories,
-   perhaps resulting in meta-artefacts, suitable for research or practical use. \citep{Hevner2007}
+   artifact is designed and deployed. Finally, in the rigor cycle, the researcher
+   applies and grounds the developed artifact in existing theories,
+   perhaps resulting in meta-artifacts, suitable for research or practical use. \citep{Hevner2007}
 
    The paradigm presented by \citet{Hevner2007} is different in many
    aspects from that of \citet{Johannesson2014}. Where as
@@ -662,11 +654,11 @@
    Because of limitations in scope for the present study, only a
    subset of design science activities were performed in the present
    study. The stages chosen for the present study were selected made
-   to ensure that a viable, meaningful artefact could be developed
+   to ensure that a viable, meaningful artifact could be developed
    developed. The design science stages not selected were not
    considered for reporting or practical purposes but were instead
    left out entirely. Because they are the fastest way to reach an
-   actual artefact given the limitation in scope, the following stages
+   actual artifact given the limitation in scope, the following stages
    were selected:
    - Requirements definition
    - Implementation
@@ -679,7 +671,7 @@
    of approaches were considered. \citet{Denscombe2010} covers a
    number of research strategies.
 
-*** Requirements definition
+*** Requirements Definition
     For defining requirements an extensive number of research methods
     can be used. Many popular approaches directly involve potential
     stakeholders directly \citet[chapter 6]{Johannesson2014}. One
@@ -730,7 +722,7 @@
    coverage is particularly important because of the controversial
    nature of the concept of emotional intelligence. This wide coverage
    allows for finding a reasonably agreed upon definition of emotional
-   intelligence, which is neccessary for the developed artefact to be
+   intelligence, which is neccessary for the developed artifact to be
    useful.
 
    The quantitative analysis of earlier data constitutes experimental
@@ -751,7 +743,7 @@
 *** Implementation
 
     A large number of processes for the implementation of software
-    artefacts have been devised. Early research was largely focused on
+    artifacts have been devised. Early research was largely focused on
     very formalized processes, and less formal methods of software
     development were to a point largely ignored. These methods were
     often misaligned with how software development is done in
@@ -771,21 +763,21 @@
     \citep{Dingsoyr2012}. In a pair of case studies
     \citet{Middleton2002} established that reductions in requirements
     and processes that did not build end-user value could reduce
-    error-rates in an artefact.
+    error-rates in an artifact.
 
     With the research consensus being that processes should be enacted
     based on as needed basis it seems resonable for a project with
     little need for formal process to use very little formal process.
 
-    For the implementation of the artefact an unstructured iterative
+    For the implementation of the artifact an unstructured iterative
     development process was used. The process choice was made because
     the scope of the project was small, applying more complex
     processes may well result in problems. The development process
-    continued continously until the developed artefact fullfilled the
+    continued continously until the developed artifact fullfilled the
     identified requirements.
 
 *** Evaluation
-    The evaluation of the developed artefact was performed using
+    The evaluation of the developed artifact was performed using
     experimental methods. Experimental methods are often used for the
     verification of psychometric instruments. Because experimental
     methods are a common method this makes them a good fit for the
@@ -798,12 +790,12 @@
     therefore not a problem particular to the present study.
 
 * Application of Method
-** Requirements defintion
+** Requirements Defintion
    For the literature review, a number of research publications
    related to emotional intelligence were reviewed. Based on these
    a qualitative coding based analysis was performed. Different
    psychometric measures of emotional intelligence where coded based
-   on theoretical models, scales and sub-scales.
+   on theoretical models, scales and subscales.
 
    The stimulus-sets were coded in a similar fashion. Taking into
    account the number of models participating, the emotions expressed,
@@ -863,12 +855,12 @@
 
    Finally, the results of the literature review and the quantitative
    analysis of earlier data were integrated to create requirements for
-   for the artefact.
+   for the artifact.
 
 \input{summaryearlier.tex}
 
 ** Implementation
-   The software artefact designed for the present study was developed
+   The software artifact designed for the present study was developed
    incrementally in iterations aiming to fullfill a growing subset of
    the requirements. No single development process was selected
    instead a number of practiceses were selected to guide the
@@ -905,14 +897,14 @@
 
 *** Procedure
     Participants were positioned at a distance of approximatly 70 cm
-    from the screen. The designed software artefact was then run. The
+    from the screen. The designed software artifact was then run. The
     test software was configured to run a set of 70 trials and the
     question module configured to gather responses for the SPEC set of
     questions. After completing the experiment, the group taking
     taking the test twice were contacted and another test session
     scheduled.
 
-*** Data-analysis
+*** Data analysis
     Data was analysed using the both the R programming langauge
     \citep{R2015} and statistical environment, as well as a
     Python-based environment using SciPy \citep{SciPy} for statistical
@@ -991,7 +983,7 @@
     The second data-set consisted of 72 participants, each taking the
     form of a , the average accuracy was $72.99\%$ ($S=12.14$).
 
-    #+CAPTION: Hit-rates and standard deviations by emotion in study 2.
+    #+CAPTION: Hit rates and standard deviations by emotion in study 2.
     #+ATTR_LATEX: :environment tabulary :align lll :width \textwidth
     | Emotions  |  $HR$ |   $S$ |
     |-----------+-------+-------|
@@ -1109,7 +1101,7 @@
     was inline with what is typical for the METT paradigm, it
     therefore reasonable to assume that there are no additional issues
     with the RaFD data-set used in these. It seems appropriate then to
-    use RaFD for evaluating the artefact developed for the present
+    use RaFD for evaluating the artifact developed for the present
     study, while leaving data-set as a configurable variable.
 
     Using the conclusions drawn a number of requirements were
@@ -1142,10 +1134,10 @@
    The analysis of the data gathered in the study can naturally be
    divided into METT and SPEC-data. In the following sections results
    related to the scales will be presented in turn.
-*** Micro-expression Testing Tool
+*** Microexpression Testing Tool
     A total of $4268$ responses were collected, $2977$ of which were
     correct and $1291$ were incorrect, for an overall hit-rate of
-    $69.1887\%$ Hit-rates divided by emotion are presented in table
+    $69.1887\%$ Hit rates divided by emotion are presented in table
     \ref{table:metthitrate}.
 
     #+LATEX: \input{metthitrate}
@@ -1165,7 +1157,7 @@
     \centering
     \label{fig:kde}
     \includegraphics[width=1\textwidth]{result-analysis/kde}
-    \caption[Hit-rate Kernel Density Estimates per Emotion]{Kernel Density Estimates of Hit-rates for each emotion}
+    \caption[Hit rate Kernel Density Estimates per Emotion]{Kernel Density Estimates of Hit rates for each emotion}
     \end{figure}
     #+END_LATEX
 
@@ -1203,7 +1195,7 @@
     considered poor. Test-retest correlations of the individual
     subscales are presented in table \ref{table:specmettcorr}.
 
-* Discussion & Conclusion
+* Discussion and Conclusion
   The main finding was that developed METT-test showed good
   reliability.  Test-retest scores correlations indicated a good test
   reliaiblity. Additionally the split-half reliability found were
@@ -1234,7 +1226,7 @@
 
   One method for reducing participant accuracy is simply reducing the
   time for which the stimulus is presented. However, some expressions,
-  such as fear, where the average hit-rate is lower, may cause floor
+  such as fear, where the average hit rate is lower, may cause floor
   effects instead. This could be solved by using different
   presentation times for different emotions. While using different
   presentation times might improve the overall quality of the test it
@@ -1298,12 +1290,12 @@
   indicate that another test of trait emotional inteligence should
   have been used. Indeed, future research could apply a number of
   different scales, attempting to find one having a higher
-  reliability. The artefact developed allows in the present study
+  reliability. The artifact developed allows in the present study
   allows for question-sets to be specified in configuration, thereby
   making it trivial to apply the test with different tests.
 
   The test developed in the present study has both practical and
-  academic uses. The artefact developed, is adaptable to a number of
+  academic uses. The artifact developed, is adaptable to a number of
   different test metodlogies and can be used for both psychological
   research and practical emotional intelligence testing. It also
   provides a foundation on which more sophisticated tests can be
@@ -1311,7 +1303,7 @@
   research.
 
 ** Limitations
-   The evaluation of the developed artefact is limited several
+   The evaluation of the developed artifact is limited several
    ways. As the the study was performed with participants from a
    single country it is difficult to acertain validity across
    cultures.
@@ -1326,7 +1318,7 @@
 
 * Conclusion
   Despite the limitations related to expressions of happiness and
-  surprise the artefact developed in the present study offers some
+  surprise the artifact developed in the present study offers some
   good properties. The test, being mostly ability-based is robust to
   faking and social desirability. It captures both personality traits
   related to emotional intelligence as well as the actual ability to
