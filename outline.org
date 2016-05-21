@@ -1188,7 +1188,7 @@
     from visual inspection of the kernel density estimates.
 
     #+LATEX: \input{testretest}
-*** SPEC
+*** Short Profile of Emotional Competence
     The descriptive statistics for the SPEC subscales are presented in table \ref{table:specdesc}
     #+LATEX: \input{specdesc}
 
