@@ -69,31 +69,28 @@
   have been used to measure emotional intelligence ability tests
   \citep{Mayer2003}, self-reported ability \citep{Bar-On1997}, and
   personality trait measures \citep{Petrides2007}. For example,
-  \citet{Mikolajczak2014} approached the measuring of emotional
-  intelligence and developed a 50-item inventory for emotional
-  intelligence. \citet{Baron-Cohen2001} approached the problem from a
+  \citet{Mikolajczak2014} developed a 50-item inventory to measure emotional
+  intelligence. \citet{Baron-Cohen2001} approach the problem from a
   different vantage point, asking participants to identify an emotion
-  based just on a picture showing a pair of eyes. Another strand of
+  based just on a picture showing a pair of eyes. A different of
   research focuses on measuring emotional facial recognition
   \citep{Schlegel2012}. The results of \citet{Schlegel2012} seem to
   indicate that the recognition of emotional faces is a single ability
   as opposed to multiple separate abilities, affirming to some degree
-  the convergent validity to the construct of emotional intelligence.
+  the validity of the construct of emotional intelligence.
 
-  Another approach that might be taken for emotional intelligence
-  testing is using emotional facial expressions in a manner similar to
-  \citet{Schlegel2012}, where the ability to classify emotional facial
-  expressions was used. The ability recognize emotions in the faces of
-  others seems to be an important social ability
-  \citep{Ekman2003}. This suggest facial expression recognition
-  ability could be seen as a measure of general emotional
-  intelligence.
+  Another approach to testing emotional intelligence might be to use
+  emotional facial expression classification in a manner similar to
+  \citet{Schlegel2012}. The ability to recognize emotions in the faces
+  of others seems to be an important social ability
+  \citep{Ekman2003}. This suggests that facial expression recognition
+  ability could be a measure of general emotional intelligence.
 
-  Facial expressions, \citet{Ekman1969a} found, are to a large extent
-  culturally invariant, a prerequisite for valid measure of emotional
-  intelligence. The set of culturally invariant basic emotions
-  \citet{Ekman1992} later defined as anger, fear, sadness, enjoyment,
-  disgust and surprise.
+  Facial expressions, \citet{Ekman1969a} find, are largely culturally
+  invariant, a prerequisite for valid measure of emotional
+  intelligence. \citet{Ekman1992} later defines the set of culturally
+  invariant basic emotions later defined as anger, fear, sadness,
+  enjoyment, disgust and surprise.
 
   Cultural invariance is an important property for tests of emotional
   intelligence. Based on the evidence for cultural invariance of
@@ -102,500 +99,477 @@
   intelligence.
 
   \citet{Ekman1974a} introduced the Brief Affect Recognition Task
-  (BART) as a means by emotion recognition can be measured. One trial
-  in the BART paradigm consists of a display of an emotional facial
-  expression with forward- and backward masks of a neutral emotional
-  face to provide a fixation and avoid after-images respectively \citep{Ekman1974a}.
+  (BART) as a means to measure emotional recognition. One trial in the
+  BART consists of three parts. First, a forward mask showing a
+  neutral facial expression. Second, an emotional facial expression is
+  displayed. Finally a the first image is displayed again as a
+  backward mask.  The first and third images are used to provide
+  a fixation and prevent afterimages, respectively. \citep{Ekman1974a}.
 
 ** Rationale
-   Testing and training applications are a central part of
-   micro-expression research \citep{Ekman1992}. However, despite
-   multiple several studies being made \citep[e.g.][]{Schlegel2012},
+   Testing and training applications are central parts of
+   microexpression research \citep{Ekman1992}. However, despite
+   multiple studies \citep[][]{Schlegel2012},
    there exists no standard for emotional intelligence consisting of
-   both emotion recognition and other EQ models.
+   both emotion recognition and other emotional intelligence models.
 
    The creation of such a test could be relevant for a number of
-   areas. Firstly, education of psychologists, psychotherapists, and
+   areas. First, education of psychologists, psychotherapists, and
    other mental health professionals might benefit from improved
-   training tools, likewise applications can be found for training
-   police and other law enforcement professionals. Second,
-   applications in recruiting situations may help organizations make
-   better recruitment decisions. Finally, psychological tests using
-   the micro-expression paradigm may be improved based on the
-   development of new tests.
+   training tools; it also could be used to train police and other law
+   enforcement professionals. Second, such a test may help
+   organizations make better recruiting decisions. Finally,
+   development of new tests based on microexpressions, could improve
+   the state of the art in psychological testing of emotional intelligence.
 
-** Research problem
+** Research Problem
    The lack of a standard test of emotion recognition and emotional
-   intelligence, may be indicative of a lack of understanding of what
-   factors are important in developing tools for testing emotional
-   intelligence.
+   intelligence, may indicate a lack of understanding about which
+   factors are important in developing emotional intelligence tests.
 
-   This thesis sets out sets out the improve the understanding of how such
-   testing software could be designed and developed, aiming to improve
-   the accuracy and availability of such tests by developing such an
-   artifact.
+   This thesis sets out sets out to improve the understanding of how
+   such testing software could be designed and developed, aiming to
+   improve the accuracy and availability of such tests by developing
+   such an artifact.
 
-** Research question
-   Could EQ-testing accuracy improved by using a software-based multi-task test?
+** Research Question
+   Could using a software-based multitask test improve emotional
+   intelligence test accuracy?
 
 * Extended background
-  In the extended background a number of theoretical models,
-  applications, earlier tests and stimulus sets are reviewed and
-  discussed. These form the base on which the artifact developed in
-  the present study was built.
+  In the extended background, I review and discuss a number of
+  theoretical models, applications, earlier tests and stimulus
+  sets. These form the base on which the artifact developed in this
+  study was built.
 ** Theoretical Models of Emotional Intelligence
-   The definition of emotional intelligence has since its inception
+   The definition of emotional intelligence has, since its inception,
    been the subject of fierce debate \citep{McCleskey2014}. One of the
-   key sources of controversy is whether emotional intelligence is to
-   be considered an ability \citep{Salovey1990}, a competency that can
-   be learned \citep{Baron2006} or personality trait
-   \citep{Petrides2007}. This disagreement on the definition of the
-   concept may at first seem superifical but lies at the core in the
-   issue of measuring, understanding and applying theories of
-   emotional intelligence.
+   key sources of controversy is whether emotional intelligence is an
+   ability \citep{Salovey1990}, a competency that one can learn
+   \citep{Baron2006}, or a personality trait
+   \citep{Petrides2007}. This disagreement may at first seem
+   superficial but lies at the core of the issue of measuring,
+   understanding, and applying theories of emotional intelligence.
 
-   The notion of emotional intelligence as a competency is primarily
-   advocated by \citet{Baron2006}. The Bar-On model, defined more
-   precisely as a "cross-section of interrelated emotional and social
-   competencies, skills and facilities that determine how effectively
-   we understand and express ourselves, understand others and relate
-   with them, and cope with daily demands" \citep{Baron2006}. The
-   model is consistent with other frameworks and includes both inter-
-   and intra-personal skills. Like most other models of emotional
-   intelligence, the Bar-On model considers a set of widely different
-   situations and criteria, ranging from the recognition of emotions
-   to the regulating emotions. \citep{Baron2006}.
+   \citet{Baron2006} primarily advocated the notion of emotional
+   intelligence as a competency. His Bar-On model, which he defined
+   more precisely as a “cross-section of interrelated emotional and
+   social competencies, skills and facilities that determine how
+   effectively we understand and express ourselves, understand others
+   and relate with them and cope with daily demands.” His model is
+   consistent with other frameworks and includes both inter- and
+   intrapersonal skills. Like most other models of emotional
+   intelligence, the Bar-On models considers a set of widely different
+   situations and criteria, ranging from recognizing emotions to
+   regulating emotions.
 
    \cite{Salovey1990} introduced a different notion of emotional
-   intelligence. Which perhaps is best defined in the widely cited
-   \citep{McCleskey2014} passage defining emotional intelligence as
+   intelligence, perhaps best defined in the widely cited
+   \citep{McCleskey2014} passage, which calls emotional intelligence
    ``the subset of social intelligence that involves the ability to
    monitor one's own and others' feelings and emotions to discriminate
    among them and to use the information to guide one's thinking and
-   actions''.
+   actions.''
 
    Additionally, \citet{Salovey1990} divided emotional
-   intelligence into four sub-categories of emotional intelligence:
-   appraisal, expression, regulation and, utilization. Thereby
-   defining the boundaries of the subject.
+   intelligence into four subcategories:
+   appraisal, expression, regulation and, utilization, thereby
+   defining subject's boundaries.
 
    Furthermore, \citet{Salovey1990} argue that people possessing the
    four abilities may show more adaptive behaviors in social
-   situations. This was later confirmed in
-   \citet{Brackett2006}. Conversely, people exhibiting deficits in
-   emotional intelligence may show maladaptive behaviors
-   \citep{Brackett2006}.
+   situations. \citet{Brackett2006} confirmed this. Conversely, people
+   exhibiting deficits in emotional intelligence may show maladaptive
+   behaviors \citep{Brackett2006}.
 
    Beginning with \citet{Petrides2001}, one strand of research has
    separated emotional intelligence into trait and ability components
-   \citep[e.g.][]{Petrides2007, Petrides2010}. Indeed, a growing body
+   \citep[e.g.,][]{Petrides2007, Petrides2010}. Indeed, a growing body
    of evidence seems to indicate that personality factors explain some
    parts of emotional intelligence
-   \citep[e.g.][]{Warwick2004,Petrides2001}. Specifically,
+   \citep[e.g.,][]{Warwick2004,Petrides2001}. Specifically,
    \citet{Warwick2004} found correlations between personality factors
    and trait emotional intelligence.
 
-   Building on these results \citet{Petrides2007}, argues that while
+   Building on these results, \citet{Petrides2007}, argues that while
    trait emotional intelligence is a personality trait and
-   uncorrelated with ability measures of emotional intelligence, it is
+   does not correlate with ability measures of emotional intelligence, it is
    distinct from traditional personality factors.
 
-   The incompatibility argument is expanded further by
-   \citet{Petrides2010}, arguing that trait and ability measures of
-   emotional intelligence cannot be grouped in any meaningful
-   sense. Moreover, \citet{Petrides2010} criticizes the Bar-On
-   \citep{Baron2006} model as well as the \citet{Salovey1990} model,
-   arguing that ability measures of emotional intelligence imply the
-   existence of some universal notion of adaptive social
-   behavior. Such a notion would imply a culturally invariant concept of
-   what is socially appropriate, or intelligent behaviour, which would be difficult
-   to establish.
+   \citet{Petrides2010} expands the incompatibility argument further,
+   arguing that trait and ability measures of emotional intelligence
+   cannot be grouped in any meaningful sense. Moreover,
+   \citet{Petrides2010} criticizes the Bar-On \citep{Baron2006} model
+   as well as the \citet{Salovey1990} model, arguing that ability
+   measures of emotional intelligence imply the existence of some
+   universal notion of adaptive social behavior. Such a notion would
+   imply a culturally invariant concept of what is socially
+   appropriate, or intelligent behaviour, which would be difficult to
+   establish.
 
-   To resolve some of the controversies surrounding the definition of
-   the term \citet{Cherniss2010} suggests separating the concepts of
-   emotional intelligence and social competence. \citet{Cherniss2010}
-   defines emotional intelligence simply as recognizing, reasoning and
-   regulating emotions, holding that other factors are simply
-   emotional and social competencies, building on the ones emotional
-   intelligence. In effect \citet{Cherniss2010}, designates the
-   \citet{Salovey1990} model as emotional intelligence, while
-   referring to the Bar-On model \citep{Baron2006} as emotional and
-   social competence. This attempt to reconcile the two major theories
-   of emotional intelligence was criticized by \citet{Petrides2010}
-   for severing the link between the constructs and their present
-   operational definitions. \citet{Petrides2010} argues that this
+   To resolve some of the controversies surrounding the term's
+   definition, \citet{Cherniss2010} separates the concepts of
+   emotional intelligence and social competence and defines emotional
+   intelligence simply as recognizing, reasoning, and regulating
+   emotions, holding that other factors are simply emotional and
+   social competencies, building on emotional intelligence. In effect,
+   \citet{Cherniss2010}, designates the \citet{Salovey1990} model as
+   emotional intelligence, while referring to the Bar-On model
+   \citep{Baron2006} as emotional and social
+   competence. \citet{Petrides2010} criticized to reconcile the two
+   major theories of emotional intelligence was criticized by
+   \citet{Petrides2010} for severing the link between the constructs
+   and their present operational definitions. He argues that this
    causes a disconnect between what is actually studied and its
    definition.
 
-   The separation of trait and state concepts of emotional
-   intelligence is supported by most authors
-   \citep{Petrides2010,McCleskey2014,DiFabio2014}. What this
-   separation entails, however, is a matter of debate. Proponents of
-   the trait model of emotional intelligence such as
-   \citet{Petrides2010} argue that ability measures of emotional
-   intelligence are lacking.  On the other hand proponents of the
-   ability model argue that trait models just measure various aspects
-   of personality.
+   Most authors \citep{Petrides2010,McCleskey2014,DiFabio2014} support
+   the separation of trait and state concepts of emotional
+   intelligence.  What this separation entails, however, is a matter
+   of debate. Proponents of the trait model of emotional intelligence,
+   including \citet{Petrides2010}, argue that ability measures of
+   emotional intelligence are lacking.  On the other hand, proponents
+   of the ability model argue that trait models just measure various
+   aspects of personality.
 
-   Another approach was taken by \citet{Freudenthaler2007},
-   interpreting trait and ability as typical and maximum performance
-   respectively. \citet{Freudenthaler2007} finding that typical
-   performance is dependent on personality and that maximum
-   performance is dependent on some cognitive ability. This model has
-   the advantage of being better aligned with the approach taken for
-   other cognitive abilities, and not being specific to emotional
-   intelligence.
+   \citet{Freudenthaler2007} took another approach, interpreting trait
+   and ability as typical and maximum performance, respectively; they
+   found that typical performance is dependent on personality and that
+   maximum performance is dependent on some cognitive ability. This
+   model has the advantage of being better aligned with approaches
+   taken for other cognitive abilities, not being specific to
+   emotional intelligence.
 
-   Having seen multiple different definitions of emotional
-   intelligence, what little agreement exists could perhaps be
-   captured as follows: emotional intelligence is a continuous factor
-   determining the depth and accuracy of processing at the crossroads
-   of emotion and cognition.
+   Having seen multiple definitions of emotional intelligence, what
+   little agreement exists can perhaps be stated as \textit{Emotional
+   intelligence is a continuous factor determining the depth and
+   accuracy of processing at the crossroads of emotion and cognition}.
 
-   Even if earlier intergrative approaches have been criticized
-   \citep[e.g.~][]{Cherniss2010}, multifaceted approaches may still be
-   valuable. Such approaches however this would require combining
+   Even if earlier integrative approaches have been criticized
+   \citep[e.g.,][]{Cherniss2010}, multifaceted approaches may still be
+   valuable. Such approaches, however, would require combining
    theoretical frameworks. For any psychometric test to be useful, it
-   needs to be loosely coupled to its theoretical concepts, while
-   retaining internal cohesiveness, developing tests based on the
-   insection of theoretical frameworks may therefore make a test
+   must be loosely coupled to its theoretical concepts, while
+   retaining internal cohesiveness, developing tests; at the
+   intersection of theoretical frameworks may therefore make a test
    independent of which framework prevails.
 
 ** Practical Applications for Emotional Intelligence
 
-   Desipte the difficulty of accurately defining the term, proponents
-   of emotional intelligence argue its usefulness.  In a review
+   Despite the difficulty of accurately defining the term, proponents
+   of emotional intelligence argue its usefulness.  In a review,
    \citet{Mayer2008} identified seven central results of emotional
    intelligence research, these were:
 #+BEGIN_QUOTE
    1. Better social relations for children.
    2. Better social relations for adults.
-   3. High-EI individuals are perceived more positively by others.
+   3. Better perception by others (highly emotionally intelligent
+      individuals are seen more positively).
    4. Better family and intimate relationships.
-   5. Better academic achievement. [not accounting for IQ]
+   5. Better academic achievement (not accounting for IQ).
    6. Better social relations during work performance and in negotiations.
-   7. Better psychological well-being.
+   7. Better psychological wellbeing.
 #+END_QUOTE
 
-   Within the areas discussed by \citet{Mayer2008}, it seems that
-   measures of emotional intelligence, have some predictive
+   Within the areas discussed by \citet{Mayer2008} it seems that
+   measures of emotional intelligence have some predictive
    validity. Indeed, the results within the aforementioned areas
    suggest that tests and instruments measuring emotional intelligence
    may be practically applicable.
 
-   Another often discussed area is the relationship of emotional
+   Another often-discussed area is the relationship of emotional
    intelligence and leadership. It is commonly held that emotional
    intelligence plays a role in leadership
    \citep{Brackett2006,McCleskey2014}. \citet{McCleskey2014} argues
    that for at least some aspects of leadership, it seems likely that
    emotional intelligence offers some predictive value for performance
-   leadership roles \citep{McCleskey2014}. This could make emotional
+   leadership roles. This could make emotional
    intelligence an important tool for executive search.
 
-   Moreover, emotional intelligence scales have been used for
-   corporate recruiting for roles requiring social interaction. These
-   results seem to suggest that emotional intelligence may be useful
-   in guiding hiring decisions \citep{McCleskey2014}.
+   Moreover, corporate recruiters have used emotional intelligence
+   scales for roles requiring social interaction. This seems to
+   suggest that emotional intelligence may be useful in guiding hiring
+   decisions \citep{McCleskey2014}.
 
-   Additionally, the concept of emotional intelligence is useful in the
-   diagnosis and testing for autism spectrum disorders
-   \parencite{Baron-Cohen2001}. In this particular case, a specific
-   test of emotion recognition, Reading the Mind in the Eyes (RTMITE), was
-   developed for this purpose \citep{Baron-Cohen2001}.
+   Additionally, emotional intelligence testing in diagnosing and
+   testing for autism spectrum disorders
+   \parencite{Baron-Cohen2001}. The Reading the Mind in the Eyes
+   (RTMITE) test of emotion recognition, was developed for this
+   purpose \citep{Baron-Cohen2001}.
 
-   Overall, the evidence seems to suggest that the concept of
-   emotional intelligence is applicable to a number of practical
-   situations. This would imply a soecietal benefit in the application
-   of emotional intelligence.
+   Overall, the evidence seems to suggest that the emotional
+   intelligence testing is applicable to a number of practical
+   situations. This would imply a societal benefit in the application
+   of emotional intelligence testing.
 
-** Measuring emotional intelligence of Ability
+** Measuring Emotional intelligence of Ability
 
-   Like with its definition, how emotional intelligence is measured is
-   also debated. There exists, at present, no universally accepted standard for
-   measuring emotional intelligence. The different tests of emotional
-   intelligence usually fall into one of only one of the theoretical
-   models of emotional intelligence.
+   There is also debate about how emotional intelligence is
+   measured. There exists, at present, no universally accepted
+   standard for measuring emotional intelligence - the different tests
+   usually fall into only one of the theoretical models.
 
-    An early psychometric test of emotional intelligence is the
-    Mayer-Salovey-Caruso Emotional Intelligence (MSCEIT), which is
-    based on the theoretical framework introduced by
-    \citep{Salovey1990}. In version 2.0 it consisted of 141 items
-    across four facets of emotional intelligence
-    \citep{Mayer2003}. MSCEIT attempts to measure performance based on
-    a set of eight tasks, mapping two tasks for each facet
-    \citep{Mayer2003}. The tasks used in MSCEIT cover a number of
-    different emotional abilities including recognition of emotional
-    pictures and faces as well as understanding and managing emotions
-    \citep{Mayer2003}. One differentiating aspect of MSCEIT is its
-    focus on emotional problem-solving, where test-takers are posed
-    with imaginary situations requiring emotional intelligence to solve.
+   The Mayer-Salovey-Caruso Emotional Intelligence Test (MSCEIT) is an
+   early psychometric assessment of emotional intelligence; it is
+   based on the theoretical framework introduced by
+   \citet{Salovey1990}. Version 2.0 consisted of 141 items across four
+   facets of emotional intelligence \citep{Mayer2003}; it measures
+   performance based on a set of eight tasks, mapping two tasks for
+   each facet. The tasks used in MSCEIT cover a number of different
+   emotional abilities including recognition of emotional pictures and
+   faces as well as understanding and managing emotions
+   \citep{Mayer2003}. One differentiating aspect of MSCEIT is its
+   focus on emotional problem-solving, where test-takers face
+   imaginary situations requiring emotional intelligence to solve.
 
-    In an evaluation of MSCEIT 2.0, the second version of MSCEIT,
-    \citet{Mayer2003} found both sufficiently reliability as well as
-    consistency with its theoretical foundations. This would suggest
-    that MSCEIT may be appropriate for research use.
+   In an evaluation of MSCEIT 2.0, \citet{Mayer2003} found it
+   sufficiently reliable as well as consistency with its theoretical
+   foundations. This suggests that MSCEIT may be appropriate for
+   research use.
 
-    The validity of MSCEIT was later disputed. \citet{Rossen2008}
-    found results running contrary to the factor structure used found
-    in the validation study by \citet{Mayer2003}. The results found by
-    \citet{Rossen2008} seem to suggest that the subscales do not
-    match the intended theoretical concepts, putting the test into
+    However, \citet{Rossen2008} later disputed MSCEIT's validity,
+    finding results running contrary to the structure found the factor
+    analysis of the \citet{Mayer2003} validation study. The
+    \citet{Rossen2008} results seem to suggest that the subscales do
+    not match the intended theoretical concepts, putting the test into
     question.
 
     For measuring trait emotional intelligence, \citet{Salovey1995}
-    introduced Trait meta-mood scale (TTMS) which aims to measure the
-    tendency to attend to one's moods and emotions. The TTMS test has
-    been found not to correlate with MSCEIT, indicating that it is a
-    separate construct from ability measured by MSCEIT
-    \citep{Warwick2004}. The TTMS is meant to capture differences in
-    the tendencies to engage in socially intelligent behaviour, which
-    are not explained by ability model \citep{Salovey1995}.
+    introduced the Trait Meta-Mood scale (TTMS), which aims to measure
+    the tendency to attend to one's moods and emotions. The TTMS test,
+    however, does not correlate with MSCEIT, indicating that it is a
+    separate construct from ability \citep{Warwick2004}. The TTMS is
+    supposed to capture differences in the tendency to engage in
+    socially intelligent behavior, which the ability model does not
+    explain \citep{Salovey1995}.
 
-    Self-reported psychometric tests have also been for measuring
-    ability emotional intelligence, one of these is the Profile of
-    Emotional Competence (PEC), which consists of 50 items divided
-    into ten subscales \citep{Brasseur2013}. The PEC shows a good
-    internal consistency, making it appropriate for both clinical and
-    research use \citep{Brasseur2013}.
+    Self-reported psychometric tests, including the Profile of
+    Emotional Competence (PEC), for measuring ability emotional
+    intelligence consists of 50 items divided into 10 subscales
+    \citep{Brasseur2013}. The PEC shows a good internal consistency,
+    making it appropriate for both clinical and research use
+    \citep{Brasseur2013}.
 
     Recently, \citet{Mikolajczak2014} were able to reduce the number
-    of items used in the earlier PEC scale to only 20 items while, to
-    a large degree, maintaining the accuracy of the original 50-item
-    scale. This result suggests that emotional intelligence can be
-    measured using only a small number of questions.
+    of items used in the earlier PEC scale to only 20 while, to a
+    large degree, maintaining the accuracy of the original 50-item
+    scale. This result suggests that a small number of questions can
+    be used to measure emotional intelligence.
 
     Another method of measuring is Emotional Quotient-Inventory
-    (EQ-I), a standard questionnaire consisting of 131-items divided
-    five subscales with three facets each for a total of 15 ratings
-    \citep{Bar-On1997}. The EQ-I is built on the theoretical framework
-    based on emotional intelligence as a competency
-    \citep{Baron2006}. EQ-I is often used both on the individual and
-    peer-level. On the peer level, the test-taker's peers are asked to rate the individual's
-    emotional intelligence \citep{Bar-On1997}. The approach of using
-    peer ratings has recently found support in \citet{Elfenbein2015},
-    showing that such peer ratings can be both accurate and reliable.
+    (EQ-I), a standard questionnaire consisting of 131 items divided
+    into five subscales with three facets each \citep{Bar-On1997}. The
+    EQ-I is built on the theoretical framework based on emotional
+    intelligence as a competency \citep{Baron2006}. EQ-I is often used
+    on the individual and peer levels. On the peer level, the
+    test-taker's peers are asked to rate the individual's emotional
+    intelligence \citep{Bar-On1997}. This approach has recently found
+    support in \citet{Elfenbein2015}, showing that such peer ratings
+    can be both accurate and reliable.
 
-    The Emotional Quotient Inventory (EQ-I) is not without its
-    problems. A big problem is that of fakeability, one study
-    conducted by \citet{GrubbIII2007}, found that participants when
-    asked to "fake" emotional intelligence were easily able to do
-    so. Such fakeability is quite troublesome because it would imply
-    that the EQ-I does not measure a competency, because an ability
-    would have been difficult to fake.
+    The EQ-I is not without its problems, however one is the ability
+    to fake, one study conducted by \citet{GrubbIII2007}, found that
+    participants were easily able to to fake emotional intelligence
+    when asked to do so. This is quite troublesome because it would
+    imply that the EQ-I does not measure a competency, because an
+    ability would have been difficult to fake.
 
-** Measures related to Emotional Intelligence
+** Measures Related to Emotional Intelligence
 
-   Outside the development of psychometric tests of emotional
-   intelligence, some research has also gone into examining other
-   aspects and ways of measuring emotional intelligence and related
-   areas. Over time, a wide variety of tests have been developed for
-   assessing emotion intelligence and related concepts. These tests
-   are often developed outside the area of emotional intelligence, and
-   are to some degree unaffected by the controversy surrounding other
-   measures of emotional intelligence.
+   Some research (outside the development of psychometric tests of
+   emotional intelligence) has examined other ways to measure
+   constructs related to emotional intelligence and, over time, a
+   number of measures relevant to the present study have been
+   developed. These tests are developed outside the specific area of
+   emotional intelligence, and are to some degree unaffected by the
+   controversy surrounding other measures of emotional intelligence.
 
-   One measure that might be considered emotional intelligence is the
-   Reading the Mind in the Eyes test \citep{Baron-Cohen2001},
+   One measure that might be considered emotional intelligence testing
+   is the Reading the Mind in the Eyes test \citep{Baron-Cohen2001},
    which has been successful in distinguishing people with Asperger
-   Syndrome and high-functioning autism from controls. The instrument has
-   shown good test-retest reliability \citep{Hallerback2009} and has
+   Syndrome and high-functioning autism from controls. The instrument
+   shows good test-retest reliability \citep{Hallerback2009} and has
    been applied in a number of cultures
    \citep{Yildirim2011,Hallerback2009}.
 
-   Another measure related to emotions is the Toronto Alexithymia
-   Scale (TAS), a 20-item test aiming to detect alexithymia, defined
-   as the inability to describe one's emotions. The TAS consists of
-   two subscales: difficulty identifying feelings and difficulty
-   describing feelings \cite{Bagby1994}. The measure has shown good
-   validity \citep{Bagby1994}. Further evidence for its validity were
-   found by \citet{Bressi1996}, showing that good validity could also
-   be obtained for Italian populations, suggesting at least some
-   degree of cultural invariance. Finally, in a functional magnetic
-   resonance imaging (fMRI) study, \citet{Berthoz2002} found
-   differences in the activation of the anterior cingulate cortex and
-   the mediofrontal cortex between people with high TAS-scores and
-   controls. These results suggest an underlying neural basis for the
-   TAS and alexithymia, in general.
+   The Toronto Alexithymia Scale (TAS) is a 20-item test that aims to
+   detect alexithymia, the inability to describe one's emotions. The
+   TAS consists of two subscales - identifying feelings and describing
+   feelings - The measure has shown good validity
+   \citep{Bagby1994}. \citet{Bressi1996} found further evidence for
+   its showing that good validity could be obtained for Italian
+   populations, suggesting at least some degree of cultural
+   invariance. Finally, in a functional magnetic resonance imaging
+   (fMRI) study, \citet{Berthoz2002} found differences in the
+   activation of the anterior cingulate cortex and the mediofrontal
+   cortex between people with high TAS-scores and controls. These
+   results suggest an underlying neural basis for the TAS score and
+   alexithymia, in general.
 
 ** Emotional Facial Expressions
-   A separate but related field to traditional emotional intelligence
-   testing is the recognition of emotional facial expressions. This
-   strand of research builds on the work of \cite{Ekman1969a}. The
-   model of emotions advanced by Ekman identifies a set of basic
-   emotions that are culturally independent \citep{Ekman1987}, occur
-   automatically \citep{Ekman1992,Ekman1997} and are automatically
-   processed \cite{Ekman1992}.
+   The recognition of emotional facial expressions is a separate but
+   related field to traditional emotional intelligence. This strand of
+   research builds on the work of \cite{Ekman1969a}. Ekman identifies
+   a set of basic emotions that are culturally independent
+   \citep{Ekman1987}, occur automatically \citep{Ekman1992,Ekman1997}
+   and are automatically processed \cite{Ekman1992}.
 
    Another feature of Ekman's model is emotional leakage, which occurs
-   when consciously trying to suppress the expression of some emotion
-   \citep{Ekman1969,Ekman2003}. This emotional leakage, what Ekman
-   refers to as micro expressions can be identified by others
+   when one consciously tries to suppress the the expression of an
+   emotion \citep{Ekman1969,Ekman2003}. Others can identify emotional
+   leakage, which Ekman refers to as microexpressions
    \citep{Ekman1974}.
 
-   Both individual and group differences in the ability to detect
-   deceit have been found. For example, \cite{Ekman1991} found that
-   some professional groups (e.g. the U.S. Secret Service) are better
-   at detecting deceit, using both verbal and non-verbal cues
-   \cite{Ekman1991}.
-
-   Another important result is that of \citet{Frank1997}, which seems
-   to suggest that the ability to detect deceit is generalized to a
-   large number of situations. This lends validity a central concept
-   as the cues used to detects deceit.
+   Individual and group differences in the ability to detect deceit
+   have been found. For example, \citet{Ekman1991}, found that some
+   professional groups (e.g., the U.S. Secret Service) are better at
+   detecting deceit, using both verbal and non-verbal
+   cues. \citet{Frank1997}, seems to suggest that the ability to
+   detect deceit is generalized to situations beyond artificial
+   testing, lending validity to the concept.
 
    #+BEGIN_LATEX
    \begin{figure}[htpb]
    \centering
    \label{fig:mett}
    \includegraphics[width=0.5\textwidth]{diamett}
-   \caption[Visual representation of the METT paradigm]{One complete trial in the METT paradigm, consisting of a forward mask, a stimulus and a backward mask. The pictures used in this example are taken from the KDEF data-set.}
+   \caption{One complete trial in the Microexpression training tool (METT) paradigm, consisting of a forward mask, a stimulus and a backward mask. The pictures used in this example are taken from the Karolinska Directed Emotional Faces (KDEF) dataset.}
    \end{figure}
    #+END_LATEX
 
 *** Brief Affection Recognition Test
-
-   Based on this theoretical framework \cite{Ekman1974a} introduced
-   the Brief Affection Recognition Test, consisting of very
-   brief displays of emotional facial expressions (under
-   200ms). Paradigms based on the BART been widely used
-   \cite[e.g.][]{Matsumoto2000}. By only showing the facial expression
-   for a short time, accuracy of identification is reduced as compared
-   to longer exposure times. Ensuring that the chance-adjusted is as
-   close to 50% as possible is important to avoid floor and ceiling
-   effects. Floor and ceiling effects should be avoided as they could
-   distort the data. An important feature of BART is its use
-   masking images of neutral faces both before and after a trial
-   \citep{Ekman1974a}. This masking serves both to provide a fixation
-   point before the trial, and ensure that the participants do not
-   have the benefit of after-images. This paradigm is illustrated in
+   Based on this theoretical framework, \cite{Ekman1974a} introduced
+   the METT, consisting of very brief displays of emotional facial
+   expressions (less than 200ms). Paradigms based on the BART been
+   widely used \cite[e.g.][]{Matsumoto2000}. By showing the facial
+   expression only for a short time, identification accuracy is
+   reduced compared to longer exposure times. Ensuring that the
+   chance-adjusted hit rate is as close to 50% as possible is
+   important for avoiding floor and ceiling effects which could
+   distort the data. One of METT's important features is masking
+   images of neutral faces before and after a trial
+   \citep{Ekman1974a}. Masking images provide a fixation point before
+   the trial and ensures that the participants do not have the
+   benefit of after-images. This paradigm is illustrated in
    \ref{fig:mett}
 
 *** Subtle Expression Training Tool
+    The Subtle Expression Training tool (SETT) is another method of
+    ensuring low accuracy is the. Unlike the METT, expressions are
+    restricted to one part of the face. This is meant to simulate a
+    situation where the person is consciously suppressing a facial
+    expression. \citep{Ekman2003}
 
-   Another method of ensuring low enough accuracy is the Subtle
-   Expression Training tool (SETT). Unlike the BART, expressions are
-   restricted to one part of the face. This restriction is meant to
-   simulate a situation where the person is consciously suppressing a
-   facial expression. \citep{Ekman2003}
+** Stimulus Sets of Emotional facial expressions
 
-** Stimulus sets of emotional facial expressions
+   To use the methodologies discussed, it is necessary to use a set of
+   photographs. Because facial expressions recognition is a common
+   task, a plethora of facial expression stimulus sets have been created.
 
-   To use the methodologies discussed it is necessary to use a set of
-   photographs. Because recognition of facial expressions is a common
-   task there exists a plethora of facial expression stimulus sets.
+   These stimulus sets are suitable for many kinds of research. For
+   the present study, I reviewed a number of number of stimulus sets
+   and the research surrounding them. The stimulus sets I reviewed do
+   not represent a complete coverage of all stimulus sets created, but
+   I aspired to sufficient coverage of stimulus sets in common use.
 
-   These stimulus sets have been created for a number of
-   different purposes and are suitable for many different kinds of
-   research. For the present study, a number of different stimulus
-   sets and the research surronding them was reviewed. The stimulus
-   sets reviewed in the present study by no means represent a complete
-   coverage of all stimulus sets created, however it aspires to a
-   sufficent coverage of the stimlus sets in common use.
+   The Japanese and Caucasian Facial Expressions of Emotion (JACFEE)
+   \citep{matsumoto1988japanese} was an early stimulus set, consisting
+   of 56 photos of models of Japanese or Caucasian descent with eight
+   pictures, one for each basic emotion and one neutral picture. The
+   dataset, while showing some cross-national differences also showed
+   relatively high levels of agreement \citep{Biehl1997}.
 
-   One early stimulus set is the Japanese and Caucasian Facial
-   Expressions of Emotion \citep[JACFEE;][]{matsumoto1988japanese}.
-   JACFEE consists of 56 photos of models of Japanese or Caucasian
-   decent with eight pictures, one for each basic emotions, and one
-   neutral picture \citep{matsumoto1988japanese}. The dataset, while
-   showing some cross-national differences also showed relatively high
-   levels of agreement \citep{Biehl1997}.
-
-   Another commonly used data-set of emotional facial expression is
-   the Karolinska Directed Emotional Faces
-   \citep[KDEF;][]{DanielLundqvistAndersFlykt1998}. KDEF consists of
-   pictures 70 of individuals expressing seven different emotions from
-   five angles. KDEF has, since its inception, seen much use in facial
+   The Karolinska Directed Emotional Faces (KDEF) is another commonly
+   used stimulus set of emotional facial expression
+   \citep{DanielLundqvistAndersFlykt1998}. It consists of 70 pictures
+   of individuals expressing seven different emotions from five
+   angles. KDEF has, since its inception, seen much use in facial
    expression research
    \citep[e.g.][]{Calvo2008a,Willis2006,Todorov2009}. In addition to
    its widespread use, KDEF has shown good test-retest validity and a
-   high degrees of accuracy in recognition tasks
-   \citep{Goeleven2008}. This type of results indicate that the
-   stimulus set is appropriate for research use.
+   high degrees of accuracy in recognition tasks \citep{Goeleven2008},
+   indicating that the stimulus set is appropriate for research use.
 
    \citet{Beaupre2000} approached the issue of finding a good stimulus
-   set from the perspective of cultural difference in the ability to
+   set from the perspective of cultural differences in the ability to
    recognize emotions. The Montreal Set of Facial Displays of Emotion
-   \citep[MSFDE][]{Beaupre2000} consists of facial expressions where
-   the actors were instructed to pose facial expression based on the
-   facial action coding scheme. The full stimulus set consists of 144
-   images, with six types of facial expressions and three ethnic
-   groups: French Canadians, Chinese, and sub-Saharan Africans.  The
-   MSFDE was validated in \citet{Beaupre2005} and showed to exihibit a
-   large degree of cultural invariance.
+   (MSFDE) \citep{Beaupre2000} consists of facial expressions where
+   the actors were instructed to pose facial expressions based on
+   Ekmans' model. The full stimulus set consists of 144 images, with
+   six types of facial expressions and three ethnic groups: French
+   Canadians, Chinese, and sub-Saharan Africans.  \citet{Beaupre2005}
+   validated the MSFDE and it exhibited a large degree of cultural
+   invariance.
 
-   Yet another set is NimStim \citep{Tottenham2009}, consisting of 672
+   NimStim \citep{Tottenham2009} is another set, consisting of 672
    images of 43 professional actors instructed to pose eight different
-   emotions with expressions of both open and closed mouthed
-   expressions. In their evaluation \citet{Tottenham2009}, found that
-   the reliability of the set was good. They also selected a
-   recommended subset of the images for which reliability is good, for
-   use in future studies.
+   emotions with both open and closed-mouthed expressions. In their
+   evaluation \citet{Tottenham2009}, found that the set's reliability
+   was good. They also selected a recommended subset of the images for
+   which reliability is good; for use in future studies.
 
-   A more recent contribution is the Radboud Faces Database
-   \citep[RaFD;][]{Langner2010}. RaFD contains photographs of 49
-   models expressing eight emotions with three gaze directions, taken
-   from five camera angles for a total 5880 photographs
-   \citep{Langner2010}. Upon validation, RaFD showed a very high
-   accuracy, higher even than the earlier KDEF dataset
-   \citep{Langner2010}. A key difference between RaFD and KDEF, which
-   perhaps explains the difference in accuracy is the expression
-   coaching given to models by a facial expression coding expert
-   \citep{Langner2010}.
+   RaFD, the Radboud Faces Database \citep{Langner2010}, is a more
+   more recent contribution. It contains photographs of 49 models
+   expressing eight emotions with three gaze directions, taken from
+   five camera angles for a total 5880 photographs. Upon validation,
+   RaFD showed a very high accuracy, higher than the earlier KDEF
+   dataset \citep{Langner2010}. A key difference between RaFD and
+   KDEF, which perhaps explains the difference in accuracy, is the
+   expression coaching RaFD models received from a facial expression
+   coding expert \citep{Langner2010}.
 
    \citet{Calvo2008a} investigated the relationship between the
    presentation time (25-500ms) and the accuracy of emotion
-   recognition in a non-masked emotion recognition paradigm, with the
-   KDEF stimulus set, and found a slight increase in accuracy for
-   longer displays. In addition, \citet{Calvo2008a} found differences
-   in detection between the emotions. Happy and neutral showed higher
-   degrees of accuracy than the other emotions and fear showed a lower
+   recognition in a nonmasked emotion recognition task, with the KDEF
+   stimulus set, and found a slight increase in accuracy for longer
+   displays. In addition, \citet{Calvo2008a} found differences in
+   detection between the emotions. Happy and neutral showed higher
+   degrees of accuracy than the other emotions, and fear showed lower
    accuracy.
 
-   The results of \citet{Calvo2008a} suggest that there are
-   differences in the accuracy of processing different emotions. Most
-   importantly, it seems that accuracy rates for facial expressions of
-   happiness and neutral expressions are much higher than those of
-   other expressions \citep{Calvo2008a}. Care must, therefore, be
-   taken so as to avoid ceiling effects in general and happiness in
-   particular.
+   Those results suggest that there are differences in the accuracy of
+   processing different emotions. Most importantly, it seems that
+   accuracy rates for facial expressions of happiness and neutral
+   expressions are much higher than those of other expressions
+   \citep{Calvo2008a}. We must, therefore, take care to avoid ceiling
+   effects in general and happiness in particular.
 
-   Another strand of research has gone into the split-second trait
-   judgments made viewing a face. \cite{Willis2006} found very strong
-   correlations between judgments of trustworthiness made after
+   Another strand of research has looked into the split-second trait
+   judgments made when viewing a face. \citet{Willis2006}, found very
+   strong correlations between judgments of trustworthiness made after
    \SI{100}{\milli\second} or \SI{500}{\milli\second} versus those
-   made without any time constraint. Moreover, no significant
-   difference was found between the \SI{100}{\milli\second} and
+   made without time constraints. Moreover, no significant difference
+   was found between the \SI{100}{\milli\second} and
    \SI{500}{\milli\second} conditions, suggesting that a trait
-   judgment is performed very quickly. This notion was further
-   expanded by \citet{Todorov2009}, finding that grew accuracy with
-   display times up to \SI{100}{\milli\second}, after which the growth
-   rate is dramatically slower. These results are important as they
-   seem to indicate the depth of processing of faces that occurs even
-   at low presentation times.
+   judgment is performed very quickly. \citet{Todorov2009} further
+   expanded this notion finding that accuracy grew with display times
+   up to \SI{100}{\milli\second}, after which the growth rate is
+   dramatically slower. These results are important, as they seem to
+   indicate the depth of facial processing that occurs even at low
+   presentation times.
 
-   One problem shared by all stimulus sets discussed here is that they
-   consist only of still images of facial expression. It could be
-   argued that the dynamics of facial expressions play an important
-   role in the recognition of facial expressions. Indeed, this is the
-   way in which emotional facial expressions play out in nature. This
-   problem has lead to the development of a number of video-based
-   stimulus-sets for facial expression. The Geneva Multimodal Emotion
-   Portrayals \citep[GEMEP;~][]{Banziger2012} is one of these. The
-   GEMEP utilizes contains audio and video for each expressions
+   One problem all the stimulus sets discussed here share is that they
+   consist only of still images. One could argue that the dynamics of
+   facial expressions play an important role in recognizing
+   emotions. Indeed, emotional facial expressions play out in nature
+   this way. This problem has led to the development of a number of
+   video-based stimulus-sets for facial expression. The GEMEP, Geneva
+   Multimodal Emotion Portrayals, \citep{Banziger2012} is one of
+   these. The GEMEP contains audio and video for each expression,
    providing three options for stimulus displays, audio-only,
-   video-only, audio-video. Moreover, The GMEP stimulus-set is extensive, with a
-   total set of 1260 expressions, spread out over eighteen emotions,
-   ten actors, three angles and a varying number of repetitions and
-   different verbal content \citep{Banziger2012}.
+   video-only and, audio-video. The GEMEP stimulus-set is extensive,
+   with 1260 expressions, spread out over 18 emotions,
+   10 actors, three angles, and a varying number of repetitions and
+   verbal content \citep{Banziger2012}.
 
    Based on the research discussed in this review, it could be argued
    that measuring the recognition facial expressions may be successful
    in finding individual differences in emotional processing. This
    difference seems particularly pronounced at presentation times
-   shorter than one second.
+   shorter than 1 second.
 
 * Methodology and Methods for Data Collection
-   The goal of the present study is not merely empirical, it aims also
+  This study's goal is not merely empirical; it aims also
    to design a computerized test of emotional intelligence. The
    distinction between design science and normal research is discussed
    further by \citet[chapter~1]{Johannesson2014}, who hold that
@@ -603,96 +577,92 @@
    approaches.
 
    \citet[chapter 4]{Johannesson2014} put forward a model of design
-   science based on five activities. The first activity, Explicate
-   Problem, aims to find the practical problems that needs
-   solving. The second activity, Define Requirements, finds what
-   requirements should be included in the artifact. The third stage,
-   Design and Develop artifact concerns the creation of the actual
-   artifact. The fourth stage, Demonstrate Artifact aims to
-   demonstrate that the artifact solves the actual problem. Finally, in the fifth stage, Evaluate
-   artifact where the extent to which the artifact solves the intended
-   problem.
+   science based on five activities: \textit{Explicate
+   Problem} aims to find the practical problems that need solving. The
+   second activity, Define Requirements, finds which requirements
+   should be developed. The third, Design and Develop artifact
+   concerns the creation of the artifact. The fourth stage,
+   Demonstrate Artifact aims to demonstrate that the artifact solves
+   the actual problem. Fifth, Evaluate artifact, which shows the
+   extent to which the artifact solves the intended problem.
 
    By using these stages, \citet{Johannesson2014} argue that the
-   successful application helps researchers decide on a what to
-   develop, develop an artifact and evaluate it.
+   successful application of design science, helps researchers, choose
+   what to develop, and how to develop and evaluate it.
 
-   Another approach to design science is that of \citet{Hevner2007}
-   consisting of three cycles, the Relevance cycle, where the subject
-   area an its requirements are identified, the design cycle where the
-   artifact is designed and deployed. Finally, in the rigor cycle, the researcher
-   applies and grounds the developed artifact in existing theories,
-   perhaps resulting in meta-artifacts, suitable for research or practical use. \citep{Hevner2007}
+   \citet{Hevner2007} has another approach to design science,
+   consisting of three cycles: \textit{Relevance}, where the subject
+   area an its requirements are identified; \textit{Design} where the
+   artifact is designed and deployed; \textit{Rigor} where the
+   researcher applies and grounds the developed artifact in existing
+   theories, perhaps resulting in meta-artifacts, suitable for
+   research or practical use.
 
    The paradigm presented by \citet{Hevner2007} is different in many
-   aspects from that of \citet{Johannesson2014}. Where as
+   aspects from that of \citet{Johannesson2014}. Whereas
    \citet{Johannesson2014} emphasize a larger set of well-defined
    activities, \citet{Hevner2007} put forward a less structured set of
-   phases which are to be performed iteratively.
+   cycles to be performed iteratively.
 
-   Different from the methods of both \citet{Johannesson2014} and
-   \citet{Hevner2007} is the design science method introduced by
-   \citet{Peffers2008}. Design science, in the paradigm of
-   \citet{Peffers2008} has six stages, conducted iteratively. The
-   stages described in \citet{Peffers2008} are:
+   The design science method introduced by \citet{Peffers2008} differs
+   from the methods of \citet{Johannesson2014} and \citet{Hevner2007}.
+   Design science, in their paradigm has six stages, conducted
+   iteratively. The stages they describe are:
 
-   - Identify Problem & Motivate
-   - Define Objectives of a Solution
-   - Design & Development
-   - Demonstration
-   - Evaluation
-   - Communication
-   The model allows any stage of the design process as the entry point
-   for research process. Making the process fit better with actual
+   - Identify Problem and Motivate
+   - Define Solution Objectives
+   - Design and Development
+   - Demonstrate
+   - Evaluate
+   - Communicate
+   The model allows any stage of the design process as an entry point the
+   for research process, making it fit better with actual
    practice.
 
    While the methodology of both \citet{Hevner2007} and
-   \citet{Peffers2008} show promise, the stages presented by
-   \citep{Johannesson2014} better fits domain of the present study.
+   \citet{Peffers2008} shows promise, the stages
+   \citet{Johannesson2014} present better fit the present study,
+   because it has a defined starting point, and activities are similar
+   to the stages of the normal software development lifecycle.
 
-** Chosen stages
-   Because of limitations in scope for the present study, only a
-   subset of design science activities were performed in the present
-   study. The stages chosen for the present study were selected made
-   to ensure that a viable, meaningful artifact could be developed
-   developed. The design science stages not selected were not
-   considered for reporting or practical purposes but were instead
-   left out entirely. Because they are the fastest way to reach an
-   actual artifact given the limitation in scope, the following stages
-   were selected:
+** Chosen Stages
+   Because of this study's limited scope, I performed only a subset of
+   design science activities. The stages selected were chosen to
+   ensure that a viable, meaningful artifact could be developed
+   developed.  I selected the following stages, because they were the
+   fastest way to reach an actual artifact given scope limitations:
    - Requirements definition
    - Implementation
    - Evaluation
 
 ** Choice of Method
-   For each chosen stage in the design science process, different
+   For each chosen stage of the design science process, different
    methodological considerations were made. These are discussed
-   separately below.  For the purposes of the present study a number
-   of approaches were considered. \citet{Denscombe2010} covers a
-   number of research strategies.
+   separately below. For the purposes this study, I consider a number
+   of possible approaches.
 
 *** Requirements Definition
-    For defining requirements an extensive number of research methods
-    can be used. Many popular approaches directly involve potential
-    stakeholders directly \citet[chapter 6]{Johannesson2014}. One
-    often used method is surveys allowing for coverage of potential
+    An extensive number of research methods can be used for
+    requirements definition. Many popular approaches involve potential
+    stakeholders directly. Surveys are often used for this purpose,
+    and allow researchers to directly ask stakeholders about their
     requirements \citep[chapter 6]{Johannesson2014}.
 
     Using surveys runs the risk of not being able to find innovative
     requirements because the stakeholders themselves are sometimes
     unable to identify any requirements sufficently dissimilar from
     the present solution.  \citet[chapter~6]{Johannesson2014} suggest
-    using other methods such as case studies and action research to
+    using other methods, such as case studies and action research, to
     find requirements that the stakeholders were unable to
-    identify. These methods however have the drawback of applying the
-    researchers personal views on the requirements
+    identify. These methods, however, have the drawback of applying the
+    researchers' personal views to the requirements
     \citep[chapter~6]{Johannesson2014}.
 
-    The domain of the present study is complex. Test-takers are
+    This study's domain is complex. Test-takers are
     unlikely to understand the intricate nature of the subject area,
     and their interests do not align with the people administering the
     test. Similarly, practitioners do not always possess a sufficent
-    understanding of the tests being administerd.
+    understanding of the tests being administered.
 
     Finally, it is difficult to find a significantly large population
     of researchers on the area to establish qualitative
