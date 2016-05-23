@@ -1,0 +1,289 @@
+* Thesis Summary
+
+  The thesis concerns the development and evaluation of a sentiment
+  analysis artefact for the Swedish language. Sentiment analysis, in
+  the case of the present study, is operationally defined as a
+  classification task where the input is a set of documents and the
+  output is the prevailing sentiment, positive, negative or
+  neutral. As of yet no such open-source tools exist for sentiment of
+  Swedish text, which fittingly, is the aim of the study.
+
+  In order to accomplish this aim, the author uses the support vector
+  machine algorithm. In order to maximize the performance of the
+  algorithm a number of customizations where performed, ranging from
+  the general and customary to the specific and novel.
+
+  Firstly, the parameters, kernels for libSVM were varied as is
+  conventional when optimizing ML algo performance.
+
+  Second, the word frequency algorithm was varried between a number of
+  different variants, including variants of tfIDF as well as a simple
+  binary. Such tweaking varying of the values of different words
+  within a bag of words is fairly standard, but important nonetheless.
+
+  Finally, different two feature extraction algorithms where used. One
+  which was a simply a bag of words method considering all words
+  equally. Another where factors pertaining to the Swedish language
+  where considered. Phrasal verbs, idiomatic expressions and negations
+  where used to affect the construction of the bag of words. For
+  example, idiomatic usage was replaced with words 'good' and 'bad' as
+  appropriate. Phrasal verbs where combined into a single 'word' for
+  the purposes of the word bag.
+
+  The results showed improvements from optimizing the kernel,
+  parameters and word frequency weighting. Interestingly the inclusion
+  of language specific features didn't improve performance. One reason
+  for this might have been that these features were too rare, however
+  this is just speculative.
+
+* Abstract
+  The author describes the entire paper including the research
+  question, application of method, the result and conclusions
+  drawn. Additionally suggestions for future research is included.
+
+  While ~300 words is impressive for a paper of this length, the same
+  information could perhaps be expressed in fewer words. In my
+  opinion, too many sentences are spent on background on what is
+  missing for the Swedish language. Likewise, some improvements to the
+  logical flow can be accomplished.
+
+  The phrase SVM was included first in the second half of the abstract
+  is so important that it should be included in perhaps the second or
+  third sentence.
+
+  "The result of model validation shows that the SVM achieves an
+  accuracy of 83.71%, which is comparable to earlier research", This
+  sentence is confusing given that the title mentions handlers for
+  language specific traits, in order not to mislead it ought to be
+  clear that this result was achieved without the handlers.
+
+  Here are a few sections where information can be removed without
+  affecting the abstract negatively: The fragment "which might also be
+  a reason why there are no open-source sentiment classification
+  models and tools for Swedish, is not necessary in the. The sentence
+  defining a language-specific handler can be removed entirely. It is
+  unclear what the DSRM and FEDS are used for based on the abstract.
+
+  Logically the sentence about the two algorithms used for the
+  training set should be before those about applying SVMs.
+
+  The abbreviations DSRM and FEDS are defined while SVM and RBF,
+  aren't. Depending on style abbreviations can be used in the
+  abstract. Actually "support vector machines" in lower-case is
+  written in right after the research question.
+
+* Introduction
+  The first section of introduction elegantly frames the thesis in
+  terms of general interest.
+
+  Question, Second paragraph: How might the extraction of sentiment
+  information be used to for research engines and? Also, propagation
+  trends sounds highly specific, do you have a source?
+
+  The third paragraph of the introduction is entirely conjecture, not
+  only are the claims of extraordinary significance, no paper
+  providing even an indication of this claim is provided. It seems
+  possible, even likely, that some sort of homeostatic effect is
+  present in the general sentiment over time.
+
+  1.1.1: Comprehensive research has been done in the field of
+  sentiment analysis.. What is meant by comprehensive in this case and
+  according to who? The sentence "Such classifications may be done in
+  the categories 'positive', 'negative' and 'neutral'., carries no
+  information not present earlier.
+
+  1.1.1: Why is the domain-transfer problem mentioned? how is it
+  relevant to this study?
+
+  Entire 1.1.1: Could this section be eliminated entirely without
+  affecting the reader's understanding of the problem? It seems to me
+  that both domain-specific classifiers and generic classifiers are
+  viable fields of research, perhaps stating that this study is
+  concerned with domain-specific data is enough.
+
+  Entire 1.1.2: While I agree that unsupervised methods are
+  interesting, they are at no point considered for the present study.
+
+  1.1.3 "but with the information given on previous research it could
+  be inferred that supervised classification is better adapted." It is
+  not obvious how this follows from earlier research, do you mean
+  seems and not inferred?
+
+  1.1.4 "The difficulty to create labeled training data might also
+  explain why there are no open-source sentiment classification models
+  and tools for the Swedish language." Why is this difficult?
+
+  1.1.4 "This thesist firstly addresses" This sentence seem to apply
+  an ordering to the aims of the study? Is the first aim more
+  important than the second?
+
+  "p16: It has not conclusively been shown if language specific
+  handlers affect the sentiment" - What is this conclusion based on?
+  We have seen a number of results but what makes them different?
+
+* Problem
+  The problem in addressed by the author is general, perhaps with the
+  caveat of only applying only to the Swedish language. The research
+  can indirectly affect similar efforts in other languages. For the
+  purposes of publication, the requirement of a research problem of
+  general interest is thus satisfied.
+
+  You state that the thesis first aim of the study
+
+* Research question
+
+  The research question both clearly formulated and delimited. It is
+  clearly rooted in the introduction and research problem
+  presented. The general interest of the research question suffers
+  somewhat from applying only to the Swedish language. The
+  contribution while dependent on the applicability, is still
+  substantial. Particularly in the creation of labeled training data
+  as well as the artefact it self.
+
+* Scientific Base
+
+  In introducing the subject a proper basis in existing research is
+  done. The thesis provides a in-depth introduction to fundamental
+  machine learning concepts such as comparing supervised,
+  semi-supervised and unsupervised learning and their applications to
+  the subject at hand. Indeed the claims of the introduction are
+  anchored with references to the literature. The discussion is at
+  times one-sided and doesn't contrast different strands of research
+  against one another.
+
+* Choice of Research Method
+  The choice of method is sufficiently described and justified. Ethics
+  are discussed in sufficient detail for the study. The alternate
+  methods area also discussed in detail. The reasoning for not
+  choosing Action Researched is self-evident and no further argument
+  is neccessary. It is unfortunate that DSV's thesis process requires
+  the setting up a strawman argument for a separate method when it is
+  obvious that no other research method is appropriate, given the
+  context in which the research takes place.
+
+* Application of research method
+
+  The particulars of the method used for the development and
+  evaluation of the artefact are described. The software tools used
+  are described in the section called the artefact.
+
+  Results all: Could k-fold cross validation be used?
+
+  2.3.1 Problem identification and motivation is implicitly based on
+  the earlier review, as is the objectives for the solution and this
+  section doesn't read as an application of method section. Indeed,
+  everything said under 2.3.1 is a repeat of things said in the
+  introduction.
+
+  p12. Footnote, "In this study labelled means": labelled has been
+  used for more generic purposes than this.
+
+  2.3.2 (Comparison to similar research) has not all of this already
+  been mentioned in the introduction?
+
+  2.3.2 (Objectives/Requirements for a solution), You cite that there
+  are 40000 observed features, but isn't this a result rather than
+  method?
+
+  2.3.3 (Choice of classifier) You mention that SVMs were chosen but
+  this has already been stated in the introduction.
+
+  2.3.4, 2.3.5, 2.3.6, describe the stages from a methodological
+  persepective without going into detail this is not coherent with
+  previous sections which describe exactly what is done. In my opinion
+  2.3.4, 2.3.5, 2.3.6 is to be prefered vs. the earlier sections but it
+  needs to be coherent.
+
+  2.4, 2.5: Combine as a single heading.
+
+  2.5.4: "The reliability of the humans classification by using adult
+  Swedish native speakers" In my mind this pertains to validity not
+  reliability?
+
+  2.5.4: "The validity of results in regards to the requirements is
+  shown through measurements" How can validity be established through
+  measurements? This seems impossible to me. "can be seen through
+  comparison with similar research", under normal circumstances this
+  is the case? Hypothetically, if you were to arrive at a result with
+  greater accuracy than earlier studies you wouldn't interpret that
+  claim as that you had bad reliability
+
+* Results
+  Because of the form of the thesis 3. "The Artifact" will be covered here.
+
+  - 3.4 Could lemmatization have been covered in the introduction?
+  - 3.4.2 Feature selection is already mentioned in the introduction is this neccessary?
+  - 3.4.2 the word "liksom" is this example useful for an English audience?
+  - 3.4.2 How frequent is too frequent, how many stopwords were employed?
+  - 3.6 Much of this section could be an appendix
+  - 3.9.2 Why is Fliess' kappa described it could trivially be referred to an interested readers can simply look it up
+
+  The main result, that is the non-significant difference between for
+  language specific are very clear, likewise in the tuning. Perhaps
+  greater accuracy could have been gotten with cross-validation. Both
+  research questions are sufficiently answered, although the second
+  one is answered in the negative. A negative claim, and the author is
+  aware of this, isn't per se an answer to the question but rather is
+  evidence of absence. The results demonstrated are of high quality
+  and presented in a meaningful way.
+
+  - Could figures 11 and 12 better be presented as tables?
+
+
+
+* Conclusions and discussion
+  The first research question has a clear answer, in identifying
+  parameters suitable for the problem. The second research question is
+  a bit more difficult to determine, but seemingly the language
+  specific features were not effective. Possible reasons are
+  discussed, including in the context of future research. Ethical
+  considerations are addressed.
+
+  5.2 Is there any reason to prefer using the phrase libSVM (the
+  implementation) over SVM (the algorithm)?
+
+  5.2 IAA for the training data was a kappa of 64
+
+  5.4 2nd paragraph: Is the temporal ordering, first, second, third neccessary here?
+
+  5.4 3rd paragraph: Using only the handlers improved accuracy, but it
+  would be interesting why that might be?
+
+  5.4 4th paragraph: Was the rule of only using words occuring more
+  than once applied to language-specific handlers? If not this could
+  explain the problem.
+
+  5.4 Last paragraph, "The SVM" should refer to SVMs in general
+
+  5.7: Last two sentences How does the fact that the only human
+  participants were the three annotaters imply that there are no
+  societal consequences.?
+
+* Form, structure and language
+  The language form and structure is up to the standards required for
+  a master's thesis. The form can be somewhat confusing as the Method
+  section describes the actual output of a number of Design science activities.
+
+  - Inconsistent use of single and double quotation marks.
+  - Tabular data is presented as screenshots with numbers. Should be
+    tabular and have a consistent number of significant digits.
+  - Quotes are sometimes used for phrases introduced by the author, these should be italicized rather than quoted.
+  - Abbreviations i.e. and e.g. should only be used in parenthesis ()
+  - Figure 14 has Swedish captions
+
+* Argumentation
+  Some lapses in coherence are made as noted above. Aside from these
+  arguments are generally sound. Examples of this are spread out in
+  the other sections of this report.
+
+* References & Documentation
+  References are handled consistently throughout the work. However one could not be found.
+  - Ludovici M & Bignon G. (2015) couldn't be found either in Diva or Google scholar. Noticed required if unpublished
+  1.1 - Including both the title and author names is redundant should be rephrased to avoid this problem.
+
+* Originality and Significance
+  The results are original in that such methods have not yet been
+  applied to the Swedish language. Similar approaches have, of course,
+  been tried for other languages. With regards to significance a
+  result indicating that the features extracted would have increased
+  the significance.
