@@ -513,7 +513,7 @@
    expressing eight emotions with three gaze directions, taken from
    five camera angles for a total 5880 photographs. Upon validation,
    RaFD showed a very high accuracy, higher than the earlier KDEF
-   dataset \citep{Langner2010}. A key difference between RaFD and
+   data set \citep{Langner2010}. A key difference between RaFD and
    KDEF, which perhaps explains the difference in accuracy, is the
    expression coaching RaFD models received from a facial expression
    coding expert \citep{Langner2010}.
@@ -766,7 +766,7 @@
    ethnicities.
 
    For the quantitative data analysis, I used a data from number of
-   studies (Table \ref{listofstudies}) and analyzed each data-set
+   studies (Table \ref{listofstudies}) and analyzed each data set
    separately. All the studies whose data was analyzed used the METT
    methodology, and followed similar protocols, thereby making them
    essentially comparable.
@@ -924,7 +924,7 @@
     \input{stimsets}
 
 *** Analysis of old data
-    I analysed each of the data-sets used in the study separately,
+    I analysed each of the data sets used in the study separately,
     with the goal of identifying data characteristics, which I then
     used to identify possible requirements for the system.
 
@@ -938,7 +938,7 @@
 
     \input{study-one-hitrates-emotion.tex}
 
-    The second data-set consisted of 72 participants, where the
+    The second data set consisted of 72 participants, where the
     average accuracy was $72.99\%$ ($S=12.14$).
 
     #+CAPTION: Hit rates and standard deviations by emotion in study 2.
@@ -1027,56 +1027,54 @@
     data loss to as large an extent possible, given available development
     resources and the study’s scope.
 
-    Additionally, a means of input needs to be selected. For the
-    purpoess of the present study, using a standard keyboard is the
-    most suitable input device for the test being developed, for
-    several reasons. Firstly, it allows for faster responses once the
-    user has learned the options. Second, not showing a mouse-cursor
-    would avoid problems stemming from the occlusion of the stimulus
-    being presented by the mouse cursor. Finally, keyboards are
-    commodity hardware and using them removes the need for purchasing
-    specialized input hardware, making the test accessible to a wider
-    range of researchers and practitioners.
+    Additionally, a means of input must be selected. For the purposes
+    of the present study, a standard keyboard is the most suitable
+    input device for the test being developed, for several
+    reasons. First, it allows faster responses once the user has
+    learned the options. Second, not showing a mouse-cursor avoids
+    problems stemming from the occlusion of the stimulus by the mouse
+    cursor. Finally, keyboards are commodity hardware and using them
+    removes the need to buy specialized input hardware, making the
+    test accessible to a wider range of researchers and practitioners.
 
-    Another issue is the effects of training. As the results from the
-    analysis of earlier data showed, there was a strong effect of
-    training ($P<0.001$). Specifically, the earlier data showed a clear
-    linear training trend of increasing accuracy through out the
-    experiment. In the data-sets considered in the present study no
-    clear ending to this trend was found. The lack of an end, even
+    Another issue is training effects. As the results from the
+    analysis of earlier data showed, there was a strong training
+    effect ($p<0.001$). Specifically, the earlier data showed a clear
+    linear training trend of increasing accuracy throughout the
+    experiment. In the data sets considered in the present study no
+    clear ending was found to this trend. The lack of an end, even
     after 70 trials, suggests that training effects are still relevant
     after a substantial number of trials. For this reason, to ensure
     that data gathered using the test is comparable between
-    individuals, the number of trials need to be the same for all
+    individuals, the number of trials needs to be the same for all
     individuals.
 
     Finally, the issue of stimulus set needs to be addressed. In the
-    data from earlier the earlier studies we found that performance
-    was inline with what is typical for the METT paradigm, it
-    therefore reasonable to assume that there are no additional issues
-    with the RaFD data-set used in these. It seems appropriate then to
-    use RaFD for evaluating the artifact developed for the present
-    study, while leaving data-set as a configurable variable.
+    data from the earlier studies I found that performance was in line
+    with what is typical for the METT paradigm; it is therefore
+    reasonable to assume that there are no additional issues with the
+    RaFD data set used in these. It seems appropriate to use RaFD for
+    evaluating the artifact developed for this study, while leaving
+    the data set as a configurable variable.
 
-    Using the conclusions drawn a number of requirements were
-    derived. These are presented below:
+    Using the conclusions drawn above, I derived a number of requirements:
 
-    1. Requirements pertaining to the METT test
-       1. Functional: The system shall display a forward-mask
-       2. Functional: The system shall display a backward-mask
-       3. Functional: The system shall display a target-image
-       4. Functional: The system shall ensure that presentation times shall be precise within  \SI{1/60}{\second}
+    1. Requirements pertaining to the METT test:
+       1. Functional: The system shall display a forward-mask.
+       2. Functional: The system shall display a backward-mask.
+       3. Functional: The system shall display a target-image.
+       4. Functional: The system shall ensure that presentation times are precise within  \SI{1/60}{\second}.
        5. Functional: The system shall collect input indicating the selected emotion via the keyboard.
        6. Functional: The system shall perform the same number of trials for each participant.
-       7. Functional: The system shall allow for the configuration of stimulus sets.
-    2. Requirements pertaining to the SPEC-test
-       1. Functional: The system shall show the questions
+       7. Functional: The system shall allow configuration of stimulus sets.
+    2. Requirements pertaining to the SPEC test:
+       1. Functional: The system shall show the questions.
        2. Functional: The system shall collect numeric responses via keyboard input.
-    3. Requirements pertaining to data collection, endurance and persistance
-       1. Functional: The system shall persist results to disk in the CSV format.
-       2. Non-functional: The system shall be stable to avoid data-loss
-    4. Requirements pertaining to ease-of-use
-       1. Non-functional: The system shall be simple to initialize
+    3. Requirements pertaining to data collection, endurance and persistence:
+       1. Functional: The system shall store results to disk in the Comma Separated Values (CSV) format.
+       2. Nonfunctional: The system shall be stable to avoid data loss.
+    4. Requirements pertaining to ease of use
+       1. Nonfunctional: The system shall be simple to initialize.
 
 
 
@@ -1288,4 +1286,4 @@
 
 #  LocalWords:  parencite Mikolajczak citet Schlegel Ekman citep TK
 #  LocalWords:  McCleskey Petrides Goleman MSCEIT PEC Brasseur EQ
-#  LocalWords:  RaFD dataset fakeability
+#  LocalWords:  RaFD data set fakeability

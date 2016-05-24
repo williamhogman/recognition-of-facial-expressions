@@ -1,21 +1,20 @@
-The resulting artifact is comprised of a number of components. These
-are, the METT module, the questionnaire module, run-time
-configuration, deployment scripts and text assets. These components
-are replaceable with other components on an as-needed basis. A
-graphical representation of the module dependencies is presented in
-figure \ref{fig:modules}. In the coming sections the developed
-artifact will be discussed in detail.
+The resulting artifact is composed of a number of components - the
+METT module, the questionnaire module, run-time configuration,
+deployment scripts, and text assets. These components are replaceable
+with other components on an as-needed basis. I present a graphical
+representation of the module dependencies Figure \ref{fig:modules}. In
+the following sections, I will discuss the developed artifact discussed
+in detail.
 
-The artifact developed does to a large extent not use the object
-oriented paradigm of software development, instead, a design based on
-modules containing functions were used. Where possible unnessary
-modifications of state were avoided. Indeed, outside of functions
-interacting concerned with screen rendering, input management and
-input and output, state is not modified. Additionally, inputs were
-read once and not mutated after creation, outputs only written once
-and screen rendering produced no alternations of state as visible to
-the main artifact. After configuration, the only state read is user
-input from the keyboard.
+The artifact developed does not use the object-oriented design
+paradigm; instead, I used a design based on modules containing
+functions. Where possible, I avoided, unnecessary state
+modifications. Indeed, outside of functions concerned with screen
+rendering, input management, and input and output, state is not
+modified. Additionally, inputs were read once and not mutated after
+creation; outputs written once, and screen rendering produced no
+alterations of state as visible to the main artifact. After
+configuration, the only state read is user input from the keyboard.
 
 #+BEGIN_LATEX
   \begin{figure}[htpb]
@@ -38,21 +37,19 @@ input from the keyboard.
         }
       };
     \end{tikzpicture}
-    \caption{Graph of dependencies in the software artifact}
+    \caption{Dependency graph for the software artifact}
   \end{figure}
 #+END_LATEX
 
 * Software support for artifact configuration
-  The Pyton modules expects configuration in the JavaScript Object
+  The Python modules expects configuration in the JavaScript Object
   Notation (JSON). These configuration artifacts consists of three
-  separate files.
+  separate files---one with overall configuration global applicable to
+  each trial and question of the experiment. This file is stored with
+  the filename \texttt{options.json}, and an example of its syntax in
+  Listing \ref{lst:options}.
 
-  One with overall configuration global applicable to each trial and
-  question of the experiment. This file is stored with the filename
-  \texttt{options.json}, and an example of its syntax in listing
-  \ref{lst:options}.
-
-  \begin{lstlisting}[caption={\texttt{options.json} Configuration file},label={lst:options}]
+  \begin{lstlisting}[caption={\texttt{options.json} configuration file},label={lst:options}]
   {
     "NameOfTheExperiment": {
       "forward_mask_frames": 40
@@ -63,10 +60,10 @@ input from the keyboard.
   }
   \end{lstlisting}
 
-  The second file, \texttt{trials.json} specifies paths to image files
+  The second file, \texttt{trials.json}, specifies paths to image files
   for masks and stimuli as well as correct responses for each
   individual trial of the METT paradigm. An example of the syntax used
-  for this file is presented in listing \label{lst:trials}.
+  for this file is Listing \label{lst:trials}.
 
 
   \begin{lstlisting}[caption={\texttt{trials.json} trials file},label={lst:trials}]
@@ -78,8 +75,8 @@ input from the keyboard.
   }
   \end{lstlisting}
 
-  Finally, a third JSON, \texttt{questions.json} file specifies the
-  questions for SPEC, and the keymaps coding keypreses to responses,
+  Finally, a third JSON file, \texttt{questions.json}, specifies the
+  questions used, and the keybindings which code keypresses to responses,
   an example of this file is shown in listing \ref{lst:questions}.
 
   \begin{lstlisting}[caption={\texttt{questions.json} question specification file},label={lst:questions}]
@@ -99,89 +96,82 @@ input from the keyboard.
   \end{lstlisting}
 
 * Tools for artifact deployment
-  To simplify the configuration and use of the system a number of
-  utility scripts were developed, including scripts for generating
-  subsets of the RaFD, starting the system in a given configuration
-  state, and running a demonstration mode of the software. These
-  scripts are not run in the normal operations of the appliation,
-  however, they are useful in setting up an environment that can then
-  be reused.
+  To simplify the configuration and use of the system, I developed a
+  number of utility scripts, including scripts for generating RaFD
+  subsets, starting the system in a given configuration state, and
+  running a demonstration mode of the software. These scripts do not
+  run in the normal operations of the appliation; however, they are
+  useful in setting up a reusable environment.
 
 * Text assets and translation
-  For the purposes of making the application locablizable to different
-  languages, a system for text assets was created. Text assets such as
-  instructions can be created on a as needed basis. These assets are
-  used to progrmatically translate the application.
+  To make the application localizable to different languages, a system
+  for text assets was created. Text assets such as instructions, can
+  be created as needed. These assets are used to programmatically
+  translate the application.
 
 * Initialization module
-  The initialization module of the system manages initializing the
-  system on load. The first task of the is to collect the subject
-  identifier and experimenter initials from the experimenter. Once
-  this is performed, the current time and hostname are also collected
-  to help with diagnostics. The module then delegates to the
-  configuration modules which then proceeds to deserialize
-  configuration files and load the configuration files into
-  memory. After loading files passes-on the trials to the METT module
-  which displays performs the trials. When the METT module has
-  performed as its trials, the initialization module invokes the
-  question module, passing on the questions. When both METT and
-  questions have completed, collected responses are written to CSV.
+  The system's initialization is responsible for initializing the
+  system on load. The first task is to collect the subject identifier
+  and experimenter initials. Once this is done, the current time and
+  hostname are collected to help with diagnostics. The module then
+  delegates to the configuration module which then proceeds to
+  deserialize configuration files and load them into memory. After
+  loading files it passes-on the trials to the METT module which performs
+  the trials. When the METT module has performed its trials, the
+  initialization module invokes the question module, passing on the
+  questions. When both METT and questions have been completed,
+  collected responses are written to CSV.
 
 * METT module
-  Before the experiment is started, the module shuffles the order of
+  Before the experiment starts, the module shuffles the order of
   trials used in the experiment. This results in each participant
-  experiencing the trials in a psuedo-random, non-systematic order
-  of trials.
+  experiencing the trials in a pseudo-random, nonsystematic order.
 
-  The trials are then invoked in order, upon invocation the trial
-  handler loads the relevant images from disk, showing a blank screen
-  while loading. Once the images have been loaded the picture of the
-  neutral expression is showed for a fixed, but configurable number of
-  frames. Once the configured number of frames have rendered, the
-  emotional picture is displayed, for a configurable but different
-  number of frames. Then, finally the neutral image is shown for the
-  another configured number of frames.
+  The trials are invoked in order; upon invocation, the trial handler
+  loads the relevant images from disk, showing a blank screen while
+  loading. Once the images have been loaded, the picture of the
+  neutral expression is shown for a fixed but configurable number of
+  frames. Once frames have rendered, the emotional picture is
+  displayed, for a configurable number of frames. Then, finally the
+  neutral image is shown.
 
-  Once the pictures have been displayed, the system displays an input
-  prompt and starts accepting keyboard input from the user. Once an
-  answer has been collected , the screen is then cleared. The flow of
-  execution then halts for a configurable number of seconds before the
-  trial yields control back to experiment.
+  Once the pictures have been displayed, the system displays a prompt
+  and starts accepting keyboard input. Once it collects an answer, the
+  screen is cleared. The flow of execution then halts for a
+  configurable number of seconds before yielding control.
 
-  Once the set of trials has been completed, the system, takes the
+  Once the trials are completed, the system takes the
   trial data and combines it with the response data. This results in a
-  one-row per trial data-set, which is then serialize and saved to
-  disk as a comma separated values file.
+  one-row-per-trial-data set, which is then serialize and saved to
+  disk as a CSV file.
 
 * Questionnaire module
   After the METT module has completed its work the questionarie module
-  is initialized, each question consists of three components, a
-  \texttt{question-id} which is simply logged to the output, a text description
-  for prompting the user, and finally a mapping, \texttt{keymap}, between keyboard key
-  names and a text-string containing the question text.
+  is initialized. Each question consists of three components, a
+  \texttt{question-id} that is logged to the output, a text
+  description for prompting the user, and a mapping,
+  \texttt{keymap}, between keyboard key names and a text-string
+  containing the answer text.
 
-  Each question present in configuration is then presented in
-  order. The presentation of a question is performed as follows,
-  first, the question text and the response options are rendered to
-  the screen as text. Keyboard input is read. If the input read
-  matches a response alternative, the key and response time are then
-  stored in memory. This process is repeated untill each configured
-  question has been performed.  has been processed. After the
-  questinarie task is completed the results are saved to disk in the
-  comma separated value format.
+  Each question is then presented in order. A question's presentation
+  is performed as follows: First, the question text and the response
+  options are rendered to the screen as text. Keyboard input is
+  read. If the input read matches a response alternative, the key and
+  response time are stored in memory. This is repeated until each
+  configured question has been performed. After the task is complete
+  the results are saved to disk in the CSV format.
 
 * Output
-  Both the questionnarie and METT modules write their results to disk
+  Both the questionnaire and METT modules write their results to disk
   in the CSV format with filenames generated using the current time
-  and hostname of the host running the application. The output was
-  designed in order to be as simple as possible, useble in many
-  different statistical computational environments. An example of the
-  output of the METT and questionnarie modules can be found in
-  listings \ref{lst:resultmett} and \ref{lst:resultquestionnarie}
+  and current hostname. The output was designed to be as simple as
+  possible and usable in many statistical environments. An example of
+  METT and questionnaire output can be found in Listings
+  \ref{lst:resultmett} and \ref{lst:resultquestionnarie},
   respectively.
 
   #+BEGIN_LATEX
-  \begin{lstlisting}[caption={Excerpt of a METT output file: first three lines},label={lst:resultmett}]
+  \begin{lstlisting}[caption={Excerpt of a METT output file: first three lines.},label={lst:resultmett}]
   stim,response,emotion,correct,rt
   img/Rafd090_03_Caucasian_male_fearful_frontal.jpg,3,4,0,0.12610292434692383
   img/Rafd090_03_Caucasian_male_contemptuous_frontal.jpg,3,2,0,0.0313420295715332
@@ -189,7 +179,7 @@ input from the keyboard.
   #+END_LATEX
 
   #+BEGIN_LATEX
-  \begin{lstlisting}[caption={Excerpt of a questionnaire output file: first three lines},label={lst:resultquestionnarie}]
+  \begin{lstlisting}[caption={Excerpt of a questionnaire output file: first three lines.},label={lst:resultquestionnarie}]
   question_id,value,rt
   0,3,1.4653780460357666
   1,3,0.08734989166259766
