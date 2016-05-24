@@ -14,7 +14,7 @@
               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 #+end_src
 #+BIBLIOGRAPHY: refs plain
-#+OPTIONS: num:4 toc:nil title:nil
+#+OPTIONS: num:5 toc:nil title:nil
 #+LaTeX_CLASS: per-file-class
 #+LaTeX_CLASS_OPTIONS: [12pt,times, twoside, openright]
 #+LaTeX_HEADER: \input{preamble.tex}
@@ -1083,24 +1083,25 @@
    #+INCLUDE: "result_implementation.org"
 
 ** Evaluation
-   The analysis of the data gathered in the study can naturally be
-   divided into METT and SPEC-data. In the following sections results
-   related to the scales will be presented in turn.
+   The analysis of the data gathered in the study can be divided into
+   METT and SPEC data. In the following sections, results related to
+   the both will be presented.
 *** Microexpression Testing Tool
-    A total of $4268$ responses were collected, $2977$ of which were
-    correct and $1291$ were incorrect, for an overall hit-rate of
-    $69.1887\%$ Hit rates divided by emotion are presented in table
+    A total of $4268$ responses were collected, of which $2977$ were
+    correct and $1291$ were incorrect, for an overall hit rate of
+    $69.1887\%$. Hit rates divided by emotion are presented in Table
     \ref{table:metthitrate}.
 
     #+LATEX: \input{metthitrate}
 
-    The number of participants correctly identifying every stimulus of each emotion correctly were
-    computed, these are presented in table \ref{table:mettnomiss}
+    The number of participants correctly identifying every stimulus of
+    each emotion correctly are presented in Table
+    \ref{table:mettnomiss}.
 
     #+LATEX: \input{mettnomiss}
 
     Kernel density estimates were computed for each emotion
-    separately, these are presented in figure \ref{fig:kde}. Happiness
+    separately; these are presented in Figure \ref{fig:kde}. Happiness
     and surprise, assuming a normal distribution, have seen large
     restrictions of range.
 
@@ -1115,16 +1116,15 @@
 
     For the 31 participants taking the test twice, the measured
     test-retest correlation of $r=0.8542$ ($p < 0.001$, $df=29$).
-    This level of reliability is considered good. ($0.7 \leq r < 0.9$).
+    This level of reliability is considered good ($0.7 \leq r < 0.9$).
 
-    Test-retest correlations for each emotion individually is
-    presented in table \ref{table:metttestretest}.  This level may
-    however, be deflated by a limitation of range for some
-    emotions. Indeed, happiness, which as we have discussed earlier,
-    is known to cause ceiling effects, shows a low, non-significant
+    Table \ref{table:metttestretest} presents test-retest correlations
+    for each emotion individually. This level may however, be deflated
+    by a limitation of range for some emotions. Indeed, happiness
+    which causes ceiling effects, shows a low,
     correlation. Additionally, surprise and fear show lower
     correlations compared to the other emotions.  Contempt and
-    disgusts, on the other hand show higher correlations than the
+    disgust, on the other hand, show higher correlations than the
     other emotions.
 
     The low correlation for fear is somewhat surprising, given the
@@ -1133,13 +1133,15 @@
 
     #+LATEX: \input{testretest}
 *** Short Profile of Emotional Competence
-    The descriptive statistics for the SPEC subscales are presented in table \ref{table:specdesc}
+    Table \ref{table:specdesc} presents the descriptive statistics for
+    the SPEC subscales.
     #+LATEX: \input{specdesc}
 
-    A correlation matrix was constructed between each of the subscales
-    of the SPEC, which is presented in table \ref{table:speccorrmtx}.
-    Correlations between each of the subscales and the METT results are
-    presented in table \ref{table:specmettcorr}
+    A correlation matrix was for the SPEC subscales is presented in
+    Table \ref{table:speccorrmtx}. Table \ref{table:specmettcorr}
+    presents correlations between the SPEC subscales and the METT
+    results.
+
     #+LATEX: \input{speccorrmtx}
 
     The test-retest correlation for the SPEC was $r=0.5070$ ($p <
@@ -1148,136 +1150,153 @@
     subscales are presented in table \ref{table:specmettcorr}.
 
 * Discussion and Conclusion
-  The main finding was that developed METT-test showed good
-  reliability.  Test-retest scores correlations indicated a good test
-  reliaiblity. Additionally the split-half reliability found were
-  good.
+  The main finding was that the developed METT test showed good
+  reliability.  Test-retest scores correlations indicated good test
+  reliaiblity. Additionally, the split-half reliability found were
+  good. Additionally SPEC and METT were uncorrelated, suggesting that
+  SPEC and METT measure different qualities. This indicates that
+  combining different tasks may improve the coverage of the test.
 
-  The test however, did not avoid the avoid the common ceiling
-  effects for happiness. A majority ($72.83\%$) of participants
-  correctly identified every single happy emotional face in the METT
-  part of the experiment. Indeed, as seen as seen in the kernel
-  density estimates presented in figure \ref{fig:kde}, a large portion
-  of the distribution for happiness was cut-off. This is indicative
-  cieling effects.
+** METT
+
+  The test however, did not avoid the common ceiling effects for
+  happiness. A majority of participants ($72.83\%$) correctly
+  identified every single happy emotional face in the METT part of the
+  experiment. Indeed, as seen in the kernel density estimates
+  presented in figure \ref{fig:kde}, a large portion of the
+  distribution for happiness was cut-off. This is indicative cieling
+  effects.
 
   The higher accuracies for expressions of happiness found in the
-  present study has also been found in earlier studies
-  \citet[recall~][]{Calvo2008a}, the present study confirms these
-  earlier results.
+  present study have also been found in earlier studies; recall
+  \citet{Calvo2008a}, the present study confirms these earlier
+  results.
 
-  In future iterations limitations of range, of the kind found in the
-  present study need to be avoided. The results seem to suggest that
-  if ceiling effects for happiness could have been avoided, the test
-  would have had a higher reliability. This could perhaps make it more
-  suitable for high-stakes testing, which is usually reserved for
-  tests showing reliabilities above $0.85\%$ . Interestingly, our
-  results seem to suggest that surprise is affected be ceiling
-  effects, and reducing accuracy for expressions of surprise is also
-  necessary to increase reliability of the test.
+  In future iterations, limitations of range of the kind found in the
+  present study should be avoided. The results seem to suggest that if
+  ceiling effects for happiness could have been avoided, the test
+  would have had higher reliability. This could make it more suitable
+  for high-stakes testing, which is usually reserved for tests showing
+  reliabilities above $0.85\%$. Interestingly, our results seem to
+  suggest that surprise is affected be ceiling effects, limiting which
+  may also increase reliability.
 
-  One method for reducing participant accuracy is simply reducing the
-  time for which the stimulus is presented. However, some expressions,
-  such as fear, where the average hit rate is lower, may cause floor
-  effects instead. This could be solved by using different
-  presentation times for different emotions. While using different
-  presentation times might improve the overall quality of the test it
-  makes the emotions uncomparable.
+  One method for reducing accuracy is simply reducing the time
+  presentation time. However, some expressions, such as fear, where
+  the average hit rate is lower, may cause floor effects
+  instead. Using different presentation times for different emotions,
+  could solve this. While using different presentation times might
+  improve the overall quality, it would make the emotions
+  incomparable.
 
   A possible focus for future research could be to investigate methods
-  for minimizing the effects and occurance of range-limitation. A
+  for minimizing the effects and occurence of range limitation. A
   number of methods could be implemented to avoid these.
 
-  One possible solution for this would be to have varying display
-  times within each emotion, such that the test would include a number
-  of different conditions with different presentation times. Such an
-  approach would, if calibrated properly, would avoid both floor and
-  ceiling effects. Using an adaptive testing procedure such as this
-  could improve the test, but is not entirely without related
-  development costs.
+  One possible solution would be to have varying display times within
+  each emotion, such that the test would include a number of different
+  conditions with different presentation times. Such an approach
+  would, if calibrated properly, avoid both floor and ceiling
+  effects. Using an adaptive testing procedure such as this could
+  improve the test, but is not entirely without related development
+  costs.
 
   Other possible solutions, such as staircase and threshold methods,
-  could also be used. In such methods the minimal presentation time to
-  achieve a certain level of accuracy for a given indivdual can be
+  could also be used. In such methods, the minimal presentation time
+  to achieve a certain level of accuracy for a given individual is
   established.
 
-  Changing the stimulus set to be so as to be more challenging could
-  be another option. Most stimulus-sets, including the one used in the
-  present study are designed to be easily recognizable (e.g. KDEF,
-  \citet{Langner2010}; MSFDE, \citet{Beaupre2000}). It seems likely that
-  using a stimulus set where expressions of happiness and surprise are
-  less overt could lead to a decrease in ceiling effects.
+  Changing the stimulus set to be more challenging could be another
+  option. Most stimulus-sets (e.g. KDEF, \citet{Langner2010}; MSFDE,
+  \citet{Beaupre2000}), including the one used in the present study
+  are designed to be easily recognizable. It seems likely that using a
+  stimulus set where expressions of happiness and surprise are less
+  overt could lead to a decrease in ceiling effects.
 
+** SPEC
   Another finding was the relatively low correlations between the
-  subscales of the SPEC. This conforms with the earlier results of
+  subscales of the SPEC. This conforms to the earlier results of
   \citet{Brasseur2013} and lends divergent validity of the structure
   of the SPEC and PEC.
 
-  However, the test-retest reliabilty found for SPEC in the present
-  study was poor, calling into question the overall reliability of the
-  SPEC. One possible cause for the lower test-retest reliability might
-  be the translation used in the present study. While there were some
-  differences, between the subscales it seems that none of the scales
-  reached good reliability. Translation differences are unlikely to
-  cause such poor test-retest reliability as the same questions are
-  used for both trials. A poor test-retest reliabilty could be
-  indicative of a number factors unrelated to the translations the
-  actual test. It may be the case that the trait measured in the SPEC
-  is not stable, and instead something that varies with
-  mood. Improvements to the method presented in this thesis could be
-  made through the use of another instrument.
+  However, the test-retest reliabilty found in this study for SPEC was
+  poor, calling into question its value. One possible cause for lower
+  test-retest reliability might be the translation used in the present
+  study. While there were some differences between the subscales, it
+  is clear that none of the scales reached good
+  reliability. Translation differences are unlikely to cause such poor
+  test-retest reliability as the same translation is used twice ---
+  poor test-retest reliabilty could be indicative of a of number
+  factors unrelated to the translations the actual test. It may be the
+  case that the trait measured in the SPEC is not stable, and instead
+  varies with mood. Improvements to the method presented in this
+  thesis could be made using another instrument.
 
-  Additionally, the results of the present study, showing low
-  correlations between the SPEC and METT seems to indicated that the
-  scales, measure different facets of emotional intelligence. Indeed,
-  as discussed in the litterature review SPEC and METT belong to
-  different theoretical frameworks of emotional intelligence. It seems
-  that the SPEC, measuring a trait, gives very different results as
-  compared to the ability based METT.
+** Combining SPEC  and METT
 
-  Exactly what is measured by trait scales of emotional intelligence
-  is debated, at the very least it gives an indication of an
-  individuals appraisal of his or her own emotional intelligece.
-  On the other hand the poor test-retest correlations found might
-  indicate that another test of trait emotional inteligence should
-  have been used. Indeed, future research could apply a number of
-  different scales, attempting to find one having a higher
-  reliability. The artifact developed allows in the present study
-  allows for question-sets to be specified in configuration, thereby
-  making it trivial to apply the test with different tests.
+  The results of the present study, showing low correlations between
+  the SPEC and METT, seem to indicate that the scales, measure
+  different facets of emotional intelligence. Indeed, as discussed in
+  the literature review, SPEC and METT belong to different theoretical
+  frameworks of emotional intelligence. It seems that the SPEC,
+  measuring a trait, gives very different results compared to the
+  ability-based METT.
 
-  The test developed in the present study has both practical and
-  academic uses. The artifact developed, is adaptable to a number of
-  different test metodlogies and can be used for both psychological
-  research and practical emotional intelligence testing. It also
-  provides a foundation on which more sophisticated tests can be
-  built, in what could perhaps be a fruitful avenue for future
-  research.
+  Exactly trait scales of emotional intelligence measure is debated,
+  at; the very least, it gives an indication of an individual's
+  appraisal of his or her own emotional intelligence.  On the other
+  hand, the poor test-retest correlations found might indicate that a
+  different test of trait emotional intelligence should have been
+  used. Indeed, future research could apply a number of different
+  scales, attempting to find with higher reliability. The artifact
+  developed in the present study allows for question-sets to be
+  specified in configuration, thereby making it easy to apply it to
+  different tests.
 
 ** Limitations
-   The evaluation of the developed artifact is limited several
+   The evaluation of the developed artifact is limited in several
    ways. As the the study was performed with participants from a
-   single country it is difficult to acertain validity across
+   single country it is difficult to ascertain validity across
    cultures.
 
-   Additionally, the sample included only university students and
+   The sample included only university students, and
    socioeconomic factors may therefore bias the range of emotional
-   intelligence results obtained in the present study.
+   intelligence results obtained.
 
    Likewise, the results of the present study are difficult
-   to apply to other stimulus sets as differences between stimulus sets
+   to apply to other stimulus sets, as differences between stimulus sets
    may affect both the reliability and validity of the overall test.
 
-* Conclusion
+** Ethics and Implications
+   Testing emotional intelligence has many societal and ethical
+   implications. In many regards the ethics and implications of
+   emotional intelligence are similar to those of traditional
+   intelligence, and perhaps to all psychometrics.
+
+   At the same time, claiming any great implications of small study
+   such as this one, is at best intellectually dishonest. This study
+   represents only a small increment added to larger
+   whole. Speculating on the grander effects of this field, even after
+   thorough study, is so imprecise so as to be best left to the
+   reader.
+
+** Conclusion
+  The test developed in the present study has both practical and
+  academic uses. The artifact is adaptable to a number of test
+  methodologies and can be used for both psychological research and
+  practical emotional intelligence testing. It also provides a
+  foundation on which more-sophisticated tests can be built, in what
+  could perhaps be a fruitful avenue for future research.
+
   Despite the limitations related to expressions of happiness and
-  surprise the artifact developed in the present study offers some
-  good properties. The test, being mostly ability-based is robust to
+  surprise, the artifact developed in the present study offers some
+  good properties. The test, being mostly ability-based, is robust to
   faking and social desirability. It captures both personality traits
   related to emotional intelligence as well as the actual ability to
   read emotional cues in the facial expressions of others.
 
-  The results of the present study seem to indicate that computerized
-  testing of is a worthwhile field and while the re-retest reliability
+  The study's results seem to indicate that computerized
+  testing is a worthwhile field and while the re-retest reliability
   of the survey portion leave room for improvement, such improvement
   is left for future researchers.
 
