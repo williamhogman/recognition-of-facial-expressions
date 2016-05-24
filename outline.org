@@ -14,7 +14,7 @@
               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 #+end_src
 #+BIBLIOGRAPHY: refs plain
-#+OPTIONS: num:5 toc:nil title:nil
+#+OPTIONS: num:6 toc:nil title:nil H:6
 #+LaTeX_CLASS: per-file-class
 #+LaTeX_CLASS_OPTIONS: [12pt,times, twoside, openright]
 #+LaTeX_HEADER: \input{preamble.tex}
@@ -758,7 +758,7 @@
    measures of emotional intelligence were coded based on theoretical
    models, scales and subscales.
 
-   I coded stimulussets in a similar fashion, taking into account the
+   I coded stimulus sets in a similar fashion, taking into account the
    number of models participating, the emotions expressed, and the
    ethnicities.
 
@@ -780,7 +780,7 @@
    \mathit{HR} = \frac{H}{H + M}
    \end{equation}
 
-   Equation \ref{e_hr} defines the hitrate, also called the
+   Equation \ref{e_hr} defines the hit rate, also called the
    true-postive rate or recall.
 
    \begin{equation} \label{e_crr}
@@ -957,6 +957,10 @@
     indicates that accuracy improves throughout the experiment.
 
 *** Requirements
+    In this section, I discuss and develop a set of requirements based
+    on the earlier data and literature review.
+
+**** Choice of Tests
     In reviewing earlier research, I found a number of suitable tests
     for emotional intelligence. However, many of the standard measures
     of emotional intelligence are highly controversial. Of these, the
@@ -1002,6 +1006,7 @@
     facial-expression task and a digital questionnaire, configured for
     METT and SPEC respectively.
 
+**** Timing
     As discussed earlier \citep[recall][]{Calvo2008a}, even a small
     difference in the duration in the display time of a METT trial has
     a great effect on accuracy, particularly at low exposures. It is
@@ -1024,6 +1029,7 @@
     data loss to as large an extent possible, given available development
     resources and the study’s scope.
 
+**** Input
     Additionally, a means of input must be selected. For the purposes
     of the present study, a standard keyboard is the most suitable
     input device for the test being developed, for several
@@ -1034,6 +1040,7 @@
     removes the need to buy specialized input hardware, making the
     test accessible to a wider range of researchers and practitioners.
 
+**** Training effects
     Another issue is training effects. As the results from the
     analysis of earlier data showed, there was a strong training
     effect ($p<0.001$). Specifically, the earlier data showed a clear
@@ -1046,6 +1053,7 @@
     individuals, the number of trials needs to be the same for all
     individuals.
 
+**** Stimulus sets
     Finally, the issue of stimulus set needs to be addressed. In the
     data from the earlier studies I found that performance was in line
     with what is typical for the METT paradigm; it is therefore
@@ -1054,6 +1062,7 @@
     evaluating the artifact developed for this study, while leaving
     the data set as a configurable variable.
 
+**** Requirements
     Using the conclusions drawn above, I derived a number of requirements:
 
     1. Requirements pertaining to the METT test:
@@ -1146,13 +1155,14 @@
     considered poor. Test-retest correlations of the individual
     subscales are presented in table \ref{table:specmettcorr}.
 
-* Discussion and Conclusion
+* Discussion
   The main finding was that the developed METT test showed good
-  reliability.  Test-retest scores correlations indicated good test
-  reliaiblity. Additionally, the split-half reliability found were
-  good. Additionally SPEC and METT were uncorrelated, suggesting that
-  SPEC and METT measure different qualities. This indicates that
-  combining different tasks may improve the coverage of the test.
+  reliability.  Test-retest scores correlations indicated good
+  test-retest reliaiblity, also the split-half reliability was
+  good. SPEC and METT were uncorrelated, suggesting that SPEC and METT
+  measure different qualities, indicating that combining different
+  tasks may improve the coverage of the test. Additionally low
+  reliability for SPEC was found.
 
 ** METT
 
