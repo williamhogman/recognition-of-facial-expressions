@@ -1062,7 +1062,7 @@
     evaluating the artifact developed for this study, while leaving
     the data set as a configurable variable.
 
-**** Requirements
+**** Requirements Specification
     Using the conclusions drawn above, I derived a number of requirements:
 
     1. Requirements pertaining to the METT test:
