@@ -658,145 +658,139 @@
     researchers' personal views to the requirements
     \citep[chapter~6]{Johannesson2014}.
 
-    This study's domain is complex. Test-takers are
+    This present study's domain is complex. Test-takers are
     unlikely to understand the intricate nature of the subject area,
     and their interests do not align with the people administering the
-    test. Similarly, practitioners do not always possess a sufficent
-    understanding of the tests being administered.
+    test. Similarly, practitioners do not always possess a sufficient
+    understanding of the tests.
 
     Finally, it is difficult to find a significantly large population
-    of researchers on the area to establish qualitative
-    saturation. This would in the view of
-    \citep[chapter~6]{Johannesson2014} restrict the studies to
-    documents.
+    of researchers to establish qualitative saturation. This would in
+    the view of \citet[chapter~6]{Johannesson2014}, restrict the
+    studies to documents.
 
-    It could be argued that using only documents would be sub-optimal
-    for many IS studies. In the case of the present study the
-    situation is for the aformentioned reasons very different.
+    It could be argued that using documents only is sub-optimal for
+    many cases. In present study, however, the situation is for very
+    different.
 
-    To successfully capture the requirements for the present study
-    two methods were chosen:
+    To capture the requirements for the present study successfully, I chose
+    two methods:
    - A literature review of emotional intelligence and methods of
-     testing it.
+     testing it and
    - A quantitative analysis of existing data collected from earlier
-     applications of a micro-expression test.
+     applications of a microexpression test.
 
-   These two methods were chosen to successfully capture variance from
-   both the scientific literature as well as empirical data. The
-   combination of different kinds of methods may allow for better
-   capturing the relevant aspects of emotional intelligence and
-   reaching sufficient coverage of the domain.
+   I selected these methods to capture variance from the scientific
+   literature as well as empirical data. Combining different methods
+   may allow for better capture of the relevant aspects of emotional
+   intelligence and sufficient coverage of the domain.
 
-   The literature review was chosen to ensure a sufficient degree of
-   qualitative coverage of the area of research. A wide qualitative
+   I chose literature to ensure a sufficient degree of
+   qualitative coverage of the research area. Wide qualitative
    coverage is particularly important because of the controversial
-   nature of the concept of emotional intelligence. This wide coverage
-   allows for finding a reasonably agreed upon definition of emotional
-   intelligence, which is neccessary for the developed artifact to be
+   nature of the emotional intelligence. Wide coverage
+   allows for finding a agreed-upon definition of emotional
+   intelligence, which is necessary for the developed artifact to be
    useful.
 
    The quantitative analysis of earlier data constitutes experimental
-   method \citep{Denscombe2010}, for the reason that the data was
-   collected in an experimental settings. The existence of prior data,
-   motivates the choice of quantitative analysis of data gathered by
-   experimental methods, because this data is already collected using
-   it has very low costs. Analysis of such data would allow for
-   empirical answers to questions which may be relevant for the study.
+   method \citep{Denscombe2010}, because the data was collected in an
+   experimental setting. The existence of prior data motivates the
+   choice of quantitative analysis of data gathered by experimental
+   methods; because this data is already collected, using it has very
+   low costs. Analysis of such data would allow for empirical answers
+   to questions that may be relevant for the study.
 
-   By combining an explorative literature study, giving insights into
-   various different areas of emotional intelligence, with an
-   empirical analysis of earlier data, the present study can define
-   requirements based both on precise facts about the domain as well
-   as being able to use insights spread out across the
-   literature. This combined strategy is likely to give a both broad
-   and deep coverage of the domain.
+   By combining an exploratory literature study, giving insights into
+   many areas of emotional intelligence, with an empirical analysis of
+   earlier data, the present study can define requirements based on
+   precise facts about the domain, as well insights spread out across
+   the literature. This combined strategy is likely to give the domain
+   broad and deep coverage.
 *** Implementation
+    A large number of processes have been devised for the
+    implementation of software artifacts. Early research largely
+    focused on very formalized processes, and less formal methods of
+    software development were largely ignored. In practice, these
+    processes were often misaligned. A number of of agile software
+    development process have appeared, counteracting this misalignment.
+    \citep{Abrahamsson2002}. Better alignment between practice and
+    process may yield better results.
 
-    A large number of processes for the implementation of software
-    artifacts have been devised. Early research was largely focused on
-    very formalized processes, and less formal methods of software
-    development were to a point largely ignored. These methods were
-    often misaligned with how software development is done in
-    practice. Counteracting this a number of agile software
-    development processes have
-    appeared. \citep{Abrahamsson2002}. Better alignment between
-    practice and process may yield better results.
+    \citet{Abrahamsson2002} discuss a number of methods. The most
+    prominent are perhaps Extreme Programming, (XP), Crystal, Rational
+    Unified Process (RUP), and Scrum. These methods recommend
+    implementing suggested processes only if they are useful to the
+    project \citep{Abrahamsson2002}.
 
-    \citet{Abrahamsson2002} discuss a number of methods, perhaps most
-    prominent among which are XP, Crystal, RUP and Scrum. These
-    methods all recommend only implementing suggested processes if
-    they are useful to the project \citep{Abrahamsson2002}
+    With the turn of the millennium, research attention started to
+    shift toward agile processes. These processes have become commonly
+    in both academic projects and in the industry
+    \citep{Abrahamsson2002}. In a pair of case studies,
+    \citet{Middleton2002} established that reducing requirements and
+    processes that did not add end-user value could reduce an
+    artifact’s error rates.
 
-    With the turn of the millenium, research attention started to
-    shift towards agile processes \citep{Dingsoyr2012} These processes
-    have become commonly in both academic projects and in the industry
-    \citep{Dingsoyr2012}. In a pair of case studies
-    \citet{Middleton2002} established that reductions in requirements
-    and processes that did not build end-user value could reduce
-    error-rates in an artifact.
-
-    With the research consensus being that processes should be enacted
-    based on as needed basis it seems resonable for a project with
+    With the research consensus that processes should be enacted
+    on an as-needed basis, it seems reasonable for a project with
     little need for formal process to use very little formal process.
 
-    For the implementation of the artifact an unstructured iterative
-    development process was used. The process choice was made because
-    the scope of the project was small, applying more complex
-    processes may well result in problems. The development process
-    continued continously until the developed artifact fullfilled the
-    identified requirements.
+    To implement the artifact, I used unstructured iterative
+    development process. The process choice was made because the
+    project's scope was small. The development process continued until
+    the developed artifact fulfilled the identified requirements.
 
 *** Evaluation
-    The evaluation of the developed artifact was performed using
-    experimental methods. Experimental methods are often used for the
-    verification of psychometric instruments. Because experimental
-    methods are a common method this makes them a good fit for the
-    present study. The goal with the developed psychometric test is
-    generalization. By controlling irrelevant factors to the greatest
-    extent possible researchers are better able to establish
-    generalizability. This could, of course, reduce the ecological
-    validity of the instrument. The reduction on ecological validity
-    is a problem shared by many psychometric instruments, and
-    therefore not a problem particular to the present study.
+    I performed the evaluation of the developed artifact was performed
+    using experimental methods. Experimental methods are often used to
+    evaluate psychometric instruments. Because experimental methods
+    are common this makes them a good fit for the present
+    study. Generalization is the developed psychometric test's goal,
+    by controlling irrelevant factors to the greatest extent possible
+    researchers are better able to establish generalizability. This
+    could, of course, reduce the ecological validity of the
+    instrument. The reduction of ecological validity is a problem
+    shared by many psychometric instruments, and therefore not a
+    problem particular to this study.
 
 * Application of Method
-** Requirements Defintion
-   For the literature review, a number of research publications
-   related to emotional intelligence were reviewed. Based on these
-   a qualitative coding based analysis was performed. Different
-   psychometric measures of emotional intelligence where coded based
-   on theoretical models, scales and subscales.
+** Requirements Definition
+   For the literature review, I reviewed a number of research
+   publications related to emotional intelligence. Based on these, I
+   performed qualitative coding based analysis. Different psychometric
+   measures of emotional intelligence were coded based on theoretical
+   models, scales and subscales.
 
-   The stimulus-sets were coded in a similar fashion. Taking into
-   account the number of models participating, the emotions expressed,
-   the ethnicities.
+   I coded stimulussets in a similar fashion, taking into account the
+   number of models participating, the emotions expressed, and the
+   ethnicities.
 
-   For the quantitative data analysis a data from a number of studies
-   was used (presented in Table \ref{listofstudies}). Each of these
-   data-sets were analyzed separately. All the studies whose data was
-   analyzed used the METT methodology, and followed similar protocols,
-   thereby making them essentially comparable.
+   For the quantitative data analysis, I used a data from number of
+   studies (Table \ref{listofstudies}) and analyzed each data-set
+   separately. All the studies whose data was analyzed used the METT
+   methodology, and followed similar protocols, thereby making them
+   essentially comparable.
 
-   For the first study, overall hit-rates and descriptives were
-   computed. After computing overall statistics, a confusion matrix
-   was then created and a set of variables related to the signal
-   detection theory were computed. These variables are all derivable
-   by using four variables: $H$, the number of hits (true positives),
-   $CR$, the correct rejections (true negatives), false alarms $FA$
-   (false positives), and misses $M$ (false negatives).
+   For the first study, I computed overall hit-rates and
+   descriptives. After computing overall statistics, I created a
+   confusion matrix and computed a set of variables related to the
+   signal detection theory. These variables are all derivable by using
+   four variables: $H$, the number of hits (true positives); $CR$, the
+   correct rejections (true negatives); false alarms $FA$ (false
+   positives); and misses $M$ (false negatives).
 
    \begin{equation} \label{e_hr}
    \mathit{HR} = \frac{H}{H + M}
    \end{equation}
 
-   Equation \ref{e_hr} defines the Hit-rate, also called the
-   True-postive rate or recall.
+   Equation \ref{e_hr} defines the hitrate, also called the
+   true-postive rate or recall.
 
    \begin{equation} \label{e_crr}
    \mathit{CRR} = \frac{CR}{CR + FA}
    \end{equation}
 
-   Equation \ref{e_crr} defines the Correct rejection rate, sometimes
+   Equation \ref{e_crr} defines the correct rejection rate, sometimes
    referred to as specificity.
 
    \begin{equation} \label{e_ppv}
@@ -808,9 +802,7 @@
    \begin{equation} \label{e_npv}
    \mathit{NPV} = \frac{CR}{CR + M}
    \end{equation}
-
-   Negative predictve value is defined according to Equation
-   \ref{e_npv}.
+   Equation \ref{e_npv} defines the negative predictive value.
 
    \begin{equation} \label{e_balanced_accuracy}
    \mathit{BalancedAccuracy} = \frac{HR + CRR}{2}
@@ -818,10 +810,11 @@
 
    Equation \ref{e_balanced_accuracy} defines the balanced accuracy.
 
-   For the second study, per-trial data, for the psychotherapist group
-   was extracted. A cross tabulation of hits and misses for each trial
-   was constructed such that the number of hits and misses by trial
-   number could be investigated. This data was entered into a linear model.
+   For the second study, I extracted per-trial data, for the
+   psychotherapist group. A cross tabulation of hits and misses for
+   each trial was constructed such that the number of hits and misses
+   by trial number could be investigated. I then entered this data
+   into a linear model.
 
    Finally, the results of the literature review and the quantitative
    analysis of earlier data were integrated to create requirements for
@@ -830,128 +823,123 @@
 \input{summaryearlier.tex}
 
 ** Implementation
-   The software artifact designed for the present study was developed
-   incrementally in iterations aiming to fullfill a growing subset of
-   the requirements. No single development process was selected
-   instead a number of practiceses were selected to guide the
+   The software artifact designed for the study was developed
+   incrementally in iterations, aiming to fulfill a growing subset of
+   the requirements. No single development process was selected;
+   instead, a number of practices were selected to guide the
    development process.
 
-   This sort of explorative process allows
-   developers to better adapt the software being developed as their
-   understanding of the requirements grows.
+   This sort of exploratory process allows developers to better adapt
+   the software they're creating as their understanding of the
+   requirements grows.
 
-   Automated unit-tests were devloped in an ad-hoc manner as part of
-   the overall development process and aimed primarily as an aid
-   during the development process.
+   Automated unittests were developed in an ad-hoc manner as part of
+   the overall development process and were aimed primarily as an
+   development aid.
 
-   An application was developed using the PsychoPy library
-   \citep{Peirce2007}. PsychoPy is a module designed for the Python 2
+   An application using the PsychoPy library \citep{Peirce2007} was
+   developed. PsychoPy is a module designed for the Python 2
    programming language, aimed at providing functionality for building
-   psychological experiments. The PsychoPy library was used because it
+   psychological experiments. I used the PsychoPy library, because it
    offers excellent accuracy in the presentation of
    stimuli. Additionally, PsychoPy has excellent data collection
-   components allowing for greater ease of data processing.
+   components, allowing for greater ease of data processing.
 
 ** Evaluation
 
 *** Participants
-   The participants ($n=81$), all university students took part in the
-   experiment as part of fullfilling a course requirement. Of the 81
-   partipants, 31 took the test twice.
+   The participants ($n=81$), all university students, took part in the
+   experiment as part of a course requirement. Thirty-one of these
+   participants took the test twice.
 
 *** Apparatus
-    The software under evaluation was executed on laptop PC running
-    the Windows 7 operating system. The experiment software was run
-    under the PsychoPy 1.82 environment. No noticable performance
-    issues were identified with the program.
+    The software under evaluation was executed on a laptop PC running
+    the Windows 7 operating system. The software ran under the
+    PsychoPy 1.82 environment. No noticeable performance issues were
+    identified.
 
 *** Procedure
-    Participants were positioned at a distance of approximatly 70 cm
-    from the screen. The designed software artifact was then run. The
-    test software was configured to run a set of 70 trials and the
-    question module configured to gather responses for the SPEC set of
-    questions. After completing the experiment, the group taking
-    taking the test twice were contacted and another test session
-    scheduled.
+    Participants were positioned approximately 70 cm from the
+    screen. The designed software artifact was run. The test software
+    was configured to run a set of 70 trials, and the question module
+    configured was to gather responses. After completing the
+    experiment, the group taking the test twice was scheduled for
+    another test session.
 
 *** Data analysis
-    Data was analysed using the both the R programming langauge
+    I analysed the data using both the R programming langauge
     \citep{R2015} and statistical environment, as well as a
     Python-based environment using SciPy \citep{SciPy} for statistical
-    analysis, iPython \citep{IPython} for reproducable analysis and
+    analysis, iPython \citep{IPython} for reproducible analysis, and
     Pandas \citep{mckinney-proc-scipy-2010} for data management.
 
 **** METT-related analysis
-     After reading data from disk and combining them, hit-rates and
-     descriptives statistics were computed. The number of participants
-     completing the test without misses for a certain emotion were
-     computed. Kernel density estimates were used for visualizing the
+     After reading data from the disk and combining it, I computed
+     hit-rates and descriptive statistics, as well as the number of
+     participants completing the test without misses for a certain
+     emotion. Kernel density estimates were used to visualize the
      distributions.
 
-     For the 31 participants who took the test twice test-retest
+     For the 31 participants who took the test twice, test-retest
      reliability was computed, using Pearson's $r$. The fraction and
-     number of participants who correctly identified each stimlus was
+     number of participants who correctly identified each stimulus was
      computed. Kernel density estimates per emotion were also created.
 
-     For analyzing effects of learning a linear model with a
-     trialnumber as the predictor was constructed.
+     In order to analyze effects to training, happening, I constructed
+     a linear model with the trial number as the predictor.
 
 **** SPEC-related analysis
-     First, inversions of items and subscales were computed, then
+     First, inversions of items and subscales were computed, and then
      descriptive statistics were computed for the overall scale as
      well as the subscales. Correlations between each subscale were
-     computed. Finally correlations between the METT results and the
-     the SPEC were computed.
+     computed, and finally, correlations between the METT and the SPEC
+     results were computed.
 
 ** Ethics
-   Participation in the study was entirely voluntary, and participants
-   were informed of this fact, signing informed concent forms prior to
-   participating in the study. No identifying information was
-   collected during the course of the study. No ethical concerns
-   particular to this study could be identified and the conduct of the
-   study followed standard research practice. Additionally, as the
-   study was performed persuant to a Master's degree the study was not
-   required to be, nor was, submitted for external ethical review.
-
+   Participation in the study was entirely voluntary; participants
+   were informed about this fact and signed informed consent forms
+   before participating. I collected no identifying information during
+   the course of the study. I could identify no ethical concerns
+   particular to this study, and the conduct of the study followed
+   standard research practices. Additionally, as the study was
+   performed pursuant to a master’s degree, it was not required to be,
+   nor was it, submitted for external ethical review.
 
 * Results
 ** Requirements Definition
-*** Literature Review
-    From reviewing the literature, a number of methods for measuring
-    emotional intelligence were found, these are presented in table
+*** Literature review
+    From reviewing the literature, I found a number of methods for
+    measuring emotional intelligence; these are presented in table
     \ref{table:paradigms}. The methods discussed earlier cover many
-    different aspects of emotional intelligence, and considers more
-    tests than can realistically be used for single experimental
-    study. Therefore, as we shall we a subset of these will be
-    selected for the evaluation.
+    aspects of emotional intelligence more than can realistically be
+    used for single experimental study. Therefore subset of these will
+    be selected for the evaluation.
 
     \input{paradigms.tex}
 
-    In addition to general test paradigms, the stimulus sets from the
-    reviewed literature were considered. These stimulus sets are
-    present in a tabular form in table \ref{table:stimsets}.
+    In addition to general test paradigms, I considered the stimulus
+    sets from the reviewed literature. I present these in table
+    \ref{table:stimsets}.
 
     \input{stimsets}
 
 *** Analysis of old data
-    Each of the data-sets used in the study were analyzed separately,
-    with the goal the goal of identifying characteristics of the data.
-    These characteristics were then used to identify possible
-    requirements for the system.
+    I analysed each of the data-sets used in the study separately,
+    with the goal of identifying data characteristics, which I then
+    used to identify possible requirements for the system.
 
-    The first data-set consists of 2149 correct responses and 1351
-    incorrect responses for a total of hit-rate of 61%. A confusion
-    matrix was computed as shown in table \ref{study1confusion}. In
-    table \ref{study1classtable} characteristics for each emotion are
-    shown. Expressions of disgust have, by far, the lowest balanced
-    accuracy, participants were unlikely to answer disgust. Anger was
-    the most accurately detected emotion, owning to a high degree of
-    overall detection.
+    The first data set consists of 2149 correct responses and 1351
+    incorrect responses for a total of hit rate of 61%. I computed
+    confusion as shown in Table \ref{study1confusion}. In Table
+    \ref{study1classtable}, I show characteristics for each
+    emotion. Expressions of disgust have by far the lowest balanced
+    accuracy; participants were unlikely to answer disgust. Anger was
+    the most accurately detected emotion.
 
     \input{study-one-hitrates-emotion.tex}
 
-    The second data-set consisted of 72 participants, each taking the
-    form of a , the average accuracy was $72.99\%$ ($S=12.14$).
+    The second data-set consisted of 72 participants, where the
+    average accuracy was $72.99\%$ ($S=12.14$).
 
     #+CAPTION: Hit rates and standard deviations by emotion in study 2.
     #+ATTR_LATEX: :environment tabulary :align lll :width \textwidth
@@ -965,83 +953,79 @@
     | Fear      | 68.75 | 23.75 |
     | Sadness   |  60.9 | 26.26 |
 
-    To investigate the effects of training, a linear model was
-    constructed for the constructed with the number of trials as the
-    independent variable and the hit-rate as the dependent variable. A
-    significant effect of trial number was found ($t=4.56$, $p<0.001$,
-    $df=68$). This effect indicates that accuracy improve throughout
-    the experimennt.
+    To investigate the effects of training, I constructed a linear
+    model with the number of trials as the independent variable and
+    hit rate as the dependent variable. A significant effect of
+    trial number was found ($t=4.56$, $p<0.001$, $df=68$). This effect
+    indicates that accuracy improves throughout the experiment.
 
 *** Requirements
-
-    In reviewing earlier research we found a number of suitable tests
-    for emotional intelligence. However, Many of the standard measures
+    In reviewing earlier research, I found a number of suitable tests
+    for emotional intelligence. However, many of the standard measures
     of emotional intelligence are highly controversial. Of these, the
-    least controversial measure is perhaps the METT. Falling outside
-    the traditional distinction between trait and state emotional
-    intelligence, the METT avoids some of this controversy by instead
-    focusing only the recognition of micro-expressions. Another
-    benefit is that the implementations of METT in our earlier data
-    seems to possess many beneficial characteristics for such a test.
+    METT is perhaps the least controversial. Falling outside the
+    traditional distinction between trait and state emotional
+    intelligence, the METT avoids some of this controversy by focusing
+    only on the recognition of microexpressions. Based on the earlier
+    data, METT seems to many beneficial characteristics for such a
+    test.
 
     It is, however, unlikely that emotion recognition tasks can
-    capture every aspect of emotional intelligence, some variance may
-    be captured using other methods. On the other hand, using too many
-    inventories may lead to a measure that takes too long to complete,
-    reducing the reliability of the measure and increasing
+    capture every aspect of emotional intelligence; using other
+    methods may capture other sources of variance. On the other hand,
+    using too many inventories may lead to a measure that takes too
+    long to complete - reducing measure's reliability and increasing
     time-related costs. Therefore, it is important to keep any such
     tests as short as possible.
 
-    MSCEIT, EQ-I, PEC contain a large number of items, which is
-    acceptable for standalone use, however using them in conjunction
-    with other tests may be unsuitable as it may become overly
-    time-consuming. This leaves TAS, RMITE and SPEC suitable as
-    suitable candidates. Being a facial expression recognition task,
-    RMITE, is very similar to the METT and for this reasons it is
-    unsuitable for capturing complementary sources of variance.
+    MSCEIT, EQ-I, and PEC contain a large number of items, which is
+    acceptable for standalone use; however, using them in conjunction
+    with other tests may be unsuitable, it is overly
+    time-consuming. This leaves TAS, RTMITE, and SPEC as suitable
+    candidates. Being a facial expression recognition task, RTMITE, is
+    very similar to the METT, and for this reason it is unsuitable for
+    capturing complementary sources of variance.
 
-    TAS, while showing robustness, maturity and validity, is limited
+    TAS, while showing robustness, maturity, and validity, is limited
     in that it only includes sub-factors related to alexithymia, and
     may for this reason be more appropriate for assessing
-    disfunctions. Moreover, one of the factors, identifying feelings
-    may overlap to some degree of overlap with METT. This makes it
-    unsuitable as a supplementary test to METT.
+    dysfunctions. Moreover, one of the factors, identifying feelings
+    may overlaps METT. This makes it unsuitable as a supplementary
+    test to METT.
 
     Considering the aim of capturing qualitatively different factors
     from METT, SPEC may be the most appropriate test. SPEC provides a
-    the same number as factors as the longer PEC, while retaining much
+    the same number of factors as the longer PEC while retaining much
     of the reliability. Given the need for wide coverage of emotional
-    intelligence related factors, as well as the time-constraints,
+    intelligence-related factors, as well as the time-constraints,
     SPEC seems to be the most suitable test.
 
     Having considered all the tests discussed in the literature
-    review. Two tests were chosen to be implemented, METT and
-    SPEC. Specifically the test should implement a facial-expression
-    tasks and a digital questionnaire, configured for METT and SPEC
-    respectively.
+    review, I chose two, METT and SPEC. The test implemented a
+    facial-expression task and a digital questionnaire, configured for
+    METT and SPEC respectively.
 
-    As discussed earlier \citep[recall][]{Calvo2008a} even a small
-    difference in the duration in the display time of a METT trial
-    greatly affects accuracy, particularly at low exposesure times. It
-    is therefore important that exposure times are controlled to a
-    resonable degree. To ensure this display times need to be
-    specified in numbers of frames. This ensures that the intended
-    display times necessarily aligns with the refresh rate of the
-    monitor, thereby ensuring some degree of accuracy.
+    As discussed earlier \citep[recall][]{Calvo2008a}, even a small
+    difference in the duration in the display time of a METT trial has
+    a great effect on accuracy, particularly at low exposures. It is
+    therefore important that exposure times be controlled to a
+    reasonable degree. To ensure this, display times must be specified
+    in numbers of frames. This aligns the intended display times with
+    the monitor's refresh rate, thereby ensuring some degree of
+    accuracy.
 
     While there are clear differences in accuracy between different
-    emotions, no respect should be taken to the types emotion types
-    when deciding on  presentation times because doing so would render the
-    different emotions uncomparable, which would limit the insights
-    that can be gained from applying the test.
+    emotions, no consideration given to the emotional types when
+    deciding on presentation times, because doing so would render the
+    different emotions incomparable, which would limit the insights
+    that can be gained from the test.
 
-    Because the experiment process is time-consuming, both for the
-    participant and the experimenter, crashes in the software running
-    experiments is waste time, and can be frustrating for
-    experimenters and participants alike.  It is, therefore, important
-    to ensure the system is stable and avoids data loss to a as large
-    extent possible given avaliable development resources and scope of
-    the present study.
+    Because the experiment process is time-consuming for both the
+    participant and the experimenter, crashes in software running the
+    experiments is wasted time and can frustrate everyone. It is,
+    therefore, important to ensure that the system is stable and avoids
+    data loss to as large an extent possible, given available development
+    resources and the study’s scope.
 
     Additionally, a means of input needs to be selected. For the
     purpoess of the present study, using a standard keyboard is the
