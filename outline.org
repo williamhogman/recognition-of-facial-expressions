@@ -21,6 +21,10 @@
 #+LaTeX_HEADER: \input{meta.tex}
 
 \frontmatterDSV
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
 
 * Introduction
   Emotions play a fundamental role in modulating the behavior and
@@ -260,7 +264,6 @@
    of emotional intelligence argue its usefulness.  In a review,
    \citet{Mayer2008} identified seven central results of emotional
    intelligence research, these were:
-#+BEGIN_QUOTE
    1. Better social relations for children.
    2. Better social relations for adults.
    3. Better perception by others (highly emotionally intelligent
@@ -269,7 +272,6 @@
    5. Better academic achievement (not accounting for IQ).
    6. Better social relations during work performance and in negotiations.
    7. Better psychological wellbeing.
-#+END_QUOTE
 
    Within the areas discussed by \citet{Mayer2008} it seems that
    measures of emotional intelligence have some predictive
