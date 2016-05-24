@@ -726,10 +726,7 @@
     With the turn of the millennium, research attention started to
     shift toward agile processes. These processes have become commonly
     in both academic projects and in the industry
-    \citep{Abrahamsson2002}. In a pair of case studies,
-    \citet{Middleton2002} established that reducing requirements and
-    processes that did not add end-user value could reduce an
-    artifact’s error rates.
+    \citep{Abrahamsson2002}.
 
     With the research consensus that processes should be enacted
     on an as-needed basis, it seems reasonable for a project with
