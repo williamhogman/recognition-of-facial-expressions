@@ -45,7 +45,7 @@
   collaboration. Understanding the emotions of others is an essential
   aspect of many social situations. \parencite{Niedenthal2012}.
 
-  The literature refers to the ability to process the one's own
+  The literature refers to the ability to process one's own
   emotional state and that of others as emotional intelligence
   \citep[see~][for~an~early~example]{Salovey1990}. Emotional
   intelligence has, in the last quarter century, gained the attention
@@ -58,7 +58,7 @@
   others \citep{Mikolajczak2014}. Other cognitive-social abilities can
   be seen as dependent on this base. \citep{Mikolajczak2014}
 
-  The concept of emotional intelligence, however,
+  The concept of emotional intelligence, however, is
   controversial. Various authors with different approaches suggest
   widely different models of emotional intelligence
   \citep[][]{McCleskey2014,Mayer2008,Petrides2010}. Others have
@@ -66,22 +66,24 @@
   limited notion of emotional intelligence. Some studies have found
   emotional intelligence to correlate with personality factors
   \citep[][]{Warwick2004,Petrides2001} and cognitive abilities
-  \citep[][]{Freudenthaler2007}. These result call into question
-  divergent validity and shed doubt on the concept's overall usefulness.
+  \citep[][]{Freudenthaler2007}. These results call into question
+  divergent validity and shed doubt on the concept's overall
+  usefulness.
 
   Despite the controversy related to the concept, several approaches
-  have been used to measure emotional intelligence ability tests
-  \citep{Mayer2003}, self-reported ability \citep{Bar-On1997}, and
-  personality trait measures \citep{Petrides2007}. For example,
-  \citet{Mikolajczak2014} developed a 50-item inventory to measure emotional
-  intelligence. \citet{Baron-Cohen2001} approach the problem from a
-  different vantage point, asking participants to identify an emotion
-  based just on a picture showing a pair of eyes. A different of
-  research focuses on measuring emotional facial recognition
-  \citep{Schlegel2012}. The results of \citet{Schlegel2012} seem to
-  indicate that the recognition of emotional faces is a single ability
-  as opposed to multiple separate abilities, affirming to some degree
-  the validity of the construct of emotional intelligence.
+  have been used to measure emotional intelligence \citep{Mayer2003},
+  including self-reported ability \citep{Bar-On1997}, and personality
+  trait measures \citep{Petrides2007}. For example,
+  \citet{Mikolajczak2014} developed a 50-item inventory to measure
+  emotional intelligence. While \citet{Baron-Cohen2001} approached the
+  problem from a different vantage point, asking participants to
+  identify an emotion based just on a picture showing a pair of
+  eyes. A different strand of research focuses on measuring emotional
+  facial recognition \citep{Schlegel2012}. The results of
+  \citet{Schlegel2012} seem to indicate that the recognition of
+  emotional faces is a single ability as opposed to multiple separate
+  abilities, affirming to some degree the validity of the construct of
+  emotional intelligence.
 
   Another approach to testing emotional intelligence might be to use
   emotional facial expression classification in a manner similar to
@@ -90,15 +92,15 @@
   \citep{Ekman2003}. This suggests that facial expression recognition
   ability could be a measure of general emotional intelligence.
 
-  Facial expressions, \citet{Ekman1969a} find, are largely culturally
+  Facial expressions, \citet{Ekman1969a} found, are largely culturally
   invariant, a prerequisite for valid measure of emotional
   intelligence. \citet{Ekman1992} later defines the set of culturally
-  invariant basic emotions later defined as anger, fear, sadness,
-  enjoyment, disgust and surprise.
+  invariant basic emotions as anger, fear, sadness, enjoyment,
+  disgust, and surprise.
 
   Cultural invariance is an important property for tests of emotional
   intelligence. Based on the evidence for cultural invariance of
-  emotional facial recognitions it seems that facial-expression
+  emotional facial recognition it seems that facial-expression
   recognition may be an appropriate measure of emotional
   intelligence.
 
@@ -106,35 +108,35 @@
   (BART) as a means to measure emotional recognition. One trial in the
   BART consists of three parts. First, a forward mask showing a
   neutral facial expression. Second, an emotional facial expression is
-  displayed. Finally a the first image is displayed again as a
+  displayed. Finally the first image is displayed again as a
   backward mask.  The first and third images are used to provide
-  a fixation and prevent afterimages, respectively. \citep{Ekman1974a}.
+  a fixation and prevent afterimages, respectively. \citep{Ekman1974a}
 
 ** Rationale
    Testing and training applications are central parts of
    microexpression research \citep{Ekman1992}. However, despite
-   multiple studies \citep[][]{Schlegel2012},
-   there exists no standard for emotional intelligence consisting of
-   both emotion recognition and other emotional intelligence models.
+   multiple studies \citep[][]{Schlegel2012}, little agreement can be
+   found. The development of psychometric tests are an important part
+   of the research on emotional intelligence. In combining disparate
+   theoretical fields, each deeply rooted in testing, it seems
+   appropriate to use testing in combining those fields.
 
    The creation of such a test could be relevant for a number of
    areas. First, education of psychologists, psychotherapists, and
    other mental health professionals might benefit from improved
    training tools; it also could be used to train police and other law
    enforcement professionals. Second, such a test may help
-   organizations make better recruiting decisions. Finally,
-   development of new tests based on microexpressions, could improve
-   the state of the art in psychological testing of emotional intelligence.
+   organizations make better recruiting decisions. Finally, developing
+   new tests could improve the state of the art in psychological
+   testing of emotional intelligence.
 
 ** Research Problem
-   The lack of a standard test of emotion recognition and emotional
-   intelligence, may indicate a lack of understanding about which
-   factors are important in developing emotional intelligence tests.
+   At present, there no test using multiple theoretical models has
+   been developed. The such a lack test represents, in it self, a
+   knowledge gap to be addressed. This thesis sets out sets out to
+   improve the understanding of how such testing software could be
+   designed and developed,
 
-   This thesis sets out sets out to improve the understanding of how
-   such testing software could be designed and developed, aiming to
-   improve the accuracy and availability of such tests by developing
-   such an artifact.
 
 ** Research Question
    Could using a software-based multitask test improve emotional
@@ -768,7 +770,9 @@
    studies (Table \ref{listofstudies}) and analyzed each data set
    separately. All the studies whose data was analyzed used the METT
    methodology, and followed similar protocols, thereby making them
-   essentially comparable.
+   essentially comparable. The data obtained from the earlier studies
+   all included trial level data where the actual and correct
+   responses were included.
 
    For the first study, I computed overall hit-rates and
    descriptives. After computing overall statistics, I created a
@@ -928,8 +932,8 @@
     used to identify possible requirements for the system.
 
     The first data set consists of 2149 correct responses and 1351
-    incorrect responses for a total of hit rate of 61%. I computed
-    confusion as shown in Table \ref{study1confusion}. In Table
+    incorrect responses for a total of hit rate of 61%. I computed a
+    confusion matrix as shown in Table \ref{study1confusion}. In Table
     \ref{study1classtable}, I show characteristics for each
     emotion. Expressions of disgust have by far the lowest balanced
     accuracy; participants were unlikely to answer disgust. Anger was
