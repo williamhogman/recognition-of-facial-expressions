@@ -139,8 +139,8 @@
 
 
 ** Research Question
-   Could using a software-based multitask test improve emotional
-   intelligence test accuracy?
+   How does a software-based multitask test improve emotional
+   intelligence test perform in terms of reliability and validity?
 
 * Extended background
   In the extended background, I review and discuss a number of
