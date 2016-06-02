@@ -70,20 +70,25 @@
   divergent validity and shed doubt on the concept's overall
   usefulness.
 
-  Despite the controversy related to the concept, several approaches
-  have been used to measure emotional intelligence \citep{Mayer2003},
-  including self-reported ability \citep{Bar-On1997}, and personality
-  trait measures \citep{Petrides2007}. For example,
-  \citet{Mikolajczak2014} developed a 50-item inventory to measure
-  emotional intelligence. While \citet{Baron-Cohen2001} approached the
-  problem from a different vantage point, asking participants to
-  identify an emotion based just on a picture showing a pair of
-  eyes. A different strand of research focuses on measuring emotional
-  facial recognition \citep{Schlegel2012}. The results of
-  \citet{Schlegel2012} seem to indicate that the recognition of
-  emotional faces is a single ability as opposed to multiple separate
-  abilities, affirming to some degree the validity of the construct of
-  emotional intelligence.
+  Tests of emotional intelligence have many practical uses, for
+  example psychologists, psychotherapists, and other mental health
+  professionals may use such tests for evaluation purposes. It can be
+  used to train police and other law enforcement, as well as, helping
+  organizations make better recruiting decisions.
+
+  Several approaches have been used to measure emotional intelligence
+  \citep{Mayer2003}, including self-reported ability
+  \citep{Bar-On1997}, and personality trait measures
+  \citep{Petrides2007}. For example, \citet{Mikolajczak2014} developed
+  a 50-item inventory to measure emotional intelligence. While
+  \citet{Baron-Cohen2001} approached the problem from a different
+  vantage point, asking participants to identify an emotion based just
+  on a picture showing a pair of eyes. A different strand of research
+  focuses on measuring emotional facial recognition
+  \citep{Schlegel2012}. The results of \citet{Schlegel2012} seem to
+  indicate that the recognition of emotional faces is a single ability
+  as opposed to multiple separate abilities, affirming to some degree
+  the validity of the construct of emotional intelligence.
 
   Another approach to testing emotional intelligence might be to use
   emotional facial expression classification in a manner similar to
@@ -112,31 +117,18 @@
   backward mask.  The first and third images are used to provide
   a fixation and prevent afterimages, respectively. \citep{Ekman1974a}
 
-** Rationale
-   Testing and training applications are central parts of
-   microexpression research \citep{Ekman1992}. However, despite
-   multiple studies \citep[][]{Schlegel2012}, little agreement can be
-   found. The development of psychometric tests are an important part
-   of the research on emotional intelligence. In combining disparate
-   theoretical fields, each deeply rooted in testing, it seems
-   appropriate to use testing in combining those fields.
-
-   The creation of such a test could be relevant for a number of
-   areas. First, education of psychologists, psychotherapists, and
-   other mental health professionals might benefit from improved
-   training tools; it also could be used to train police and other law
-   enforcement professionals. Second, such a test may help
-   organizations make better recruiting decisions. Finally, developing
-   new tests could improve the state of the art in psychological
-   testing of emotional intelligence.
+  The development of psychometric tests are an important part of the
+  research on emotional intelligence. Despite being the focus of many
+  studies \citep[][]{Schlegel2012}, no agreement on the best methods
+  for emotional intelligence testing can be found. Perhaps by
+  combining disparate theoretical fields greater qualitative coverage
+  could be reached.
 
 ** Research Problem
-   At present, there no test using multiple theoretical models has
-   been developed. The such a lack test represents, in it self, a
+   At present, no test using multiple theoretical models has been
+   developed. The lack of such a test represents, in it self, a
    knowledge gap to be addressed. This thesis sets out sets out to
-   improve the understanding of how such testing software could be
-   designed and developed,
-
+   develop such a test and evaluate its performance.
 
 ** Research Question
    How does a software-based multitask test improve emotional
@@ -210,7 +202,7 @@
    measures of emotional intelligence imply the existence of some
    universal notion of adaptive social behavior. Such a notion would
    imply a culturally invariant concept of what is socially
-   appropriate, or intelligent behaviour, which would be difficult to
+   appropriate, or intelligent behavior, which would be difficult to
    establish.
 
    To resolve some of the controversies surrounding the term's
@@ -654,7 +646,7 @@
 
     Using surveys runs the risk of not being able to find innovative
     requirements because the stakeholders themselves are sometimes
-    unable to identify any requirements sufficently dissimilar from
+    unable to identify any requirements sufficiently dissimilar from
     the present solution.  \citet[chapter~6]{Johannesson2014} suggest
     using other methods, such as case studies and action research, to
     find requirements that the stakeholders were unable to
@@ -722,7 +714,7 @@
     process may yield better results.
 
     \citet{Abrahamsson2002} discuss a number of methods. The most
-    prominent are perhaps Extreme Programming, (XP), Crystal, Rational
+    prominent are perhaps Extreme Programming (XP), Crystal, Rational
     Unified Process (RUP), and Scrum. These methods recommend
     implementing suggested processes only if they are useful to the
     project \citep{Abrahamsson2002}.
@@ -787,7 +779,7 @@
    \end{equation}
 
    Equation \ref{e_hr} defines the hit rate, also called the
-   true-postive rate or recall.
+   true-positive rate or recall.
 
    \begin{equation} \label{e_crr}
    \mathit{CRR} = \frac{CR}{CR + FA}
@@ -870,7 +862,7 @@
     another test session.
 
 *** Data analysis
-    I analysed the data using both the R programming langauge
+    I analysed the data using both the R programming language
     \citep{R2015} and statistical environment, as well as a
     Python-based environment using SciPy \citep{SciPy} for statistical
     analysis, iPython \citep{IPython} for reproducible analysis, and
@@ -933,7 +925,8 @@
 
     The first data set consists of 2149 correct responses and 1351
     incorrect responses for a total of hit rate of 61%. I computed a
-    confusion matrix as shown in Table \ref{study1confusion}. In Table
+    confusion matrix using the participant responses and the stimulus
+    set labels shown in Table \ref{study1confusion}. In Table
     \ref{study1classtable}, I show characteristics for each
     emotion. Expressions of disgust have by far the lowest balanced
     accuracy; participants were unlikely to answer disgust. Anger was
@@ -1140,7 +1133,7 @@
     other emotions.
 
     The low correlation for fear is somewhat surprising, given the
-    fact that there is no obvious restriction of range discernable
+    fact that there is no obvious restriction of range discernible
     from visual inspection of the kernel density estimates.
 
     #+LATEX: \input{testretest}
@@ -1164,23 +1157,23 @@
 * Discussion
   The main finding was that the developed METT test showed good
   reliability.  Test-retest scores correlations indicated good
-  test-retest reliaiblity, also the split-half reliability was
+  test-retest reliability, additionally split-half reliability was
   good. SPEC and METT were uncorrelated, suggesting that SPEC and METT
-  measure different qualities, indicating that combining different
-  tasks may improve the coverage of the test. Additionally low
-  reliability for SPEC was found.
+  measure different qualities. This indicates that combining different
+  tasks may improve the coverage of the test. Finally, low reliability
+  for SPEC was found.
 
 ** METT
 
-  The test however, did not avoid the common ceiling effects for
+  The METT test did not avoid the common ceiling effects for
   happiness. A majority of participants ($72.83\%$) correctly
   identified every single happy emotional face in the METT part of the
   experiment. Indeed, as seen in the kernel density estimates
   presented in figure \ref{fig:kde}, a large portion of the
-  distribution for happiness was cut-off. This is indicative cieling
+  distribution for happiness was cut-off. This is indicative of ceiling
   effects.
 
-  The higher accuracies for expressions of happiness found in the
+  The higher accuracy for expressions of happiness found in the
   present study have also been found in earlier studies; recall
   \citet{Calvo2008a}, the present study confirms these earlier
   results.
@@ -1203,7 +1196,7 @@
   incomparable.
 
   A possible focus for future research could be to investigate methods
-  for minimizing the effects and occurence of range limitation. A
+  for minimizing the effects and occurrence of range limitation. A
   number of methods could be implemented to avoid these.
 
   One possible solution would be to have varying display times within
@@ -1232,14 +1225,14 @@
   \citet{Brasseur2013} and lends divergent validity of the structure
   of the SPEC and PEC.
 
-  However, the test-retest reliabilty found in this study for SPEC was
+  However, the test-retest reliability found in this study for SPEC was
   poor, calling into question its value. One possible cause for lower
   test-retest reliability might be the translation used in the present
   study. While there were some differences between the subscales, it
   is clear that none of the scales reached good
   reliability. Translation differences are unlikely to cause such poor
   test-retest reliability as the same translation is used twice ---
-  poor test-retest reliabilty could be indicative of a of number
+  poor test-retest reliability could be indicative of a of number
   factors unrelated to the translations the actual test. It may be the
   case that the trait measured in the SPEC is not stable, and instead
   varies with mood. Improvements to the method presented in this
@@ -1290,8 +1283,7 @@
    such as this one, is at best intellectually dishonest. This study
    represents only a small increment added to larger
    whole. Speculating on the grander effects of this field, even after
-   thorough study, is so imprecise so as to be best left to the
-   reader.
+   thorough study, is so imprecise as to be best left to the reader.
 
 ** Conclusion
   The test developed in the present study has both practical and
@@ -1307,6 +1299,11 @@
   faking and social desirability. It captures both personality traits
   related to emotional intelligence as well as the actual ability to
   read emotional cues in the facial expressions of others.
+
+  Answering the primary research question, it seems that combining
+  instruments is worthwhile in increasing qualitative coverage. The
+  SPEC, however, performed poorly, and should to be replaced with
+  another test.
 
   The study's results seem to indicate that computerized
   testing is a worthwhile field and while the re-retest reliability
