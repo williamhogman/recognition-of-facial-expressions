@@ -126,13 +126,13 @@
 
 ** Research Problem
    At present, no test using multiple theoretical models has been
-   developed. The lack of such a test represents, in it self, a
-   knowledge gap to be addressed. This thesis sets out sets out to
-   develop such a test and evaluate its performance.
+   developed. The lack of such a test represents a knowledge gap to be
+   addressed. This thesis sets out to develop such a test and evaluate
+   its performance.
 
 ** Research Question
-   How does a software-based multitask test improve emotional
-   intelligence test perform in terms of reliability and validity?
+   How does a software-based test of emotional intelligence perform in
+   terms of reliability and validity?
 
 * Extended background
   In the extended background, I review and discuss a number of
@@ -769,7 +769,8 @@
    For the first study, I computed overall hit-rates and
    descriptives. After computing overall statistics, I created a
    confusion matrix and computed a set of variables related to the
-   signal detection theory. These variables are all derivable by using
+   signal detection theory. The correct class-labels are defined by
+   the stimulus set. the These variables are all derivable by using
    four variables: $H$, the number of hits (true positives); $CR$, the
    correct rejections (true negatives); false alarms $FA$ (false
    positives); and misses $M$ (false negatives).
