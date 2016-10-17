@@ -1,6 +1,7 @@
 # -*- compile-command: "./compile.sh" -*-
 #+begin_src emacs-lisp :results silent :exports none
 ;; YOU ABSOLUTELY HAVE TO RUN THIS CODE BEFORE DOING ANYTHING
+(require 'ox-latex)
 (unless (find "per-file-class" org-latex-classes :key 'car
           :test 'equal)
   (add-to-list 'org-latex-classes
@@ -129,8 +130,8 @@
    its performance.
 
 ** Research Question
-   How might a software-based test of emotional intelligence perform in
-   terms of reliability and validity?
+   What might the performance of a test of emotional intelligence
+   incorporating multiple theoretical models be?
 
 * Extended background
   In the extended background, I review and discuss a number of
