@@ -43,20 +43,20 @@
   One important adaptive function of emotions is regulating social
   interactions by facilitating group cohesion and
   collaboration. Understanding the emotions of others is an essential
-  aspect of many social situations. \parencite{Niedenthal2012}.
+  aspect in many social situations. \parencite{Niedenthal2012}.
 
-  The literature refers to the ability to process one's own
-  emotional state and that of others as emotional intelligence
+  The literature refers to the ability to process one's own emotional
+  state and that of others as emotional intelligence
   \citep[see~][for~an~early~example]{Salovey1990}. Emotional
   intelligence has, in the last quarter century, gained the attention
-  of researchers and has become somewhat controversial. The ability
-  encapsulated in emotional intelligence can be conceptualized as
-  differences in the extent to which organisms interpret, process, and
-  act upon their emotions and affects as well as those of others. An
-  essential component of emotional intelligence seems to be the
-  ability to identify one's own emotions as well as the emotions of
-  others \citep{Mikolajczak2014}. Other cognitive-social abilities can
-  be seen as dependent on this base. \citep{Mikolajczak2014}
+  of researchers and has become somewhat controversial. Emotional
+  intelligence can be conceptualized as differences in the extent to
+  which organisms interpret, process, and act upon their emotions and
+  affects as well as those of others. An essential component of
+  emotional intelligence seems to be the ability to identify one's own
+  emotions as well as the emotions of others
+  \citep{Mikolajczak2014}. Other cognitive-social abilities can be
+  seen as dependent on this base. \citep{Mikolajczak2014}
 
   The concept of emotional intelligence, however, is
   controversial. Various authors with different approaches suggest
@@ -80,7 +80,7 @@
   \citep{Mayer2003}, including self-reported ability
   \citep{Bar-On1997}, and personality trait measures
   \citep{Petrides2007}. For example, \citet{Mikolajczak2014} developed
-  a 50-item inventory to measure emotional intelligence. While
+  a 50-item inventory to measure emotional intelligence.
   \citet{Baron-Cohen2001} approached the problem from a different
   vantage point, asking participants to identify an emotion based just
   on a picture showing a pair of eyes. A different strand of research
@@ -103,21 +103,19 @@
   invariant basic emotions as anger, fear, sadness, enjoyment,
   disgust, and surprise.
 
-  Cultural invariance is an important property for tests of emotional
-  intelligence. Based on the evidence for cultural invariance of
-  emotional facial recognition it seems that facial-expression
-  recognition may be an appropriate measure of emotional
-  intelligence.
+  Based on the evidence for cultural invariance of emotional facial
+  recognition it seems that facial-expression recognition may be an
+  appropriate measure of emotional intelligence.
 
   \citet{Ekman1974a} introduced the Brief Affect Recognition Task
   (BART) as a means to measure emotional recognition. One trial in the
-  BART consists of three parts. First, a forward mask showing a
-  neutral facial expression. Second, an emotional facial expression is
-  displayed. Finally the first image is displayed again as a
-  backward mask.  The first and third images are used to provide
-  a fixation and prevent afterimages, respectively. \citep{Ekman1974a}
+  BART consists of three parts. First, a forward masking image showing
+  a neutral facial expression. Second, an emotional facial expression
+  is displayed. Finally the first image is displayed again as a
+  backward mask.  The first and third images are used to provide a
+  fixation and prevent afterimages, respectively. \citep{Ekman1974a}
 
-  The development of psychometric tests are an important part of the
+  The development of psychometric tests is an important part of the
   research on emotional intelligence. Despite being the focus of many
   studies \citep[][]{Schlegel2012}, no agreement on the best methods
   for emotional intelligence testing can be found. Perhaps by
@@ -131,7 +129,7 @@
    its performance.
 
 ** Research Question
-   How does a software-based test of emotional intelligence perform in
+   How might a software-based test of emotional intelligence perform in
    terms of reliability and validity?
 
 * Extended background
