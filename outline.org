@@ -47,17 +47,16 @@
   aspect in many social situations. \parencite{Niedenthal2012}.
 
   The literature refers to the ability to process one's own emotional
-  state and that of others as emotional intelligence
-  \citep[see~][for~an~early~example]{Salovey1990}. Emotional
-  intelligence has, in the last quarter century, gained the attention
-  of researchers and has become somewhat controversial. Emotional
-  intelligence can be conceptualized as differences in the extent to
-  which organisms interpret, process, and act upon their emotions and
-  affects as well as those of others. An essential component of
-  emotional intelligence seems to be the ability to identify one's own
-  emotions as well as the emotions of others
-  \citep{Mikolajczak2014}. Other cognitive-social abilities can be
-  seen as dependent on this base. \citep{Mikolajczak2014}
+  state and that of others as emotional intelligence,
+  \citep{Salovey1990}. Emotional intelligence has, in the last quarter
+  century become somewhat controversial. Emotional intelligence can be
+  conceptualized as differences in the extent to which organisms
+  interpret, process, and act upon their emotions and affects as well
+  as those of others. An essential component of emotional intelligence
+  seems to be the ability to identify one's own emotions as well as
+  the emotions of others \citep{Mikolajczak2014}. Other
+  cognitive-social abilities can be seen as dependent on this
+  base. \citep{Mikolajczak2014}
 
   The concept of emotional intelligence, however, is
   controversial. Various authors with different approaches suggest
