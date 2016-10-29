@@ -115,22 +115,24 @@
   backward mask.  The first and third images are used to provide a
   fixation and prevent afterimages, respectively. \citep{Ekman1974a}
 
-  The development of psychometric tests is an important part of the
-  research on emotional intelligence. Despite being the focus of many
-  studies \citep[][]{Schlegel2012}, no agreement on the best methods
-  for emotional intelligence testing can be found. Perhaps by
-  combining disparate theoretical fields greater qualitative coverage
-  could be reached.
-
 ** Research Problem
+
+   The development of psychometric tests is an important part of the
+   research on emotional intelligence. Despite being the focus of many
+   studies \citep[][]{Schlegel2012}, no agreement on the best methods
+   for emotional intelligence testing can be found. Perhaps by
+   combining disparate theoretical fields greater qualitative coverage
+   could be reached.
+
    At present, no test using multiple theoretical models has been
-   developed. The lack of such a test represents a knowledge gap to be
+   developed, the lack of such a test represents a knowledge gap to be
    addressed. This thesis sets out to develop such a test and evaluate
    its performance.
 
 ** Research Question
    What might the performance of a test of emotional intelligence
-   incorporating multiple theoretical models be?
+   incorporating multiple theoretical models, as compared to
+   existing tests, be?
 
 * Extended background
   In the extended background, I review and discuss a number of
@@ -503,7 +505,7 @@
    which reliability is good; for use in future studies.
 
    RaFD, the Radboud Faces Database \citep{Langner2010}, is a more
-   more recent contribution. It contains photographs of 49 models
+   recent contribution. It contains photographs of 49 models
    expressing eight emotions with three gaze directions, taken from
    five camera angles for a total 5880 photographs. Upon validation,
    RaFD showed a very high accuracy, higher than the earlier KDEF
@@ -561,6 +563,11 @@
    in finding individual differences in emotional processing. This
    difference seems particularly pronounced at presentation times
    shorter than 1 second.
+
+   As we have seen throughout the this chapter, many models, and means
+   of measuring emotional intelligence have been created. As discussed
+   earlier, little effort has been put into combining these separate
+   approaches, thus confirming the knowledge gap identified earlier.
 
 * Methodology and Methods for Data Collection
   This study's goal is not merely empirical; it aims also
