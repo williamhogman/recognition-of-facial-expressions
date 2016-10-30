@@ -571,11 +571,37 @@
 
 * Methodology and Methods for Data Collection
   This study's goal is not merely empirical; it aims also
-   to design a computerized test of emotional intelligence. The
-   distinction between design science and normal research is discussed
-   further by \citet[chapter~1]{Johannesson2014}, who hold that
-   practical problems ought to be addressed with design research
-   approaches.
+  to design a computerized test of emotional intelligence. The
+  distinction between design science and normal research is discussed
+  further by \citet[chapter~1]{Johannesson2014}, who hold that
+  practical problems ought to be addressed with design research
+  approaches.
+
+** Alternative Strategies
+
+   In answering the research question of the present study, many
+   possible approaches could have been used. The artifact itself could
+   have been developed informally and without rigor, and opting
+   instead only for a formal process of evaluation. In which case an
+   experiment or case-study could be used for evaluation, in fact this
+   approach is not uncommon. It could even be argued that keeping the
+   development of the artifact informal, ensures that enough time can
+   be spent on evaluation, which invariably is the key scientific
+   contribution of original research.
+
+   Using an experiment, while keeping development informal, would
+   greatly simplify the present study. However, because the design of
+   the artifact itself forms an important contribution, there is value
+   applying formal methods to the development of the artifact.
+
+   Having considered, a number of alternative approaches for this
+   study, it seems that applying rigor early in the development of the
+   artifact, might both improve the quality of the artifact developed
+   and provide insights for future researchers. Design Science
+   provides an excellent framework for applying rigor early in the
+   process, and it was, for this reason, chosen for the present study.
+
+** Chosen Design Science Model
 
    \citet[chapter 4]{Johannesson2014} put forward a model of design
    science based on five activities: \textit{Explicate
