@@ -582,19 +582,24 @@
    In answering the research question of the present study, many
    possible approaches could have been used. The artifact itself could
    have been developed informally and without rigor, and opting
-   instead only for a formal process of evaluation. In which case an
+   instead only for a formal process of evaluation. In that case an
    experiment or case-study could be used for evaluation, in fact this
-   approach is not uncommon. It could even be argued that keeping the
+   approach is not uncommon. It could be argued that keeping the
    development of the artifact informal, ensures that enough time can
    be spent on evaluation, which invariably is the key scientific
    contribution of original research.
 
-   Using an experiment, while keeping development informal, would
+   Using a simple experiment and keeping development informal, would
    greatly simplify the present study. However, because the design of
    the artifact itself forms an important contribution, there is value
    applying formal methods to the development of the artifact.
 
-   Having considered, a number of alternative approaches for this
+   Another option would be designing a mixed models method, customized
+   for the needs of the present study. This however, seems unnecessary
+   because design science already offers a framework for the design of
+   artifacts such as the created in the present study.
+
+   Having considered a number of alternative approaches for this
    study, it seems that applying rigor early in the development of the
    artifact, might both improve the quality of the artifact developed
    and provide insights for future researchers. Design Science
