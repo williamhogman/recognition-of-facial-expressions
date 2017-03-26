@@ -1302,11 +1302,14 @@
    single country it is difficult to ascertain validity across
    cultures.
 
-   The sample included only university students, and
-   socioeconomic factors may therefore bias the range of emotional
-   intelligence results obtained.
+   The sample included only university students, and socioeconomic
+   factors may therefore bias the range of emotional intelligence
+   results obtained. It is, therefore, difficult to generalize these
+   results more broadly. Despite this, for such fundamental skills as
+   emotion recognition in faces differences between possible sampling
+   should be smaller.
 
-   Likewise, the results of the present study are difficult
+   Additionally, the results of the present study are difficult
    to apply to other stimulus sets, as differences between stimulus sets
    may affect both the reliability and validity of the overall test.
 
