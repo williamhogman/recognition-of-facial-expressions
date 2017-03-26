@@ -717,7 +717,7 @@
    may allow for better capture of the relevant aspects of emotional
    intelligence and sufficient coverage of the domain.
 
-   I chose literature to ensure a sufficient degree of
+   I chose a literature review to ensure a sufficient degree of
    qualitative coverage of the research area. Wide qualitative
    coverage is particularly important because of the controversial
    nature of the emotional intelligence. Wide coverage
@@ -765,7 +765,7 @@
     little need for formal process to use very little formal process.
 
     To implement the artifact, I used unstructured iterative
-    development process. The process choice was made because the
+    Development process. The process choice was made because the
     project's scope was small. The development process continued until
     the developed artifact fulfilled the identified requirements.
 
